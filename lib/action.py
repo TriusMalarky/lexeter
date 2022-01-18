@@ -88,7 +88,8 @@ class playerAct(core):
             exec("self.world.map."+newzone+"="+zone+"(self.world)")
         for i in self.world.map.route[self.player.room]:
             print(" - " + i)
-        def moveToLoop(self):
+
+        def moveToLoop(self): # <- define loop
             newloc = input(": ")
             if newloc in self.world.map.route[self.player.room]:
                 self.player.room = newloc
@@ -96,13 +97,36 @@ class playerAct(core):
             else:
                 print("That's not an option, try again.")
                 moveToLoop(self)
-        moveToLoop(self)
-        self.inspect()
+        moveToLoop(self) # <- run loop
+
+        # Run inspection of room
+        roomtitle = self.world.player.room
+        room = getattr(self.world.map, roomtitle)
+        clearConsole()
+        print(random.choice(room.descriptions))
+
     def inspect(self):
         clearConsole()
         roomtitle = self.world.player.room
         room = getattr(self.world.map,roomtitle)
-        print(random.choice(room.descriptions))
+        list = ['room']
+        for i in room.loot:
+            list.append(i)
+        print("What do you want to inspect?")
+        for i in list:
+            print(" - "+i)
+        def loop(world):
+            choice = input(": ")
+            if choice in list:
+                if choice == 'room':
+                    print(random.choice(room.descriptions))
+                else:
+                    item = getattr(world.item,choice)
+                    print(random.choice(item.descriptions))
+            else:
+                print("That's not an option. Try again.")
+                loop(world)
+        loop(self.world)
     def moveAlias(self):
         self.moveTo()
     def inspectAlias(self):
