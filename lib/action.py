@@ -41,7 +41,10 @@ class playerAct(core):
             'pickupAlias':'pickup',
             'pickAlias':'pick',
             'interact':'.in',
-            'interactAlias':'interact'
+            'interactAlias':'interact',
+            'inventory':'.inv',
+            'invenAlias':'inventory',
+            'invAlias':'inv'
                     }
         self.helparray = [
             'Help: Shows help screen. | .h, help',
@@ -49,6 +52,7 @@ class playerAct(core):
             "Pickup: Pick an item up. | .p, pick, pickup",
             "Interact: Interact with an object. | .in, interact",
             'Inspect: Look at the current room and its contents. | .i, inspect',
+            'Inventory: Take inventory, see what you have in your pockets. | .inv, inv, inventory',
             'Wait: Waste a moment. | .w, wait'
         ]
         self.debug=self.world.debug;self.rDebug()
@@ -160,6 +164,7 @@ class playerAct(core):
                 def loop(choice,room):
                     if choice in room.loot:
                         room.loot.remove(choice)
+                        self.player.inventory.append(choice)
                         print("You picked up "+choice)
                     else:
                         print("That's not an option, try again.")
@@ -177,3 +182,12 @@ class playerAct(core):
         pass
     def interactAlias(self):
         self.interact()
+    def inventory(self):
+        clearConsole()
+        print("You have:")
+        for i in self.world.player.inventory:
+            print(" - " + i)
+    def invenAlias(self):
+        self.inventory()
+    def invAlias(self):
+        self.inventory()
