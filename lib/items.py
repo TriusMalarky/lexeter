@@ -182,6 +182,7 @@ class excalibur(core):
 class item(core):
     def __init__(self,world):
         self.debug = world.debug
+        self.internalID = 'library-items'
         self.rDebug()
         self.qualities = {
             0 : "trash",
@@ -226,3 +227,16 @@ class item(core):
         self.opal = opal(self.debug)
         self.potato = potato(self.debug)
 
+class recipes(core):
+    def __init__(self,world):
+        self.world = world
+        self.debug = self.world.debug
+        self.internalID = 'library-crafting'
+        self.rDebug()
+
+class constructs(core):
+    def __init__(self,world):
+        self.world = world
+        self.debug = self.world.debug
+        self.internalID = 'library-construction'
+        self.rDebug()

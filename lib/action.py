@@ -109,7 +109,7 @@ class playerAct(core):
         clearConsole()
         roomtitle = self.world.player.room
         room = getattr(self.world.map,roomtitle)
-        list = ['room']
+        list = ['room','inventory']
         for i in room.loot:
             list.append(i)
         print("What do you want to inspect?")
@@ -120,6 +120,8 @@ class playerAct(core):
             if choice in list:
                 if choice == 'room':
                     print(random.choice(room.descriptions))
+                elif choice == 'inventory':
+                    pass
                 else:
                     item = getattr(world.item,choice)
                     print(random.choice(item.descriptions))
