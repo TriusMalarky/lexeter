@@ -168,11 +168,17 @@ class playerAct(core):
         if hasattr(room,'loot'):
             if len(room.loot) > 0:
                 print("What do you want to pick up?")
+                print(' - all')
                 for i in room.loot:
                     print(" - "+i)
                 choice = input(": ")
                 def loop(choice,room):
-                    if choice in room.loot:
+                    if choice == 'all':
+                        for i in room.loot:
+                            self.player.inventory.append(i)
+                            room.loot.remove(i)
+                            print("You picked up "+i)
+                    elif choice in room.loot:
                         room.loot.remove(choice)
                         self.player.inventory.append(choice)
                         print("You picked up "+choice)
