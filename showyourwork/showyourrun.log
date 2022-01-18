@@ -1,0 +1,3486 @@
+"r","3","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"1432777","0"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","1433004","0"
+"o","3",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","1433004","0"
+"o","3",,"    Print(""This is wonderful"")
+",,"stderr","1433004","0"
+"o","3",,"NameError: name 'Print' is not defined. Did you mean: 'print'?
+",,"stderr","1433004","0"
+"o","3",,"
+Process finished with exit code 1
+",,"system","1433019","0"
+"r","4","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"1611692","0"
+"o","4",,"10.0
+",,"stdout","1611875","0"
+"o","4",,"[geoflib] says: evening!
+",,"stdout","1611875","0"
+"o","4",,": ",,"stdout","1611875","0"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","16105781","0"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 7, in <module>
+",,"stderr","16105782","0"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 46, in tick
+",,"stderr","16105782","0"
+"o","4",,"    resp = input("": "")
+",,"stderr","16105782","0"
+"o","4",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16105782","0"
+"o","4",,"    def decode(self, input, final=False):
+",,"stderr","16105846","0"
+"o","4",,"KeyboardInterrupt
+",,"stderr","16105846","0"
+"o","4",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16106024","0"
+"r","5","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"16106240","0"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","16106562","0"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 2, in <module>
+",,"stderr","16106562","0"
+"o","5",,"    from lib.player import *;from lib.darkroom import *
+",,"stderr","16106562","0"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 41
+",,"stderr","16106562","0"
+"o","5",,"    let room = str(random.choice(self.zones)+'_'+i)
+",,"stderr","16106562","0"
+"o","5",,"        ^^^^
+",,"stderr","16106562","0"
+"o","5",,"SyntaxError: invalid syntax
+",,"stderr","16106562","0"
+"o","5",,"
+Process finished with exit code 1
+",,"system","16106570","0"
+"r","6","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"16126362","0"
+"o","6",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16127357","0"
+"o","6",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16127357","0"
+"o","6",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16127357","0"
+"o","6",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16127357","0"
+"o","6",,"
+",,"stdout","16127357","0"
+"o","6",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","16130963","0"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","16130963","0"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","16130963","0"
+"o","6",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16130963","0"
+"o","6",,"    lexeter=lex_init()
+",,"stderr","16130963","0"
+"o","6",,"
+",,"stdout","16130963","0"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 38, in lex_init
+",,"stderr","16130963","0"
+"o","6",,"
+",,"stdout","16130963","0"
+"o","6",,"    lexet = lexeter()
+",,"stderr","16130963","0"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 63, in __init__
+",,"stderr","16130963","0"
+"o","6",,"    self.world=world(self.instances,self.them,self.zones)
+",,"stderr","16130963","0"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 41, in __init__
+",,"stderr","16130963","0"
+"o","6",,"    room = str(random.choice(self.zones)+'_'+i)
+",,"stderr","16130963","0"
+"o","6",,"TypeError: can only concatenate str (not ""int"") to str
+",,"stderr","16130963","0"
+"o","6",,"
+Process finished with exit code 1
+",,"system","16130971","0"
+"r","7","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"16148762","0"
+"o","7",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16149836","0"
+"o","7",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16149836","0"
+"o","7",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16149836","0"
+"o","7",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16149836","0"
+"o","7",,"
+",,"stdout","16149836","0"
+"o","7",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","16153532","0"
+"o","7",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16153532","0"
+"o","7",,"
+",,"stdout","16153532","0"
+"o","7",,"
+",,"stdout","16153532","0"
+"o","7",,"Traceback (most recent call last):
+",,"stderr","16153533","0"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","16153533","0"
+"o","7",,"    lexeter=lex_init()
+",,"stderr","16153533","0"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 38, in lex_init
+",,"stderr","16153533","0"
+"o","7",,"    lexet = lexeter()
+",,"stderr","16153533","0"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 63, in __init__
+",,"stderr","16153533","0"
+"o","7",,"    self.world=world(self.instances,self.them,self.zones)
+",,"stderr","16153533","0"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 42, in __init__
+",,"stderr","16153533","0"
+"o","7",,"    self.map.route['darkroom_1'].append(room);self.map.route[room] = ['darkroom']
+",,"stderr","16153533","0"
+"o","7",,"KeyError: 'darkroom_1'
+",,"stderr","16153533","0"
+"o","7",,"
+Process finished with exit code 1
+",,"system","16153557","0"
+"r","8","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"16167175","0"
+"o","8",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16167519","0"
+"o","8",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16167519","0"
+"o","8",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16167519","0"
+"o","8",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16167519","0"
+"o","8",,"
+",,"stdout","16167519","0"
+"o","8",,"[#`~<,>_r-kal] : Frankl, eh?
+",,"stdout","16169817","0"
+"o","8",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16169817","0"
+"o","8",,"
+",,"stdout","16169817","0"
+"o","8",,"
+",,"stdout","16169817","0"
+"o","8",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","16169817","0"
+"o","8",,": ",,"stdout","16169817","0"
+"o","8",,"Traceback (most recent call last):
+",,"stderr","17866424","0"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","17866424","0"
+"o","8",,"    tick(lexeter.world)
+",,"stderr","17866424","0"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 46, in tick
+",,"stderr","17866424","0"
+"o","8",,"    resp = input("": "")
+",,"stderr","17866424","0"
+"o","8",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","17866424","0"
+"o","8",,"    def decode(self, input, final=False):
+",,"stderr","17866424","0"
+"o","8",,"KeyboardInterrupt
+",,"stderr","17866424","0"
+"o","8",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","17866470","0"
+"r","9","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"17866730","0"
+"o","9",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","17867032","0"
+"o","9",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","17867032","0"
+"o","9",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","17867032","0"
+"o","9",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","17867032","0"
+"o","9",,"
+",,"stdout","17867032","0"
+"o","9",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","17870016","0"
+"o","9",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","17870016","0"
+"o","9",,"
+",,"stdout","17870016","0"
+"o","9",,"
+",,"stdout","17870016","0"
+"o","9",,": ",,"stdout","17870016","0"
+"o","9",,"Traceback (most recent call last):
+",,"stderr","17873685","0"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","17873685","0"
+"o","9",,"    tick(lexeter.world)
+",,"stderr","17873685","0"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in tick
+",,"stderr","17873685","0"
+"o","9",,"Where would you like to go?
+",,"stdout","17873685","0"
+"o","9",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","17873699","0"
+"o","9",,"  File ""<string>"", line 1, in <module>
+",,"stderr","17873699","0"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 35, in moveTo
+",,"stderr","17873699","0"
+"o","9",,"    print(str(index(self.world.map.route[i])) + "" - "" + i)
+",,"stderr","17873699","0"
+"o","9",,"NameError: name 'index' is not defined
+",,"stderr","17873699","0"
+"o","9",,"
+Process finished with exit code 1
+",,"system","17873715","0"
+"r","10","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"17922063","0"
+"o","10",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","17922332","0"
+"o","10",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","17922332","0"
+"o","10",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","17922332","0"
+"o","10",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","17922332","0"
+"o","10",,"
+",,"stdout","17922332","0"
+"o","10",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","17925125","0"
+"o","10",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","17925125","0"
+"o","10",,"
+",,"stdout","17925125","0"
+"o","10",,"
+",,"stdout","17925125","0"
+"o","10",,": ",,"stdout","17925141","0"
+"o","10",,"Where would you like to go?
+",,"stdout","17927397","0"
+"o","10",,"Traceback (most recent call last):
+",,"stderr","17927397","0"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","17927397","0"
+"o","10",,"    tick(lexeter.world)
+",,"stderr","17927397","0"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in tick
+",,"stderr","17927397","0"
+"o","10",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","17927413","0"
+"o","10",,"  File ""<string>"", line 1, in <module>
+",,"stderr","17927413","0"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 35, in moveTo
+",,"stderr","17927413","0"
+"o","10",,"    print(str(self.world.map.route.index(i)) + "" - "" + i)
+",,"stderr","17927413","0"
+"o","10",,"AttributeError: 'dict' object has no attribute 'index'
+",,"stderr","17927413","0"
+"o","10",,"
+Process finished with exit code 1
+",,"system","17927427","0"
+"r","11","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18000773","0"
+"o","11",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","18000932","0"
+"o","11",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","18000932","0"
+"o","11",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","18000932","0"
+"o","11",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","18000932","0"
+"o","11",,"
+",,"stdout","18000932","0"
+"o","11",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","18004167","0"
+"o","11",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","18004167","0"
+"o","11",,"
+",,"stdout","18004167","0"
+"o","11",,"
+",,"stdout","18004167","0"
+"o","11",,": ",,"stdout","18004167","0"
+"o","11",,"Where would you like to go?
+",,"stdout","18006665","0"
+"o","11",," - terracotta_0
+",,"stdout","18006665","0"
+"o","11",," - brickfloor_1
+",,"stdout","18006665","0"
+"o","11",," - canopy_2
+",,"stdout","18006665","0"
+"o","11",,": ",,"stdout","18006665","0"
+"o","11",,": ",,"stdout","18017152","0"
+"o","11",,"Traceback (most recent call last):
+",,"stderr","18046451","0"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18046452","0"
+"o","11",,"    tick(lexeter.world)
+",,"stderr","18046452","0"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","18046452","0"
+"o","11",,"    tick(world)
+",,"stderr","18046452","0"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 46, in tick
+",,"stderr","18046452","0"
+"o","11",,"    resp = input("": "")
+",,"stderr","18046452","0"
+"o","11",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","18046452","0"
+"o","11",,"    def decode(self, input, final=False):
+",,"stderr","18046453","0"
+"o","11",,"KeyboardInterrupt
+",,"stderr","18046453","0"
+"o","11",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","18046481","0"
+"r","12","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18046709","0"
+"o","12",,"Traceback (most recent call last):
+",,"stderr","18046978","0"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 2, in <module>
+",,"stderr","18046978","0"
+"o","12",,"    from lib.player import *;from lib.darkroom import *
+",,"stderr","18046978","0"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 1, in <module>
+",,"stderr","18046978","0"
+"o","12",,"    import inspect;from lib.core import *;from lib.action import *
+",,"stderr","18046978","0"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 38
+",,"stderr","18046978","0"
+"o","12",,"    print(""Moving to "" newloc)
+",,"stderr","18046978","0"
+"o","12",,"          ^^^^^^^^^^^^^^^^^^^
+",,"stderr","18046978","0"
+"o","12",,"SyntaxError: invalid syntax. Perhaps you forgot a comma?
+",,"stderr","18046978","0"
+"o","12",,"
+Process finished with exit code 1
+",,"system","18047005","0"
+"r","13","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18055467","0"
+"o","13",,": ",,"stdout","18055660","0"
+"o","13",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18057385","0"
+"o","13",,": ",,"stdout","18057385","0"
+"o","13",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18057572","0"
+"o","13",,": ",,"stdout","18057572","0"
+"o","13",,": ",,"stdout","18057745","0"
+"o","13",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18057889","0"
+"o","13",,": ",,"stdout","18057889","0"
+"o","13",,"Where would you like to go?
+",,"stdout","18059980","0"
+"o","13",," - terracotta_0
+",,"stdout","18059980","0"
+"o","13",," - brickfloor_1
+",,"stdout","18059980","0"
+"o","13",," - canopy_2
+",,"stdout","18059980","0"
+"o","13",,": ",,"stdout","18059980","0"
+"o","13",,"Moving to terracotta_0
+",,"stdout","18066580","0"
+"o","13",,": ",,"stdout","18066580","0"
+"o","13",,": ",,"stdout","18067709","0"
+"o","13",,": ",,"stdout","18068197","0"
+"o","13",,": ",,"stdout","18068384","0"
+"o","13",,": ",,"stdout","18068541","0"
+"o","13",,": ",,"stdout","18068695","0"
+"o","13",,": ",,"stdout","18068866","0"
+"o","13",,": ",,"stdout","18069035","0"
+"o","13",,": ",,"stdout","18069177","0"
+"o","13",,": ",,"stdout","18069350","0"
+"o","13",,": ",,"stdout","18069493","0"
+"o","13",,": ",,"stdout","18069680","0"
+"o","13",,": ",,"stdout","18070039","0"
+"o","13",,": ",,"stdout","18070273","0"
+"o","13",,": ",,"stdout","18070464","0"
+"o","13",,": ",,"stdout","18070672","0"
+"o","13",,": ",,"stdout","18071366","0"
+"r","3","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"12143527","1"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","12144115","1"
+"o","3",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","12144115","1"
+"o","3",,"    lexeter=lex_init()
+",,"stderr","12144115","1"
+"o","3",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 36, in lex_init
+",,"stderr","12144116","1"
+"o","3",,"    open('save\\lexeter.txt','w')
+",,"stderr","12144130","1"
+"o","3",,"FileNotFoundError: [Errno 2] No such file or directory: 'save\\lexeter.txt'
+",,"stderr","12144130","1"
+"o","3",,"
+Process finished with exit code 1
+",,"system","12144137","1"
+"r","4","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"12171452","1"
+"o","4",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","12171677","1"
+"o","4",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","12171677","1"
+"o","4",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","12171677","1"
+"o","4",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","12171677","1"
+"o","4",,"
+",,"stdout","12171677","1"
+"o","4",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","12174254","1"
+"o","4",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","12174254","1"
+"o","4",,"
+",,"stdout","12174254","1"
+"o","4",,"
+",,"stdout","12174254","1"
+"o","4",,": ",,"stdout","12174254","1"
+"o","4",,"Where would you like to go?
+",,"stdout","12181323","1"
+"o","4",," - pond_0
+",,"stdout","12181323","1"
+"o","4",," - cave_1
+",,"stdout","12181323","1"
+"o","4",," - canopy_2
+",,"stdout","12181323","1"
+"o","4",,": ",,"stdout","12181323","1"
+"o","4",,": ",,"stdout","12185053","1"
+"o","4",,"Moving to pond_0
+",,"stdout","12192061","1"
+"o","4",,": ",,"stdout","12192061","1"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","12217972","1"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","12217972","1"
+"o","4",,"    tick(lexeter.world)
+",,"stderr","12217972","1"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","12217972","1"
+"o","4",,"    tick(world)
+",,"stderr","12217972","1"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 46, in tick
+",,"stderr","12217972","1"
+"o","4",,"    resp = input("": "")
+",,"stderr","12217972","1"
+"o","4",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","12217972","1"
+"o","4",,"    def decode(self, input, final=False):
+",,"stderr","12217980","1"
+"o","4",,"KeyboardInterrupt
+",,"stderr","12217980","1"
+"o","4",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","12218004","1"
+"r","5","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"12218206","1"
+"o","5",,": ",,"stdout","12218634","1"
+"o","5",,"Where would you like to go?
+",,"stdout","12219972","1"
+"o","5",," - pond_0
+",,"stdout","12219972","1"
+"o","5",," - cave_1
+",,"stdout","12219972","1"
+"o","5",," - canopy_2
+",,"stdout","12219972","1"
+"o","5",,": ",,"stdout","12219972","1"
+"o","5",,"That's not an option, try again.
+",,"stdout","12223335","1"
+"o","5",,": ",,"stdout","12223335","1"
+"o","5",,"That's not an option, try again.
+",,"stdout","12225203","1"
+"o","5",,": ",,"stdout","12225203","1"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","12386697","1"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","12386697","1"
+"o","5",,"    tick(lexeter.world)
+",,"stderr","12386697","1"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in tick
+",,"stderr","12386698","1"
+"o","5",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","12386698","1"
+"o","5",,"  File ""<string>"", line 1, in <module>
+",,"stderr","12386698","1"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 44, in moveTo
+",,"stderr","12386698","1"
+"o","5",,"    print(""That's not an option, try again."")
+",,"stderr","12386698","1"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 43, in moveToLoop
+",,"stderr","12386698","1"
+"o","5",,"    else:
+",,"stderr","12386698","1"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 43, in moveToLoop
+",,"stderr","12386698","1"
+"o","5",,"    else:
+",,"stderr","12386698","1"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 37, in moveToLoop
+",,"stderr","12386698","1"
+"o","5",,"    print("" - "" + i)
+",,"stderr","12386698","1"
+"o","5",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","12386698","1"
+"o","5",,"    def decode(self, input, final=False):
+",,"stderr","12386698","1"
+"o","5",,"KeyboardInterrupt
+",,"stderr","12386698","1"
+"o","5",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","12386717","1"
+"r","6","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"12386908","1"
+"o","6",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","12387169","1"
+"o","6",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","12387169","1"
+"o","6",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","12387169","1"
+"o","6",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","12387169","1"
+"o","6",,"
+",,"stdout","12387169","1"
+"o","6",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","12454792","1"
+"o","6",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","12454792","1"
+"o","6",,"
+",,"stdout","12454792","1"
+"o","6",,"
+",,"stdout","12454792","1"
+"o","6",,": ",,"stdout","12454792","1"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","12460226","1"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","12460226","1"
+"o","6",,"    tick(lexeter.world)
+",,"stderr","12460251","1"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 46, in tick
+",,"stderr","12460251","1"
+"o","6",,"    resp = input("": "")
+",,"stderr","12460251","1"
+"o","6",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","12460251","1"
+"o","6",,"    def decode(self, input, final=False):
+",,"stderr","12460251","1"
+"o","6",,"KeyboardInterrupt
+",,"stderr","12460251","1"
+"o","6",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","12460267","1"
+"r","7","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"12526737","1"
+"o","7",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","12526988","1"
+"o","7",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","12526988","1"
+"o","7",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","12526988","1"
+"o","7",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","12526988","1"
+"o","7",,"
+",,"stdout","12526988","1"
+"o","7",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","12529393","1"
+"o","7",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","12529393","1"
+"o","7",,"
+",,"stdout","12529393","1"
+"o","7",,"
+",,"stdout","12529393","1"
+"o","7",,": ",,"stdout","12529393","1"
+"o","7",,"Where would you like to go?
+",,"stdout","12531914","1"
+"o","7",," - fractured_0
+",,"stdout","12531914","1"
+"o","7",," - terracotta_1
+",,"stdout","12531914","1"
+"o","7",," - marble_2
+",,"stdout","12531914","1"
+"o","7",,": ",,"stdout","12531914","1"
+"o","7",,"Moving to fractured_0
+",,"stdout","12537059","1"
+"o","7",,": ",,"stdout","12537059","1"
+"o","7",,"Where would you like to go?
+",,"stdout","12538715","1"
+"o","7",,"Traceback (most recent call last):
+",,"stderr","12538715","1"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","12538715","1"
+"o","7",,"    tick(lexeter.world)
+",,"stderr","12538715","1"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","12538715","1"
+"o","7",,"    tick(world)
+",,"stderr","12538715","1"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in tick
+",,"stderr","12538715","1"
+"o","7",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","12538715","1"
+"o","7",,"  File ""<string>"", line 1, in <module>
+",,"stderr","12538715","1"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 34, in moveTo
+",,"stderr","12538715","1"
+"o","7",,"    if len(self.world.map.route[self.player.room]) < 3:
+",,"stderr","12538715","1"
+"o","7",,"TypeError: unhashable type: 'list'
+",,"stderr","12538715","1"
+"o","7",,"
+Process finished with exit code 1
+",,"system","12538715","1"
+"r","8","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"12585762","1"
+"o","8",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","12585963","1"
+"o","8",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","12585963","1"
+"o","8",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","12585963","1"
+"o","8",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","12585963","1"
+"o","8",,"
+",,"stdout","12585963","1"
+"o","8",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","12590062","1"
+"o","8",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","12590062","1"
+"o","8",,"
+",,"stdout","12590062","1"
+"o","8",,"
+",,"stdout","12590062","1"
+"o","8",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","12590078","1"
+"o","8",,"[mek] says: i cannae find ma lunch!
+",,"stdout","12590078","1"
+"o","8",,": ",,"stdout","12590078","1"
+"o","8",,"Where would you like to go?
+",,"stdout","12592074","1"
+"o","8",," - pond_0
+",,"stdout","12592074","1"
+"o","8",," - fractured_1
+",,"stdout","12592074","1"
+"o","8",," - pond_2
+",,"stdout","12592074","1"
+"o","8",,": ",,"stdout","12592074","1"
+"o","8",,"Moving to pond_0
+",,"stdout","12595270","1"
+"o","8",,": ",,"stdout","12595270","1"
+"o","8",,"Traceback (most recent call last):
+",,"stderr","12597371","1"
+"o","8",,"Where would you like to go?
+",,"stdout","12597371","1"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","12597371","1"
+"o","8",,"    tick(lexeter.world)
+",,"stderr","12597371","1"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","12597371","1"
+"o","8",,"    tick(world)
+",,"stderr","12597371","1"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in tick
+",,"stderr","12597371","1"
+"o","8",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","12597371","1"
+"o","8",,"  File ""<string>"", line 1, in <module>
+",,"stderr","12597371","1"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 34, in moveTo
+",,"stderr","12597371","1"
+"o","8",,"    if int(len(self.world.map.route[self.player.room])) < 3:
+",,"stderr","12597371","1"
+"o","8",,"TypeError: unhashable type: 'list'
+",,"stderr","12597371","1"
+"o","8",,"
+Process finished with exit code 1
+",,"system","12597372","1"
+"r","9","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"12944699","1"
+"o","9",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","12944997","1"
+"o","9",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","12944997","1"
+"o","9",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","12944997","1"
+"o","9",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","12944997","1"
+"o","9",,"
+",,"stdout","12944997","1"
+"o","9",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","12950789","1"
+"o","9",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","12950789","1"
+"o","9",,"
+",,"stdout","12950789","1"
+"o","9",,"
+",,"stdout","12950789","1"
+"o","9",,"[geoflib] says: heya, stranger!
+",,"stdout","12950789","1"
+"o","9",,"[mek] says: have ya talked to my twin?
+",,"stdout","12950789","1"
+"o","9",,": ",,"stdout","12950789","1"
+"o","9",,"Traceback (most recent call last):
+",,"stderr","12989592","1"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","12989592","1"
+"o","9",,"    tick(lexeter.world)
+",,"stderr","12989592","1"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in tick
+",,"stderr","12989592","1"
+"o","9",,"    resp = input("": "")
+",,"stderr","12989592","1"
+"o","9",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","12989592","1"
+"o","9",,"    def decode(self, input, final=False):
+",,"stderr","12989592","1"
+"o","9",,"KeyboardInterrupt
+",,"stderr","12989592","1"
+"o","9",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","12989598","1"
+"r","10","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"12989784","1"
+"o","10",,"Traceback (most recent call last):
+",,"stderr","12989877","1"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","12989877","1"
+"o","10",,"    lexeter=lex_init()
+",,"stderr","12989877","1"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 41, in lex_init
+",,"stderr","12989877","1"
+"o","10",,"    lexet = lexeter()
+",,"stderr","12989877","1"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 64, in __init__
+",,"stderr","12989877","1"
+"o","10",,"    self.world=world(self.instances,self.them,self.zones,self.debug)
+",,"stderr","12989877","1"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 30, in __init__
+",,"stderr","12989877","1"
+"o","10",,"    self.debug()
+",,"stderr","12989889","1"
+"o","10",,"TypeError: 'bool' object is not callable
+",,"stderr","12989889","1"
+"o","10",,"
+Process finished with exit code 1
+",,"system","12989889","1"
+"r","11","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13010465","1"
+"o","11",,"Debug: reality-instance
+",,"stdout","13010720","1"
+"o","11",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","13010720","1"
+"o","11",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","13010720","1"
+"o","11",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","13010720","1"
+"o","11",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","13010720","1"
+"o","11",,"
+",,"stdout","13010720","1"
+"o","11",,"Traceback (most recent call last):
+",,"stderr","13063515","1"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","13063515","1"
+"o","11",,"    lexeter=lex_init()
+",,"stderr","13063515","1"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 41, in lex_init
+",,"stderr","13063515","1"
+"o","11",,"    lexet = lexeter()
+",,"stderr","13063515","1"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 64, in __init__
+",,"stderr","13063515","1"
+"o","11",,"    self.world=world(self.instances,self.them,self.zones,self.debug)
+",,"stderr","13063515","1"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 35, in __init__
+",,"stderr","13063515","1"
+"o","11",,"    self.player=player(age,them,self,debug)
+",,"stderr","13063515","1"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 16, in __init__
+",,"stderr","13063515","1"
+"o","11",,"    self.name=input("""")
+",,"stderr","13063515","1"
+"o","11",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","13063515","1"
+"o","11",,"    def decode(self, input, final=False):
+",,"stderr","13063515","1"
+"o","11",,"KeyboardInterrupt
+",,"stderr","13063515","1"
+"o","11",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","13063520","1"
+"r","12","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13063712","1"
+"o","12",,"Traceback (most recent call last):
+",,"stderr","13063801","1"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","13063801","1"
+"o","12",,"    lexeter=lex_init()
+",,"stderr","13063801","1"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 37, in lex_init
+",,"stderr","13063801","1"
+"o","12",,"    return load() # <-- returning the loaded save state class instance
+",,"stderr","13063801","1"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 33, in load
+",,"stderr","13063801","1"
+"o","12",,"    return pickle.load(savefile) # <-- returning loaded save state class instance
+",,"stderr","13063801","1"
+"o","12",,"EOFError: Ran out of input
+",,"stderr","13063801","1"
+"o","12",,"
+Process finished with exit code 1
+",,"system","13063801","1"
+"r","13","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13071489","1"
+"o","13",,"Debug: reality-instance
+",,"stdout","13071704","1"
+"o","13",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","13071704","1"
+"o","13",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","13071704","1"
+"o","13",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","13071704","1"
+"o","13",,"Traceback (most recent call last):
+",,"stderr","13071704","1"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","13071704","1"
+"o","13",,"    lexeter=lex_init()
+",,"stderr","13071704","1"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 41, in lex_init
+",,"stderr","13071704","1"
+"o","13",,"    lexet = lexeter()
+",,"stderr","13071704","1"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 64, in __init__
+",,"stderr","13071704","1"
+"o","13",,"    self.world=world(self.instances,self.them,self.zones,self.debug)
+",,"stderr","13071704","1"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 35, in __init__
+",,"stderr","13071704","1"
+"o","13",,"    self.player=player(age,them,self,debug)
+",,"stderr","13071704","1"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 12, in __init__
+",,"stderr","13071704","1"
+"o","13",,"    self.them=them;self.debug = debug;self.rDebug()
+",,"stderr","13071704","1"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 15, in rDebug
+",,"stderr","13071704","1"
+"o","13",,"    print(""Debug: "" + self.internalID)
+",,"stderr","13071720","1"
+"o","13",,"AttributeError: 'player' object has no attribute 'internalID'
+",,"stderr","13071720","1"
+"o","13",,"
+Process finished with exit code 1
+",,"system","13071722","1"
+"r","14","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13087422","1"
+"o","14",,"Debug: reality-instance
+",,"stdout","13087622","1"
+"o","14",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","13087622","1"
+"o","14",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","13087622","1"
+"o","14",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","13087622","1"
+"o","14",,"Debug: player-instance
+",,"stdout","13087622","1"
+"o","14",,"Debug: player-instance
+",,"stdout","13087622","1"
+"o","14",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","13087622","1"
+"o","14",,"
+",,"stdout","13087622","1"
+"o","14",,"Traceback (most recent call last):
+",,"stderr","13105412","1"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","13105412","1"
+"o","14",,"    lexeter=lex_init()
+",,"stderr","13105429","1"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 41, in lex_init
+",,"stderr","13105429","1"
+"o","14",,"    lexet = lexeter()
+",,"stderr","13105430","1"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 64, in __init__
+",,"stderr","13105430","1"
+"o","14",,"    
+",,"stderr","13105430","1"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 35, in __init__
+",,"stderr","13105430","1"
+"o","14",,"    self.characters=characters();self.characterlist=[]
+",,"stderr","13105430","1"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 16, in __init__
+",,"stderr","13105430","1"
+"o","14",,"    self.them.act.speak(self.name+"", eh?"")
+",,"stderr","13105430","1"
+"o","14",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","13105430","1"
+"o","14",,"    def decode(self, input, final=False):
+",,"stderr","13105430","1"
+"o","14",,"KeyboardInterrupt
+",,"stderr","13105430","1"
+"o","14",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","13105450","1"
+"r","15","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13105587","1"
+"o","15",,"Debug: reality-instance
+",,"stdout","13105715","1"
+"o","15",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","13105715","1"
+"o","15",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","13105715","1"
+"o","15",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","13105715","1"
+"o","15",,"Debug: player-instance
+",,"stdout","13105715","1"
+"o","15",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","13105715","1"
+"o","15",,"
+",,"stdout","13105715","1"
+"o","15",,"Traceback (most recent call last):
+",,"stderr","13278918","1"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","13278918","1"
+"o","15",,"    lexeter=lex_init()
+",,"stderr","13278918","1"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 41, in lex_init
+",,"stderr","13278918","1"
+"o","15",,"    lexet = lexeter()
+",,"stderr","13278918","1"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 63, in __init__
+",,"stderr","13278918","1"
+"o","15",,"    self.zones = ['pond','marble','terracotta','brickfloor','fractured','cave','canopy']
+",,"stderr","13278918","1"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 34, in __init__
+",,"stderr","13278918","1"
+"o","15",,"    self.player=player(age,them,self,debug)
+",,"stderr","13278918","1"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 15, in __init__
+",,"stderr","13278918","1"
+"o","15",,"    self.name=input("""")
+",,"stderr","13278918","1"
+"o","15",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","13278918","1"
+"o","15",,"    def decode(self, input, final=False):
+",,"stderr","13278918","1"
+"o","15",,"KeyboardInterrupt
+",,"stderr","13278918","1"
+"o","15",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","13278925","1"
+"r","16","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13279095","1"
+"o","16",,"Debug: lexeter
+",,"stdout","13279222","1"
+"o","16",,"Debug: reality-instance
+",,"stdout","13279222","1"
+"o","16",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","13279222","1"
+"o","16",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","13279222","1"
+"o","16",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","13279222","1"
+"o","16",,"Debug: player-instance
+",,"stdout","13279222","1"
+"o","16",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","13279222","1"
+"o","16",,"
+",,"stdout","13279222","1"
+"o","16",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","13289958","1"
+"o","16",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","13289958","1"
+"o","16",,"
+",,"stdout","13289958","1"
+"o","16",,"
+",,"stdout","13289958","1"
+"o","16",,"Debug: player-action-library
+",,"stdout","13289958","1"
+"o","16",,"Debug: room-darkroom
+",,"stdout","13289958","1"
+"o","16",,"Debug: character-shade-geoflib
+",,"stdout","13289958","1"
+"o","16",,"Debug: geoflib-action-library
+",,"stdout","13289958","1"
+"o","16",,"Debug: character-shade-mek
+",,"stdout","13289958","1"
+"o","16",,"Debug: mek-action-library
+",,"stdout","13289958","1"
+"o","16",,": ",,"stdout","13289958","1"
+"o","16",,"Traceback (most recent call last):
+",,"stderr","13329465","1"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","13329465","1"
+"o","16",,"    tick(lexeter.world)
+",,"stderr","13329465","1"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in tick
+",,"stderr","13329465","1"
+"o","16",,"    exec('world.characters.'+_.lower()+'.tick(world)')
+",,"stderr","13329465","1"
+"o","16",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","13329465","1"
+"o","16",,"    def decode(self, input, final=False):
+",,"stderr","13329465","1"
+"o","16",,"KeyboardInterrupt
+",,"stderr","13329465","1"
+"o","16",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","13329471","1"
+"r","17","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13329660","1"
+"o","17",,"Debug: lexeter
+",,"stdout","13329785","1"
+"o","17",,"[('debug', True)]
+",,"stdout","13329785","1"
+"o","17",,"Debug: reality-instance
+",,"stdout","13329785","1"
+"o","17",,"[('debug', True), ('them', <lib.player.them object at 0x00000181A1CADB10>), ('zones', ['pond', 'marble', 'terracotta', 'brickfloor', 'fractured', 'cave', 'canopy'])]
+",,"stdout","13329801","1"
+"o","17",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","13329801","1"
+"o","17",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","13329801","1"
+"o","17",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","13329801","1"
+"o","17",,"Debug: player-instance
+",,"stdout","13329801","1"
+"o","17",,"[('debug', True), ('them', <lib.player.them object at 0x00000181A1CADB10>)]
+",,"stdout","13329801","1"
+"o","17",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","13329801","1"
+"o","17",,"
+",,"stdout","13329801","1"
+"o","17",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","13336592","1"
+"o","17",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","13336592","1"
+"o","17",,"
+",,"stdout","13336592","1"
+"o","17",,"
+",,"stdout","13336592","1"
+"o","17",,"Debug: player-action-library
+",,"stdout","13336592","1"
+"o","17",,"[('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x00000181A1CAC310>), ('world', <lib.player.world object at 0x00000181A1796140>)]
+",,"stdout","13336592","1"
+"o","17",,"Debug: room-darkroom
+",,"stdout","13336592","1"
+"o","17",,"[('debug', True), ('world', <lib.player.world object at 0x00000181A1796140>)]
+",,"stdout","13336592","1"
+"o","17",,"Debug: character-shade-geoflib
+",,"stdout","13336592","1"
+"o","17",,"[('debug', True), ('name', 'geoflib'), ('world', <lib.player.world object at 0x00000181A1796140>)]
+",,"stdout","13336592","1"
+"o","17",,"Debug: geoflib-action-library
+",,"stdout","13336592","1"
+"o","17",,"[('debug', True), ('name', 'geoflib'), ('world', <lib.player.world object at 0x00000181A1796140>)]
+",,"stdout","13336592","1"
+"o","17",,"Debug: character-shade-mek
+",,"stdout","13336592","1"
+"o","17",,"[('debug', True), ('name', 'mek'), ('world', <lib.player.world object at 0x00000181A1796140>)]
+",,"stdout","13336592","1"
+"o","17",,"Debug: mek-action-library
+",,"stdout","13336592","1"
+"o","17",,"[('debug', True), ('name', 'mek'), ('world', <lib.player.world object at 0x00000181A1796140>)]
+",,"stdout","13336592","1"
+"o","17",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","13336592","1"
+"o","17",,": ",,"stdout","13336592","1"
+"o","17",,"Traceback (most recent call last):
+",,"stderr","13361021","1"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","13361021","1"
+"o","17",,"    tick(lexeter.world)
+",,"stderr","13361021","1"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","13361021","1"
+"o","17",,"    resp = input("": "")
+",,"stderr","13361021","1"
+"o","17",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","13361021","1"
+"o","17",,"    def decode(self, input, final=False):
+",,"stderr","13361021","1"
+"o","17",,"KeyboardInterrupt
+",,"stderr","13361021","1"
+"o","17",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","13361037","1"
+"r","18","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13361195","1"
+"o","18",,"Debug: lexeter
+",,"stdout","13361277","1"
+"o","18",,"Traceback (most recent call last):
+",,"stderr","13361288","1"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","13361288","1"
+"o","18",,"    lexeter=lex_init()
+",,"stderr","13361288","1"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 42, in lex_init
+",,"stderr","13361288","1"
+"o","18",,"    lexet = lexeter()
+",,"stderr","13361288","1"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 60, in __init__
+",,"stderr","13361288","1"
+"o","18",,"    self.rDebug()
+",,"stderr","13361288","1"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 16, in rDebug
+",,"stderr","13361288","1"
+"o","18",,"    print("" ++ ""+self)
+",,"stderr","13361288","1"
+"o","18",,"TypeError: can only concatenate str (not ""lexeter"") to str
+",,"stderr","13361288","1"
+"o","18",,"
+Process finished with exit code 1
+",,"system","13361288","1"
+"r","19","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13378935","1"
+"o","19",,"Traceback (most recent call last):
+",,"stderr","13379217","1"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 5, in <module>
+",,"stderr","13379217","1"
+"o","19",,"    lexeter=lex_init()
+",,"stderr","13379217","1"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 38, in lex_init
+",,"stderr","13379217","1"
+"o","19",,"    return load() # <-- returning the loaded save state class instance
+",,"stderr","13379217","1"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 34, in load
+",,"stderr","13379217","1"
+"o","19",,"    return pickle.load(savefile) # <-- returning loaded save state class instance
+",,"stderr","13379217","1"
+"o","19",,"EOFError: Ran out of input
+",,"stderr","13379217","1"
+"o","19",,"
+Process finished with exit code 1
+",,"system","13379228","1"
+"r","20","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13389472","1"
+"o","20",,"Debug: lexeter
+",,"stdout","13390200","1"
+"o","20",," ++ [('debug', True)]
+",,"stdout","13390200","1"
+"o","20",,"Debug: reality-instance
+",,"stdout","13390201","1"
+"o","20",," ++ [('debug', True), ('them', <lib.player.them object at 0x000001A9FDD5AE30>), ('zones', ['pond', 'marble', 'terracotta', 'brickfloor', 'fractured', 'cave', 'canopy'])]
+",,"stdout","13390201","1"
+"o","20",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","13390201","1"
+"o","20",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","13390201","1"
+"o","20",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","13390201","1"
+"o","20",,"Debug: player-instance
+",,"stdout","13390201","1"
+"o","20",," ++ [('debug', True), ('them', <lib.player.them object at 0x000001A9FDD5AE30>)]
+",,"stdout","13390201","1"
+"o","20",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","13390201","1"
+"o","20",,"
+",,"stdout","13390201","1"
+"o","20",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","13404549","1"
+"o","20",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","13404549","1"
+"o","20",,"
+",,"stdout","13404549","1"
+"o","20",,"
+",,"stdout","13404549","1"
+"o","20",,"Debug: player-action-library
+",,"stdout","13404549","1"
+"o","20",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x000001A9FDE404F0>), ('world', <lib.player.world object at 0x000001A9FD916140>)]
+",,"stdout","13404549","1"
+"o","20",,"Debug: room-darkroom
+",,"stdout","13404549","1"
+"o","20",," ++ [('debug', True), ('world', <lib.player.world object at 0x000001A9FD916140>)]
+",,"stdout","13404549","1"
+"o","20",,"Debug: character-shade-geoflib
+",,"stdout","13404549","1"
+"o","20",," ++ [('debug', True), ('name', 'geoflib'), ('world', <lib.player.world object at 0x000001A9FD916140>)]
+",,"stdout","13404549","1"
+"o","20",,"Debug: geoflib-action-library
+",,"stdout","13404549","1"
+"o","20",," ++ [('debug', True), ('name', 'geoflib'), ('world', <lib.player.world object at 0x000001A9FD916140>)]
+",,"stdout","13404549","1"
+"o","20",,"Debug: character-shade-mek
+",,"stdout","13404549","1"
+"o","20",," ++ [('debug', True), ('name', 'mek'), ('world', <lib.player.world object at 0x000001A9FD916140>)]
+",,"stdout","13404549","1"
+"o","20",,"Debug: mek-action-library
+",,"stdout","13404549","1"
+"o","20",," ++ [('debug', True), ('name', 'mek'), ('world', <lib.player.world object at 0x000001A9FD916140>)]
+",,"stdout","13404549","1"
+"o","20",,": ",,"stdout","13404549","1"
+"o","20",,"Traceback (most recent call last):
+",,"stderr","13445467","1"
+"o","20",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","13445467","1"
+"o","20",,"    tick(lexeter.world)
+",,"stderr","13445467","1"
+"o","20",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","13445467","1"
+"o","20",,"    resp = input("": "")
+",,"stderr","13445467","1"
+"o","20",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","13445467","1"
+"o","20",,"    def decode(self, input, final=False):
+",,"stderr","13445467","1"
+"o","20",,"KeyboardInterrupt
+",,"stderr","13445467","1"
+"o","20",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","13445486","1"
+"r","21","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13445705","1"
+"o","21",,": ",,"stdout","13445801","1"
+"o","21",,"Debug: player-action-library
+",,"stdout","13449951","1"
+"o","21",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x000001DB82703FA0>), ('world', <lib.player.world object at 0x000001DB82700130>)]
+",,"stdout","13449951","1"
+"o","21",,"Where would you like to go?
+",,"stdout","13449951","1"
+"o","21",," - cave_0
+",,"stdout","13449951","1"
+"o","21",," - canopy_1
+",,"stdout","13449951","1"
+"o","21",," - terracotta_2
+",,"stdout","13449951","1"
+"o","21",,": ",,"stdout","13449951","1"
+"o","21",,"Moving to cave_0
+",,"stdout","13456578","1"
+"o","21",,": ",,"stdout","13456578","1"
+"o","21",,"Traceback (most recent call last):
+",,"stderr","13458049","1"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","13458049","1"
+"o","21",,"Debug: player-action-library
+",,"stdout","13458049","1"
+"o","21",,"    tick(lexeter.world)
+",,"stderr","13458049","1"
+"o","21",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x000001DB82703FA0>), ('world', <lib.player.world object at 0x000001DB82700130>)]
+",,"stdout","13458049","1"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","13458049","1"
+"o","21",,"Where would you like to go?
+",,"stdout","13458049","1"
+"o","21",,"    tick(world)
+",,"stderr","13458049","1"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","13458049","1"
+"o","21",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","13458049","1"
+"o","21",,"  File ""<string>"", line 1, in <module>
+",,"stderr","13458049","1"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 37, in moveTo
+",,"stderr","13458049","1"
+"o","21",,"    if int(len(self.world.map.route[self.player.room])) < 3:
+",,"stderr","13458049","1"
+"o","21",,"TypeError: unhashable type: 'list'
+",,"stderr","13458049","1"
+"o","21",,"
+Process finished with exit code 1
+",,"system","13458059","1"
+"r","22","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"13486157","1"
+"o","22",,": ",,"stdout","13486469","1"
+"o","22",,"Debug: player-action-library
+",,"stdout","13488280","1"
+"o","22",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x000001FADAF33FA0>), ('world', <lib.player.world object at 0x000001FADAF300D0>)]
+",,"stdout","13488280","1"
+"o","22",,"Debug: player-instance
+",,"stdout","13488280","1"
+"o","22",," ++ [('act', <lib.action.playerAct object at 0x000001FADAF33D90>), ('age', 1), ('debug', True), ('hp', 50), ('instance', 1), ('name', 'Frank'), ('rLog', <lib.player.responselog object at 0x000001FADAF30070>), ('room', 'darkroom'), ('them', <lib.player.them object at 0x000001FADAE2B490>)]
+",,"stdout","13488280","1"
+"o","22",,"Where would you like to go?
+",,"stdout","13488280","1"
+"o","22",," - cave_0
+",,"stdout","13488280","1"
+"o","22",," - canopy_1
+",,"stdout","13488280","1"
+"o","22",," - terracotta_2
+",,"stdout","13488280","1"
+"o","22",,": ",,"stdout","13488280","1"
+"o","22",,"Traceback (most recent call last):
+",,"stderr","16812729","1"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","16812729","1"
+"o","22",,"    tick(lexeter.world)
+",,"stderr","16812729","1"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","16812729","1"
+"o","22",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","16812729","1"
+"o","22",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16812729","1"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 52, in moveTo
+",,"stderr","16812729","1"
+"o","22",,"    moveToLoop(self)
+",,"stderr","16812729","1"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 45, in moveToLoop
+",,"stderr","16812729","1"
+"o","22",,"    def moveToLoop(self):
+",,"stderr","16812729","1"
+"o","22",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16812729","1"
+"o","22",,"    def decode(self, input, final=False):
+",,"stderr","16812729","1"
+"o","22",,"KeyboardInterrupt
+",,"stderr","16812729","1"
+"o","22",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16812811","1"
+"r","23","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"16813029","1"
+"o","23",,": ",,"stdout","16813211","1"
+"o","23",,"Debug: player-action-library
+",,"stdout","16816038","1"
+"o","23",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x000001CC60FE3FA0>), ('world', <lib.player.world object at 0x000001CC60FE00A0>)]
+",,"stdout","16816038","1"
+"o","23",,"Debug: player-instance
+",,"stdout","16816038","1"
+"o","23",," ++ [('act', <lib.action.playerAct object at 0x000001CC60FE3D90>), ('age', 1), ('debug', True), ('hp', 50), ('instance', 1), ('name', 'Frank'), ('rLog', <lib.player.responselog object at 0x000001CC60FE0040>), ('room', 'darkroom'), ('them', <lib.player.them object at 0x000001CC60EDB490>)]
+",,"stdout","16816038","1"
+"o","23",,"Where would you like to go?
+",,"stdout","16816038","1"
+"o","23",," - cave_0
+",,"stdout","16816038","1"
+"o","23",," - canopy_1
+",,"stdout","16816038","1"
+"o","23",," - terracotta_2
+",,"stdout","16816038","1"
+"o","23",,": ",,"stdout","16816038","1"
+"o","23",,"Moving to cave_0
+",,"stdout","16819503","1"
+"o","23",,": ",,"stdout","16819503","1"
+"o","23",,"Traceback (most recent call last):
+",,"stderr","16821883","1"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","16821883","1"
+"o","23",,"    tick(lexeter.world)
+",,"stderr","16821883","1"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","16821883","1"
+"o","23",,"    tick(world)
+",,"stderr","16821883","1"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","16821883","1"
+"o","23",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","16821883","1"
+"o","23",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16821883","1"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 38, in moveTo
+",,"stderr","16821883","1"
+"o","23",,"    if int(len(self.world.map.route[room])) < 3:
+",,"stderr","16821883","1"
+"o","23",,"TypeError: unhashable type: 'list'
+",,"stderr","16821883","1"
+"o","23",,"Debug: player-action-library
+",,"stdout","16821883","1"
+"o","23",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x000001CC60FE3FA0>), ('world', <lib.player.world object at 0x000001CC60FE00A0>)]
+",,"stdout","16821883","1"
+"o","23",,"Debug: player-instance
+",,"stdout","16821883","1"
+"o","23",," ++ [('act', <lib.action.playerAct object at 0x000001CC60FE3D90>), ('age', 1), ('debug', True), ('hp', 50), ('instance', 1), ('name', 'Frank'), ('rLog', <lib.player.responselog object at 0x000001CC60FE0040>), ('room', ['darkroom']), ('them', <lib.player.them object at 0x000001CC60EDB490>)]
+",,"stdout","16821883","1"
+"o","23",,"Where would you like to go?
+",,"stdout","16821883","1"
+"o","23",,"
+Process finished with exit code 1
+",,"system","16821892","1"
+"r","24","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"16879958","1"
+"o","24",,": ",,"stdout","16880383","1"
+"o","24",,"Debug: player-action-library
+",,"stdout","16881934","1"
+"o","24",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x0000020507C93FA0>), ('world', <lib.player.world object at 0x0000020507C900A0>)]
+",,"stdout","16881934","1"
+"o","24",,"Debug: player-instance
+",,"stdout","16881934","1"
+"o","24",," ++ [('act', <lib.action.playerAct object at 0x0000020507C93D90>), ('age', 1), ('debug', True), ('hp', 50), ('instance', 1), ('name', 'Frank'), ('rLog', <lib.player.responselog object at 0x0000020507C90040>), ('room', 'darkroom'), ('them', <lib.player.them object at 0x0000020507B8B490>)]
+",,"stdout","16881934","1"
+"o","24",,"Where would you like to go?
+",,"stdout","16881934","1"
+"o","24",,"darkroom
+",,"stdout","16881934","1"
+"o","24",," - cave_0
+",,"stdout","16881934","1"
+"o","24",," - canopy_1
+",,"stdout","16881934","1"
+"o","24",," - terracotta_2
+",,"stdout","16881934","1"
+"o","24",,": ",,"stdout","16881934","1"
+"o","24",,"Moving to cave_0
+",,"stdout","16885049","1"
+"o","24",,": ",,"stdout","16885049","1"
+"o","24",,"Traceback (most recent call last):
+",,"stderr","16886801","1"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","16886801","1"
+"o","24",,"    tick(lexeter.world)
+",,"stderr","16886801","1"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","16886801","1"
+"o","24",,"    tick(world)
+",,"stderr","16886801","1"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","16886801","1"
+"o","24",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","16886801","1"
+"o","24",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16886801","1"
+"o","24",,"Debug: player-action-library
+",,"stdout","16886801","1"
+"o","24",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x0000020507C93FA0>), ('world', <lib.player.world object at 0x0000020507C900A0>)]
+",,"stdout","16886801","1"
+"o","24",,"Debug: player-instance
+",,"stdout","16886801","1"
+"o","24",," ++ [('act', <lib.action.playerAct object at 0x0000020507C93D90>), ('age', 1), ('debug', True), ('hp', 50), ('instance', 1), ('name', 'Frank'), ('rLog', <lib.player.responselog object at 0x0000020507C90040>), ('room', ['darkroom']), ('them', <lib.player.them object at 0x0000020507B8B490>)]
+",,"stdout","16886801","1"
+"o","24",,"Where would you like to go?
+",,"stdout","16886801","1"
+"o","24",,"['darkroom']
+",,"stdout","16886801","1"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 39, in moveTo
+",,"stderr","16886815","1"
+"o","24",,"    if int(len(self.world.map.route[room])) < 3:
+",,"stderr","16886815","1"
+"o","24",,"TypeError: unhashable type: 'list'
+",,"stderr","16886815","1"
+"o","24",,"
+Process finished with exit code 1
+",,"system","16886832","1"
+"r","25","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"16955877","1"
+"o","25",,": ",,"stdout","16956047","1"
+"o","25",,"Debug: player-action-library
+",,"stdout","16958583","1"
+"o","25",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x000001E0E1E13FA0>), ('world', <lib.player.world object at 0x000001E0E1E100A0>)]
+",,"stdout","16958583","1"
+"o","25",,"Debug: player-instance
+",,"stdout","16958583","1"
+"o","25",," ++ [('act', <lib.action.playerAct object at 0x000001E0E1E13D90>), ('age', 1), ('debug', True), ('hp', 50), ('instance', 1), ('name', 'Frank'), ('rLog', <lib.player.responselog object at 0x000001E0E1E10040>), ('room', 'darkroom'), ('them', <lib.player.them object at 0x000001E0E1D0B490>)]
+",,"stdout","16958583","1"
+"o","25",,"Where would you like to go?
+",,"stdout","16958583","1"
+"o","25",,"darkroom
+",,"stdout","16958583","1"
+"o","25",," - cave_0
+",,"stdout","16958583","1"
+"o","25",," - canopy_1
+",,"stdout","16958583","1"
+"o","25",," - terracotta_2
+",,"stdout","16958583","1"
+"o","25",,": ",,"stdout","16958583","1"
+"o","25",,"Moving to cave_0
+",,"stdout","16962198","1"
+"o","25",,": ",,"stdout","16962198","1"
+"o","25",,"Debug: player-action-library
+",,"stdout","16964095","1"
+"o","25",," ++ [('array', {'moveTo': {'tag': '.m'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}}), ('debug', True), ('player', <lib.player.player object at 0x000001E0E1E13FA0>), ('world', <lib.player.world object at 0x000001E0E1E100A0>)]
+",,"stdout","16964095","1"
+"o","25",,"Debug: player-instance
+",,"stdout","16964095","1"
+"o","25",," ++ [('act', <lib.action.playerAct object at 0x000001E0E1E13D90>), ('age', 1), ('debug', True), ('hp', 50), ('instance', 1), ('name', 'Frank'), ('rLog', <lib.player.responselog object at 0x000001E0E1E10040>), ('room', 'cave_0'), ('them', <lib.player.them object at 0x000001E0E1D0B490>)]
+",,"stdout","16964095","1"
+"o","25",,"Where would you like to go?
+",,"stdout","16964095","1"
+"o","25",,"cave_0
+",,"stdout","16964095","1"
+"o","25",," - darkroom
+",,"stdout","16964095","1"
+"o","25",," - cave_4
+",,"stdout","16964095","1"
+"o","25",,": ",,"stdout","16964095","1"
+"o","25",,"Traceback (most recent call last):
+",,"stderr","16974415","1"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","16974415","1"
+"o","25",,"    tick(lexeter.world)
+",,"stderr","16974415","1"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","16974415","1"
+"o","25",,"    tick(world)
+",,"stderr","16974415","1"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","16974415","1"
+"o","25",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","16974415","1"
+"o","25",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16974415","1"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 54, in moveTo
+",,"stderr","16974415","1"
+"o","25",,"    moveToLoop(self)
+",,"stderr","16974415","1"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 47, in moveToLoop
+",,"stderr","16974415","1"
+"o","25",,"    newloc = input("": "")
+",,"stderr","16974415","1"
+"o","25",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16974415","1"
+"o","25",,"    def decode(self, input, final=False):
+",,"stderr","16974415","1"
+"o","25",,"KeyboardInterrupt
+",,"stderr","16974415","1"
+"o","25",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16974424","1"
+"r","26","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18258146","1"
+"o","26",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","18258256","1"
+"o","26",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","18258256","1"
+"o","26",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","18258256","1"
+"o","26",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","18258256","1"
+"o","26",,"
+",,"stdout","18258256","1"
+"o","26",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","18276609","1"
+"o","26",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","18276609","1"
+"o","26",,"
+",,"stdout","18276609","1"
+"o","26",,"
+",,"stdout","18276609","1"
+"o","26",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18276609","1"
+"o","26",,": ",,"stdout","18276609","1"
+"o","26",,"help
+",,"stdout","18280792","1"
+"o","26",,": ",,"stdout","18280792","1"
+"o","26",,"help
+",,"stdout","18283838","1"
+"o","26",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18283838","1"
+"o","26",,": ",,"stdout","18283838","1"
+"o","26",,"inspect
+",,"stdout","18286557","1"
+"o","26",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18286557","1"
+"o","26",,": ",,"stdout","18286557","1"
+"o","26",,"Traceback (most recent call last):
+",,"stderr","18578246","1"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18578246","1"
+"o","26",,"    tick(lexeter.world)
+",,"stderr","18578246","1"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","18578246","1"
+"o","26",,"    tick(world)
+",,"stderr","18578246","1"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","18578246","1"
+"o","26",,"    tick(world)
+",,"stderr","18578246","1"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","18578246","1"
+"o","26",,"    tick(world)
+",,"stderr","18578246","1"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","18578246","1"
+"o","26",,"    resp = input("": "")
+",,"stderr","18578246","1"
+"o","26",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","18578246","1"
+"o","26",,"    def decode(self, input, final=False):
+",,"stderr","18578246","1"
+"o","26",,"KeyboardInterrupt
+",,"stderr","18578246","1"
+"o","26",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","18578255","1"
+"r","27","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18578403","1"
+"o","27",,"[geoflib] says: evening!
+",,"stdout","18578513","1"
+"o","27",,": ",,"stdout","18578513","1"
+"o","27",," - moveTo
+",,"stdout","18580146","1"
+"o","27",," - help
+",,"stdout","18580146","1"
+"o","27",," - helpAlias
+",,"stdout","18580146","1"
+"o","27",," - inspect
+",,"stdout","18580146","1"
+"o","27",,": ",,"stdout","18580146","1"
+"o","27",,"Traceback (most recent call last):
+",,"stderr","18605744","1"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18605744","1"
+"o","27",,"    tick(lexeter.world)
+",,"stderr","18605744","1"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","18605744","1"
+"o","27",,"    tick(world)
+",,"stderr","18605744","1"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","18605744","1"
+"o","27",,"    resp = input("": "")
+",,"stderr","18605744","1"
+"o","27",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","18605744","1"
+"o","27",,"    def decode(self, input, final=False):
+",,"stderr","18605744","1"
+"o","27",,"KeyboardInterrupt
+",,"stderr","18605744","1"
+"o","27",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","18605751","1"
+"r","28","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18605935","1"
+"o","28",,"[geoflib] says: heya, stranger!
+",,"stdout","18606014","1"
+"o","28",,": ",,"stdout","18606014","1"
+"o","28",,"Traceback (most recent call last):
+",,"stderr","18607713","1"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18607713","1"
+"o","28",,"    tick(lexeter.world)
+",,"stderr","18607713","1"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","18607713","1"
+"o","28",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","18607713","1"
+"o","28",,"  File ""<string>"", line 1, in <module>
+",,"stderr","18607713","1"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 41, in helpAlias
+",,"stderr","18607713","1"
+"o","28",,"    self.help()
+",,"stderr","18607713","1"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 39, in help
+",,"stderr","18607713","1"
+"o","28",,"    print("" - "" + i['[tag]'])
+",,"stderr","18607713","1"
+"o","28",,"TypeError: string indices must be integers
+",,"stderr","18607713","1"
+"o","28",,"
+Process finished with exit code 1
+",,"system","18607715","1"
+"r","29","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18621279","1"
+"o","29",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18621547","1"
+"o","29",,": ",,"stdout","18621547","1"
+"o","29",,"Traceback (most recent call last):
+",,"stderr","18622946","1"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18622946","1"
+"o","29",,"    tick(lexeter.world)
+",,"stderr","18622946","1"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","18622946","1"
+"o","29",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","18622946","1"
+"o","29",,"  File ""<string>"", line 1, in <module>
+",,"stderr","18622946","1"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 41, in helpAlias
+",,"stderr","18622946","1"
+"o","29",,"    self.help()
+",,"stderr","18622946","1"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 39, in help
+",,"stderr","18622946","1"
+"o","29",,"    print("" - "" + i['tag'])
+",,"stderr","18622946","1"
+"o","29",,"TypeError: string indices must be integers
+",,"stderr","18622946","1"
+"o","29",,"
+Process finished with exit code 1
+",,"system","18622947","1"
+"r","30","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18649665","1"
+"o","30",,"[geoflib] says: ever been to paris?
+",,"stdout","18650011","1"
+"o","30",,": ",,"stdout","18650011","1"
+"o","30",,"Traceback (most recent call last):
+",,"stderr","18654876","1"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18654876","1"
+"o","30",,"    tick(lexeter.world)
+",,"stderr","18654876","1"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","18654876","1"
+"o","30",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","18654876","1"
+"o","30",,"  File ""<string>"", line 1, in <module>
+",,"stderr","18654876","1"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 41, in helpAlias
+",,"stderr","18654876","1"
+"o","30",,"    self.help()
+",,"stderr","18654876","1"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 39, in help
+",,"stderr","18654876","1"
+"o","30",,"    print("" - "" + str(i['tag']))
+",,"stderr","18654876","1"
+"o","30",,"TypeError: string indices must be integers
+",,"stderr","18654876","1"
+"o","30",,"
+Process finished with exit code 1
+",,"system","18654884","1"
+"r","31","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18677283","1"
+"o","31",,"[geoflib] says: ever been to paris?
+",,"stdout","18677381","1"
+"o","31",,": ",,"stdout","18677381","1"
+"o","31",,"Traceback (most recent call last):
+",,"stderr","18679126","1"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18679126","1"
+"o","31",,"    tick(lexeter.world)
+",,"stderr","18679126","1"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","18679126","1"
+"o","31",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","18679126","1"
+"o","31",,"  File ""<string>"", line 1, in <module>
+",,"stderr","18679126","1"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 42, in helpAlias
+",,"stderr","18679126","1"
+"o","31",,"    self.help()
+",,"stderr","18679126","1"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 39, in help
+",,"stderr","18679126","1"
+"o","31",,"    tag = i['tag']
+",,"stderr","18679126","1"
+"o","31",,"TypeError: string indices must be integers
+",,"stderr","18679126","1"
+"o","31",,"
+Process finished with exit code 1
+",,"system","18679141","1"
+"r","32","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18693877","1"
+"o","32",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18693989","1"
+"o","32",,": ",,"stdout","18693989","1"
+"o","32",,"Traceback (most recent call last):
+",,"stderr","18700002","1"
+"o","32",,"moveTo
+",,"stdout","18700002","1"
+"o","32",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18700002","1"
+"o","32",,"    tick(lexeter.world)
+",,"stderr","18700002","1"
+"o","32",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 53, in tick
+",,"stderr","18700002","1"
+"o","32",,"    exec(""world.player.act.""+item+""()"")
+",,"stderr","18700002","1"
+"o","32",,"  File ""<string>"", line 1, in <module>
+",,"stderr","18700002","1"
+"o","32",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 42, in helpAlias
+",,"stderr","18700002","1"
+"o","32",,"    self.help()
+",,"stderr","18700002","1"
+"o","32",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 40, in help
+",,"stderr","18700002","1"
+"o","32",,"    print("" - "" + tag)
+",,"stderr","18700002","1"
+"o","32",,"NameError: name 'tag' is not defined
+",,"stderr","18700002","1"
+"o","32",,"
+Process finished with exit code 1
+",,"system","18700005","1"
+"r","33","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18838258","1"
+"o","33",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","18838342","1"
+"o","33",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","18838342","1"
+"o","33",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","18838342","1"
+"o","33",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","18838342","1"
+"o","33",,"
+",,"stdout","18838342","1"
+"o","33",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","18841675","1"
+"o","33",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","18841675","1"
+"o","33",,"
+",,"stdout","18841675","1"
+"o","33",,"
+",,"stdout","18841675","1"
+"o","33",,"[geoflib] says: heya, stranger!
+",,"stdout","18841675","1"
+"o","33",,": ",,"stdout","18841675","1"
+"o","33",," - Help: Shows help screen. | .h, help
+",,"stdout","18844492","1"
+"o","33",," - Move: Move to another room. | .m, move
+",,"stdout","18844492","1"
+"o","33",," - Inspect: Look at the current room and its contents. | .i, inspect
+",,"stdout","18844492","1"
+"o","33",,": ",,"stdout","18844492","1"
+"o","33",,"Traceback (most recent call last):
+",,"stderr","18971207","1"
+"o","33",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18971207","1"
+"o","33",,"    tick(lexeter.world)
+",,"stderr","18971207","1"
+"o","33",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 54, in tick
+",,"stderr","18971207","1"
+"o","33",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","18971207","1"
+"o","33",,"    
+",,"stderr","18971207","1"
+"o","33",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","18971207","1"
+"o","33",,"    def decode(self, input, final=False):
+",,"stderr","18971207","1"
+"o","33",,"KeyboardInterrupt
+",,"stderr","18971207","1"
+"o","33",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","18971212","1"
+"r","34","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"18971398","1"
+"o","34",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","18971476","1"
+"o","34",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","18971476","1"
+"o","34",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","18971476","1"
+"o","34",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","18971476","1"
+"o","34",,"
+",,"stdout","18971476","1"
+"o","34",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","18974027","1"
+"o","34",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","18974027","1"
+"o","34",,"
+",,"stdout","18974027","1"
+"o","34",,"
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974027","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974027","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!",,"stdout","18974043","1"
+"o","34",,"
+",,"stdout","18974043","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974043","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.",,"stdout","18974059","1"
+"o","34",,"
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974059","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974059","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974075","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974075","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: ever been to paris?",,"stdout","18974076","1"
+"o","34",,"
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974076","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974076","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.",,"stdout","18974090","1"
+"o","34",,"
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974090","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974090","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: i cannae find ma lunch!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: evening!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: tha rats here, they make quite the racket!
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: heya, stranger!",,"stdout","18974106","1"
+"o","34",,"
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: i cannae find ma lunch!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974106","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974106","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974106","1"
+"o","34",,"Traceback (most recent call last):
+",,"stderr","18974122","1"
+"o","34",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","18974122","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"    tick(lexeter.world)
+",,"stderr","18974122","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974122","1"
+"o","34",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 51, in tick
+",,"stderr","18974122","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"    tick(world)
+",,"stderr","18974122","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974122","1"
+"o","34",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 51, in tick
+",,"stderr","18974122","1"
+"o","34",,"    tick(world)
+",,"stderr","18974122","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 51, in tick
+",,"stderr","18974122","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974122","1"
+"o","34",,"    tick(world)
+",,"stderr","18974122","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974122","1"
+"o","34",,"  [Previous line repeated 989 more times]
+",,"stderr","18974122","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in tick
+",,"stderr","18974122","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974122","1"
+"o","34",,"    exec('world.characters.'+_.lower()+'.tick(world)')
+",,"stderr","18974122","1"
+"o","34",,"  File ""<string>"", line 1, in <module>
+",,"stderr","18974122","1"
+"o","34",,"[geoflib] says: ever been to paris?
+",,"stdout","18974122","1"
+"o","34",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\darkroom.py"", line 33, in tick
+",,"stderr","18974122","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"    self.act.speak(random.choice(lines),self.room)
+",,"stderr","18974122","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974122","1"
+"o","34",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 11, in speak
+",,"stderr","18974122","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974122","1"
+"o","34",,"    print(""[""+self.name+""] says: ""+text)
+",,"stderr","18974122","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974122","1"
+"o","34",,"RecursionError: maximum recursion depth exceeded while calling a Python object
+",,"stderr","18974122","1"
+"o","34",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: i like pineapple. my brother doesnt.
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: ever been to paris?
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: not a big fan of moths. how bout you?
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: i like orange. my brother doesnt.
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: not a big fan of moths. how bout you?
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: waddup, Frank?
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: ah, the darkness. so refreshing.
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: blegh! just got a bug in my mouth!
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: heya, stranger!
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: tha rats here, they make quite the racket!
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: have ya talked to my twin?
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: evening!
+",,"stdout","18974122","1"
+"o","34",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","18974122","1"
+"o","34",,"[mek] says: heya, stranger!
+",,"stdout","18974122","1"
+"o","34",,"
+Process finished with exit code 1
+",,"system","18974123","1"
+"r","35","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19019728","1"
+"o","35",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","19019916","1"
+"o","35",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","19019916","1"
+"o","35",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","19019916","1"
+"o","35",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","19019916","1"
+"o","35",,"
+",,"stdout","19019916","1"
+"o","35",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","19022475","1"
+"o","35",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","19022475","1"
+"o","35",,"
+",,"stdout","19022475","1"
+"o","35",,"
+",,"stdout","19022475","1"
+"o","35",,"[geoflib] says: evening!
+",,"stdout","19022475","1"
+"o","35",,": ",,"stdout","19022475","1"
+"o","35",,"Traceback (most recent call last):
+",,"stderr","19024882","1"
+"o","35",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19024882","1"
+"o","35",,"    tick(lexeter.world)
+",,"stderr","19024882","1"
+"o","35",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19024882","1"
+"o","35",,"    world.player.act.playeraction()
+",,"stderr","19024882","1"
+"o","35",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 44, in playeraction
+",,"stderr","19024882","1"
+"o","35",,"    for item in world.player.act.array:
+",,"stderr","19024882","1"
+"o","35",,"NameError: name 'world' is not defined
+",,"stderr","19024882","1"
+"o","35",,"
+Process finished with exit code 1
+",,"system","19024884","1"
+"r","36","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19053178","1"
+"o","36",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","19053319","1"
+"o","36",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","19053319","1"
+"o","36",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","19053319","1"
+"o","36",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","19053319","1"
+"o","36",,"
+",,"stdout","19053319","1"
+"o","36",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","19055691","1"
+"o","36",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","19055691","1"
+"o","36",,"
+",,"stdout","19055691","1"
+"o","36",,"
+",,"stdout","19055691","1"
+"o","36",,": ",,"stdout","19055691","1"
+"o","36",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19057045","1"
+"o","36",,": ",,"stdout","19057045","1"
+"o","36",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19060368","1"
+"o","36",,": ",,"stdout","19060368","1"
+"o","36",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19061595","1"
+"o","36",,": ",,"stdout","19061595","1"
+"o","36",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19063163","1"
+"o","36",,": ",,"stdout","19063163","1"
+"o","36",,"Traceback (most recent call last):
+",,"stderr","19120450","1"
+"o","36",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19120450","1"
+"o","36",,"    tick(lexeter.world)
+",,"stderr","19120450","1"
+"o","36",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19120450","1"
+"o","36",,"    world.player.act.playeraction()
+",,"stderr","19120450","1"
+"o","36",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 49, in playeraction
+",,"stderr","19120450","1"
+"o","36",,"    self.playeraction()
+",,"stderr","19120450","1"
+"o","36",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 49, in playeraction
+",,"stderr","19120450","1"
+"o","36",,"    self.playeraction()
+",,"stderr","19120450","1"
+"o","36",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 49, in playeraction
+",,"stderr","19120450","1"
+"o","36",,"    self.playeraction()
+",,"stderr","19120450","1"
+"o","36",,"  [Previous line repeated 1 more time]
+",,"stderr","19120450","1"
+"o","36",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 43, in playeraction
+",,"stderr","19120450","1"
+"o","36",,"    resp = input("": "")
+",,"stderr","19120450","1"
+"o","36",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","19120450","1"
+"o","36",,"    def decode(self, input, final=False):
+",,"stderr","19120450","1"
+"o","36",,"KeyboardInterrupt
+",,"stderr","19120450","1"
+"o","36",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","19120456","1"
+"r","37","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19120636","1"
+"o","37",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","19120703","1"
+"o","37",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","19120703","1"
+"o","37",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","19120703","1"
+"o","37",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","19120703","1"
+"o","37",,"
+",,"stdout","19120703","1"
+"o","37",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","19123716","1"
+"o","37",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","19123716","1"
+"o","37",,"
+",,"stdout","19123716","1"
+"o","37",,"
+",,"stdout","19123716","1"
+"o","37",,": ",,"stdout","19123716","1"
+"o","37",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19125511","1"
+"o","37",,": ",,"stdout","19125511","1"
+"o","37",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19128434","1"
+"o","37",,": ",,"stdout","19128434","1"
+"o","37",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19129725","1"
+"o","37",,": ",,"stdout","19129725","1"
+"o","37",,"Traceback (most recent call last):
+",,"stderr","19165633","1"
+"o","37",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19165633","1"
+"o","37",,"    tick(lexeter.world)
+",,"stderr","19165633","1"
+"o","37",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19165633","1"
+"o","37",,"    world.player.act.playeraction()
+",,"stderr","19165633","1"
+"o","37",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 49, in playeraction
+",,"stderr","19165633","1"
+"o","37",,"    self.playeraction()
+",,"stderr","19165633","1"
+"o","37",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 49, in playeraction
+",,"stderr","19165633","1"
+"o","37",,"    self.playeraction()
+",,"stderr","19165633","1"
+"o","37",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 49, in playeraction
+",,"stderr","19165633","1"
+"o","37",,"    self.playeraction()
+",,"stderr","19165633","1"
+"o","37",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 43, in playeraction
+",,"stderr","19165633","1"
+"o","37",,"    resp = input("": "")
+",,"stderr","19165633","1"
+"o","37",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","19165633","1"
+"o","37",,"    def decode(self, input, final=False):
+",,"stderr","19165633","1"
+"o","37",,"KeyboardInterrupt
+",,"stderr","19165633","1"
+"o","37",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","19165643","1"
+"r","38","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19165835","1"
+"o","38",,"Traceback (most recent call last):
+",,"stderr","19165935","1"
+"o","38",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 2, in <module>
+",,"stderr","19165935","1"
+"o","38",,"    from lib.player import *;from lib.darkroom import *
+",,"stderr","19165935","1"
+"o","38",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 1, in <module>
+",,"stderr","19165935","1"
+"o","38",,"    import inspect;from lib.core import *;from lib.action import *
+",,"stderr","19165935","1"
+"o","38",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 43
+",,"stderr","19165935","1"
+"o","38",,"    print self.array
+",,"stderr","19165935","1"
+"o","38",,"    ^^^^^^^^^^^^^^^^
+",,"stderr","19165935","1"
+"o","38",,"SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+",,"stderr","19165935","1"
+"o","38",,"
+Process finished with exit code 1
+",,"system","19165939","1"
+"r","39","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19175567","1"
+"o","39",,"{'moveTo': {'tag': '.m'}, 'moveAlias': {'tag': 'move'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}, 'inspect': {'tag': '.i'}, 'inspectAlias': {'tag': 'inspect'}}
+",,"stdout","19175650","1"
+"o","39",,": ",,"stdout","19175650","1"
+"o","39",,"Traceback (most recent call last):
+",,"stderr","19201242","1"
+"o","39",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19201242","1"
+"o","39",,"    tick(lexeter.world)
+",,"stderr","19201242","1"
+"o","39",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19201242","1"
+"o","39",,"    world.player.act.playeraction()
+",,"stderr","19201242","1"
+"o","39",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 44, in playeraction
+",,"stderr","19201242","1"
+"o","39",,"    resp = input("": "")
+",,"stderr","19201242","1"
+"o","39",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","19201242","1"
+"o","39",,"    def decode(self, input, final=False):
+",,"stderr","19201242","1"
+"o","39",,"KeyboardInterrupt
+",,"stderr","19201242","1"
+"o","39",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","19201246","1"
+"r","40","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19201418","1"
+"o","40",,"{'moveTo': {'tag': '.m'}, 'moveAlias': {'tag': 'move'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}, 'inspect': {'tag': '.i'}, 'inspectAlias': {'tag': 'inspect'}}
+",,"stdout","19201529","1"
+"o","40",,": ",,"stdout","19201529","1"
+"o","40",,"Traceback (most recent call last):
+",,"stderr","19204196","1"
+"o","40",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19204196","1"
+"o","40",,"    tick(lexeter.world)
+",,"stderr","19204196","1"
+"o","40",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19204196","1"
+"o","40",,"    world.player.act.playeraction()
+",,"stderr","19204196","1"
+"o","40",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 46, in playeraction
+",,"stderr","19204196","1"
+"o","40",,"    print(item);print(item['tag'])
+",,"stderr","19204196","1"
+"o","40",,"TypeError: string indices must be integers
+",,"stderr","19204196","1"
+"o","40",,"moveTo
+",,"stdout","19204196","1"
+"o","40",,"
+Process finished with exit code 1
+",,"system","19204211","1"
+"r","41","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19275197","1"
+"o","41",,"Traceback (most recent call last):
+",,"stderr","19275283","1"
+"o","41",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 2, in <module>
+",,"stderr","19275283","1"
+"o","41",,"    from lib.player import *;from lib.darkroom import *
+",,"stderr","19275283","1"
+"o","41",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 1, in <module>
+",,"stderr","19275283","1"
+"o","41",,"    import inspect;from lib.core import *;from lib.action import *
+",,"stderr","19275283","1"
+"o","41",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 30
+",,"stderr","19275283","1"
+"o","41",,"    'moveAlias'::'move',
+",,"stderr","19275283","1"
+"o","41",,"               ^
+",,"stderr","19275283","1"
+"o","41",,"SyntaxError: expression expected after dictionary key and ':'
+",,"stderr","19275283","1"
+"o","41",,"
+Process finished with exit code 1
+",,"system","19275289","1"
+"r","42","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19284645","1"
+"o","42",,"Traceback (most recent call last):
+",,"stderr","19284772","1"
+"o","42",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 2, in <module>
+",,"stderr","19284772","1"
+"o","42",,"    from lib.player import *;from lib.darkroom import *
+",,"stderr","19284772","1"
+"o","42",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 1, in <module>
+",,"stderr","19284772","1"
+"o","42",,"    import inspect;from lib.core import *;from lib.action import *
+",,"stderr","19284772","1"
+"o","42",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 33
+",,"stderr","19284772","1"
+"o","42",,"    'inspect': :'.i',
+",,"stderr","19284772","1"
+"o","42",,"             ^
+",,"stderr","19284772","1"
+"o","42",,"SyntaxError: expression expected after dictionary key and ':'
+",,"stderr","19284772","1"
+"o","42",,"
+Process finished with exit code 1
+",,"system","19284774","1"
+"r","43","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19290338","1"
+"o","43",,"{'moveTo': {'tag': '.m'}, 'moveAlias': {'tag': 'move'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}, 'inspect': {'tag': '.i'}, 'inspectAlias': {'tag': 'inspect'}}
+",,"stdout","19290481","1"
+"o","43",,": ",,"stdout","19290481","1"
+"o","43",,"moveTo
+",,"stdout","19293052","1"
+"o","43",,"{'tag': '.m'}
+",,"stdout","19293052","1"
+"o","43",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19293052","1"
+"o","43",,"{'moveTo': {'tag': '.m'}, 'moveAlias': {'tag': 'move'}, 'help': {'tag': '.h'}, 'helpAlias': {'tag': 'help'}, 'inspect': {'tag': '.i'}, 'inspectAlias': {'tag': 'inspect'}}
+",,"stdout","19293052","1"
+"o","43",,": ",,"stdout","19293052","1"
+"o","43",,"Traceback (most recent call last):
+",,"stderr","19301157","1"
+"o","43",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19301157","1"
+"o","43",,"    tick(lexeter.world)
+",,"stderr","19301157","1"
+"o","43",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19301157","1"
+"o","43",,"    world.player.act.playeraction()
+",,"stderr","19301157","1"
+"o","43",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 51, in playeraction
+",,"stderr","19301157","1"
+"o","43",,"    self.playeraction()
+",,"stderr","19301157","1"
+"o","43",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 44, in playeraction
+",,"stderr","19301157","1"
+"o","43",,"    resp = input("": "")
+",,"stderr","19301157","1"
+"o","43",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","19301157","1"
+"o","43",,"    def decode(self, input, final=False):
+",,"stderr","19301157","1"
+"o","43",,"KeyboardInterrupt
+",,"stderr","19301157","1"
+"o","43",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","19301171","1"
+"r","44","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19301339","1"
+"o","44",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","19301393","1"
+"o","44",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","19301393","1"
+"o","44",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","19301393","1"
+"o","44",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","19301393","1"
+"o","44",,"
+",,"stdout","19301393","1"
+"o","44",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","19303769","1"
+"o","44",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","19303769","1"
+"o","44",,"
+",,"stdout","19303769","1"
+"o","44",,"
+",,"stdout","19303769","1"
+"o","44",,"{'moveTo': '.m', 'moveAlias': 'move', 'help': '.h', 'helpAlias': 'help', 'inspect': '.i', 'inspectAlias': 'inspect'}
+",,"stdout","19303769","1"
+"o","44",,": ",,"stdout","19303769","1"
+"o","44",,"Traceback (most recent call last):
+",,"stderr","19307123","1"
+"o","44",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19307123","1"
+"o","44",,"    tick(lexeter.world)
+",,"stderr","19307123","1"
+"o","44",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19307123","1"
+"o","44",,"    world.player.act.playeraction()
+",,"stderr","19307123","1"
+"o","44",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 47, in playeraction
+",,"stderr","19307123","1"
+"o","44",,"    if resp == self.array[item]['tag']:
+",,"stderr","19307123","1"
+"o","44",,"TypeError: string indices must be integers
+",,"stderr","19307123","1"
+"o","44",,"moveTo
+",,"stdout","19307123","1"
+"o","44",,".m
+",,"stdout","19307123","1"
+"o","44",,"
+Process finished with exit code 1
+",,"system","19307135","1"
+"r","45","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19326071","1"
+"o","45",,"{'moveTo': '.m', 'moveAlias': 'move', 'help': '.h', 'helpAlias': 'help', 'inspect': '.i', 'inspectAlias': 'inspect'}
+",,"stdout","19326262","1"
+"o","45",,": ",,"stdout","19326262","1"
+"o","45",,"moveTo
+",,"stdout","19328005","1"
+"o","45",,".m
+",,"stdout","19328005","1"
+"o","45",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19328005","1"
+"o","45",,"{'moveTo': '.m', 'moveAlias': 'move', 'help': '.h', 'helpAlias': 'help', 'inspect': '.i', 'inspectAlias': 'inspect'}
+",,"stdout","19328005","1"
+"o","45",,": ",,"stdout","19328005","1"
+"o","45",,"Traceback (most recent call last):
+",,"stderr","19400415","1"
+"o","45",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19400415","1"
+"o","45",,"    tick(lexeter.world)
+",,"stderr","19400415","1"
+"o","45",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19400415","1"
+"o","45",,"    world.player.act.playeraction()
+",,"stderr","19400415","1"
+"o","45",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 51, in playeraction
+",,"stderr","19400415","1"
+"o","45",,"    print(""That's not a possible action. Try again, or use '.h' or 'help' to see the help screen."")
+",,"stderr","19400415","1"
+"o","45",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 44, in playeraction
+",,"stderr","19400415","1"
+"o","45",,"    found = False
+",,"stderr","19400415","1"
+"o","45",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","19400415","1"
+"o","45",,"    def decode(self, input, final=False):
+",,"stderr","19400415","1"
+"o","45",,"KeyboardInterrupt
+",,"stderr","19400415","1"
+"o","45",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","19400424","1"
+"r","46","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19400600","1"
+"o","46",,": ",,"stdout","19400668","1"
+"o","46",,"moveTo
+",,"stdout","19402539","1"
+"o","46",,".m
+",,"stdout","19402539","1"
+"o","46",,"moveAlias
+",,"stdout","19402539","1"
+"o","46",,"move
+",,"stdout","19402539","1"
+"o","46",,"help
+",,"stdout","19402539","1"
+"o","46",,".h
+",,"stdout","19402539","1"
+"o","46",,"helpAlias
+",,"stdout","19402539","1"
+"o","46",,"help
+",,"stdout","19402539","1"
+"o","46",," - Help: Shows help screen. | .h, help
+",,"stdout","19402539","1"
+"o","46",," - Move: Move to another room. | .m, move
+",,"stdout","19402539","1"
+"o","46",," - Inspect: Look at the current room and its contents. | .i, inspect
+",,"stdout","19402539","1"
+"o","46",,"inspect
+",,"stdout","19402539","1"
+"o","46",,".i
+",,"stdout","19402539","1"
+"o","46",,"inspectAlias
+",,"stdout","19402539","1"
+"o","46",,"inspect
+",,"stdout","19402539","1"
+"o","46",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","19402539","1"
+"o","46",,": ",,"stdout","19402539","1"
+"o","46",,"Traceback (most recent call last):
+",,"stderr","19415616","1"
+"o","46",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","19415616","1"
+"o","46",,"    tick(lexeter.world)
+",,"stderr","19415616","1"
+"o","46",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 51, in tick
+",,"stderr","19415616","1"
+"o","46",,"    tick(world)
+",,"stderr","19415616","1"
+"o","46",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 50, in tick
+",,"stderr","19415616","1"
+"o","46",,"    world.player.act.playeraction()
+",,"stderr","19415616","1"
+"o","46",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 43, in playeraction
+",,"stderr","19415616","1"
+"o","46",,"    resp = input("": "")
+",,"stderr","19415616","1"
+"o","46",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","19415616","1"
+"o","46",,"    def decode(self, input, final=False):
+",,"stderr","19415616","1"
+"o","46",,"KeyboardInterrupt
+",,"stderr","19415616","1"
+"o","46",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","19415628","1"
+"r","47","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"19415768","1"
+"o","47",,": ",,"stdout","19415852","1"
+"o","47",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","19417616","1"
+"o","47",,": ",,"stdout","19417616","1"
+"o","47",," - Help: Shows help screen. | .h, help
+",,"stdout","19420078","1"
+"o","47",," - Move: Move to another room. | .m, move
+",,"stdout","19420078","1"
+"o","47",," - Inspect: Look at the current room and its contents. | .i, inspect
+",,"stdout","19420078","1"
+"o","47",,"[mek] says: ever been to paris?
+",,"stdout","19420078","1"
+"o","47",,": ",,"stdout","19420078","1"
