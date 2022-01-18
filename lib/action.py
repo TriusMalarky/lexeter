@@ -119,20 +119,30 @@ class playerAct(core):
         print("What do you want to inspect?")
         for i in list:
             print(" - "+i)
-        def loop(world):
+        def invLoop(world):
+            choice = input(": ")
+            if choice in world.player.inventory:
+                item = getattr(world.item, choice)
+                print(random.choice(item.descriptions))
+            else:
+                invLoop(world)
+        def loop(self,world):
             choice = input(": ")
             if choice in list:
                 if choice == 'room':
                     print(random.choice(room.descriptions))
                 elif choice == 'inventory':
-                    pass
+                    clearConsole()
+                    print("Inspect an item in inventory:")
+                    self.inventory()
+                    invLoop(world)
                 else:
                     item = getattr(world.item,choice)
                     print(random.choice(item.descriptions))
             else:
                 print("That's not an option. Try again.")
                 loop(world)
-        loop(self.world)
+        loop(self,self.world)
     def moveAlias(self):
         self.moveTo()
     def inspectAlias(self):
