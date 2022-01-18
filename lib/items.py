@@ -166,6 +166,17 @@ class opal(core):
         self.debug = debug
         self.rDebug()
 
+class twine(core):
+    def __init__(self,debug):
+        self.internalID = 'item-twine'
+        self.name = 'twine'
+        self.quality = 1
+        self.descriptions = [
+            "A simple length of string."
+        ]
+        self.debug = debug
+        self.rDebug()
+
 class excalibur(core):
     def __init__(self,debug):
         self.internalID='item-excalibur'
@@ -175,6 +186,18 @@ class excalibur(core):
             "An arbitrarily powerful sword.",
             "Did this come from the stone, or the lake?",
             "It feels like you don't deserve to hold it."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+class crudespear(core):
+    def __init__(self,debug):
+        self.internalID='item-crudespear'
+        self.name = 'crude spear'
+        self.quality = 4
+        self.descriptions = [
+            "An incredibly simple weapon.",
+            "It's like a sharpened stick, but sharper."
         ]
         self.debug = debug
         self.rDebug()
@@ -189,12 +212,14 @@ class item(core):
             1 : "common",
             2 : "useful",
             3 : "treasure",
-            4 : "impossible"
+            4 : "impossible",
+            5 : "crafted"
         }
         self.trash = [
             'stone',
             'branch',
-            'scrapmetal'
+            'scrapmetal',
+            'twine'
         ]
         self.common = [
             'shinystone'
@@ -213,6 +238,9 @@ class item(core):
         self.impossible = [
             'excalibur'
         ]
+        self.crafted = [
+            'crudespear'
+        ]
         self.full = self.trash + self.common + self.useful + self.treasure + self.impossible
         self.stone = stone(self.debug)
         self.branch = branch(self.debug)
@@ -226,6 +254,19 @@ class item(core):
         self.emerald = emerald(self.debug)
         self.opal = opal(self.debug)
         self.potato = potato(self.debug)
+        self.twine = twine(self.debug)
+        self.crudespear = crudespear(self.debug)
+
+class crudespearRecipe(core):
+    def __init__(self,debug):
+        self.internalID = 'recipe-crudespear'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'metalscrap',
+            'branch',
+            'twine'
+        ]
 
 class recipes(core):
     def __init__(self,world):
@@ -233,6 +274,7 @@ class recipes(core):
         self.debug = self.world.debug
         self.internalID = 'library-crafting'
         self.rDebug()
+        self.crudespearRecipe = crudespearRecipe(self.debug)
 
 class constructs(core):
     def __init__(self,world):
