@@ -1,3 +1,5 @@
 from distutils.core import setup
 import py2exe
-setup(console=['Lexeter.py'])
+setup(console=["Lexeter.py"
+]
+)

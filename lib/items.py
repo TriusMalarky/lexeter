@@ -49,6 +49,38 @@ class diamond(core):
         self.debug = debug
         self.rDebug()
 
+class ruby(core):
+    def __init__(self,debug):
+        self.internalID = 'item-ruby'
+        self.name = 'ruby'
+        self.quality = 3
+        self.debug = debug
+        self.rDebug()
+
+class sapphire(core):
+    def __init__(self,debug):
+        self.internalID = 'item-sapphire'
+        self.name = 'sapphire'
+        self.quality = 3
+        self.debug = debug
+        self.rDebug()
+
+class emerald(core):
+    def __init__(self,debug):
+        self.internalID = 'item-emerald'
+        self.name = 'emerald'
+        self.quality = 3
+        self.debug = debug
+        self.rDebug()
+
+class opal(core):
+    def __init__(self,debug):
+        self.internalID = 'item-opal'
+        self.name = 'opal'
+        self.quality = 3
+        self.debug = debug
+        self.rDebug()
+
 class excalibur(core):
     def __init__(self,debug):
         self.internalID='item-excalibur'
@@ -80,7 +112,11 @@ class item(core):
             'egg'
         ]
         self.treasure = [
-            'diamond'
+            'diamond',
+            'ruby',
+            'sapphire',
+            'emerald',
+            'opal'
         ]
         self.impossible = [
             'excalibur'
@@ -93,4 +129,8 @@ class item(core):
         self.shinystone = shinystone(self.debug)
         self.diamond = diamond(self.debug)
         self.excalibur = excalibur(self.debug)
+        self.ruby = ruby(self.debug)
+        self.sapphire = sapphire(self.debug)
+        self.emerald = emerald(self.debug)
+        self.opal = opal(self.debug)
 
