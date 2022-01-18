@@ -201,6 +201,7 @@ class playerAct(core):
     def inventory(self):
         clearConsole()
         print("You have:")
+        print(self.world.player.inventory)
         inv = self.world.player.inventory
         list = []
         for i in inv:
