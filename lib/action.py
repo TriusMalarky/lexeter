@@ -200,10 +200,11 @@ class playerAct(core):
         for i in inv:
             count = inv.count(i)
             list.append(" - "+i+" "+str(count))
-            for x in range(count):
-                inv.remove(i)
         for n in list:
             print(n)
+            for x in list:
+                if x == n:
+                    list.remove(x)
     def invenAlias(self):
         self.inventory()
     def invAlias(self):
