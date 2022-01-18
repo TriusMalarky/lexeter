@@ -185,8 +185,15 @@ class playerAct(core):
     def inventory(self):
         clearConsole()
         print("You have:")
-        for i in self.world.player.inventory:
-            print(" - " + i)
+        inv = self.world.player.inventory
+        list = []
+        for i in inv:
+            count = inv.count(i)
+            list.append(" - "+i+" "+str(count))
+            for x in range(count):
+                inv.remove(i)
+        for n in list:
+            print(n)
     def invenAlias(self):
         self.inventory()
     def invAlias(self):
