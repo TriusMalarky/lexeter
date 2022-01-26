@@ -2,26 +2,33 @@ from lib.core import *
 import random
 from lib.biome import *
 
+
 class act(core):
     def __init__(self, name, world):
         self.name = name
         self.world = world
         self.internalID = self.name+'-action-library'
         self.debug = self.world.debug;self.rDebug()
+
     def speak(self, text, room):
         if room == self.world.player.room:
             print("[" + self.name + "] says: " + text)
+
     def ask(self, text, qID, room):
         if room == self.world.player.room:
             response=input("[" + self.name + "] asks: " + text + '\n')
             exec("self.world.player.rLog." + qID + "=response")
 
+
 class actGod(core):
+
     def __init__(self, name):
         self.name = name
         self.internalID = '__ignore__'
+
     def speak(self,text):
         print("[" + self.name + "] : " + text)
+
 
 class playerAct(core):
     def __init__(self, player, world):
@@ -29,23 +36,24 @@ class playerAct(core):
         self.player = player;self.world = world
         self.array = {
             'moveTo': '.m',
-            'moveAlias':'move',
-            'help':'.h',
+            'moveAlias': 'move',
+            'help:': '.h',
             'helpAlias': 'help',
-            'inspect':'.i',
-            'inspectAlias':'inspect',
-            'wait':'.w',
-            'waitAlias':'wait',
-            'scream':'scream',
-            'pickup':'.p',
-            'pickupAlias':'pickup',
-            'pickAlias':'pick',
-            'interact':'.in',
-            'interactAlias':'interact',
-            'inventory':'.inv',
-            'invenAlias':'inventory',
-            'invAlias':'inv'
+            'inspect': '.i',
+            'inspectAlias': 'inspect',
+            'wait': '.w',
+            'waitAlias': 'wait',
+            'scream': 'scream',
+            'pickup': '.p',
+            'pickupAlias': 'pickup',
+            'pickAlias': 'pick',
+            'interact': '.in',
+            'interactAlias': 'interact',
+            'inventory': '.inv',
+            'invenAlias': 'inventory',
+            'invAlias': 'inv'
                     }
+
         self.helparray = [
             'Help: Shows help screen. | .h, help',
             'Move: Move to another room. | .m, move',
@@ -57,24 +65,27 @@ class playerAct(core):
         ]
         self.debug = self.world.debug
         self.rDebug()
+
     def playeraction(self):
         resp = input(": ")
         found = False
         for item in self.array:
             if resp == self.array[item]:
                 found = True
-                exec("self." + item + "()")
+                exec("self." + item.lower() + "()")
         if found == False:
             print("That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.")
             self.playeraction()
+
     def help(self):
         clearConsole()
         for i in self.helparray:
             print(' - ' + i)
 
-    def helpAlias(self):
+    def helpalias(self):
         self.help()
-    def moveTo(self):
+
+    def moveto(self):
         clearConsole()
         self.rDebug()
         self.player.rDebug()
@@ -94,15 +105,15 @@ class playerAct(core):
         for i in self.world.map.route[self.player.room]:
             print(" - " + i)
 
-        def moveToLoop(self): # <- define loop
+        def movetoloop(self): # <- define loop
             newloc = input(": ")
             if newloc in self.world.map.route[self.player.room]:
                 self.player.room = newloc
                 print("Moving to " + newloc)
             else:
                 print("That's not an option, try again.")
-                moveToLoop(self)
-        moveToLoop(self) # <- run loop
+                movetoloop(self)
+        movetoloop(self) # <- run loop
 
         # Run inspection of room
         roomtitle = self.world.player.room
@@ -144,10 +155,13 @@ class playerAct(core):
                 print("That's not an option. Try again.")
                 loop(world)
         loop(self, self.world)
-    def moveAlias(self):
+
+    def movealias(self):
         self.moveTo()
-    def inspectAlias(self):
+
+    def inspectalias(self):
         self.inspect()
+
     def wait(self):
         clearConsole()
         array = [
@@ -157,7 +171,7 @@ class playerAct(core):
         ]
         print(random.choice(array))
 
-    def waitAlias(self):
+    def waitalias(self):
         self.wait()
 
     def scream(self):
@@ -196,16 +210,16 @@ class playerAct(core):
         else:
             print("There's nothing here.")
 
-    def pickupAlias(self):
+    def pickupalias(self):
         self.pickup()
 
-    def pickAlias(self):
+    def pickalias(self):
         self.pickup()
 
     def interact(self):
         pass
 
-    def interactAlias(self):
+    def interactalias(self):
         self.interact()
 
     def inventory(self):
@@ -213,18 +227,18 @@ class playerAct(core):
         print("You have:")
         print(self.world.player.inventory)
         inv = self.world.player.inventory
-        list = []
+        itemList = []#{} + self.world.item.dict
         for i in inv:
             count = inv.count(i)
-            list.append(" - "+i+" "+str(count))
-        for n in list:
+            itemList.append(" - " + str(count) + " " + i)
+        for n in itemList:
             print(n)
-            for x in list:
+            for x in itemList:
                 if x == n:
-                    list.remove(x)
+                    itemList.remove(x)
 
-    def invenAlias(self):
+    def invenalias(self):
         self.inventory()
 
-    def invAlias(self):
+    def invalias(self):
         self.inventory()

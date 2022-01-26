@@ -32,7 +32,7 @@ class wmap(core):
         self.rDebug()
         
 class world(core):
-    def __init__(self,age,them,zones,debug,item,lexeter):
+    def __init__(self, age, them, zones, debug, item, lexeter):
         self.debug=debug;self.them=them;self.zones=zones
         self.lexeter = lexeter
         self.internalID = 'reality-instance'
@@ -49,8 +49,7 @@ class world(core):
         self.item = item
         self.map = wmap(self)
         self.map.darkroom = darkroom(self)
-        self.map.route = {}
-        self.map.route['darkroom']=[]
+        self.map.route = {'darkroom': []}
         self.map.list = ['darkroom']
         for i in range(3):
             zone=random.choice(self.zones)
@@ -71,15 +70,16 @@ class them():
         self.internalID='__ignore__'
         self.act = actGod(self.name)
 
-class lexeter(core):
+
+class Lexeter(core):
     def __init__(self):
         self.debug = False
-        self.internalID='lexeter'
+        self.internalID = 'lexeter'
         self.rDebug()
         self.them = them()
-        self.instances=1
-        self.zones = ['pond','marble','terracotta','brickfloor','fractured','cave','canopy','cavern','shack']
+        self.instances = 1
+        self.zones = ['pond', 'marble', 'terracotta', 'brickfloor', 'fractured', 'cave', 'canopy', 'cavern', 'shack']
         self.achievements = []
-        self.item = item(self)
-        self.world=world(self.instances,self.them,self.zones,self.debug,self.item,self)
+        self.item = Item(self)
+        self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self)
 

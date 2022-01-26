@@ -4,4 +4,4 @@ if __name__ == "__main__":
     from lib.action import *
     from lib.core import *
     lexeter = lex_init()
-    tick(lexeter,lexeter.world)
+    tick(lexeter, lexeter.world)

@@ -2279,3 +2279,22 @@ if __name__ == ""__main__"":
 "a","Outside edit","","","1643047877089","darkroom.py","1.1.2 for 2021-2022 @t1","-1"
 "a","ShowYourWork Init","","","000","ShowYourWork Init","1.1.2 for 2021-2022 @t1","5"
 "r","Start",,,"118699414","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Exit","-1073741510",,"119271576","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Start",,,"120526836","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Exit","1",,"120527185","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Start",,,"120546548","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"e","if __name__ == ""__main__"":
+    from lib.player import *
+    from lib.darkroom import *
+    from lib.action import *
+    from lib.core import *
+    lexeter = lex_init()
+    tick(lexeter, lexeter.world)
+","","0","120849562","Lexeter Source.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"186","120849562","Lexeter Source.py","1.1.2 for 2021-2022 @t1","0"
+"r","Exit","-1073741510",,"121315234","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Start",,,"121316237","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Exit","1",,"121316739","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Start",,,"121350442","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Exit","1",,"121360532","Lexeter.py","1.1.2 for 2021-2022 @t1","0"
+"r","Start",,,"121413026","Lexeter.py","1.1.2 for 2021-2022 @t1","0"

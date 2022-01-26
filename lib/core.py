@@ -42,8 +42,8 @@ def lex_init():
         return load() # <-- returning the loaded save state class instance
     else:
         open('save\\lexeter.txt','w')
-        from lib.player import lexeter
-        lexet = lexeter()
+        from lib.player import Lexeter
+        lexet = Lexeter()
         save(lexet) # <-- saving the save state instance
         return lexet # <-- returning the newly created save state
 

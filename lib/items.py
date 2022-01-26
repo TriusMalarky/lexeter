@@ -1,8 +1,8 @@
 from lib.core import *
 
 
-class stone(core):
-    def __init__(self,debug):
+class Stone(core):
+    def __init__(self, debug):
         self.internalID = 'item-stone'
         self.name = 'stone'
         self.quality = 0
@@ -15,8 +15,9 @@ class stone(core):
         self.debug = debug
         self.rDebug
 
-class branch(core):
-    def __init__(self,debug):
+
+class Branch(core):
+    def __init__(self, debug):
         self.internalID = 'item-branch'
         self.name = 'branch'
         self.quality = 0
@@ -32,8 +33,9 @@ class branch(core):
         self.debug = debug
         self.rDebug
 
-class scrapmetal(core):
-    def __init__(self,debug):
+
+class Scrapmetal(core):
+    def __init__(self, debug):
         self.internalID = 'item-scrapmetal'
         self.name = 'metal scrap'
         self.quality = 0
@@ -50,8 +52,9 @@ class scrapmetal(core):
         self.debug = debug
         self.rDebug
 
-class egg(core):
-    def __init__(self,debug):
+
+class Egg(core):
+    def __init__(self, debug):
         self.internalID = 'item-egg'
         self.name = 'egg'
         self.quality = 2
@@ -65,7 +68,8 @@ class egg(core):
         self.debug = debug
         self.rDebug
 
-class potato(core):
+
+class Potato(core):
     def __init__(self,debug):
         self.internalID = 'item-potato'
         self.name = 'potato'
@@ -81,7 +85,8 @@ class potato(core):
         self.debug = debug
         self.rDebug
 
-class shinystone(core):
+
+class Shinystone(core):
     def __init__(self,debug):
         self.internalID = 'item-shinystone'
         self.name = 'shiny stone'
@@ -94,7 +99,8 @@ class shinystone(core):
         self.debug = debug
         self.rDebug()
 
-class diamond(core):
+
+class Diamond(core):
     def __init__(self,debug):
         self.internalID = 'item-diamond'
         self.name = 'diamond'
@@ -111,7 +117,8 @@ class diamond(core):
         self.debug = debug
         self.rDebug()
 
-class ruby(core):
+
+class Ruby(core):
     def __init__(self,debug):
         self.internalID = 'item-ruby'
         self.name = 'ruby'
@@ -125,7 +132,8 @@ class ruby(core):
         self.debug = debug
         self.rDebug()
 
-class sapphire(core):
+
+class Sapphire(core):
     def __init__(self,debug):
         self.internalID = 'item-sapphire'
         self.name = 'sapphire'
@@ -138,7 +146,8 @@ class sapphire(core):
         self.debug = debug
         self.rDebug()
 
-class emerald(core):
+
+class Emerald(core):
     def __init__(self,debug):
         self.internalID = 'item-emerald'
         self.name = 'emerald'
@@ -153,7 +162,8 @@ class emerald(core):
         self.debug = debug
         self.rDebug()
 
-class opal(core):
+
+class Opal(core):
     def __init__(self,debug):
         self.internalID = 'item-opal'
         self.name = 'opal'
@@ -166,7 +176,8 @@ class opal(core):
         self.debug = debug
         self.rDebug()
 
-class twine(core):
+
+class Twine(core):
     def __init__(self,debug):
         self.internalID = 'item-twine'
         self.name = 'twine'
@@ -177,7 +188,8 @@ class twine(core):
         self.debug = debug
         self.rDebug()
 
-class excalibur(core):
+
+class Excalibur(core):
     def __init__(self,debug):
         self.internalID='item-excalibur'
         self.name = 'Excalibur'
@@ -190,7 +202,8 @@ class excalibur(core):
         self.debug = debug
         self.rDebug()
 
-class crudespear(core):
+
+class Crudespear(core):
     def __init__(self,debug):
         self.internalID='item-crudespear'
         self.name = 'crude spear'
@@ -202,7 +215,8 @@ class crudespear(core):
         self.debug = debug
         self.rDebug()
 
-class item(core):
+
+class Item(core):
     def __init__(self,world):
         self.debug = world.debug
         self.internalID = 'library-items'
@@ -242,22 +256,29 @@ class item(core):
             'crudespear'
         ]
         self.full = self.trash + self.common + self.useful + self.treasure + self.impossible
-        self.stone = stone(self.debug)
-        self.branch = branch(self.debug)
-        self.scrapmetal = scrapmetal(self.debug)
-        self.egg = egg(self.debug)
-        self.shinystone = shinystone(self.debug)
-        self.diamond = diamond(self.debug)
-        self.excalibur = excalibur(self.debug)
-        self.ruby = ruby(self.debug)
-        self.sapphire = sapphire(self.debug)
-        self.emerald = emerald(self.debug)
-        self.opal = opal(self.debug)
-        self.potato = potato(self.debug)
-        self.twine = twine(self.debug)
-        self.crudespear = crudespear(self.debug)
 
-class crudespearRecipe(core):
+        # Generate dictionary for other uses
+        self.dict = {}
+        for i in self.full:
+            self.dict[i] = 0
+
+        self.stone = Stone(self.debug)
+        self.branch = Branch(self.debug)
+        self.scrapmetal = Scrapmetal(self.debug)
+        self.egg = Egg(self.debug)
+        self.shinystone = Shinystone(self.debug)
+        self.diamond = Diamond(self.debug)
+        self.excalibur = Excalibur(self.debug)
+        self.ruby = Ruby(self.debug)
+        self.sapphire = Sapphire(self.debug)
+        self.emerald = Emerald(self.debug)
+        self.opal = Opal(self.debug)
+        self.potato = Potato(self.debug)
+        self.twine = Twine(self.debug)
+        self.crudespear = Crudespear(self.debug)
+
+
+class CrudespearRecipe(core):
     def __init__(self,debug):
         self.internalID = 'recipe-crudespear'
         self.debug = debug
@@ -268,16 +289,18 @@ class crudespearRecipe(core):
             'twine'
         ]
 
+
 class recipes(core):
-    def __init__(self,world):
+    def __init__(self, world):
         self.world = world
         self.debug = self.world.debug
         self.internalID = 'library-crafting'
         self.rDebug()
-        self.crudespearRecipe = crudespearRecipe(self.debug)
+        self.crudespearRecipe = CrudespearRecipe(self.debug)
+
 
 class constructs(core):
-    def __init__(self,world):
+    def __init__(self, world):
         self.world = world
         self.debug = self.world.debug
         self.internalID = 'library-construction'
