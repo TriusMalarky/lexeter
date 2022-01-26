@@ -5714,3 +5714,141 @@ Process finished with exit code 1
 "o","93",," - 3x potato
 ",,"stdout","125106759","0"
 "o","93",,": ",,"stdout","125106759","0"
+"o","93",,"Where would you like to go?
+",,"stdout","125154114","0"
+"o","93",,"marble_6
+",,"stdout","125154114","0"
+"o","93",," - marble_5
+",,"stdout","125154114","0"
+"o","93",," - pond_7
+",,"stdout","125154114","0"
+"o","93",,": ",,"stdout","125154114","0"
+"o","93",,"Moving to pond_7
+",,"stdout","125158170","0"
+"o","93",,"White cobblestones surround a deep blue pond. The room feels slightly mystical.
+",,"stdout","125158170","0"
+"o","93",,": ",,"stdout","125158170","0"
+"o","93",,"What do you want to pick up?
+",,"stdout","125159738","0"
+"o","93",," - all
+",,"stdout","125159738","0"
+"o","93",," - ruby
+",,"stdout","125159738","0"
+"o","93",," - potato
+",,"stdout","125159738","0"
+"o","93",,": ",,"stdout","125159738","0"
+"o","93",,"You picked up ruby
+",,"stdout","125161347","0"
+"o","93",,"You picked up potato
+",,"stdout","125161347","0"
+"o","93",,": ",,"stdout","125161347","0"
+"o","93",,"Where would you like to go?
+",,"stdout","125163038","0"
+"o","93",,"pond_7
+",,"stdout","125163038","0"
+"o","93",," - marble_6
+",,"stdout","125163038","0"
+"o","93",," - shack_8
+",,"stdout","125163038","0"
+"o","93",,": ",,"stdout","125163038","0"
+"o","93",,"Moving to shack_8
+",,"stdout","125166186","0"
+"o","93",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","125166202","0"
+"o","93",,": ",,"stdout","125166202","0"
+"o","93",,"What do you want to pick up?
+",,"stdout","125168056","0"
+"o","93",," - all
+",,"stdout","125168056","0"
+"o","93",," - shinystone
+",,"stdout","125168056","0"
+"o","93",," - shinystone
+",,"stdout","125168056","0"
+"o","93",,": ",,"stdout","125168056","0"
+"o","93",,"You picked up shinystone
+",,"stdout","125170182","0"
+"o","93",,"You picked up shinystone
+",,"stdout","125170182","0"
+"o","93",,": ",,"stdout","125170182","0"
+"o","93",,"You have:
+",,"stdout","125171257","0"
+"o","93",," - 1x branch
+",,"stdout","125171257","0"
+"o","93",," - 2x shiny stone
+",,"stdout","125171257","0"
+"o","93",," - 4x potato
+",,"stdout","125171257","0"
+"o","93",," - 1x ruby
+",,"stdout","125171257","0"
+"o","93",,": ",,"stdout","125171257","0"
+"o","93",,"Traceback (most recent call last):
+",,"stderr","125207294","0"
+"o","93",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 854, in <module>
+",,"stderr","125207294","0"
+"o","93",,"    tick(lexeter,lexeter.world)
+",,"stderr","125207294","0"
+"o","93",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 60, in tick
+",,"stderr","125207294","0"
+"o","93",,"    tick(lexeter,world)
+",,"stderr","125207294","0"
+"o","93",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 60, in tick
+",,"stderr","125207294","0"
+"o","93",,"    tick(lexeter,world)
+",,"stderr","125207294","0"
+"o","93",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 60, in tick
+",,"stderr","125207294","0"
+"o","93",,"    tick(lexeter,world)
+",,"stderr","125207294","0"
+"o","93",,"  [Previous line repeated 11 more times]
+",,"stderr","125207294","0"
+"o","93",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 58, in tick
+",,"stderr","125207294","0"
+"o","93",,"    world.player.act.playeraction()
+",,"stderr","125207294","0"
+"o","93",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 72, in playeraction
+",,"stderr","125207294","0"
+"o","93",,"    resp = input("": "")
+",,"stderr","125207294","0"
+"o","93",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","125207294","0"
+"o","93",,"    def decode(self, input, final=False):
+",,"stderr","125207294","0"
+"o","93",,"KeyboardInterrupt
+",,"stderr","125207294","0"
+"o","93",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","125207294","0"
+"r","94","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"125207456","0"
+"o","94",,": ",,"stdout","125207581","0"
+"o","94",,"Where would you like to go?
+",,"stdout","125209254","0"
+"o","94",,"shack_8
+",,"stdout","125209254","0"
+"o","94",," - pond_7
+",,"stdout","125209254","0"
+"o","94",," - pond_9
+",,"stdout","125209254","0"
+"o","94",,": ",,"stdout","125209254","0"
+"o","94",,"Moving to pond_9
+",,"stdout","125212162","0"
+"o","94",,"A sapphire blue pool sits in the center of the room, surrounded and filled by small flora. The air is refreshing.
+",,"stdout","125212162","0"
+"o","94",,": ",,"stdout","125212178","0"
+"o","94",,"What do you want to pick up?
+",,"stdout","125213652","0"
+"o","94",," - all
+",,"stdout","125213652","0"
+"o","94",," - metal scrap
+",,"stdout","125213652","0"
+"o","94",," - branch
+",,"stdout","125213652","0"
+"o","94",," - shiny stone
+",,"stdout","125213652","0"
+"o","94",,": ",,"stdout","125213652","0"
+"o","94",,"You picked up scrapmetal
+",,"stdout","125215810","0"
+"o","94",,"You picked up branch
+",,"stdout","125215810","0"
+"o","94",,"You picked up shinystone
+",,"stdout","125215810","0"
+"o","94",,": ",,"stdout","125215810","0"

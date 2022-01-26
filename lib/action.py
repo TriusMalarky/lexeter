@@ -190,13 +190,13 @@ class playerAct(core):
                 print("What do you want to pick up?")
                 print(' - all')
                 for i in room.loot:
-                    print(" - " + i)
+                    print(" - " + getattr(self.world.item, i).name)
                 choice = input(": ")
 
                 def loop(choice, room):
                     if choice == 'all':
                         for i in room.loot:
-                            print("You picked up " + i)
+                            print("You picked up " + getattr(self.world.item, i).name)
                         self.player.inventory = self.player.inventory + room.loot
                         room.loot = []
                     elif choice in room.loot:
