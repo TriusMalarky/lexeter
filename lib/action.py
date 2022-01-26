@@ -227,15 +227,18 @@ class playerAct(core):
         print("You have:")
         print(self.world.player.inventory)
         inv = self.world.player.inventory
-        itemList = []#{} + self.world.item.dict
+        itemList = {}
+        itemList.update(self.world.item.dict)
         for i in inv:
-            count = inv.count(i)
-            itemList.append(" - " + str(count) + " " + i)
-        for n in itemList:
-            print(n)
-            for x in itemList:
-                if x == n:
-                    itemList.remove(x)
+            itemList[i] += 1
+        popList = []
+        for i in itemList:
+            if itemList[i] == 0:
+                popList.append(i)
+        for i in popList:
+            itemList.pop(i)
+        for i in itemList:
+            print(" - " + str(itemList[i]) + "x " + i)
 
     def invenalias(self):
         self.inventory()

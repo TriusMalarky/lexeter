@@ -3992,3 +3992,204 @@ Process finished with exit code 1
 "o","73",," - 2 shinystone
 ",,"stdout","121429417","0"
 "o","73",,": ",,"stdout","121429417","0"
+"o","73",,"Traceback (most recent call last):
+",,"stderr","121650646","0"
+"o","73",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 854, in <module>
+",,"stderr","121650646","0"
+"o","73",,"    tick(lexeter,lexeter.world)
+",,"stderr","121650646","0"
+"o","73",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 60, in tick
+",,"stderr","121650646","0"
+"o","73",,"    tick(lexeter,world)
+",,"stderr","121650646","0"
+"o","73",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 60, in tick
+",,"stderr","121650646","0"
+"o","73",,"    tick(lexeter,world)
+",,"stderr","121650646","0"
+"o","73",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 60, in tick
+",,"stderr","121650646","0"
+"o","73",,"    tick(lexeter,world)
+",,"stderr","121650646","0"
+"o","73",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 58, in tick
+",,"stderr","121650646","0"
+"o","73",,"    world.player.act.playeraction()
+",,"stderr","121650646","0"
+"o","73",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 70, in playeraction
+",,"stderr","121650646","0"
+"o","73",,"    resp = input("": "")
+",,"stderr","121650646","0"
+"o","73",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","121650646","0"
+"o","73",,"    def decode(self, input, final=False):
+",,"stderr","121650646","0"
+"o","73",,"KeyboardInterrupt
+",,"stderr","121650646","0"
+"o","73",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","121650646","0"
+"r","74","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"121652681","0"
+"o","74",,": ",,"stdout","121652791","0"
+"o","74",,"You have:
+",,"stdout","121655141","0"
+"o","74",,"Traceback (most recent call last):
+",,"stderr","121655141","0"
+"o","74",,"['ruby', 'potato', 'shinystone', 'shinystone']
+",,"stdout","121655141","0"
+"o","74",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 854, in <module>
+",,"stderr","121655141","0"
+"o","74",,"    tick(lexeter,lexeter.world)
+",,"stderr","121655141","0"
+"o","74",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 58, in tick
+",,"stderr","121655141","0"
+"o","74",,"    world.player.act.playeraction()
+",,"stderr","121655141","0"
+"o","74",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 75, in playeraction
+",,"stderr","121655141","0"
+"o","74",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","121655141","0"
+"o","74",,"  File ""<string>"", line 1, in <module>
+",,"stderr","121655141","0"
+"o","74",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 230, in inventory
+",,"stderr","121655141","0"
+"o","74",,"    itemList = {} + self.world.item.dict
+",,"stderr","121655141","0"
+"o","74",,"TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+",,"stderr","121655141","0"
+"o","74",,"
+Process finished with exit code 1
+",,"system","121655141","0"
+"r","75","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"121743124","0"
+"o","75",,": ",,"stdout","121743200","0"
+"o","75",,"You have:
+",,"stdout","121752278","0"
+"o","75",,"Traceback (most recent call last):
+",,"stderr","121752278","0"
+"o","75",,"['ruby', 'potato', 'shinystone', 'shinystone']
+",,"stdout","121752278","0"
+"o","75",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 854, in <module>
+",,"stderr","121752278","0"
+"o","75",,"    tick(lexeter,lexeter.world)
+",,"stderr","121752278","0"
+"o","75",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 58, in tick
+",,"stderr","121752278","0"
+"o","75",,"    world.player.act.playeraction()
+",,"stderr","121752278","0"
+"o","75",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 75, in playeraction
+",,"stderr","121752278","0"
+"o","75",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","121752278","0"
+"o","75",,"  File ""<string>"", line 1, in <module>
+",,"stderr","121752278","0"
+"o","75",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 235, in inventory
+",,"stderr","121752278","0"
+"o","75",,"    print("" - "" + itemList[i] + ""x "" + i)
+",,"stderr","121752278","0"
+"o","75",,"TypeError: can only concatenate str (not ""int"") to str
+",,"stderr","121752278","0"
+"o","75",,"
+Process finished with exit code 1
+",,"system","121752287","0"
+"r","76","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"121770642","0"
+"o","76",,": ",,"stdout","121770862","0"
+"o","76",,"You have:
+",,"stdout","121777754","0"
+"o","76",,"['ruby', 'potato', 'shinystone', 'shinystone']
+",,"stdout","121777754","0"
+"o","76",," - 0x stone
+",,"stdout","121777754","0"
+"o","76",," - 0x branch
+",,"stdout","121777754","0"
+"o","76",," - 0x scrapmetal
+",,"stdout","121777754","0"
+"o","76",," - 0x twine
+",,"stdout","121777754","0"
+"o","76",," - 2x shinystone
+",,"stdout","121777754","0"
+"o","76",," - 0x egg
+",,"stdout","121777754","0"
+"o","76",," - 1x potato
+",,"stdout","121777754","0"
+"o","76",," - 0x diamond
+",,"stdout","121777754","0"
+"o","76",," - 1x ruby
+",,"stdout","121777754","0"
+"o","76",," - 0x sapphire
+",,"stdout","121777754","0"
+"o","76",," - 0x emerald
+",,"stdout","121777754","0"
+"o","76",," - 0x opal
+",,"stdout","121777754","0"
+"o","76",," - 0x excalibur
+",,"stdout","121777754","0"
+"o","76",,": ",,"stdout","121777754","0"
+"o","76",,"Traceback (most recent call last):
+",,"stderr","121931092","0"
+"o","76",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 854, in <module>
+",,"stderr","121931092","0"
+"o","76",,"    tick(lexeter,lexeter.world)
+",,"stderr","121931092","0"
+"o","76",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 60, in tick
+",,"stderr","121931092","0"
+"o","76",,"    tick(lexeter,world)
+",,"stderr","121931092","0"
+"o","76",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 58, in tick
+",,"stderr","121931092","0"
+"o","76",,"    world.player.act.playeraction()
+",,"stderr","121931092","0"
+"o","76",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 70, in playeraction
+",,"stderr","121931092","0"
+"o","76",,"    resp = input("": "")
+",,"stderr","121931092","0"
+"o","76",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","121931092","0"
+"o","76",,"    def decode(self, input, final=False):
+",,"stderr","121931092","0"
+"o","76",,"KeyboardInterrupt
+",,"stderr","121931092","0"
+"o","76",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","121931092","0"
+"r","77","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"121931244","0"
+"o","77",,": ",,"stdout","121931353","0"
+"o","77",,"Traceback (most recent call last):
+",,"stderr","121933962","0"
+"o","77",,"You have:
+",,"stdout","121933962","0"
+"o","77",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 854, in <module>
+",,"stderr","121933962","0"
+"o","77",,"['ruby', 'potato', 'shinystone', 'shinystone']
+",,"stdout","121933962","0"
+"o","77",,"    tick(lexeter,lexeter.world)
+",,"stderr","121933962","0"
+"o","77",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 58, in tick
+",,"stderr","121933962","0"
+"o","77",,"    world.player.act.playeraction()
+",,"stderr","121933962","0"
+"o","77",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 75, in playeraction
+",,"stderr","121933962","0"
+"o","77",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","121933962","0"
+"o","77",,"  File ""<string>"", line 1, in <module>
+",,"stderr","121933962","0"
+"o","77",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 234, in inventory
+",,"stderr","121933962","0"
+"o","77",,"    for i in itemList:
+",,"stderr","121933962","0"
+"o","77",,"RuntimeError: dictionary changed size during iteration
+",,"stderr","121933962","0"
+"o","77",,"
+Process finished with exit code 1
+",,"system","121933962","0"
+"r","78","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"121984850","0"
+"o","78",,": ",,"stdout","121984978","0"
+"o","78",,"You have:
+",,"stdout","121988148","0"
+"o","78",,"['ruby', 'potato', 'shinystone', 'shinystone']
+",,"stdout","121988148","0"
+"o","78",," - 2x shinystone
+",,"stdout","121988148","0"
+"o","78",," - 1x potato
+",,"stdout","121988148","0"
+"o","78",," - 1x ruby
+",,"stdout","121988148","0"
+"o","78",,": ",,"stdout","121988148","0"
