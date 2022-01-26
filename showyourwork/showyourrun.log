@@ -3705,3 +3705,64 @@ Process finished with exit code 1
 "o","68",," - opal 1
 ",,"stdout","118715208","0"
 "o","68",,": ",,"stdout","118715208","0"
+"o","68",,"Where would you like to go?
+",,"stdout","118778141","0"
+"o","68",,"fractured_2
+",,"stdout","118778141","0"
+"o","68",," - darkroom
+",,"stdout","118778141","0"
+"o","68",," - fractured_4
+",,"stdout","118778141","0"
+"o","68",,": ",,"stdout","118778141","0"
+"o","68",,"Moving to fractured_4
+",,"stdout","118782257","0"
+"o","68",,"",,"stdout","118782257","0"
+"o","68",,"It appears you're inside of a kaleidoscope.
+",,"stdout","118782273","0"
+"o","68",,": ",,"stdout","118782273","0"
+"o","68",,"There's nothing here.
+",,"stdout","118784369","0"
+"o","68",,": ",,"stdout","118784369","0"
+"o","68",,"Where would you like to go?
+",,"stdout","118787660","0"
+"o","68",,"fractured_4
+",,"stdout","118787660","0"
+"o","68",," - fractured_2
+",,"stdout","118787660","0"
+"o","68",," - fractured_5
+",,"stdout","118787660","0"
+"o","68",,": ",,"stdout","118787660","0"
+"o","68",,"Moving to fractured_5
+",,"stdout","118791632","0"
+"o","68",,"It appears you're inside of a kaleidoscope.
+",,"stdout","118791648","0"
+"o","68",,": ",,"stdout","118791648","0"
+"o","68",,"What do you want to pick up?
+",,"stdout","118793243","0"
+"o","68",," - all
+",,"stdout","118793243","0"
+"o","68",," - excalibur
+",,"stdout","118793243","0"
+"o","68",," - opal
+",,"stdout","118793243","0"
+"o","68",," - stone
+",,"stdout","118793243","0"
+"o","68",,": ",,"stdout","118793243","0"
+"o","68",,"You picked up excalibur
+",,"stdout","118795465","0"
+"o","68",,"You picked up opal
+",,"stdout","118795465","0"
+"o","68",,"You picked up stone
+",,"stdout","118795465","0"
+"o","68",,": ",,"stdout","118795465","0"
+"o","68",,"You have:
+",,"stdout","118799148","0"
+"o","68",,"['ruby', 'emerald', 'opal', 'excalibur', 'opal', 'stone']
+",,"stdout","118799148","0"
+"o","68",," - ruby 1
+",,"stdout","118799148","0"
+"o","68",," - opal 2
+",,"stdout","118799148","0"
+"o","68",," - stone 1
+",,"stdout","118799148","0"
+"o","68",,": ",,"stdout","118799148","0"

@@ -53347,3 +53347,586 @@ class playerAct(core):
 "e","]","","6610","118693780","action.py","1.1.2 for 2021-2022 @t1","0"
 "k","[",,"6610","118693780","action.py","1.1.2 for 2021-2022 @t1","0"
 "k","]",,"6611","118693874","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Backspace",,,"118774017","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","                            #self.player.inventory.append(i)
+                            #room.loot.remove(i)","6327","118774023","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Backspace",,,"118774305","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","
+","6327","118774308","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6377","118847926","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"6378","118847926","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6379","118848452","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"6380","118848453","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6163","118850946","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"6164","118850947","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6165","118851715","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"6166","118851716","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6708","118856451","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"6709","118856451","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6710","118857414","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"6711","118857415","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","133","118863411","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"134","118863412","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","135","118864227","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"136","118864227","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","159","118864707","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"160","118864707","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","161","118865155","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"162","118865156","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","191","118868258","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"192","118868259","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","193","118869123","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"194","118869124","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","240","118870787","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"241","118870787","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","242","118872308","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"243","118872308","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","369","118874882","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"370","118874883","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","371","118875619","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"372","118875620","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","381","118878239","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"382","118878240","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","383","118879363","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"384","118879363","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","394","118880867","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"395","118880867","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","396","118881458","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"397","118881458","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","293","118885779","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"294","118885779","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","299","118887555","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"300","118887556","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","422","118890644","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"423","118890644","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","428","118891634","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"429","118891635","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","433","118892579","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"434","118892579","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","514","118894549","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"515","118894549","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","516","118895923","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"517","118895924","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","526","118897123","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"527","118897124","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","528","118897923","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"529","118897923","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","539","118899331","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"540","118899332","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","541","118900323","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"542","118900324","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","546","118901186","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"547","118901187","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","548","118902275","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"549","118902275","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","597","118904227","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"598","118904227","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","599","118904917","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"600","118904918","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","603","118906019","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"604","118906019","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","605","118906642","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"606","118906643","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","662","118909300","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"663","118909300","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","687","118910291","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"688","118910291","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","689","118910771","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"690","118910772","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","718","118912691","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"719","118912691","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","720","118913748","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"721","118913749","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","777","118915384","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"778","118915384","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","779","118916387","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"780","118916387","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","789","118917410","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"790","118917411","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","791","118918882","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"792","118918883","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","798","118920403","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"799","118920404","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","800","118922482","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"801","118922483","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","p","853","118924852","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","853","118924853","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"854","118924853","action.py","1.1.2 for 2021-2022 @t1","0"
+"e",""," ","853","118925323","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","p","","853","118925324","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","853","118926211","action.py","1.1.2 for 2021-2022 @t1","0"
+"k","p",,"855","118926212","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","
+    def playeraction(self):
+        resp = input("": "")
+        found = False
+        for item in self.array:
+            if resp == self.array[item]:
+                found=True
+                exec(""self."" + item + ""()"")
+        if found == False:
+            print(""That's not a possible action. Try again, or use '.h' or 'help' to see the help screen."")
+            self.playeraction()
+    def help(self):
+        clearConsole()
+        for i in self.helparray:
+            print(' - '+i)
+
+    def helpAlias(self):
+        self.help()
+    def moveTo(self):
+        clearConsole()
+        self.rDebug()
+        self.player.rDebug()
+        self.world.rDebug()
+        self.world.map.rDebug()
+        print('Where would you like to go?')
+        room=self.player.room
+        print(room)
+        if int(len(self.world.map.route[room])) < 3: # if there are less than 3 zones
+            ind = len(self.world.map.route) # gets length of map
+            zone = str(random.choice(self.world.zones))
+            newzone = str(zone+""_""+str(ind))
+            self.world.map.route[newzone]=[]
+            self.world.map.route[self.player.room].append(newzone)
+            self.world.map.route[newzone].append(self.player.room)
+            exec(""self.world.map.""+newzone+""=""+zone+""(self.world)"")
+        for i in self.world.map.route[self.player.room]:
+            print("" - "" + i)
+
+        def moveToLoop(self): # <- define loop
+            newloc = input("": "")
+            if newloc in self.world.map.route[self.player.room]:
+                self.player.room = newloc
+                print(""Moving to "" + newloc)
+            else:
+                print(""That's not an option, try again."")
+                moveToLoop(self)
+        moveToLoop(self) # <- run loop
+
+        # Run inspection of room
+        roomtitle = self.world.player.room
+        room = getattr(self.world.map, roomtitle)
+        clearConsole()
+        print(random.choice(room.descriptions))
+
+    def inspect(self):
+        clearConsole()
+        roomtitle = self.world.player.room
+        room = getattr(self.world.map,roomtitle)
+        list = ['room','inventory']
+        for i in room.loot:
+            list.append(i)
+        print(""What do you want to inspect?"")
+        for i in list:
+            print("" - ""+i)
+        def invLoop(world):
+            choice = input("": "")
+            if choice in world.player.inventory:
+                item = getattr(world.item, choice)
+                print(random.choice(item.descriptions))
+            else:
+                invLoop(world)
+        def loop(self,world):
+            choice = input("": "")
+            if choice in list:
+                if choice == 'room':
+                    print(random.choice(room.descriptions))
+                elif choice == 'inventory':
+                    clearConsole()
+                    print(""Inspect an item in inventory:"")
+                    self.inventory()
+                    invLoop(world)
+                else:
+                    item = getattr(world.item,choice)
+                    print(random.choice(item.descriptions))
+            else:
+                print(""That's not an option. Try again."")
+                loop(world)
+        loop(self,self.world)
+    def moveAlias(self):
+        self.moveTo()
+    def inspectAlias(self):
+        self.inspect()
+    def wait(self):
+        clearConsole()
+        array = [
+            'You stand about aimlessly.',
+            'You wait as if you have all the time in the world.',
+            'You waste a few minutes.'
+        ]
+        print(random.choice(array))
+    def waitAlias(self):
+        self.wait()
+    def scream(self):
+        clearConsole()
+        print(""Something screams with you."")
+        self.world.lexeter.achievements.append('scream')
+    def pickup(self):
+        clearConsole()
+        roomtitle = self.world.player.room
+        room = getattr(self.world.map,roomtitle)
+        if hasattr(room,'loot'):
+            if len(room.loot) > 0:
+                print(""What do you want to pick up?"")
+                print(' - all')
+                for i in room.loot:
+                    print("" - "" + i)
+                choice = input("": "")
+                def loop(choice,room):
+                    if choice == 'all':
+                        for i in room.loot:
+                            print(""You picked up "" + i)
+                        self.player.inventory = self.player.inventory + room.loot
+                        room.loot = []
+                    elif choice in room.loot:
+                        room.loot.remove(choice)
+                        self.player.inventory.append(choice)
+                        print(""You picked up "" + choice)
+                    else:
+                        print(""That's not an option, try again."")
+                        loop(input("": ""),room)
+                loop(choice,room)
+            else:
+                print(""There's nothing here."")
+        else:
+            print(""There's nothing here."")
+    def pickupAlias(self):
+        self.pickup()
+    def pickAlias(self):
+        self.pickup()
+    def interact(self):
+        pass
+    def interactAlias(self):
+        self.interact()
+    def inventory(self):
+        clearConsole()
+        print(""You have:"")
+        print(self.world.player.inventory)
+        inv = self.world.player.inventory
+        list = []
+        for i in inv:
+            count = inv.count(i)
+            list.append("" - ""+i+"" ""+str(count))
+        for n in list:
+            print(n)
+            for x in list:
+                if x == n:
+                    list.remove(x)
+    def invenAlias(self):
+        self.inventory()
+    def invAlias(self):
+        self.inventory()","","7756","118926248","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","855","118926248","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","","870","118926248","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","","2040","118926248","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","
+    def playeraction(self):
+        resp = input("": "")
+        found = False
+        for item in self.array:
+            if resp == self.array[item]:
+                found=True
+                exec(""self."" + item + ""()"")
+        if found == False:
+            print(""That's not a possible action. Try again, or use '.h' or 'help' to see the help screen."")
+            self.playeraction()
+    def help(self):
+        clearConsole()
+        for i in self.helparray:
+            print(' - '+i)
+
+    def helpAlias(self):
+        self.help()
+    def moveTo(self):
+        clearConsole()
+        self.rDebug()
+        self.player.rDebug()
+        self.world.rDebug()
+        self.world.map.rDebug()
+        print('Where would you like to go?')
+        room=self.player.room
+        print(room)
+        if int(len(self.world.map.route[room])) < 3: # if there are less than 3 zones
+            ind = len(self.world.map.route) # gets length of map
+            zone = str(random.choice(self.world.zones))
+            newzone = str(zone+""_""+str(ind))
+            self.world.map.route[newzone]=[]
+            self.world.map.route[self.player.room].append(newzone)
+            self.world.map.route[newzone].append(self.player.room)
+            exec(""self.world.map.""+newzone+""=""+zone+""(self.world)"")
+        for i in self.world.map.route[self.player.room]:
+            print("" - "" + i)
+
+        def moveToLoop(self): # <- define loop
+            newloc = input("": "")
+            if newloc in self.world.map.route[self.player.room]:
+                self.player.room = newloc
+                print(""Moving to "" + newloc)
+            else:
+                print(""That's not an option, try again."")
+                moveToLoop(self)
+        moveToLoop(self) # <- run loop
+
+        # Run inspection of room
+        roomtitle = self.world.player.room
+        room = getattr(self.world.map, roomtitle)
+        clearConsole()
+        print(random.choice(room.descriptions))
+
+    def inspect(self):
+        clearConsole()
+        roomtitle = self.world.player.room
+        room = getattr(self.world.map,roomtitle)
+        list = ['room','inventory']
+        for i in room.loot:
+            list.append(i)
+        print(""What do you want to inspect?"")
+        for i in list:
+            print("" - ""+i)
+        def invLoop(world):
+            choice = input("": "")
+            if choice in world.player.inventory:
+                item = getattr(world.item, choice)
+                print(random.choice(item.descriptions))
+            else:
+                invLoop(world)
+        def loop(self,world):
+            choice = input("": "")
+            if choice in list:
+                if choice == 'room':
+                    print(random.choice(room.descriptions))
+                elif choice == 'inventory':
+                    clearConsole()
+                    print(""Inspect an item in inventory:"")
+                    self.inventory()
+                    invLoop(world)
+                else:
+                    item = getattr(world.item,choice)
+                    print(random.choice(item.descriptions))
+            else:
+                print(""That's not an option. Try again."")
+                loop(world)
+        loop(self,self.world)
+    def moveAlias(self):
+        self.moveTo()
+    def inspectAlias(self):
+        self.inspect()
+    def wait(self):
+        clearConsole()
+        array = [
+            'You stand about aimlessly.',
+            'You wait as if you have all the time in the world.',
+            'You waste a few minutes.'
+        ]
+        print(random.choice(array))
+    def waitAlias(self):
+        self.wait()
+    def scream(self):
+        clearConsole()
+        print(""Something screams with you."")
+        self.world.lexeter.achievements.append('scream')
+    def pickup(self):
+        clearConsole()
+        roomtitle = self.world.player.room
+        room = getattr(self.world.map,roomtitle)
+        if hasattr(room,'loot'):
+            if len(room.loot) > 0:
+                print(""What do you want to pick up?"")
+                print(' - all')
+                for i in room.loot:
+                    print("" - "" + i)
+                choice = input("": "")
+                def loop(choice,room):
+                    if choice == 'all':
+                        for i in room.loot:
+                            print(""You picked up "" + i)
+                        self.player.inventory = self.player.inventory + room.loot
+                        room.loot = []
+                    elif choice in room.loot:
+                        room.loot.remove(choice)
+                        self.player.inventory.append(choice)
+                        print(""You picked up "" + choice)
+                    else:
+                        print(""That's not an option, try again."")
+                        loop(input("": ""),room)
+                loop(choice,room)
+            else:
+                print(""There's nothing here."")
+        else:
+            print(""There's nothing here."")
+    def pickupAlias(self):
+        self.pickup()
+    def pickAlias(self):
+        self.pickup()
+    def interact(self):
+        pass
+    def interactAlias(self):
+        self.interact()
+    def inventory(self):
+        clearConsole()
+        print(""You have:"")
+        print(self.world.player.inventory)
+        inv = self.world.player.inventory
+        list = []
+        for i in inv:
+            count = inv.count(i)
+            list.append("" - ""+i+"" ""+str(count))
+        for n in list:
+            print(n)
+            for x in list:
+                if x == n:
+                    list.remove(x)
+    def invenAlias(self):
+        self.inventory()
+    def invAlias(self):
+        self.inventory()","7757","118926248","action.py","1.1.2 for 2021-2022 @t1","0"
+"e",""," ","855","118928614","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","861","118928615","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"862","118928614","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","939","118931459","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"940","118931460","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","941","118932130","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"942","118932131","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","959","118933795","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"960","118933796","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","961","118935076","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"962","118935077","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2062","118939987","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2063","118939988","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2063","118940803","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2064","118940803","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Backspace",,,"118944530","action.py","1.1.2 for 2021-2022 @t1","0"
+"e",""," ","2063","118944532","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2064","118945573","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2065","118945573","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Backspace",,,"118947618","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","",";","2081","118947620","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"118947778","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","
+        ","","2081","118947779","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2275","118952531","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2276","118952531","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2277","118953764","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2278","118953764","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2593","118964867","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2594","118964867","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2595","118966882","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2596","118966883","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2858","118970819","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2859","118970819","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","2860","118971716","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"2861","118971716","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3135","118984677","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3136","118984678","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3137","118985250","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3138","118985251","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3141","118986467","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3142","118986467","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3143","118988372","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3144","118988372","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3195","118990371","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3196","118990371","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3197","118991490","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3198","118991491","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3369","118995108","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3370","118995108","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3371","118995843","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3372","118995843","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3379","118996660","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3380","118996660","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3381","118997571","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3382","118997571","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3385","118998451","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3386","118998451","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3387","118999203","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3388","118999203","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3392","119000387","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3393","119000387","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","3394","119001636","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"3395","119001636","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","4204","119013763","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"4205","119013763","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","4239","119015138","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"4240","119015139","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","4400","119018692","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"4401","119018692","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","4402","119019154","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"4403","119019155","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","5141","119028147","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"5142","119028147","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","5332","119031490","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"5333","119031491","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119042867","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","        
+","","5742","119042869","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119043905","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","        
+","","5697","119043907","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119045217","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","        
+","","5907","119045219","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119048145","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","
+                ","","6333","119048148","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119050146","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","            
+","","7142","119050149","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119052001","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","        
+","","7204","119052003","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119052769","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","        
+","","7260","119052772","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119053522","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","        
+","","7306","119053524","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","    ","7310","119053539","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119054898","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","        
+","","7364","119054900","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119057585","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","                    
+","","7787","119057588","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Enter",,,"119058673","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","        
+","","7859","119058675","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6366","119074386","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"6367","119074387","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","t","5973","119085491","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","T","","5973","119085492","action.py","1.1.2 for 2021-2022 @t1","0"
+"k","T",,"5974","119085492","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","5974","119085523","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","T ","5973","119086147","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","t","","5973","119086148","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","t","5973","119088962","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","T","","5973","119088963","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6042","119088962","action.py","1.1.2 for 2021-2022 @t1","0"
+"k"," ",,"6043","119088963","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","t","6047","119090659","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","T","","6047","119090660","action.py","1.1.2 for 2021-2022 @t1","0"
+"k","T",,"6048","119090660","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","5974","119090676","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6049","119090676","action.py","1.1.2 for 2021-2022 @t1","0"
+"e",""," ","5974","119090676","action.py","1.1.2 for 2021-2022 @t1","0"
+"a","Backspace",,,"119097026","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","T ","6047","119097027","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","t","","6047","119097105","action.py","1.1.2 for 2021-2022 @t1","0"
+"k","t",,"6048","119097106","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6048","119097119","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","t ","6047","119102994","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","T","","6047","119102995","action.py","1.1.2 for 2021-2022 @t1","0"
+"k","T",,"6048","119102995","action.py","1.1.2 for 2021-2022 @t1","0"
+"e"," ","","6048","119103028","action.py","1.1.2 for 2021-2022 @t1","0"
+"e",""," ","6048","119105891","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","        ","7861","119105891","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","                    ","7789","119105892","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","        ","7366","119105892","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","    ","7308","119105893","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","        ","7262","119105893","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","        ","7206","119105893","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","            ","7144","119105894","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","                ","6318","119105895","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","        ","5907","119105895","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","        ","5751","119105896","action.py","1.1.2 for 2021-2022 @t1","0"
+"e","","        ","5697","119105897","action.py","1.1.2 for 2021-2022 @t1","0"
