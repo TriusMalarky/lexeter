@@ -51,7 +51,9 @@ class playerAct(core):
             'interactAlias': 'interact',
             'inventory': '.inv',
             'invenAlias': 'inventory',
-            'invAlias': 'inv'
+            'invAlias': 'inv',
+            'craft': '.c',
+            'craftalias': 'craft'
                     }
 
         self.helparray = [
@@ -225,7 +227,6 @@ class playerAct(core):
     def inventory(self):
         clearConsole()
         print("You have:")
-        print(self.world.player.inventory)
         inv = self.world.player.inventory
         itemList = {}
         itemList.update(self.world.item.dict)
@@ -238,10 +239,36 @@ class playerAct(core):
         for i in popList:
             itemList.pop(i)
         for i in itemList:
-            print(" - " + str(itemList[i]) + "x " + i)
+            print(" - " + str(itemList[i]) + "x " + getattr(self.world.item, i).name)
 
     def invenalias(self):
         self.inventory()
 
     def invalias(self):
         self.inventory()
+
+    def craft(self):
+        craftables = []
+        for i in self.world.recipes.full:
+            if all(x in self.player.inventory for x in getattr(self.world.recipes, i).ingredients):
+                craftables.append(i)
+        if len(craftables) == 0:
+            print("You are unable to craft anything.")
+        else:
+            print("What would you like to craft?")
+            for i in craftables:
+                print(" - " + i)
+
+            def loop(self, craftables):
+                choice = input(": ")
+                if choice in craftables:
+                    self.player.inventory.append(choice)
+                    for i in getattr(self.world.recipes, choice).ingredients:
+                        self.player.inventory.remove(i)
+                    print("You crafted " + getattr(self.world.item, choice).name + "!")
+                else: loop(self, craftables)
+            loop(self, craftables)
+
+
+    def craftalias(self):
+        self.craft()

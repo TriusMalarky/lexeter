@@ -32,7 +32,7 @@ class wmap(core):
         self.rDebug()
         
 class world(core):
-    def __init__(self, age, them, zones, debug, item, lexeter):
+    def __init__(self, age, them, zones, debug, item, recipes, lexeter):
         self.debug=debug;self.them=them;self.zones=zones
         self.lexeter = lexeter
         self.internalID = 'reality-instance'
@@ -47,6 +47,7 @@ class world(core):
         self.characters = characters()
         self.characterlist = []
         self.item = item
+        self.recipes = recipes
         self.map = wmap(self)
         self.map.darkroom = darkroom(self)
         self.map.route = {'darkroom': []}
@@ -81,5 +82,6 @@ class Lexeter(core):
         self.zones = ['pond', 'marble', 'terracotta', 'brickfloor', 'fractured', 'cave', 'canopy', 'cavern', 'shack']
         self.achievements = []
         self.item = Item(self)
-        self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self)
+        self.recipes = Recipes(self)
+        self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self)
 

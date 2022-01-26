@@ -216,6 +216,20 @@ class Crudespear(core):
         self.rDebug()
 
 
+class Slingshot(core):
+    def __init__(self, debug):
+        self.internalID='item-slingshot'
+        self.name = 'slingshot'
+        self.quality = 4
+        self.descriptions = [
+            "Pew Pew!",
+            "What's the shiniest thing you can stick in it?",
+            "Some guy is gonna get shot . . ."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
 class Item(core):
     def __init__(self,world):
         self.debug = world.debug
@@ -236,11 +250,13 @@ class Item(core):
             'twine'
         ]
         self.common = [
-            'shinystone'
+            'shinystone',
+            'branch'
         ]
         self.useful = [
             'egg',
-            'potato'
+            'potato',
+            'twine'
         ]
         self.treasure = [
             'diamond',
@@ -253,13 +269,16 @@ class Item(core):
             'excalibur'
         ]
         self.crafted = [
-            'crudespear'
+            'crudespear',
+            'slingshot'
         ]
         self.full = self.trash + self.common + self.useful + self.treasure + self.impossible
 
         # Generate dictionary for other uses
         self.dict = {}
         for i in self.full:
+            self.dict[i] = 0
+        for i in self.crafted:
             self.dict[i] = 0
 
         self.stone = Stone(self.debug)
@@ -276,10 +295,11 @@ class Item(core):
         self.potato = Potato(self.debug)
         self.twine = Twine(self.debug)
         self.crudespear = Crudespear(self.debug)
+        self.slingshot = Slingshot(self.debug)
 
 
 class CrudespearRecipe(core):
-    def __init__(self,debug):
+    def __init__(self, debug):
         self.internalID = 'recipe-crudespear'
         self.debug = debug
         self.rDebug()
@@ -288,15 +308,34 @@ class CrudespearRecipe(core):
             'branch',
             'twine'
         ]
+        self.result = 'crudespear'
 
 
-class recipes(core):
-    def __init__(self, world):
-        self.world = world
-        self.debug = self.world.debug
+class SlingshotRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-slingshot'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'branch',
+            'twine'
+        ]
+        self.result = 'slingshot'
+
+
+class Recipes(core):
+    def __init__(self, lexeter):
+        self.lexeter = lexeter
+        self.debug = self.lexeter.debug
         self.internalID = 'library-crafting'
         self.rDebug()
-        self.crudespearRecipe = CrudespearRecipe(self.debug)
+        self.crudespear = CrudespearRecipe(self.debug)
+        self.slingshot = SlingshotRecipe(self.debug)
+
+        self.full = [
+            'crudespear',
+            'slingshot'
+        ]
 
 
 class constructs(core):
