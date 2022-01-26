@@ -59,3 +59,4 @@ class darkroom(core):
             "There's not much here.",
             "Where'd everything go?"
         ]
+        self.loot = []

@@ -175,9 +175,11 @@ class playerAct(core):
                 def loop(choice,room):
                     if choice == 'all':
                         for i in room.loot:
-                            self.player.inventory.append(i)
-                            room.loot.remove(i)
+                            #self.player.inventory.append(i)
+                            #room.loot.remove(i)
                             print("You picked up "+i)
+                        self.player.inventory = self.player.inventory + room.loot
+                        room.loot = []
                     elif choice in room.loot:
                         room.loot.remove(choice)
                         self.player.inventory.append(choice)

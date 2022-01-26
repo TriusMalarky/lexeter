@@ -3484,3 +3484,224 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 "o","47",,"[mek] says: ever been to paris?
 ",,"stdout","19420078","1"
 "o","47",,": ",,"stdout","19420078","1"
+"r","3","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"20558219","4"
+"o","3",,"
+Process finished with exit code 1
+",,"system","20558235","4"
+"r","4","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"20572200","4"
+"o","4",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","20572378","4"
+"o","4",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","20572378","4"
+"o","4",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","20572378","4"
+"o","4",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","20572378","4"
+"o","4",,"
+",,"stdout","20572378","4"
+"o","4",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","20575470","4"
+"o","4",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","20575470","4"
+"o","4",,"
+",,"stdout","20575470","4"
+"o","4",,"
+",,"stdout","20575470","4"
+"o","4",,": ",,"stdout","20575470","4"
+"o","4",,"",,"stdout","20577782","4"
+"o","4",,"Where would you like to go?
+",,"stdout","20577798","4"
+"o","4",,"darkroom
+",,"stdout","20577798","4"
+"o","4",," - canopy_0
+",,"stdout","20577798","4"
+"o","4",," - canopy_1
+",,"stdout","20577798","4"
+"o","4",," - cavern_2
+",,"stdout","20577798","4"
+"o","4",,": ",,"stdout","20577798","4"
+"o","4",,"Moving to canopy_0
+",,"stdout","20582055","4"
+"o","4",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","20582055","4"
+"o","4",,": ",,"stdout","20582055","4"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","20591297","4"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 7, in <module>
+",,"stderr","20591297","4"
+"o","4",,"    tick(lexeter,lexeter.world)
+",,"stderr","20591297","4"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 60, in tick
+",,"stderr","20591297","4"
+"o","4",,"    tick(lexeter,world)
+",,"stderr","20591297","4"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 58, in tick
+",,"stderr","20591297","4"
+"o","4",,"    world.player.act.playeraction()
+",,"stderr","20591297","4"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 60, in playeraction
+",,"stderr","20591297","4"
+"o","4",,"    resp = input("": "")
+",,"stderr","20591297","4"
+"o","4",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","20591297","4"
+"o","4",,"    def decode(self, input, final=False):
+",,"stderr","20591297","4"
+"o","4",,"KeyboardInterrupt
+",,"stderr","20591297","4"
+"o","4",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","20591303","4"
+"r","5","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"20592691","4"
+"o","5",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","20592860","4"
+"o","5",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","20592860","4"
+"o","5",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","20592860","4"
+"o","5",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","20592860","4"
+"o","5",,"
+",,"stdout","20592860","4"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","20595136","4"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","20595136","4"
+"o","5",,"    lexeter = lex_init()
+",,"stderr","20595136","4"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 46, in lex_init
+",,"stderr","20595136","4"
+"o","5",,"    lexet = lexeter()
+",,"stderr","20595136","4"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 84, in __init__
+",,"stderr","20595136","4"
+"o","5",,"    self.world=world(self.instances,self.them,self.zones,self.debug,self.item,self)
+",,"stderr","20595136","4"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 46, in __init__
+",,"stderr","20595136","4"
+"o","5",,"    self.player = player(age,them,self,debug)
+",,"stderr","20595136","4"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 21, in __init__
+",,"stderr","20595136","4"
+"o","5",,"    self.name=input("""")
+",,"stderr","20595136","4"
+"o","5",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","20595136","4"
+"o","5",,"    def decode(self, input, final=False):
+",,"stderr","20595136","4"
+"o","5",,"KeyboardInterrupt
+",,"stderr","20595136","4"
+"o","5",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","20595142","4"
+"r","6","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"20597168","4"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","20597350","4"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 6, in <module>
+",,"stderr","20597350","4"
+"o","6",,"    lexeter = lex_init()
+",,"stderr","20597350","4"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 42, in lex_init
+",,"stderr","20597350","4"
+"o","6",,"    return load() # <-- returning the loaded save state class instance
+",,"stderr","20597350","4"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 38, in load
+",,"stderr","20597350","4"
+"o","6",,"    return pickle.load(savefile) # <-- returning loaded save state class instance
+",,"stderr","20597350","4"
+"o","6",,"EOFError: Ran out of input
+",,"stderr","20597350","4"
+"o","6",,"
+Process finished with exit code 1
+",,"system","20597351","4"
+"r","7","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"24167509","4"
+"o","7",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","24168592","4"
+"o","7",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","24168592","4"
+"o","7",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","24168592","4"
+"o","7",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","24168592","4"
+"o","7",,"
+",,"stdout","24168592","4"
+"o","7",,"[#`~<,>_r-kal] : Frank, eh?
+",,"stdout","24172614","4"
+"o","7",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","24172614","4"
+"o","7",,"
+",,"stdout","24172614","4"
+"o","7",,"
+",,"stdout","24172614","4"
+"o","7",,": ",,"stdout","24172614","4"
+"o","7",,"",,"stdout","24175666","4"
+"o","7",,"Traceback (most recent call last):
+",,"stderr","24175669","4"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter.py"", line 854, in <module>
+",,"stderr","24175669","4"
+"o","7",,"    tick(lexeter,lexeter.world)
+",,"stderr","24175669","4"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 58, in tick
+",,"stderr","24175669","4"
+"o","7",,"    world.player.act.playeraction()
+",,"stderr","24175669","4"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 65, in playeraction
+",,"stderr","24175669","4"
+"o","7",,"    exec(""self."" + item + ""()"")
+",,"stderr","24175669","4"
+"o","7",,"  File ""<string>"", line 1, in <module>
+",,"stderr","24175669","4"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 117, in inspect
+",,"stderr","24175669","4"
+"o","7",,"    for i in room.loot:
+",,"stderr","24175669","4"
+"o","7",,"AttributeError: 'darkroom' object has no attribute 'loot'
+",,"stderr","24175669","4"
+"o","7",,"
+Process finished with exit code 1
+",,"system","24175669","4"
+"r","68","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/Lexeter.py",,"PythonRunner",,"118699414","0"
+"o","68",,": ",,"stdout","118699552","0"
+"o","68",,"Where would you like to go?
+",,"stdout","118701670","0"
+"o","68",,"darkroom
+",,"stdout","118701670","0"
+"o","68",," - brickfloor_0
+",,"stdout","118701670","0"
+"o","68",," - brickfloor_1
+",,"stdout","118701670","0"
+"o","68",," - fractured_2
+",,"stdout","118701670","0"
+"o","68",,": ",,"stdout","118701670","0"
+"o","68",,"Moving to fractured_2
+",,"stdout","118707116","0"
+"o","68",,"You have no idea what this room actually looks like.
+",,"stdout","118707132","0"
+"o","68",,": ",,"stdout","118707132","0"
+"o","68",,"What do you want to pick up?
+",,"stdout","118709709","0"
+"o","68",," - all
+",,"stdout","118709709","0"
+"o","68",," - ruby
+",,"stdout","118709709","0"
+"o","68",," - emerald
+",,"stdout","118709709","0"
+"o","68",," - opal
+",,"stdout","118709709","0"
+"o","68",,": ",,"stdout","118709709","0"
+"o","68",,"You picked up ruby
+",,"stdout","118711898","0"
+"o","68",,"You picked up emerald
+",,"stdout","118711898","0"
+"o","68",,"You picked up opal
+",,"stdout","118711898","0"
+"o","68",,": ",,"stdout","118711898","0"
+"o","68",,"You have:
+",,"stdout","118715208","0"
+"o","68",,"['ruby', 'emerald', 'opal']
+",,"stdout","118715208","0"
+"o","68",," - ruby 1
+",,"stdout","118715208","0"
+"o","68",," - opal 1
+",,"stdout","118715208","0"
+"o","68",,": ",,"stdout","118715208","0"
