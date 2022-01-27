@@ -6598,3 +6598,879 @@ Process finished with exit code 1
 "o","8",,"
 Process finished with exit code 1
 ",,"system","1026820","6"
+"r","9","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/lexeter/Lexeter Source.py""",,"PythonRunner",,"1160063","6"
+"o","9",,": ",,"stdout","1160141","6"
+"o","9",,"Traceback (most recent call last):
+",,"stderr","1167339","6"
+"o","9",,"  File ""C:\Users\zacha\Desktop\lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1167339","6"
+"o","9",,"    tick(lexeter, lexeter.world)
+",,"stderr","1167339","6"
+"o","9",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\core.py"", line 58, in tick
+",,"stderr","1167339","6"
+"o","9",,"    world.player.act.playeraction()
+",,"stderr","1167339","6"
+"o","9",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 75, in playeraction
+",,"stderr","1167339","6"
+"o","9",,"    resp = input("": "")
+",,"stderr","1167339","6"
+"o","9",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1167339","6"
+"o","9",,"    def decode(self, input, final=False):
+",,"stderr","1167339","6"
+"o","9",,"KeyboardInterrupt
+",,"stderr","1167339","6"
+"o","9",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1167339","6"
+"r","10","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/lexeter/Lexeter Source.py""",,"PythonRunner",,"1167480","6"
+"o","10",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","1167589","6"
+"o","10",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","1167589","6"
+"o","10",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","1167589","6"
+"o","10",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","1167589","6"
+"o","10",,"
+",,"stdout","1167589","6"
+"o","10",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","1170187","6"
+"o","10",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","1170187","6"
+"o","10",,"
+",,"stdout","1170187","6"
+"o","10",,"
+",,"stdout","1170187","6"
+"o","10",,"[geoflib] says: have ya talked to my twin?
+",,"stdout","1170187","6"
+"o","10",,": ",,"stdout","1170187","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1172786","6"
+"o","10",,"darkroom
+",,"stdout","1172786","6"
+"o","10",," - pond_0
+",,"stdout","1172786","6"
+"o","10",," - marble_1
+",,"stdout","1172786","6"
+"o","10",," - canopy_2
+",,"stdout","1172786","6"
+"o","10",,": ",,"stdout","1172786","6"
+"o","10",,"Moving to pond_0
+",,"stdout","1177088","6"
+"o","10",,"A sapphire blue pool sits in the center of the room, surrounded and filled by small flora. The air is refreshing.
+",,"stdout","1177088","6"
+"o","10",,": ",,"stdout","1177088","6"
+"o","10",,"",,"stdout","1178795","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1178811","6"
+"o","10",," - all
+",,"stdout","1178811","6"
+"o","10",," - potato
+",,"stdout","1178811","6"
+"o","10",," - twine
+",,"stdout","1178811","6"
+"o","10",," - branch
+",,"stdout","1178811","6"
+"o","10",," - twine
+",,"stdout","1178811","6"
+"o","10",,": ",,"stdout","1178811","6"
+"o","10",,"You picked up potato
+",,"stdout","1181730","6"
+"o","10",,"You picked up twine
+",,"stdout","1181730","6"
+"o","10",,"You picked up branch
+",,"stdout","1181730","6"
+"o","10",,"You picked up twine
+",,"stdout","1181730","6"
+"o","10",,": ",,"stdout","1181730","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1183006","6"
+"o","10",,"pond_0
+",,"stdout","1183006","6"
+"o","10",," - darkroom
+",,"stdout","1183006","6"
+"o","10",," - fractured_4
+",,"stdout","1183006","6"
+"o","10",,": ",,"stdout","1183006","6"
+"o","10",,"Moving to fractured_4
+",,"stdout","1186841","6"
+"o","10",,"It appears you're inside of a kaleidoscope.
+",,"stdout","1186857","6"
+"o","10",,": ",,"stdout","1186857","6"
+"o","10",,"There's nothing here.
+",,"stdout","1187882","6"
+"o","10",,": ",,"stdout","1187882","6"
+"o","10",,"",,"stdout","1189164","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1189164","6"
+"o","10",,"fractured_4
+",,"stdout","1189164","6"
+"o","10",," - pond_0
+",,"stdout","1189179","6"
+"o","10",," - terracotta_5
+",,"stdout","1189179","6"
+"o","10",,": ",,"stdout","1189179","6"
+"o","10",,"Moving to terracotta_5
+",,"stdout","1195374","6"
+"o","10",,"The floors and wall appear to be made of smashed, repurposed planter pots.
+",,"stdout","1195374","6"
+"o","10",,": ",,"stdout","1195374","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1196471","6"
+"o","10",," - all
+",,"stdout","1196471","6"
+"o","10",," - twine
+",,"stdout","1196471","6"
+"o","10",," - emerald
+",,"stdout","1196471","6"
+"o","10",," - potato
+",,"stdout","1196471","6"
+"o","10",," - twine
+",,"stdout","1196471","6"
+"o","10",,": ",,"stdout","1196471","6"
+"o","10",,"You picked up twine
+",,"stdout","1198432","6"
+"o","10",,"You picked up emerald
+",,"stdout","1198432","6"
+"o","10",,"You picked up potato
+",,"stdout","1198432","6"
+"o","10",,"You picked up twine
+",,"stdout","1198432","6"
+"o","10",,": ",,"stdout","1198432","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1199619","6"
+"o","10",,"terracotta_5
+",,"stdout","1199619","6"
+"o","10",," - fractured_4
+",,"stdout","1199619","6"
+"o","10",," - brickfloor_6
+",,"stdout","1199619","6"
+"o","10",,": ",,"stdout","1199619","6"
+"o","10",,"Moving to brickfloor_6
+",,"stdout","1204901","6"
+"o","10",,"For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.
+",,"stdout","1204901","6"
+"o","10",,": ",,"stdout","1204901","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1207608","6"
+"o","10",," - all
+",,"stdout","1207608","6"
+"o","10",," - twine
+",,"stdout","1207608","6"
+"o","10",," - metal scrap
+",,"stdout","1207608","6"
+"o","10",," - metal scrap
+",,"stdout","1207608","6"
+"o","10",," - twine
+",,"stdout","1207608","6"
+"o","10",,": ",,"stdout","1207608","6"
+"o","10",,"You picked up twine
+",,"stdout","1209494","6"
+"o","10",,"You picked up metal scrap
+",,"stdout","1209494","6"
+"o","10",,"You picked up metal scrap
+",,"stdout","1209494","6"
+"o","10",,"You picked up twine
+",,"stdout","1209494","6"
+"o","10",,": ",,"stdout","1209494","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1211231","6"
+"o","10",,"brickfloor_6
+",,"stdout","1211231","6"
+"o","10",," - terracotta_5
+",,"stdout","1211231","6"
+"o","10",," - fractured_7
+",,"stdout","1211231","6"
+"o","10",,": ",,"stdout","1211231","6"
+"o","10",,"Moving to fractured_7
+",,"stdout","1215276","6"
+"o","10",,"You have no idea what this room actually looks like.
+",,"stdout","1215276","6"
+"o","10",,": ",,"stdout","1215292","6"
+"o","10",,"There's nothing here.
+",,"stdout","1216025","6"
+"o","10",,": ",,"stdout","1216025","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1217751","6"
+"o","10",,"fractured_7
+",,"stdout","1217751","6"
+"o","10",," - brickfloor_6
+",,"stdout","1217751","6"
+"o","10",," - marble_8
+",,"stdout","1217751","6"
+"o","10",,": ",,"stdout","1217751","6"
+"o","10",,"Moving to marble_8
+",,"stdout","1220792","6"
+"o","10",,"Your footsteps clack on the marbled flooring. The gold engravings on the pillars surrounding you make the room feel regal.
+",,"stdout","1220792","6"
+"o","10",,": ",,"stdout","1220792","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1222205","6"
+"o","10",," - all
+",,"stdout","1222205","6"
+"o","10",," - egg
+",,"stdout","1222205","6"
+"o","10",," - branch
+",,"stdout","1222205","6"
+"o","10",," - potato
+",,"stdout","1222205","6"
+"o","10",,": ",,"stdout","1222205","6"
+"o","10",,"You picked up egg
+",,"stdout","1223861","6"
+"o","10",,"You picked up branch
+",,"stdout","1223861","6"
+"o","10",,"You picked up potato
+",,"stdout","1223861","6"
+"o","10",,": ",,"stdout","1223861","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1225185","6"
+"o","10",,"marble_8
+",,"stdout","1225185","6"
+"o","10",," - fractured_7
+",,"stdout","1225185","6"
+"o","10",," - terracotta_9
+",,"stdout","1225185","6"
+"o","10",,": ",,"stdout","1225185","6"
+"o","10",,"Moving to terracotta_9
+",,"stdout","1230850","6"
+"o","10",,"The floors and wall appear to be made of smashed, repurposed planter pots.
+",,"stdout","1230850","6"
+"o","10",,": ",,"stdout","1230850","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1232778","6"
+"o","10",," - all
+",,"stdout","1232778","6"
+"o","10",," - shiny stone
+",,"stdout","1232778","6"
+"o","10",," - twine
+",,"stdout","1232778","6"
+"o","10",,": ",,"stdout","1232778","6"
+"o","10",,"You picked up shiny stone
+",,"stdout","1234168","6"
+"o","10",,"You picked up twine
+",,"stdout","1234168","6"
+"o","10",,": ",,"stdout","1234168","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1235332","6"
+"o","10",,"terracotta_9
+",,"stdout","1235332","6"
+"o","10",," - marble_8
+",,"stdout","1235332","6"
+"o","10",," - shack_10
+",,"stdout","1235332","6"
+"o","10",,": ",,"stdout","1235332","6"
+"o","10",,"Moving to shack_10
+",,"stdout","1239143","6"
+"o","10",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","1239159","6"
+"o","10",,": ",,"stdout","1239159","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1240422","6"
+"o","10",," - all
+",,"stdout","1240422","6"
+"o","10",," - shiny stone
+",,"stdout","1240422","6"
+"o","10",,": ",,"stdout","1240422","6"
+"o","10",,"You picked up shiny stone
+",,"stdout","1242098","6"
+"o","10",,": ",,"stdout","1242098","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1244638","6"
+"o","10",,"shack_10
+",,"stdout","1244638","6"
+"o","10",," - terracotta_9
+",,"stdout","1244638","6"
+"o","10",," - fractured_11
+",,"stdout","1244638","6"
+"o","10",,": ",,"stdout","1244638","6"
+"o","10",,"Moving to fractured_11
+",,"stdout","1248636","6"
+"o","10",,"You have no idea what this room actually looks like.
+",,"stdout","1248636","6"
+"o","10",,": ",,"stdout","1248652","6"
+"o","10",,"",,"stdout","1249611","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1249626","6"
+"o","10",," - all
+",,"stdout","1249626","6"
+"o","10",," - branch
+",,"stdout","1249626","6"
+"o","10",," - shiny stone
+",,"stdout","1249626","6"
+"o","10",," - potato
+",,"stdout","1249626","6"
+"o","10",,": ",,"stdout","1249626","6"
+"o","10",,"You picked up branch
+",,"stdout","1251570","6"
+"o","10",,"You picked up shiny stone
+",,"stdout","1251570","6"
+"o","10",,"You picked up potato
+",,"stdout","1251570","6"
+"o","10",,": ",,"stdout","1251570","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1252405","6"
+"o","10",,"fractured_11
+",,"stdout","1252405","6"
+"o","10",," - shack_10
+",,"stdout","1252405","6"
+"o","10",," - marble_12
+",,"stdout","1252405","6"
+"o","10",,": ",,"stdout","1252405","6"
+"o","10",,"Moving to marble_12
+",,"stdout","1255753","6"
+"o","10",,"Your footsteps clack on the marbled flooring. The gold engravings on the pillars surrounding you make the room feel regal.
+",,"stdout","1255769","6"
+"o","10",,": ",,"stdout","1255769","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1257137","6"
+"o","10",," - all
+",,"stdout","1257137","6"
+"o","10",," - twine
+",,"stdout","1257137","6"
+"o","10",," - egg
+",,"stdout","1257137","6"
+"o","10",," - egg
+",,"stdout","1257137","6"
+"o","10",," - twine
+",,"stdout","1257137","6"
+"o","10",,": ",,"stdout","1257137","6"
+"o","10",,"You picked up twine
+",,"stdout","1258583","6"
+"o","10",,"You picked up egg
+",,"stdout","1258583","6"
+"o","10",,"You picked up egg
+",,"stdout","1258583","6"
+"o","10",,"You picked up twine
+",,"stdout","1258583","6"
+"o","10",,": ",,"stdout","1258583","6"
+"o","10",,"You have:
+",,"stdout","1259379","6"
+"o","10",," - 3x branch
+",,"stdout","1259379","6"
+"o","10",," - 2x metal scrap
+",,"stdout","1259379","6"
+"o","10",," - 9x twine
+",,"stdout","1259379","6"
+"o","10",," - 3x shiny stone
+",,"stdout","1259379","6"
+"o","10",," - 3x egg
+",,"stdout","1259379","6"
+"o","10",," - 4x potato
+",,"stdout","1259379","6"
+"o","10",," - 1x emerald
+",,"stdout","1259379","6"
+"o","10",,": ",,"stdout","1259379","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1264305","6"
+"o","10",,"marble_12
+",,"stdout","1264305","6"
+"o","10",," - fractured_11
+",,"stdout","1264305","6"
+"o","10",," - cavern_13
+",,"stdout","1264305","6"
+"o","10",,": ",,"stdout","1264306","6"
+"o","10",,"Moving to cavern_13
+",,"stdout","1268361","6"
+"o","10",,"You look up and wonder where the top is. Then you look into a hole and wonder where the bottom is.
+",,"stdout","1268382","6"
+"o","10",,": ",,"stdout","1268382","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1269373","6"
+"o","10",," - all
+",,"stdout","1269373","6"
+"o","10",," - branch
+",,"stdout","1269373","6"
+"o","10",,": ",,"stdout","1269373","6"
+"o","10",,"You picked up branch
+",,"stdout","1271340","6"
+"o","10",,": ",,"stdout","1271340","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1273064","6"
+"o","10",,"cavern_13
+",,"stdout","1273064","6"
+"o","10",," - marble_12
+",,"stdout","1273064","6"
+"o","10",," - fractured_14
+",,"stdout","1273064","6"
+"o","10",,": ",,"stdout","1273064","6"
+"o","10",,"Moving to fractured_14
+",,"stdout","1277002","6"
+"o","10",,"You have no idea what this room actually looks like.
+",,"stdout","1277017","6"
+"o","10",,": ",,"stdout","1277017","6"
+"o","10",,"There's nothing here.
+",,"stdout","1278669","6"
+"o","10",,": ",,"stdout","1278684","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1282663","6"
+"o","10",,"fractured_14
+",,"stdout","1282663","6"
+"o","10",," - cavern_13
+",,"stdout","1282663","6"
+"o","10",," - terracotta_15
+",,"stdout","1282663","6"
+"o","10",,": ",,"stdout","1282663","6"
+"o","10",,"Moving to terracotta_15
+",,"stdout","1288039","6"
+"o","10",,"The floors and wall appear to be made of smashed, repurposed planter pots.
+",,"stdout","1288039","6"
+"o","10",,": ",,"stdout","1288039","6"
+"o","10",,"There's nothing here.
+",,"stdout","1290489","6"
+"o","10",,": ",,"stdout","1290489","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1292582","6"
+"o","10",,"terracotta_15
+",,"stdout","1292582","6"
+"o","10",," - fractured_14
+",,"stdout","1292582","6"
+"o","10",," - pond_16
+",,"stdout","1292582","6"
+"o","10",,": ",,"stdout","1292582","6"
+"o","10",,"Moving to pond_16
+",,"stdout","1295766","6"
+"o","10",,"White cobblestones surround a deep blue pond. The room feels slightly mystical.
+",,"stdout","1295782","6"
+"o","10",,": ",,"stdout","1295782","6"
+"o","10",,"",,"stdout","1297211","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1297227","6"
+"o","10",," - all
+",,"stdout","1297227","6"
+"o","10",," - twine
+",,"stdout","1297227","6"
+"o","10",," - diamond
+",,"stdout","1297227","6"
+"o","10",," - egg
+",,"stdout","1297227","6"
+"o","10",," - branch
+",,"stdout","1297227","6"
+"o","10",,": ",,"stdout","1297227","6"
+"o","10",,"You picked up twine
+",,"stdout","1298466","6"
+"o","10",,"You picked up diamond
+",,"stdout","1298466","6"
+"o","10",,"You picked up egg
+",,"stdout","1298466","6"
+"o","10",,"You picked up branch
+",,"stdout","1298466","6"
+"o","10",,": ",,"stdout","1298466","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1299374","6"
+"o","10",,"pond_16
+",,"stdout","1299374","6"
+"o","10",," - terracotta_15
+",,"stdout","1299374","6"
+"o","10",," - cave_17
+",,"stdout","1299374","6"
+"o","10",,": ",,"stdout","1299374","6"
+"o","10",,"Moving to cave_17
+",,"stdout","1302399","6"
+"o","10",,"Drip. Drip. Drip. It's a cave, all right.
+",,"stdout","1302415","6"
+"o","10",,": ",,"stdout","1302415","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1303611","6"
+"o","10",," - all
+",,"stdout","1303611","6"
+"o","10",," - metal scrap
+",,"stdout","1303611","6"
+"o","10",," - Excalibur
+",,"stdout","1303611","6"
+"o","10",," - shiny stone
+",,"stdout","1303611","6"
+"o","10",,": ",,"stdout","1303611","6"
+"o","10",,"You picked up metal scrap
+",,"stdout","1304956","6"
+"o","10",,"You picked up Excalibur
+",,"stdout","1304956","6"
+"o","10",,"You picked up shiny stone
+",,"stdout","1304956","6"
+"o","10",,": ",,"stdout","1304956","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1306680","6"
+"o","10",,"cave_17
+",,"stdout","1306680","6"
+"o","10",," - pond_16
+",,"stdout","1306680","6"
+"o","10",," - shack_18
+",,"stdout","1306680","6"
+"o","10",,": ",,"stdout","1306680","6"
+"o","10",,"Moving to shack_18
+",,"stdout","1309607","6"
+"o","10",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","1309607","6"
+"o","10",,": ",,"stdout","1309607","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1310517","6"
+"o","10",," - all
+",,"stdout","1310517","6"
+"o","10",," - branch
+",,"stdout","1310517","6"
+"o","10",," - branch
+",,"stdout","1310517","6"
+"o","10",," - twine
+",,"stdout","1310517","6"
+"o","10",," - shiny stone
+",,"stdout","1310517","6"
+"o","10",,": ",,"stdout","1310517","6"
+"o","10",,"You picked up branch
+",,"stdout","1312004","6"
+"o","10",,"You picked up branch
+",,"stdout","1312004","6"
+"o","10",,"You picked up twine
+",,"stdout","1312004","6"
+"o","10",,"You picked up shiny stone
+",,"stdout","1312004","6"
+"o","10",,": ",,"stdout","1312004","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1313334","6"
+"o","10",,"shack_18
+",,"stdout","1313334","6"
+"o","10",," - cave_17
+",,"stdout","1313334","6"
+"o","10",," - fractured_19
+",,"stdout","1313334","6"
+"o","10",,": ",,"stdout","1313334","6"
+"o","10",,"Moving to fractured_19
+",,"stdout","1318491","6"
+"o","10",,"You have no idea what this room actually looks like.
+",,"stdout","1318491","6"
+"o","10",,": ",,"stdout","1318491","6"
+"o","10",,"There's nothing here.
+",,"stdout","1319791","6"
+"o","10",,": ",,"stdout","1319791","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1321339","6"
+"o","10",,"fractured_19
+",,"stdout","1321339","6"
+"o","10",," - shack_18
+",,"stdout","1321339","6"
+"o","10",," - terracotta_20
+",,"stdout","1321339","6"
+"o","10",,": ",,"stdout","1321339","6"
+"o","10",,"Moving to terracotta_20
+",,"stdout","1325216","6"
+"o","10",,"The floors and wall appear to be made of smashed, repurposed planter pots.
+",,"stdout","1325216","6"
+"o","10",,": ",,"stdout","1325216","6"
+"o","10",,"There's nothing here.
+",,"stdout","1326263","6"
+"o","10",,": ",,"stdout","1326263","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1327773","6"
+"o","10",,"terracotta_20
+",,"stdout","1327773","6"
+"o","10",," - fractured_19
+",,"stdout","1327773","6"
+"o","10",," - cave_21
+",,"stdout","1327773","6"
+"o","10",,": ",,"stdout","1327773","6"
+"o","10",,"Moving to cave_21
+",,"stdout","1330911","6"
+"o","10",,"Drip. Drip. Drip. It's a cave, all right.
+",,"stdout","1330927","6"
+"o","10",,": ",,"stdout","1330927","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1331598","6"
+"o","10",," - all
+",,"stdout","1331598","6"
+"o","10",," - branch
+",,"stdout","1331598","6"
+"o","10",,": ",,"stdout","1331598","6"
+"o","10",,"You picked up branch
+",,"stdout","1333229","6"
+"o","10",,": ",,"stdout","1333229","6"
+"o","10",,"",,"stdout","1334320","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1334336","6"
+"o","10",,"cave_21
+",,"stdout","1334336","6"
+"o","10",," - terracotta_20
+",,"stdout","1334336","6"
+"o","10",," - terracotta_22
+",,"stdout","1334336","6"
+"o","10",,": ",,"stdout","1334336","6"
+"o","10",,"Moving to terracotta_22
+",,"stdout","1338906","6"
+"o","10",,"",,"stdout","1338906","6"
+"o","10",,"The floors and wall appear to be made of smashed, repurposed planter pots.
+",,"stdout","1338921","6"
+"o","10",,": ",,"stdout","1338921","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1339924","6"
+"o","10",," - all
+",,"stdout","1339924","6"
+"o","10",," - shiny stone
+",,"stdout","1339924","6"
+"o","10",,": ",,"stdout","1339924","6"
+"o","10",,"You picked up shiny stone
+",,"stdout","1341000","6"
+"o","10",,": ",,"stdout","1341000","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1342380","6"
+"o","10",,"terracotta_22
+",,"stdout","1342380","6"
+"o","10",," - cave_21
+",,"stdout","1342380","6"
+"o","10",," - shack_23
+",,"stdout","1342380","6"
+"o","10",,": ",,"stdout","1342380","6"
+"o","10",,"Moving to shack_23
+",,"stdout","1345058","6"
+"o","10",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","1345080","6"
+"o","10",,": ",,"stdout","1345080","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1346071","6"
+"o","10",," - all
+",,"stdout","1346071","6"
+"o","10",," - branch
+",,"stdout","1346071","6"
+"o","10",,": ",,"stdout","1346071","6"
+"o","10",,"You picked up branch
+",,"stdout","1347822","6"
+"o","10",,": ",,"stdout","1347822","6"
+"o","10",,"",,"stdout","1348729","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1348745","6"
+"o","10",,"shack_23
+",,"stdout","1348745","6"
+"o","10",," - terracotta_22
+",,"stdout","1348745","6"
+"o","10",," - cavern_24
+",,"stdout","1348745","6"
+"o","10",,": ",,"stdout","1348745","6"
+"o","10",,"Moving to cavern_24
+",,"stdout","1352527","6"
+"o","10",,"You look up and wonder where the top is. Then you look into a hole and wonder where the bottom is.
+",,"stdout","1352543","6"
+"o","10",,": ",,"stdout","1352543","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1353934","6"
+"o","10",," - all
+",,"stdout","1353934","6"
+"o","10",," - shiny stone
+",,"stdout","1353934","6"
+"o","10",,": ",,"stdout","1353934","6"
+"o","10",,"You picked up shiny stone
+",,"stdout","1355083","6"
+"o","10",,": ",,"stdout","1355083","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1356661","6"
+"o","10",,"cavern_24
+",,"stdout","1356661","6"
+"o","10",," - shack_23
+",,"stdout","1356661","6"
+"o","10",," - canopy_25
+",,"stdout","1356661","6"
+"o","10",,": ",,"stdout","1356661","6"
+"o","10",,"Moving to canopy_25
+",,"stdout","1361602","6"
+"o","10",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","1361618","6"
+"o","10",,": ",,"stdout","1361618","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1362635","6"
+"o","10",," - all
+",,"stdout","1362635","6"
+"o","10",," - shiny stone
+",,"stdout","1362635","6"
+"o","10",," - diamond
+",,"stdout","1362635","6"
+"o","10",," - branch
+",,"stdout","1362635","6"
+"o","10",,": ",,"stdout","1362635","6"
+"o","10",,"You picked up shiny stone
+",,"stdout","1363958","6"
+"o","10",,"You picked up diamond
+",,"stdout","1363958","6"
+"o","10",,"You picked up branch
+",,"stdout","1363958","6"
+"o","10",,": ",,"stdout","1363958","6"
+"o","10",,"You are unable to build anything.
+",,"stdout","1366842","6"
+"o","10",,": ",,"stdout","1366842","6"
+"o","10",,"",,"stdout","1369243","6"
+"o","10",,"Where would you like to go?
+",,"stdout","1369259","6"
+"o","10",,"canopy_25
+",,"stdout","1369259","6"
+"o","10",," - cavern_24
+",,"stdout","1369259","6"
+"o","10",," - brickfloor_26
+",,"stdout","1369259","6"
+"o","10",,": ",,"stdout","1369259","6"
+"o","10",,"Moving to brickfloor_26
+",,"stdout","1375694","6"
+"o","10",,"For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.
+",,"stdout","1375694","6"
+"o","10",,": ",,"stdout","1375694","6"
+"o","10",,"What do you want to pick up?
+",,"stdout","1377179","6"
+"o","10",," - all
+",,"stdout","1377179","6"
+"o","10",," - metal scrap
+",,"stdout","1377179","6"
+"o","10",," - stone
+",,"stdout","1377179","6"
+"o","10",,": ",,"stdout","1377179","6"
+"o","10",,"You picked up metal scrap
+",,"stdout","1378338","6"
+"o","10",,"You picked up stone
+",,"stdout","1378338","6"
+"o","10",,": ",,"stdout","1378338","6"
+"o","10",,"What would you like to build?
+",,"stdout","1380764","6"
+"o","10",," - campfire
+",,"stdout","1380764","6"
+"o","10",,": ",,"stdout","1380764","6"
+"o","10",,"Traceback (most recent call last):
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1383187","6"
+"o","10",,"    tick(lexeter, lexeter.world)
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\core.py"", line 60, in tick
+",,"stderr","1383187","6"
+"o","10",,"    tick(lexeter,world)
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\core.py"", line 60, in tick
+",,"stderr","1383187","6"
+"o","10",,"    tick(lexeter,world)
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\core.py"", line 60, in tick
+",,"stderr","1383187","6"
+"o","10",,"    tick(lexeter,world)
+",,"stderr","1383187","6"
+"o","10",,"  [Previous line repeated 47 more times]
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\core.py"", line 58, in tick
+",,"stderr","1383187","6"
+"o","10",,"    world.player.act.playeraction()
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 80, in playeraction
+",,"stderr","1383187","6"
+"o","10",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","1383187","6"
+"o","10",,"  File ""<string>"", line 1, in <module>
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 304, in buildalias
+",,"stderr","1383187","6"
+"o","10",,"    self.build()
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 301, in build
+",,"stderr","1383187","6"
+"o","10",,"    loop(self, craftables)
+",,"stderr","1383187","6"
+"o","10",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 297, in loop
+",,"stderr","1383187","6"
+"o","10",,"    print(""You built "" + getattr(self.world.cunstructs, choice).name + ""!"")
+",,"stderr","1383187","6"
+"o","10",,"AttributeError: 'world' object has no attribute 'cunstructs'. Did you mean: 'constructs'?
+",,"stderr","1383187","6"
+"o","10",,"
+Process finished with exit code 1
+",,"system","1383187","6"
+"r","11","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/lexeter/Lexeter Source.py""",,"PythonRunner",,"1413254","6"
+"o","11",,": ",,"stdout","1413316","6"
+"o","11",,"What would you like to build?
+",,"stdout","1417737","6"
+"o","11",," - campfire
+",,"stdout","1417737","6"
+"o","11",,": ",,"stdout","1417737","6"
+"o","11",,"Traceback (most recent call last):
+",,"stderr","1420604","6"
+"o","11",,"  File ""C:\Users\zacha\Desktop\lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1420604","6"
+"o","11",,"    tick(lexeter, lexeter.world)
+",,"stderr","1420604","6"
+"o","11",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\core.py"", line 58, in tick
+",,"stderr","1420604","6"
+"o","11",,"    world.player.act.playeraction()
+",,"stderr","1420604","6"
+"o","11",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 80, in playeraction
+",,"stderr","1420604","6"
+"o","11",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","1420604","6"
+"o","11",,"  File ""<string>"", line 1, in <module>
+",,"stderr","1420604","6"
+"o","11",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 304, in buildalias
+",,"stderr","1420604","6"
+"o","11",,"    self.build()
+",,"stderr","1420604","6"
+"o","11",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 301, in build
+",,"stderr","1420604","6"
+"o","11",,"    loop(self, craftables)
+",,"stderr","1420604","6"
+"o","11",,"  File ""C:\Users\zacha\Desktop\lexeter\lib\action.py"", line 297, in loop
+",,"stderr","1420604","6"
+"o","11",,"    print(""You built "" + getattr(self.world.constructs, choice).name + ""!"")
+",,"stderr","1420604","6"
+"o","11",,"AttributeError: 'Campfire' object has no attribute 'name'
+",,"stderr","1420604","6"
+"o","11",,"
+Process finished with exit code 1
+",,"system","1420604","6"
+"r","12","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/lexeter/Lexeter Source.py""",,"PythonRunner",,"1477809","6"
+"o","12",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","1477887","6"
+"o","12",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","1477887","6"
+"o","12",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","1477887","6"
+"o","12",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","1477887","6"
+"o","12",,"
+",,"stdout","1477887","6"
+"o","12",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","1480876","6"
+"o","12",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","1480876","6"
+"o","12",,"
+",,"stdout","1480876","6"
+"o","12",,"
+",,"stdout","1480876","6"
+"o","12",,": ",,"stdout","1480876","6"
+"o","12",,"Where would you like to go?
+",,"stdout","1483187","6"
+"o","12",,"darkroom
+",,"stdout","1483187","6"
+"o","12",," - brickfloor_0
+",,"stdout","1483187","6"
+"o","12",," - brickfloor_1
+",,"stdout","1483187","6"
+"o","12",," - brickfloor_2
+",,"stdout","1483187","6"
+"o","12",,": ",,"stdout","1483187","6"
+"o","12",,"Moving to brickfloor_0
+",,"stdout","1488563","6"
+"o","12",,"For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.
+",,"stdout","1488563","6"
+"o","12",,": ",,"stdout","1488563","6"
+"o","12",,"What do you want to pick up?
+",,"stdout","1490085","6"
+"o","12",," - all
+",,"stdout","1490085","6"
+"o","12",," - stone
+",,"stdout","1490085","6"
+"o","12",," - branch
+",,"stdout","1490085","6"
+"o","12",,": ",,"stdout","1490085","6"
+"o","12",,"You picked up stone
+",,"stdout","1492116","6"
+"o","12",,"You picked up branch
+",,"stdout","1492116","6"
+"o","12",,": ",,"stdout","1492116","6"
+"o","12",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","1493837","6"
+"o","12",,": ",,"stdout","1493837","6"
+"o","12",,"What would you like to build?
+",,"stdout","1495422","6"
+"o","12",," - campfire
+",,"stdout","1495422","6"
+"o","12",,": ",,"stdout","1495422","6"
+"o","12",,"You built campfire!
+",,"stdout","1497658","6"
+"o","12",,": ",,"stdout","1497658","6"

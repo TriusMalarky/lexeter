@@ -348,6 +348,7 @@ class Campfire(core):
             'stone'
         ]
         self.result = 'campfire'
+        self.name = 'campfire'
 
 
 class Constructs(core):

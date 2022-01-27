@@ -1,6 +1,7 @@
 from lib.core import *
 import random
 from lib.biome import *
+from lib.items import *
 
 
 class act(core):
@@ -292,9 +293,10 @@ class playerAct(core):
                 choice = input(": ")
                 if choice in craftables:
                     getattr(self.world.map,self.player.room).buildings.append(choice)
+                    exec("getattr(self.world.map, self.player.room)." + choice + " = choice(False)")
                     for i in getattr(self.world.constructs, choice).ingredients:
                         self.player.inventory.remove(i)
-                    print("You built " + getattr(self.world.cunstructs, choice).name + "!")
+                    print("You built a " + getattr(self.world.constructs, choice).name + "!")
                 else:
                     loop(self, craftables)
 

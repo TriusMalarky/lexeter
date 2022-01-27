@@ -113,6 +113,7 @@ class cave(corebiome):
             "Drip. Drip. Drip. It's a cave, all right."
         ]
         self.loot = self.loottable(1)
+        self.loot.append('stone')
         self.debug = world.debug
         self.rDebug()
         self.buildings = []
