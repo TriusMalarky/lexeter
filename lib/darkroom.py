@@ -60,3 +60,4 @@ class darkroom(core):
             "Where'd everything go?"
         ]
         self.loot = []
+        self.buildings = []

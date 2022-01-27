@@ -53,13 +53,16 @@ class playerAct(core):
             'invenAlias': 'inventory',
             'invAlias': 'inv',
             'craft': '.c',
-            'craftalias': 'craft'
+            'craftalias': 'craft',
+            'build': '.b',
+            'buildAlias': 'build'
                     }
 
         self.helparray = [
             'Help: Shows help screen. | .h, help',
             'Move: Move to another room. | .m, move',
             "Pickup: Pick an item up. | .p, pick, pickup",
+            "Craft: Turn your items into another item. | .c, craft",
             "Interact: Interact with an object. | .in, interact",
             'Inspect: Look at the current room and its contents. | .i, inspect',
             'Inventory: Take inventory, see what you have in your pockets. | .inv, inv, inventory',
@@ -272,3 +275,30 @@ class playerAct(core):
 
     def craftalias(self):
         self.craft()
+
+    def build(self):
+        craftables = []
+        for i in self.world.constructs.full:
+            if all(x in self.player.inventory for x in getattr(self.world.constructs, i).ingredients):
+                craftables.append(i)
+        if len(craftables) == 0:
+            print("You are unable to build anything.")
+        else:
+            print("What would you like to build?")
+            for i in craftables:
+                print(" - " + i)
+
+            def loop(self, craftables):
+                choice = input(": ")
+                if choice in craftables:
+                    getattr(self.world.map,self.player.room).buildings.append(choice)
+                    for i in getattr(self.world.constructs, choice).ingredients:
+                        self.player.inventory.remove(i)
+                    print("You built " + getattr(self.world.cunstructs, choice).name + "!")
+                else:
+                    loop(self, craftables)
+
+            loop(self, craftables)
+
+    def buildalias(self):
+        self.build()

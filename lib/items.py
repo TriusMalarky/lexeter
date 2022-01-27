@@ -338,9 +338,25 @@ class Recipes(core):
         ]
 
 
-class constructs(core):
+class Campfire(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-campfire'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'branch',
+            'stone'
+        ]
+        self.result = 'campfire'
+
+
+class Constructs(core):
     def __init__(self, world):
         self.world = world
         self.debug = self.world.debug
         self.internalID = 'library-construction'
         self.rDebug()
+        self.campfire = Campfire(self.debug)
+        self.full = [
+            'campfire'
+        ]

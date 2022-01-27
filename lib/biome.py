@@ -1,9 +1,12 @@
 from lib.core import *
 import random
 
+
 class corebiome(core):
     def __init__(self):
         self.internalID = 'biome-core'
+        self.buildings = []
+
     def genList(self,trash,common,useful,treasure,impossible):
         list = []
         for i in range(trash):
@@ -17,6 +20,7 @@ class corebiome(core):
         for i in range(impossible):
             list.append(random.choice(self.world.item.impossible))
         return list
+
     def loottable(self, quality):
         if quality == 0:
             list = self.genList(99,15,7,3,1)
@@ -34,7 +38,6 @@ class corebiome(core):
         return loot
 
 
-
 class pond(corebiome):
     def __init__(self,world):
         self.world = world
@@ -46,6 +49,8 @@ class pond(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
+
 
 class marble(corebiome):
     def __init__(self,world):
@@ -57,6 +62,8 @@ class marble(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
+
 
 class terracotta(corebiome):
     def __init__(self,world):
@@ -68,6 +75,8 @@ class terracotta(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
+
 
 class brickfloor(corebiome):
     def __init__(self,world):
@@ -79,6 +88,8 @@ class brickfloor(corebiome):
         self.loot = self.loottable(0)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
+
 
 class fractured(corebiome):
     def __init__(self, world):
@@ -91,6 +102,8 @@ class fractured(corebiome):
         self.loot = self.loottable(3)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
+
 
 class cave(corebiome):
     def __init__(self,world):
@@ -102,6 +115,8 @@ class cave(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
+
 
 class canopy(corebiome):
     def __init__(self,world):
@@ -113,6 +128,8 @@ class canopy(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
+
 
 class cavern(corebiome):
     def __init__(self,world):
@@ -124,6 +141,8 @@ class cavern(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
+
 
 class shack(corebiome):
     def __init__(self,world):
@@ -135,3 +154,4 @@ class shack(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = []
