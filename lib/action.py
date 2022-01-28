@@ -254,7 +254,7 @@ class playerAct(core):
     def craft(self):
         craftables = []
         for i in self.world.recipes.full:
-            if all(x in self.player.inventory for x in getattr(self.world.recipes, i).ingredients):
+            if all(x in self.player.inventory for x in getattr(self.world.recipes, i).ingredients) and getattr(self.world.recipes, i).station in getattr(self.world.map, self.player.room).buildings:
                 craftables.append(i)
         if len(craftables) == 0:
             print("You are unable to craft anything.")
@@ -293,7 +293,7 @@ class playerAct(core):
                 choice = input(": ")
                 if choice in craftables:
                     getattr(self.world.map,self.player.room).buildings.append(choice)
-                    exec("getattr(self.world.map, self.player.room)." + choice + " = choice(False)")
+                    #exec("getattr(self.world.map, self.player.room)." + choice + " = choice(False)")
                     for i in getattr(self.world.constructs, choice).ingredients:
                         self.player.inventory.remove(i)
                     print("You built a " + getattr(self.world.constructs, choice).name + "!")

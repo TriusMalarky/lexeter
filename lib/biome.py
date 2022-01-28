@@ -49,7 +49,7 @@ class pond(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']
 
 
 class marble(corebiome):
@@ -62,7 +62,7 @@ class marble(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']
 
 
 class terracotta(corebiome):
@@ -75,7 +75,7 @@ class terracotta(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']
 
 
 class brickfloor(corebiome):
@@ -88,7 +88,7 @@ class brickfloor(corebiome):
         self.loot = self.loottable(0)
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']
 
 
 class fractured(corebiome):
@@ -102,7 +102,7 @@ class fractured(corebiome):
         self.loot = self.loottable(3)
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']
 
 
 class cave(corebiome):
@@ -116,7 +116,7 @@ class cave(corebiome):
         self.loot.append('stone')
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']
 
 
 class canopy(corebiome):
@@ -129,7 +129,7 @@ class canopy(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']
 
 
 class cavern(corebiome):
@@ -142,7 +142,7 @@ class cavern(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']
 
 
 class shack(corebiome):
@@ -155,4 +155,4 @@ class shack(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
-        self.buildings = []
+        self.buildings = ['null']

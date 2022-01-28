@@ -230,6 +230,20 @@ class Slingshot(core):
         self.rDebug()
 
 
+class Breakfast(core):
+    def __init__(self, debug):
+        self.internalID='item-breakfast'
+        self.name = 'eggs and hashbrowns'
+        self.quality = 4
+        self.descriptions = [
+            "It's breakfast, all right.",
+            "Got any boy scout pepper?",
+            "It looks . . . edible."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
 class Item(core):
     def __init__(self,world):
         self.debug = world.debug
@@ -270,7 +284,8 @@ class Item(core):
         ]
         self.crafted = [
             'crudespear',
-            'slingshot'
+            'slingshot',
+            'breakfast'
         ]
         self.full = self.trash + self.common + self.useful + self.treasure + self.impossible
 
@@ -296,6 +311,7 @@ class Item(core):
         self.twine = Twine(self.debug)
         self.crudespear = Crudespear(self.debug)
         self.slingshot = Slingshot(self.debug)
+        self.breakfast = Breakfast(self.debug)
 
 
 class CrudespearRecipe(core):
@@ -308,6 +324,7 @@ class CrudespearRecipe(core):
             'branch',
             'twine'
         ]
+        self.station = 'null'
         self.result = 'crudespear'
 
 
@@ -320,7 +337,21 @@ class SlingshotRecipe(core):
             'branch',
             'twine'
         ]
+        self.station = 'null'
         self.result = 'slingshot'
+
+
+class BreakfastRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-breakfast'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'egg',
+            'potato'
+        ]
+        self.station = 'campfire'
+        self.result = 'breakfast'
 
 
 class Recipes(core):
@@ -331,10 +362,12 @@ class Recipes(core):
         self.rDebug()
         self.crudespear = CrudespearRecipe(self.debug)
         self.slingshot = SlingshotRecipe(self.debug)
+        self.breakfast = BreakfastRecipe(self.debug)
 
         self.full = [
             'crudespear',
-            'slingshot'
+            'slingshot',
+            'breakfast'
         ]
 
 
