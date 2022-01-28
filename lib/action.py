@@ -270,7 +270,9 @@ class playerAct(core):
                     for i in getattr(self.world.recipes, choice).ingredients:
                         self.player.inventory.remove(i)
                     print("You crafted " + getattr(self.world.item, choice).name + "!")
-                else: loop(self, craftables)
+                else:
+                    print("That's not an option, sorry.")
+                    loop(self, craftables)
             loop(self, craftables)
 
 
