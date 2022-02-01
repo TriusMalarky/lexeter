@@ -327,6 +327,30 @@ class Wood(core):
         self.rDebug()
 
 
+class Dinowhistle(core):
+    def __init__(self, debug):
+        self.internalID = 'item-dinowhistle'
+        self.name = 'dinosaur whistle'
+        self.quality = 4
+        self.descriptions = [
+            "Tame those dinosaurs."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Berry(core):
+    def __init__(self, debug):
+        self.internalID = 'item-berry'
+        self.name = 'berry'
+        self.quality = 4
+        self.descriptions = [
+            "TAn incredibly generic berry."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
 class Item(core):
     def __init__(self,world):
         self.debug = world.debug
@@ -351,7 +375,8 @@ class Item(core):
         ]
         self.common = [
             'shinystone',
-            'branch'
+            'branch',
+            'berry'
         ]
         self.useful = [
             'egg',
@@ -377,7 +402,8 @@ class Item(core):
         ]
         self.complexfinding = [
             'meat',
-            'wood'
+            'wood',
+            'dinowhistle'
         ]
         self.full = self.trash + self.common + self.useful + self.treasure + self.impossible
 
@@ -410,6 +436,8 @@ class Item(core):
         self.meat = Meat(self.debug)
         self.charcoal = Charcoal(self.debug)
         self.wood = Wood(self.debug)
+        self.dinowhistle = Dinowhistle(self.debug)
+        self.berry = Berry(self.debug)
 
 
 class CrudespearRecipe(core):
