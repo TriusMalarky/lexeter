@@ -191,7 +191,7 @@ class Twine(core):
 
 class Excalibur(core):
     def __init__(self,debug):
-        self.internalID='item-excalibur'
+        self.internalID = 'item-excalibur'
         self.name = 'Excalibur'
         self.quality = 4
         self.descriptions = [
@@ -205,9 +205,9 @@ class Excalibur(core):
 
 class Crudespear(core):
     def __init__(self,debug):
-        self.internalID='item-crudespear'
+        self.internalID = 'item-crudespear'
         self.name = 'crude spear'
-        self.quality = 4
+        self.quality = 1
         self.descriptions = [
             "An incredibly simple weapon.",
             "It's like a sharpened stick, but sharper."
@@ -218,9 +218,9 @@ class Crudespear(core):
 
 class Slingshot(core):
     def __init__(self, debug):
-        self.internalID='item-slingshot'
+        self.internalID = 'item-slingshot'
         self.name = 'slingshot'
-        self.quality = 4
+        self.quality = 1
         self.descriptions = [
             "Pew Pew!",
             "What's the shiniest thing you can stick in it?",
@@ -232,13 +232,96 @@ class Slingshot(core):
 
 class Breakfast(core):
     def __init__(self, debug):
-        self.internalID='item-breakfast'
+        self.internalID = 'item-breakfast'
         self.name = 'eggs and hashbrowns'
-        self.quality = 4
+        self.quality = 1
         self.descriptions = [
             "It's breakfast, all right.",
             "Got any boy scout pepper?",
             "It looks . . . edible."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Mud(core):
+    def __init__(self, debug):
+        self.internalID = 'item-mud'
+        self.name = 'fistful of mud'
+        self.quality = 0
+        self.descriptions = [
+            "Muddy."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Brick(core):
+    def __init__(self, debug):
+        self.internalID = 'item-brick'
+        self.name = 'brick'
+        self.quality = 0
+        self.descriptions = [
+            "Don't throw it at people.",
+            "What kind of brick?",
+            "A brick is just a brick."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Clay(core):
+    def __init__(self, debug):
+        self.internalID = 'item-clay'
+        self.name = 'ball of clay'
+        self.quality = 0
+        self.descriptions = [
+            "Why is it so darn hard to find?",
+            "you could probably make something with this.",
+            "The possibilities are nearly endless.",
+            "Reality can be whatever you want.",
+            "Make a snake!"
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Charcoal(core):
+    def __init__(self, debug):
+        self.internalID = 'item-charcoal'
+        self.name = 'hunk of charcoal'
+        self.quality = 0
+        self.descriptions = [
+            "You could draw with it!",
+            "Because you couldn't find any coal.",
+            "It's wood that was cooked so that it can be used to cook other things."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Meat(core):
+    def __init__(self, debug):
+        self.internalID = 'item-meat'
+        self.name = 'raw meat'
+        self.quality = 1
+        self.descriptions = [
+            "Wash your hands.",
+            "It's flippin RAW.",
+            "Cook it first."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Wood(core):
+    def __init__(self, debug):
+        self.internalID = 'item-wood'
+        self.name = 'chunk of wood'
+        self.quality = 1
+        self.descriptions = [
+            "Watch out for splinters.",
+            "The ever-important core of survival games."
         ]
         self.debug = debug
         self.rDebug()
@@ -261,7 +344,10 @@ class Item(core):
             'stone',
             'branch',
             'scrapmetal',
-            'twine'
+            'twine',
+            'brick',
+            'mud',
+            'clay'
         ]
         self.common = [
             'shinystone',
@@ -285,7 +371,13 @@ class Item(core):
         self.crafted = [
             'crudespear',
             'slingshot',
-            'breakfast'
+            'breakfast',
+            'charcoal',
+            'brick'
+        ]
+        self.complexfinding = [
+            'meat',
+            'wood'
         ]
         self.full = self.trash + self.common + self.useful + self.treasure + self.impossible
 
@@ -312,6 +404,12 @@ class Item(core):
         self.crudespear = Crudespear(self.debug)
         self.slingshot = Slingshot(self.debug)
         self.breakfast = Breakfast(self.debug)
+        self.brick = Brick(self.debug)
+        self.mud = Mud(self.debug)
+        self.clay = Clay(self.debug)
+        self.meat = Meat(self.debug)
+        self.charcoal = Charcoal(self.debug)
+        self.wood = Wood(self.debug)
 
 
 class CrudespearRecipe(core):
@@ -354,6 +452,30 @@ class BreakfastRecipe(core):
         self.result = 'breakfast'
 
 
+class BrickRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-brick'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'clay'
+        ]
+        self.station = 'kiln'
+        self.result = 'brick'
+
+
+class CharcoalRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-charcoal'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'wood'
+        ]
+        self.station = 'kiln'
+        self.result = 'charcoal'
+
+
 class Recipes(core):
     def __init__(self, lexeter):
         self.lexeter = lexeter
@@ -363,11 +485,15 @@ class Recipes(core):
         self.crudespear = CrudespearRecipe(self.debug)
         self.slingshot = SlingshotRecipe(self.debug)
         self.breakfast = BreakfastRecipe(self.debug)
+        self.brick = BrickRecipe(self.debug)
+        self.charcoal = Charcoal(self.debug)
 
         self.full = [
             'crudespear',
             'slingshot',
-            'breakfast'
+            'breakfast',
+            'brick',
+            'charcoal'
         ]
 
 
@@ -384,6 +510,51 @@ class Campfire(core):
         self.name = 'campfire'
 
 
+class Kiln(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-kiln'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'brick',
+            'mud',
+            'branch'
+        ]
+        self.result = 'kiln'
+        self.name = 'kiln'
+
+
+class Furnace(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-furnace'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'brick',
+            'mud',
+            'stone',
+            'charcoal'
+        ]
+        self.result = 'furnace'
+        self.name = 'furnace'
+
+
+class Smelter(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-smelter'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'brick',
+            'mud',
+            'stone',
+            'charcoal',
+            'clay'
+        ]
+        self.result = 'smelter'
+        self.name = 'smelter'
+
+
 class Constructs(core):
     def __init__(self, world):
         self.world = world
@@ -391,6 +562,12 @@ class Constructs(core):
         self.internalID = 'library-construction'
         self.rDebug()
         self.campfire = Campfire(self.debug)
+        self.kiln = Kiln(self.debug)
+        self.furnace = Furnace(self.debug)
+        self.smelter = Smelter(self.debug)
         self.full = [
-            'campfire'
+            'campfire',
+            'kiln',
+            'furnace',
+            'smelter'
         ]

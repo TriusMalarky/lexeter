@@ -8120,3 +8120,23 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 "o","16",,"You crafted eggs and hashbrowns!
 ",,"stdout","7958165","6"
 "o","16",,": ",,"stdout","7958165","6"
+"r","3","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"8423","7"
+"o","3",,": ",,"stdout","10785","7"
+"o","3",,"",,"stdout","15093","7"
+"o","3",,"You have:
+",,"stdout","15109","7"
+"o","3",," - 3x branch
+",,"stdout","15109","7"
+"o","3",," - 4x shiny stone
+",,"stdout","15109","7"
+"o","3",," - 1x egg
+",,"stdout","15109","7"
+"o","3",," - 1x potato
+",,"stdout","15109","7"
+"o","3",," - 1x opal
+",,"stdout","15109","7"
+"o","3",," - 2x slingshot
+",,"stdout","15109","7"
+"o","3",," - 2x eggs and hashbrowns
+",,"stdout","15109","7"
+"o","3",,": ",,"stdout","15109","7"
