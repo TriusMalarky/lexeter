@@ -39,7 +39,9 @@ def load():
 
 def lex_init():
     if os.path.exists('save\\lexeter.txt'):
-        return load() # <-- returning the loaded save state class instance
+        lexet = load()
+        random.seed = lexet.seed
+        return lexet # <-- returning the loaded save state class instance
     else:
         open('save\\lexeter.txt','w')
         from lib.player import Lexeter

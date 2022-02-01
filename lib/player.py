@@ -6,6 +6,7 @@ from lib.darkroom import *
 import random
 from lib.biome import *
 from lib.items import *
+import string
 
 # subclass responselog for logging player's responses
 class responselog(core):
@@ -78,6 +79,8 @@ class Lexeter(core):
         self.debug = False
         self.internalID = 'lexeter'
         self.rDebug()
+        self.seed = ''.join(random.choice(string.digits) for i in range(16))
+        random.seed = self.seed
         self.them = them()
         self.instances = 1
         self.zones = ['pond', 'marble', 'terracotta', 'brickfloor', 'fractured', 'cave', 'canopy', 'cavern', 'shack']
