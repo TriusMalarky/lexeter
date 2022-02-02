@@ -40,8 +40,11 @@ class world(core):
         self.rDebug()
         self.them.act.speak("Hmmmmm . . .")
         self.them.act.speak("There's nothing here.")
-        if input(self.them.act.speak("Do you want to add your input?\n(yes or no): ")) == 'yes':
-            self.seed = input(self.them.act.speak("What kind of world do you want?\n(input seed): "))
+        if self.lexeter.seedable:
+            if input("[#`~<,>_r-kal]: Do you want to add your input?\n(yes or no): ") == 'yes':
+                self.seed = input("[#`~<,>_r-kal]: What kind of world do you want?\n(input seed): ")
+            else:
+                self.seed = ''.join(random.choice(string.digits) for i in range(16))
         else:
             self.seed = ''.join(random.choice(string.digits) for i in range(16))
         random.seed(self.seed)
@@ -87,6 +90,7 @@ class Lexeter(core):
         self.rDebug()
         self.them = them()
         self.instances = 1
+        self.seedable = True
         self.zones = ['pond', 'marble', 'terracotta', 'brickfloor', 'fractured', 'cave', 'canopy', 'cavern', 'shack']
         self.achievements = []
         self.item = Item(self)

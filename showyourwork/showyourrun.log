@@ -9030,3 +9030,114 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 "o","17",,"
 Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 ",,"system","16494115","8"
+"r","18","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16666463","8"
+"o","18",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16666530","8"
+"o","18",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16666530","8"
+"o","18",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","16666530","8"
+"o","18",,"(yes or no): ",,"stdout","16666530","8"
+"o","18",,"[#`~<,>_r-kal]: What kind of world do you want?
+",,"stdout","16668879","8"
+"o","18",,"(input seed): ",,"stdout","16668879","8"
+"o","18",,"27
+",,"stdout","16670876","8"
+"o","18",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16670876","8"
+"o","18",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16670876","8"
+"o","18",,"
+",,"stdout","16670876","8"
+"o","18",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","16674622","8"
+"o","18",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16674622","8"
+"o","18",,"
+",,"stdout","16674622","8"
+"o","18",,"
+",,"stdout","16674622","8"
+"o","18",,": ",,"stdout","16674622","8"
+"o","18",,"Where would you like to go?
+",,"stdout","16690447","8"
+"o","18",,"darkroom
+",,"stdout","16690447","8"
+"o","18",," - terracotta_0
+",,"stdout","16690447","8"
+"o","18",," - terracotta_1
+",,"stdout","16690447","8"
+"o","18",," - cavern_2
+",,"stdout","16690447","8"
+"o","18",,": ",,"stdout","16690447","8"
+"o","18",,"Traceback (most recent call last):
+",,"stderr","16701732","8"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","16701732","8"
+"o","18",,"    tick(lexeter, lexeter.world)
+",,"stderr","16701732","8"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","16701732","8"
+"o","18",,"    world.player.act.playeraction()
+",,"stderr","16701732","8"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","16701732","8"
+"o","18",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","16701732","8"
+"o","18",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16701732","8"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","16701732","8"
+"o","18",,"    movetoloop(self) # <- run loop
+",,"stderr","16701732","8"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","16701732","8"
+"o","18",,"    newloc = input("": "")
+",,"stderr","16701732","8"
+"o","18",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16701732","8"
+"o","18",,"    def decode(self, input, final=False):
+",,"stderr","16701732","8"
+"o","18",,"KeyboardInterrupt
+",,"stderr","16701732","8"
+"o","18",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16701741","8"
+"r","19","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16701919","8"
+"o","19",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16702002","8"
+"o","19",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16702002","8"
+"o","19",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","16702002","8"
+"o","19",,"(yes or no): ",,"stdout","16702002","8"
+"o","19",,"[#`~<,>_r-kal]: What kind of world do you want?
+",,"stdout","16704343","8"
+"o","19",,"(input seed): ",,"stdout","16704343","8"
+"o","19",,"27
+",,"stdout","16705529","8"
+"o","19",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16705529","8"
+"o","19",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16705529","8"
+"o","19",,"
+",,"stdout","16705529","8"
+"o","19",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","16708645","8"
+"o","19",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16708645","8"
+"o","19",,"
+",,"stdout","16708645","8"
+"o","19",,"
+",,"stdout","16708645","8"
+"o","19",,": ",,"stdout","16708645","8"
+"o","19",,"Where would you like to go?
+",,"stdout","16709460","8"
+"o","19",,"darkroom
+",,"stdout","16709460","8"
+"o","19",," - terracotta_0
+",,"stdout","16709460","8"
+"o","19",," - terracotta_1
+",,"stdout","16709460","8"
+"o","19",," - cavern_2
+",,"stdout","16709460","8"
+"o","19",,": ",,"stdout","16709460","8"
