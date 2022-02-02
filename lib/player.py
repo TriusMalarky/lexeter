@@ -40,6 +40,12 @@ class world(core):
         self.rDebug()
         self.them.act.speak("Hmmmmm . . .")
         self.them.act.speak("There's nothing here.")
+        if input(self.them.act.speak("Do you want to add your input?\n(yes or no): ")) == 'yes':
+            self.seed = input(self.them.act.speak("What kind of world do you want?\n(input seed): "))
+        else:
+            self.seed = ''.join(random.choice(string.digits) for i in range(16))
+        random.seed(self.seed)
+        print(random.randint(0,100))
         self.them.act.speak("Give me a minute.")
         self.time = 45+(age*5)
         self.instance = age
@@ -55,7 +61,7 @@ class world(core):
         self.map.route = {'darkroom': []}
         self.map.list = ['darkroom']
         for i in range(3):
-            zone=random.choice(self.zones)
+            zone = random.choice(self.zones)
             room = str(zone+'_'+str(i))
             self.map.route['darkroom'].append(room);self.map.route[room] = ['darkroom']
             self.map.list.append(room)
@@ -79,8 +85,6 @@ class Lexeter(core):
         self.debug = False
         self.internalID = 'lexeter'
         self.rDebug()
-        self.seed = ''.join(random.choice(string.digits) for i in range(16))
-        random.seed = self.seed
         self.them = them()
         self.instances = 1
         self.zones = ['pond', 'marble', 'terracotta', 'brickfloor', 'fractured', 'cave', 'canopy', 'cavern', 'shack']

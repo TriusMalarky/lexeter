@@ -8140,3 +8140,893 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 "o","3",," - 2x eggs and hashbrowns
 ",,"stdout","15109","7"
 "o","3",,": ",,"stdout","15109","7"
+"r","3","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"7696284","8"
+"o","3",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","7696378","8"
+"o","3",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","7696378","8"
+"o","3",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","7696378","8"
+"o","3",,": 
+",,"stdout","7696378","8"
+"o","3",,"None",,"stdout","7696378","8"
+"o","3",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","7704122","8"
+"o","3",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","7704122","8"
+"o","3",,"
+",,"stdout","7704122","8"
+"o","3",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","7712506","8"
+"o","3",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","7712506","8"
+"o","3",,"
+",,"stdout","7712506","8"
+"o","3",,"
+",,"stdout","7712506","8"
+"o","3",,": ",,"stdout","7712506","8"
+"o","3",,"",,"stdout","7714512","8"
+"o","3",,"Where would you like to go?
+",,"stdout","7714527","8"
+"o","3",,"darkroom
+",,"stdout","7714527","8"
+"o","3",," - pond_0
+",,"stdout","7714527","8"
+"o","3",," - cave_1
+",,"stdout","7714527","8"
+"o","3",," - cave_2
+",,"stdout","7714527","8"
+"o","3",,": ",,"stdout","7714527","8"
+"o","3",,"Traceback (most recent call last):
+",,"stderr","7722307","8"
+"o","3",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","7722307","8"
+"o","3",,"    tick(lexeter, lexeter.world)
+",,"stderr","7722307","8"
+"o","3",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","7722307","8"
+"o","3",,"    world.player.act.playeraction()
+",,"stderr","7722307","8"
+"o","3",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","7722307","8"
+"o","3",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","7722307","8"
+"o","3",,"  File ""<string>"", line 1, in <module>
+",,"stderr","7722307","8"
+"o","3",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","7722307","8"
+"o","3",,"    movetoloop(self) # <- run loop
+",,"stderr","7722307","8"
+"o","3",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","7722307","8"
+"o","3",,"    newloc = input("": "")
+",,"stderr","7722307","8"
+"o","3",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","7722307","8"
+"o","3",,"    def decode(self, input, final=False):
+",,"stderr","7722323","8"
+"o","3",,"KeyboardInterrupt
+",,"stderr","7722323","8"
+"o","3",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","7722338","8"
+"r","4","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"7722463","8"
+"o","4",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","7722560","8"
+"o","4",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","7722560","8"
+"o","4",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","7722560","8"
+"o","4",,": 
+",,"stdout","7722560","8"
+"o","4",,"None",,"stdout","7722560","8"
+"o","4",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","7725829","8"
+"o","4",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","7725829","8"
+"o","4",,"
+",,"stdout","7725829","8"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","7753319","8"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","7753319","8"
+"o","4",,"    lexeter = lex_init()
+",,"stderr","7753319","8"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in lex_init
+",,"stderr","7753319","8"
+"o","4",,"    lexet = Lexeter()
+",,"stderr","7753319","8"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 94, in __init__
+",,"stderr","7753319","8"
+"o","4",,"    self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
+",,"stderr","7753319","8"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 52, in __init__
+",,"stderr","7753319","8"
+"o","4",,"    self.player = player(age,them,self,debug)
+",,"stderr","7753319","8"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 22, in __init__
+",,"stderr","7753319","8"
+"o","4",,"    self.name=input("""")
+",,"stderr","7753319","8"
+"o","4",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","7753319","8"
+"o","4",,"    def decode(self, input, final=False):
+",,"stderr","7753319","8"
+"o","4",,"KeyboardInterrupt
+",,"stderr","7753319","8"
+"o","4",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","7753319","8"
+"r","5","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"7753493","8"
+"o","5",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","7753661","8"
+"o","5",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","7753661","8"
+"o","5",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","7753661","8"
+"o","5",,"(yes or no): 
+",,"stdout","7753661","8"
+"o","5",,"None",,"stdout","7753661","8"
+"o","5",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","7759341","8"
+"o","5",,"(input seed): 
+",,"stdout","7759341","8"
+"o","5",,"None",,"stdout","7759341","8"
+"o","5",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","7763415","8"
+"o","5",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","7763415","8"
+"o","5",,"
+",,"stdout","7763415","8"
+"o","5",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","7765867","8"
+"o","5",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","7765867","8"
+"o","5",,"
+",,"stdout","7765867","8"
+"o","5",,"
+",,"stdout","7765867","8"
+"o","5",,"[geoflib] says: im a shade, not a ghost. theres a difference.
+",,"stdout","7765867","8"
+"o","5",,": ",,"stdout","7765867","8"
+"o","5",,"Where would you like to go?
+",,"stdout","7769250","8"
+"o","5",,"darkroom
+",,"stdout","7769250","8"
+"o","5",," - terracotta_0
+",,"stdout","7769250","8"
+"o","5",," - shack_1
+",,"stdout","7769250","8"
+"o","5",," - shack_2
+",,"stdout","7769250","8"
+"o","5",,": ",,"stdout","7769250","8"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","7789582","8"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","7789582","8"
+"o","5",,"    tick(lexeter, lexeter.world)
+",,"stderr","7789582","8"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","7789582","8"
+"o","5",,"    world.player.act.playeraction()
+",,"stderr","7789582","8"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","7789582","8"
+"o","5",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","7789582","8"
+"o","5",,"  File ""<string>"", line 1, in <module>
+",,"stderr","7789582","8"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","7789582","8"
+"o","5",,"    movetoloop(self) # <- run loop
+",,"stderr","7789582","8"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","7789582","8"
+"o","5",,"    newloc = input("": "")
+",,"stderr","7789582","8"
+"o","5",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","7789582","8"
+"o","5",,"    def decode(self, input, final=False):
+",,"stderr","7789582","8"
+"o","5",,"KeyboardInterrupt
+",,"stderr","7789582","8"
+"o","5",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","7789597","8"
+"r","6","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"7789775","8"
+"o","6",,"[geoflib] says: ah, the darkness. so refreshing.
+",,"stdout","7789915","8"
+"o","6",,": ",,"stdout","7789915","8"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","7796675","8"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","7796675","8"
+"o","6",,"    tick(lexeter, lexeter.world)
+",,"stderr","7796675","8"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","7796675","8"
+"o","6",,"    world.player.act.playeraction()
+",,"stderr","7796675","8"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 76, in playeraction
+",,"stderr","7796675","8"
+"o","6",,"    resp = input("": "")
+",,"stderr","7796675","8"
+"o","6",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","7796675","8"
+"o","6",,"    def decode(self, input, final=False):
+",,"stderr","7796675","8"
+"o","6",,"KeyboardInterrupt
+",,"stderr","7796675","8"
+"o","6",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","7796675","8"
+"r","7","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"7796847","8"
+"o","7",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","7796956","8"
+"o","7",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","7796956","8"
+"o","7",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","7796956","8"
+"o","7",,"(yes or no): 
+",,"stdout","7796956","8"
+"o","7",,"None",,"stdout","7796956","8"
+"o","7",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","7800730","8"
+"o","7",,"(input seed): 
+",,"stdout","7800730","8"
+"o","7",,"None",,"stdout","7800730","8"
+"o","7",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","7807781","8"
+"o","7",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","7807781","8"
+"o","7",,"
+",,"stdout","7807781","8"
+"o","7",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","7809957","8"
+"o","7",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","7809957","8"
+"o","7",,"
+",,"stdout","7809957","8"
+"o","7",,"
+",,"stdout","7809957","8"
+"o","7",,"[mek] says: im a shade, not a ghost. theres a difference.
+",,"stdout","7809972","8"
+"o","7",,": ",,"stdout","7809972","8"
+"o","7",,"Where would you like to go?
+",,"stdout","7813128","8"
+"o","7",,"darkroom
+",,"stdout","7813128","8"
+"o","7",," - cavern_0
+",,"stdout","7813128","8"
+"o","7",," - pond_1
+",,"stdout","7813128","8"
+"o","7",," - cave_2
+",,"stdout","7813128","8"
+"o","7",,": ",,"stdout","7813128","8"
+"o","7",,"Traceback (most recent call last):
+",,"stderr","7843891","8"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","7843891","8"
+"o","7",,"    tick(lexeter, lexeter.world)
+",,"stderr","7843891","8"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","7843891","8"
+"o","7",,"    world.player.act.playeraction()
+",,"stderr","7843891","8"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","7843891","8"
+"o","7",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","7843891","8"
+"o","7",,"  File ""<string>"", line 1, in <module>
+",,"stderr","7843891","8"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","7843891","8"
+"o","7",,"    movetoloop(self) # <- run loop
+",,"stderr","7843891","8"
+"o","7",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","7843891","8"
+"o","7",,"    newloc = input("": "")
+",,"stderr","7843891","8"
+"o","7",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","7843891","8"
+"o","7",,"    def decode(self, input, final=False):
+",,"stderr","7843891","8"
+"o","7",,"KeyboardInterrupt
+",,"stderr","7843891","8"
+"o","7",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","7843891","8"
+"r","8","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"7844063","8"
+"o","8",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","7844190","8"
+"o","8",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","7844190","8"
+"o","8",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","7844190","8"
+"o","8",,"(yes or no): 
+",,"stdout","7844190","8"
+"o","8",,"None",,"stdout","7844190","8"
+"o","8",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","7846505","8"
+"o","8",,"(input seed): 
+",,"stdout","7846505","8"
+"o","8",,"None",,"stdout","7846505","8"
+"o","8",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","7847797","8"
+"o","8",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","7847797","8"
+"o","8",,"
+",,"stdout","7847797","8"
+"o","8",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","7849392","8"
+"o","8",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","7849392","8"
+"o","8",,"
+",,"stdout","7849392","8"
+"o","8",,"
+",,"stdout","7849392","8"
+"o","8",,": ",,"stdout","7849392","8"
+"o","8",,"Where would you like to go?
+",,"stdout","7852184","8"
+"o","8",,"darkroom
+",,"stdout","7852184","8"
+"o","8",," - pond_0
+",,"stdout","7852184","8"
+"o","8",," - fractured_1
+",,"stdout","7852184","8"
+"o","8",," - cave_2
+",,"stdout","7852184","8"
+"o","8",,": ",,"stdout","7852184","8"
+"o","8",,"Traceback (most recent call last):
+",,"stderr","16046943","8"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","16046943","8"
+"o","8",,"    tick(lexeter, lexeter.world)
+",,"stderr","16046943","8"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","16046943","8"
+"o","8",,"    world.player.act.playeraction()
+",,"stderr","16046943","8"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","16046943","8"
+"o","8",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","16046943","8"
+"o","8",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16046943","8"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","16046943","8"
+"o","8",,"    movetoloop(self) # <- run loop
+",,"stderr","16046943","8"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","16046943","8"
+"o","8",,"    newloc = input("": "")
+",,"stderr","16046943","8"
+"o","8",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16046943","8"
+"o","8",,"    def decode(self, input, final=False):
+",,"stderr","16046943","8"
+"o","8",,"KeyboardInterrupt
+",,"stderr","16046943","8"
+"o","8",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16046943","8"
+"r","9","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16053339","8"
+"o","9",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16053432","8"
+"o","9",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16053432","8"
+"o","9",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","16053432","8"
+"o","9",,"(yes or no): 
+",,"stdout","16053432","8"
+"o","9",,"None",,"stdout","16053432","8"
+"o","9",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","16057663","8"
+"o","9",,"(input seed): 
+",,"stdout","16057664","8"
+"o","9",,"None",,"stdout","16057664","8"
+"o","9",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16059145","8"
+"o","9",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16059145","8"
+"o","9",,"
+",,"stdout","16059145","8"
+"o","9",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","16064322","8"
+"o","9",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16064322","8"
+"o","9",,"
+",,"stdout","16064322","8"
+"o","9",,"
+",,"stdout","16064322","8"
+"o","9",,": ",,"stdout","16064338","8"
+"o","9",,"Where would you like to go?
+",,"stdout","16068496","8"
+"o","9",,"darkroom
+",,"stdout","16068496","8"
+"o","9",," - marble_0
+",,"stdout","16068496","8"
+"o","9",," - cavern_1
+",,"stdout","16068496","8"
+"o","9",," - fractured_2
+",,"stdout","16068496","8"
+"o","9",,": ",,"stdout","16068496","8"
+"o","9",,"Traceback (most recent call last):
+",,"stderr","16077465","8"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","16077465","8"
+"o","9",,"    tick(lexeter, lexeter.world)
+",,"stderr","16077465","8"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","16077465","8"
+"o","9",,"    world.player.act.playeraction()
+",,"stderr","16077465","8"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","16077465","8"
+"o","9",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","16077465","8"
+"o","9",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16077465","8"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","16077465","8"
+"o","9",,"    movetoloop(self) # <- run loop
+",,"stderr","16077465","8"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","16077465","8"
+"o","9",,"    newloc = input("": "")
+",,"stderr","16077465","8"
+"o","9",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16077465","8"
+"o","9",,"    def decode(self, input, final=False):
+",,"stderr","16077465","8"
+"o","9",,"KeyboardInterrupt
+",,"stderr","16077465","8"
+"o","9",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16077465","8"
+"r","10","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16083594","8"
+"o","10",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16083804","8"
+"o","10",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16083804","8"
+"o","10",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","16083804","8"
+"o","10",,"(yes or no): 
+",,"stdout","16083804","8"
+"o","10",,"None",,"stdout","16083804","8"
+"o","10",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","16086951","8"
+"o","10",,"(input seed): 
+",,"stdout","16086951","8"
+"o","10",,"None",,"stdout","16086951","8"
+"o","10",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16087990","8"
+"o","10",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16087990","8"
+"o","10",,"
+",,"stdout","16087990","8"
+"o","10",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","16090709","8"
+"o","10",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16090709","8"
+"o","10",,"
+",,"stdout","16090709","8"
+"o","10",,"
+",,"stdout","16090709","8"
+"o","10",,": ",,"stdout","16090721","8"
+"o","10",,"Where would you like to go?
+",,"stdout","16092311","8"
+"o","10",,"darkroom
+",,"stdout","16092311","8"
+"o","10",," - cavern_0
+",,"stdout","16092311","8"
+"o","10",," - fractured_1
+",,"stdout","16092311","8"
+"o","10",," - fractured_2
+",,"stdout","16092311","8"
+"o","10",,": ",,"stdout","16092311","8"
+"o","10",,"Traceback (most recent call last):
+",,"stderr","16301812","8"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","16301812","8"
+"o","10",,"    tick(lexeter, lexeter.world)
+",,"stderr","16301812","8"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","16301812","8"
+"o","10",,"    world.player.act.playeraction()
+",,"stderr","16301812","8"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","16301812","8"
+"o","10",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","16301812","8"
+"o","10",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16301812","8"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","16301812","8"
+"o","10",,"    movetoloop(self) # <- run loop
+",,"stderr","16301812","8"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","16301812","8"
+"o","10",,"    newloc = input("": "")
+",,"stderr","16301812","8"
+"o","10",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16301812","8"
+"o","10",,"    def decode(self, input, final=False):
+",,"stderr","16301812","8"
+"o","10",,"KeyboardInterrupt
+",,"stderr","16301812","8"
+"o","10",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16301813","8"
+"r","11","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16308190","8"
+"o","11",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16308352","8"
+"o","11",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16308352","8"
+"o","11",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","16308352","8"
+"o","11",,"(yes or no): 
+",,"stdout","16308354","8"
+"o","11",,"None",,"stdout","16308354","8"
+"o","11",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","16310901","8"
+"o","11",,"(input seed): 
+",,"stdout","16310901","8"
+"o","11",,"None",,"stdout","16310901","8"
+"o","11",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16315034","8"
+"o","11",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16315034","8"
+"o","11",,"
+",,"stdout","16315034","8"
+"o","11",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","16317679","8"
+"o","11",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16317679","8"
+"o","11",,"
+",,"stdout","16317679","8"
+"o","11",,"
+",,"stdout","16317679","8"
+"o","11",,": ",,"stdout","16317679","8"
+"o","11",,"Where would you like to go?
+",,"stdout","16320591","8"
+"o","11",,"darkroom
+",,"stdout","16320591","8"
+"o","11",," - terracotta_0
+",,"stdout","16320591","8"
+"o","11",," - cavern_1
+",,"stdout","16320591","8"
+"o","11",," - fractured_2
+",,"stdout","16320591","8"
+"o","11",,": ",,"stdout","16320591","8"
+"o","11",,"Traceback (most recent call last):
+",,"stderr","16345055","8"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","16345055","8"
+"o","11",,"    tick(lexeter, lexeter.world)
+",,"stderr","16345055","8"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","16345055","8"
+"o","11",,"    world.player.act.playeraction()
+",,"stderr","16345055","8"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","16345055","8"
+"o","11",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","16345055","8"
+"o","11",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16345055","8"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","16345055","8"
+"o","11",,"    movetoloop(self) # <- run loop
+",,"stderr","16345055","8"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","16345055","8"
+"o","11",,"    newloc = input("": "")
+",,"stderr","16345055","8"
+"o","11",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16345055","8"
+"o","11",,"    def decode(self, input, final=False):
+",,"stderr","16345055","8"
+"o","11",,"KeyboardInterrupt
+",,"stderr","16345055","8"
+"o","11",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16345057","8"
+"r","12","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16352137","8"
+"o","12",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16352290","8"
+"o","12",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16352290","8"
+"o","12",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","16352290","8"
+"o","12",,"(yes or no): 
+",,"stdout","16352290","8"
+"o","12",,"None",,"stdout","16352290","8"
+"o","12",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","16354298","8"
+"o","12",,"(input seed): 
+",,"stdout","16354298","8"
+"o","12",,"None",,"stdout","16354298","8"
+"o","12",,"Traceback (most recent call last):
+",,"stderr","16356172","8"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","16356172","8"
+"o","12",,"    lexeter = lex_init()
+",,"stderr","16356172","8"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in lex_init
+",,"stderr","16356172","8"
+"o","12",,"    lexet = Lexeter()
+",,"stderr","16356172","8"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 96, in __init__
+",,"stderr","16356172","8"
+"o","12",,"    self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
+",,"stderr","16356172","8"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 48, in __init__
+",,"stderr","16356172","8"
+"o","12",,"    print(random.randint())
+",,"stderr","16356172","8"
+"o","12",,"TypeError: Random.randint() missing 2 required positional arguments: 'a' and 'b'
+",,"stderr","16356172","8"
+"o","12",,"
+Process finished with exit code 1
+",,"system","16356173","8"
+"r","13","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16367062","8"
+"o","13",,"Traceback (most recent call last):
+",,"stderr","16367148","8"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","16367148","8"
+"o","13",,"    lexeter = lex_init()
+",,"stderr","16367148","8"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 43, in lex_init
+",,"stderr","16367148","8"
+"o","13",,"    lexet = load()
+",,"stderr","16367148","8"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 39, in load
+",,"stderr","16367148","8"
+"o","13",,"    return pickle.load(savefile) # <-- returning loaded save state class instance
+",,"stderr","16367148","8"
+"o","13",,"EOFError: Ran out of input
+",,"stderr","16367148","8"
+"o","13",,"
+Process finished with exit code 1
+",,"system","16367166","8"
+"r","14","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16372609","8"
+"o","14",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16372750","8"
+"o","14",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16372750","8"
+"o","14",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","16372750","8"
+"o","14",,"(yes or no): 
+",,"stdout","16372750","8"
+"o","14",,"None",,"stdout","16372750","8"
+"o","14",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","16374946","8"
+"o","14",,"(input seed): 
+",,"stdout","16374946","8"
+"o","14",,"None",,"stdout","16374946","8"
+"o","14",,"100
+",,"stdout","16376561","8"
+"o","14",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16376561","8"
+"o","14",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16376561","8"
+"o","14",,"
+",,"stdout","16376561","8"
+"o","14",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","16379046","8"
+"o","14",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16379046","8"
+"o","14",,"
+",,"stdout","16379046","8"
+"o","14",,"
+",,"stdout","16379046","8"
+"o","14",,": ",,"stdout","16379046","8"
+"o","14",,"Traceback (most recent call last):
+",,"stderr","16389037","8"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","16389037","8"
+"o","14",,"    tick(lexeter, lexeter.world)
+",,"stderr","16389037","8"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","16389037","8"
+"o","14",,"    world.player.act.playeraction()
+",,"stderr","16389037","8"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 76, in playeraction
+",,"stderr","16389037","8"
+"o","14",,"    resp = input("": "")
+",,"stderr","16389037","8"
+"o","14",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16389037","8"
+"o","14",,"    def decode(self, input, final=False):
+",,"stderr","16389037","8"
+"o","14",,"KeyboardInterrupt
+",,"stderr","16389037","8"
+"o","14",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16389043","8"
+"r","15","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16389210","8"
+"o","15",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16389304","8"
+"o","15",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16389304","8"
+"o","15",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","16389304","8"
+"o","15",,"(yes or no): 
+",,"stdout","16389304","8"
+"o","15",,"None",,"stdout","16389304","8"
+"o","15",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","16391132","8"
+"o","15",,"(input seed): 
+",,"stdout","16391132","8"
+"o","15",,"None",,"stdout","16391132","8"
+"o","15",,"52
+",,"stdout","16394787","8"
+"o","15",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16394787","8"
+"o","15",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16394787","8"
+"o","15",,"
+",,"stdout","16394787","8"
+"o","15",,"Traceback (most recent call last):
+",,"stderr","16445769","8"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","16445769","8"
+"o","15",,"    lexeter = lex_init()
+",,"stderr","16445769","8"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 49, in lex_init
+",,"stderr","16445769","8"
+"o","15",,"    lexet = Lexeter()
+",,"stderr","16445769","8"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 96, in __init__
+",,"stderr","16445769","8"
+"o","15",,"    
+",,"stderr","16445769","8"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 53, in __init__
+",,"stderr","16445769","8"
+"o","15",,"    self.player = player(age,them,self,debug)
+",,"stderr","16445769","8"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 22, in __init__
+",,"stderr","16445769","8"
+"o","15",,"    self.name=input("""")
+",,"stderr","16445769","8"
+"o","15",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16445769","8"
+"o","15",,"    def decode(self, input, final=False):
+",,"stderr","16445769","8"
+"o","15",,"KeyboardInterrupt
+",,"stderr","16445769","8"
+"o","15",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16445778","8"
+"r","16","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16445937","8"
+"o","16",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16446039","8"
+"o","16",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16446039","8"
+"o","16",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","16446039","8"
+"o","16",,"(yes or no): 
+",,"stdout","16446039","8"
+"o","16",,"None",,"stdout","16446039","8"
+"o","16",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","16448093","8"
+"o","16",,"(input seed): 
+",,"stdout","16448093","8"
+"o","16",,"None",,"stdout","16448093","8"
+"o","16",,"27
+",,"stdout","16451884","8"
+"o","16",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16451884","8"
+"o","16",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16451884","8"
+"o","16",,"
+",,"stdout","16451884","8"
+"o","16",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","16454427","8"
+"o","16",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16454427","8"
+"o","16",,"
+",,"stdout","16454427","8"
+"o","16",,"
+",,"stdout","16454427","8"
+"o","16",,": ",,"stdout","16454427","8"
+"o","16",,"Traceback (most recent call last):
+",,"stderr","16457961","8"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","16457961","8"
+"o","16",,"    tick(lexeter, lexeter.world)
+",,"stderr","16457961","8"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","16457961","8"
+"o","16",,"    world.player.act.playeraction()
+",,"stderr","16457961","8"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 76, in playeraction
+",,"stderr","16457961","8"
+"o","16",,"    resp = input("": "")
+",,"stderr","16457961","8"
+"o","16",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16457961","8"
+"o","16",,"    def decode(self, input, final=False):
+",,"stderr","16457961","8"
+"o","16",,"KeyboardInterrupt
+",,"stderr","16457961","8"
+"o","16",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16457961","8"
+"r","17","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"16463825","8"
+"o","17",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","16463944","8"
+"o","17",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","16463944","8"
+"o","17",,"[#`~<,>_r-kal] : Do you want to add your input?
+",,"stdout","16463944","8"
+"o","17",,"(yes or no): 
+",,"stdout","16463944","8"
+"o","17",,"None",,"stdout","16463944","8"
+"o","17",,"[#`~<,>_r-kal] : What kind of world do you want?
+",,"stdout","16465878","8"
+"o","17",,"(input seed): 
+",,"stdout","16465878","8"
+"o","17",,"None",,"stdout","16465878","8"
+"o","17",,"27
+",,"stdout","16467121","8"
+"o","17",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","16467121","8"
+"o","17",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","16467121","8"
+"o","17",,"
+",,"stdout","16467121","8"
+"o","17",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","16470405","8"
+"o","17",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","16470405","8"
+"o","17",,"
+",,"stdout","16470405","8"
+"o","17",,"
+",,"stdout","16470405","8"
+"o","17",,": ",,"stdout","16470405","8"
+"o","17",,"Where would you like to go?
+",,"stdout","16471296","8"
+"o","17",,"darkroom
+",,"stdout","16471296","8"
+"o","17",," - terracotta_0
+",,"stdout","16471296","8"
+"o","17",," - terracotta_1
+",,"stdout","16471296","8"
+"o","17",," - cavern_2
+",,"stdout","16471296","8"
+"o","17",,": ",,"stdout","16471296","8"
+"o","17",,"Traceback (most recent call last):
+",,"stderr","16494115","8"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","16494115","8"
+"o","17",,"    tick(lexeter, lexeter.world)
+",,"stderr","16494115","8"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","16494115","8"
+"o","17",,"    world.player.act.playeraction()
+",,"stderr","16494115","8"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","16494115","8"
+"o","17",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","16494115","8"
+"o","17",,"  File ""<string>"", line 1, in <module>
+",,"stderr","16494115","8"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","16494115","8"
+"o","17",,"    movetoloop(self) # <- run loop
+",,"stderr","16494115","8"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","16494115","8"
+"o","17",,"    newloc = input("": "")
+",,"stderr","16494115","8"
+"o","17",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","16494115","8"
+"o","17",,"    def decode(self, input, final=False):
+",,"stderr","16494115","8"
+"o","17",,"KeyboardInterrupt
+",,"stderr","16494115","8"
+"o","17",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","16494115","8"

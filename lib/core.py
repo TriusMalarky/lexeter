@@ -1,6 +1,7 @@
 import pickle
 import os
 import inspect
+import random
 
 clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
@@ -40,7 +41,7 @@ def load():
 def lex_init():
     if os.path.exists('save\\lexeter.txt'):
         lexet = load()
-        random.seed = lexet.seed
+        random.seed = lexet.world.seed
         return lexet # <-- returning the loaded save state class instance
     else:
         open('save\\lexeter.txt','w')
