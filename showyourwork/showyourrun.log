@@ -9141,3 +9141,36 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 "o","19",," - cavern_2
 ",,"stdout","16709460","8"
 "o","19",,": ",,"stdout","16709460","8"
+"o","19",,"Traceback (most recent call last):
+",,"stderr","17581819","8"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","17581819","8"
+"o","19",,"    tick(lexeter, lexeter.world)
+",,"stderr","17581819","8"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","17581819","8"
+"o","19",,"    world.player.act.playeraction()
+",,"stderr","17581819","8"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 81, in playeraction
+",,"stderr","17581819","8"
+"o","19",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","17581819","8"
+"o","19",,"  File ""<string>"", line 1, in <module>
+",,"stderr","17581819","8"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 122, in moveto
+",,"stderr","17581819","8"
+"o","19",,"    movetoloop(self) # <- run loop
+",,"stderr","17581819","8"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 115, in movetoloop
+",,"stderr","17581819","8"
+"o","19",,"    newloc = input("": "")
+",,"stderr","17581819","8"
+"o","19",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","17581819","8"
+"o","19",,"    def decode(self, input, final=False):
+",,"stderr","17581819","8"
+"o","19",,"KeyboardInterrupt
+",,"stderr","17581819","8"
+"o","19",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","17581819","8"

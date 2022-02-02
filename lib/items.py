@@ -343,9 +343,50 @@ class Berry(core):
     def __init__(self, debug):
         self.internalID = 'item-berry'
         self.name = 'berry'
-        self.quality = 4
+        self.quality = 2
         self.descriptions = [
-            "TAn incredibly generic berry."
+            "An incredibly generic berry."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Axe(core):
+    def __init__(self, debug):
+        self.internalID = 'item-axe'
+        self.name = 'axe'
+        self.quality = 5
+        self.descriptions = [
+            "Chop Chop!",
+            "Heeeeere's Johnny!",
+            "Paul Bunyan's favorite tool.",
+            "And my bow!"
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Ironore(core):
+    def __init__(self, debug):
+        self.internalID = 'item-ironore'
+        self.name = 'iron ore'
+        self.quality = 1
+        self.descriptions = [
+            "Good ol' bog iron ore."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Molteniron(core):
+    def __init__(self, debug):
+        self.internalID = 'item-molteniron'
+        self.name = 'molten iron'
+        self.quality = 1
+        self.descriptions = [
+            "You really shouldn't be holding liquid metal.",
+            "Hot! Hot! Hot!",
+            "Hot enough to, well, burn your skin off."
         ]
         self.debug = debug
         self.rDebug()
@@ -376,7 +417,8 @@ class Item(core):
         self.common = [
             'shinystone',
             'branch',
-            'berry'
+            'berry',
+            'ironore'
         ]
         self.useful = [
             'egg',
@@ -398,7 +440,9 @@ class Item(core):
             'slingshot',
             'breakfast',
             'charcoal',
-            'brick'
+            'brick',
+            'axe',
+            'molteniron'
         ]
         self.complexfinding = [
             'meat',
@@ -438,6 +482,9 @@ class Item(core):
         self.wood = Wood(self.debug)
         self.dinowhistle = Dinowhistle(self.debug)
         self.berry = Berry(self.debug)
+        self.axe = Axe(self.debug)
+        self.ironore = Ironore(self.debug)
+        self.molteniron = Molteniron(self.debug)
 
 
 class CrudespearRecipe(core):
@@ -491,6 +538,18 @@ class BrickRecipe(core):
         self.station = 'kiln'
         self.result = 'brick'
 
+class AxeRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-axe'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'branch',
+            'molteniron'
+        ]
+        self.station = 'anvil'
+        self.result = 'axe'
+
 
 class CharcoalRecipe(core):
     def __init__(self, debug):
@@ -504,6 +563,19 @@ class CharcoalRecipe(core):
         self.result = 'charcoal'
 
 
+class MoltenironRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-charcoal'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'ironore',
+            'charcoal'
+        ]
+        self.station = 'smelter'
+        self.result = 'molteniron'
+
+
 class Recipes(core):
     def __init__(self, lexeter):
         self.lexeter = lexeter
@@ -514,14 +586,17 @@ class Recipes(core):
         self.slingshot = SlingshotRecipe(self.debug)
         self.breakfast = BreakfastRecipe(self.debug)
         self.brick = BrickRecipe(self.debug)
-        self.charcoal = Charcoal(self.debug)
+        self.charcoal = CharcoalRecipe(self.debug)
+        self.axe = AxeRecipe(self.debug)
 
         self.full = [
             'crudespear',
             'slingshot',
             'breakfast',
             'brick',
-            'charcoal'
+            'charcoal',
+            'axe',
+            'molteniron'
         ]
 
 
@@ -583,6 +658,20 @@ class Smelter(core):
         self.name = 'smelter'
 
 
+class Anvil(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-anvil'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'molteniron',
+            'stone',
+            'shinystone'
+        ]
+        self.result = 'anvil'
+        self.name = 'anvil'
+
+
 class Constructs(core):
     def __init__(self, world):
         self.world = world
@@ -593,9 +682,11 @@ class Constructs(core):
         self.kiln = Kiln(self.debug)
         self.furnace = Furnace(self.debug)
         self.smelter = Smelter(self.debug)
+        self.anvil = Anvil(self.debug)
         self.full = [
             'campfire',
             'kiln',
             'furnace',
-            'smelter'
+            'smelter',
+            'anvil'
         ]
