@@ -175,27 +175,32 @@ class playerAct(core):
         clearConsole()
         roomtitle = self.world.player.room
         room = getattr(self.world.map, roomtitle)
-        list = ['room', 'inventory']
+        list = []
         for i in room.loot:
             list.append(i)
         print("What do you want to inspect?")
         for i in list:
             print(" - [" + str(list.index(i)) + "] " + i)
+        print(" - [R] Room")
+        print(" - [i] Look at an item in your inventory (inventory)")
         print(" - [x] Cancel")
         list.append('cancel')
+        list.append('room')
+        list.append('inventory')
         def invLoop(self, world):
             choice = input(": ")
             if choice in world.player.inventory:
                 item = getattr(world.item, choice)
                 print(random.choice(item.descriptions))
-                self.__sublog(choice.name)
+                self.__sublog(item.name)
             else:
                 invLoop(world)
-        def loop(self, world):
+        def loop(self, world, list):
             choice = input(": ")
             if choice in list:
                 if choice == 'room':
                     print(random.choice(room.descriptions))
+                    self.__sublog(self.player.room)
                 elif choice == 'inventory':
                     clearConsole()
                     print("Inspect an item in inventory:")
@@ -207,11 +212,31 @@ class playerAct(core):
                 else:
                     item = getattr(world.item, choice)
                     print(random.choice(item.descriptions))
-                    self.__sublog(choice.name)
+                    self.__sublog(item.name)
+            elif choice.upper() == "X":
+                self.__sublog('cancel')
+                pass
+            elif choice.upper() == "R":
+                print(random.choice(room.descriptions))
+                self.__sublog(self.player.room)
+            elif choice.upper() == "I":
+                clearConsole()
+                print("Inspect an item in inventory:")
+                self.inventory()
+                invLoop(self, world)
+            elif choice.isnumeric():
+                try:
+                    item = getattr(world.item, list[int(choice)])
+                    print(random.choice(item.descriptions))
+                    self.__sublog(item.name)
+                except:
+                    print("That's not an option. Try again.")
+                    self.__sublog('Invalid Index')
             else:
+                self.__sublog('Invalid Option')
                 print("That's not an option. Try again.")
-                loop(self, world)
-        loop(self, self.world)
+                loop(self, world, list)
+        loop(self, self.world, list)
 
     def movealias(self):
         self.moveto()
