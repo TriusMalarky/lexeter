@@ -270,27 +270,40 @@ class playerAct(core):
                 print("What do you want to pick up?")
                 print(' - all')
                 for i in room.loot:
-                    print(" - " + getattr(self.world.item, i).name)
+                    print(" - [" + str(room.loot.index(i)) + "] " + getattr(self.world.item, i).name)
+                print(" - [x] Cancel")
                 choice = input(": ")
 
                 def loop(choice, room):
                     if choice == 'all':
+                        self.__sublog('all')
                         for i in room.loot:
                             print("You picked up " + getattr(self.world.item, i).name)
+                            self.__sublog(i)
                         self.player.inventory = self.player.inventory + room.loot
                         room.loot = []
+                    elif choice in 'cancel' or choice.upper() == 'X':
+                        self.__sublog('cancel')
                     elif choice in room.loot:
                         room.loot.remove(choice)
                         self.player.inventory.append(choice)
                         print("You picked up " + choice)
                         self.__sublog(choice)
+                    elif choice.isnumeric():
+                        room.loot.remove(room.loot[int(choice)])
+                        self.player.inventory.append(room.loot[int(choice)])
+                        print("You picked up " + room.loot[int(choice)])
+                        self.__sublog(room.loot[int(choice)])
                     else:
+                        self.__sublog('Invalid Selection')
                         print("That's not an option, try again.")
                         loop(input(": "),room)
                 loop(choice,room)
             else:
+                self.__sublog('Nothing to pick up')
                 print("There's nothing here.")
         else:
+            self.__sublog('Nothing to pick up')
             print("There's nothing here.")
 
     def pickupalias(self):

@@ -10954,3 +10954,436 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 "o","13",,"A simple length of string.
 ",,"stdout","1193940","13"
 "o","13",,": ",,"stdout","1193940","13"
+"o","13",,"What do you want to inspect?
+",,"stdout","1275908","13"
+"o","13",," - [0] twine
+",,"stdout","1275908","13"
+"o","13",," - [R] Room
+",,"stdout","1275908","13"
+"o","13",," - [i] Look at an item in your inventory (inventory)
+",,"stdout","1275908","13"
+"o","13",," - [x] Cancel
+",,"stdout","1275908","13"
+"o","13",,": ",,"stdout","1275908","13"
+"o","13",,"Inspect an item in inventory:
+",,"stdout","1277522","13"
+"o","13",,"You have:
+",,"stdout","1277538","13"
+"o","13",," - 1x stone
+",,"stdout","1277538","13"
+"o","13",," - 1x branch
+",,"stdout","1277538","13"
+"o","13",," - 1x metal scrap
+",,"stdout","1277538","13"
+"o","13",," - 1x iron ore
+",,"stdout","1277538","13"
+"o","13",,": ",,"stdout","1277538","13"
+"o","13",,"It's a grey stone.
+",,"stdout","1281379","13"
+"o","13",,": ",,"stdout","1281379","13"
+"o","13",,"Traceback (most recent call last):
+",,"stderr","1347955","13"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1347955","13"
+"o","13",,"    tick(lexeter, lexeter.world)
+",,"stderr","1347955","13"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1347955","13"
+"o","13",,"    tick(lexeter,world)
+",,"stderr","1347955","13"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1347955","13"
+"o","13",,"    tick(lexeter,world)
+",,"stderr","1347955","13"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1347955","13"
+"o","13",,"    tick(lexeter,world)
+",,"stderr","1347955","13"
+"o","13",,"  [Previous line repeated 3 more times]
+",,"stderr","1347955","13"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","1347955","13"
+"o","13",,"    world.player.act.playeraction()
+",,"stderr","1347955","13"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 118, in playeraction
+",,"stderr","1347955","13"
+"o","13",,"    resp = input("": "")
+",,"stderr","1347955","13"
+"o","13",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1347955","13"
+"o","13",,"    def decode(self, input, final=False):
+",,"stderr","1347955","13"
+"o","13",,"KeyboardInterrupt
+",,"stderr","1347955","13"
+"o","13",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1347969","13"
+"r","14","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"1348252","13"
+"o","14",,": ",,"stdout","1348512","13"
+"o","14",,"Where would you like to go?
+",,"stdout","1352281","13"
+"o","14",,"pond_4
+",,"stdout","1352281","13"
+"o","14",," - shack_0
+",,"stdout","1352281","13"
+"o","14",," - brickfloor_5
+",,"stdout","1352281","13"
+"o","14",,": ",,"stdout","1352281","13"
+"o","14",,"Moving to brickfloor_5
+",,"stdout","1357137","13"
+"o","14",,"For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.
+",,"stdout","1357153","13"
+"o","14",,": ",,"stdout","1357153","13"
+"o","14",,"",,"stdout","1359626","13"
+"o","14",,"What do you want to pick up?
+",,"stdout","1359642","13"
+"o","14",," - all
+",,"stdout","1359642","13"
+"o","14",," - branch
+",,"stdout","1359642","13"
+"o","14",," - sunglasses
+",,"stdout","1359642","13"
+"o","14",,": ",,"stdout","1359642","13"
+"o","14",,"You picked up branch
+",,"stdout","1362018","13"
+"o","14",,"You picked up sunglasses
+",,"stdout","1362018","13"
+"o","14",,": ",,"stdout","1362018","13"
+"o","14",,"Traceback (most recent call last):
+",,"stderr","1465972","13"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1465972","13"
+"o","14",,"    tick(lexeter, lexeter.world)
+",,"stderr","1465973","13"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1465973","13"
+"o","14",,"    tick(lexeter,world)
+",,"stderr","1465973","13"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1465973","13"
+"o","14",,"    tick(lexeter,world)
+",,"stderr","1465973","13"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","1465973","13"
+"o","14",,"    world.player.act.playeraction()
+",,"stderr","1465973","13"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 118, in playeraction
+",,"stderr","1465973","13"
+"o","14",,"    resp = input("": "")
+",,"stderr","1465973","13"
+"o","14",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1465973","13"
+"o","14",,"    def decode(self, input, final=False):
+",,"stderr","1465973","13"
+"o","14",,"KeyboardInterrupt
+",,"stderr","1465973","13"
+"o","14",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1465986","13"
+"r","15","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"1466435","13"
+"o","15",,": ",,"stdout","1466784","13"
+"o","15",,"There's nothing here.
+",,"stdout","1468637","13"
+"o","15",,": ",,"stdout","1468637","13"
+"o","15",,"Where would you like to go?
+",,"stdout","1471143","13"
+"o","15",,"brickfloor_5
+",,"stdout","1471143","13"
+"o","15",," - pond_4
+",,"stdout","1471143","13"
+"o","15",," - canopy_6
+",,"stdout","1471143","13"
+"o","15",,": ",,"stdout","1471143","13"
+"o","15",,"Moving to canopy_6
+",,"stdout","1474786","13"
+"o","15",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","1474802","13"
+"o","15",,": ",,"stdout","1474802","13"
+"o","15",,"What do you want to pick up?
+",,"stdout","1476159","13"
+"o","15",," - all
+",,"stdout","1476159","13"
+"o","15",," - iron ore
+",,"stdout","1476159","13"
+"o","15",," - [x] Cancel
+",,"stdout","1476159","13"
+"o","15",," - iron ore
+",,"stdout","1476159","13"
+"o","15",," - [x] Cancel
+",,"stdout","1476159","13"
+"o","15",," - berry
+",,"stdout","1476159","13"
+"o","15",," - [x] Cancel
+",,"stdout","1476159","13"
+"o","15",,": ",,"stdout","1476159","13"
+"o","15",,": ",,"stdout","1487514","13"
+"o","15",,"Traceback (most recent call last):
+",,"stderr","1539419","13"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1539419","13"
+"o","15",,"    tick(lexeter, lexeter.world)
+",,"stderr","1539419","13"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1539419","13"
+"o","15",,"    tick(lexeter,world)
+",,"stderr","1539419","13"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1539419","13"
+"o","15",,"    tick(lexeter,world)
+",,"stderr","1539419","13"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1539419","13"
+"o","15",,"    tick(lexeter,world)
+",,"stderr","1539419","13"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","1539419","13"
+"o","15",,"    world.player.act.playeraction()
+",,"stderr","1539419","13"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 118, in playeraction
+",,"stderr","1539419","13"
+"o","15",,"    resp = input("": "")
+",,"stderr","1539419","13"
+"o","15",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1539419","13"
+"o","15",,"    def decode(self, input, final=False):
+",,"stderr","1539419","13"
+"o","15",,"KeyboardInterrupt
+",,"stderr","1539419","13"
+"o","15",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1539426","13"
+"r","16","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"1539616","13"
+"o","16",,": ",,"stdout","1539738","13"
+"o","16",,"What do you want to pick up?
+",,"stdout","1541431","13"
+"o","16",," - all
+",,"stdout","1541431","13"
+"o","16",," - iron ore
+",,"stdout","1541431","13"
+"o","16",," - iron ore
+",,"stdout","1541431","13"
+"o","16",," - berry
+",,"stdout","1541431","13"
+"o","16",," - [x] Cancel
+",,"stdout","1541431","13"
+"o","16",,": ",,"stdout","1541431","13"
+"o","16",,"You picked up iron ore
+",,"stdout","1544067","13"
+"o","16",,"You picked up iron ore
+",,"stdout","1544067","13"
+"o","16",,"You picked up berry
+",,"stdout","1544067","13"
+"o","16",,": ",,"stdout","1544067","13"
+"o","16",,"",,"stdout","1546096","13"
+"o","16",,"There's nothing here.
+",,"stdout","1546112","13"
+"o","16",,": ",,"stdout","1546112","13"
+"o","16",,"Traceback (most recent call last):
+",,"stderr","1607943","13"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1607943","13"
+"o","16",,"    tick(lexeter, lexeter.world)
+",,"stderr","1607943","13"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1607943","13"
+"o","16",,"    tick(lexeter,world)
+",,"stderr","1607943","13"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1607943","13"
+"o","16",,"    tick(lexeter,world)
+",,"stderr","1607944","13"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","1607944","13"
+"o","16",,"    world.player.act.playeraction()
+",,"stderr","1607944","13"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 118, in playeraction
+",,"stderr","1607944","13"
+"o","16",,"    resp = input("": "")
+",,"stderr","1607944","13"
+"o","16",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1607944","13"
+"o","16",,"    def decode(self, input, final=False):
+",,"stderr","1607944","13"
+"o","16",,"KeyboardInterrupt
+",,"stderr","1607944","13"
+"o","16",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1607953","13"
+"r","17","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"1608194","13"
+"o","17",,": ",,"stdout","1608375","13"
+"o","17",,"Where would you like to go?
+",,"stdout","1609972","13"
+"o","17",,"canopy_6
+",,"stdout","1609972","13"
+"o","17",," - brickfloor_5
+",,"stdout","1609972","13"
+"o","17",," - fractured_7
+",,"stdout","1609972","13"
+"o","17",,": ",,"stdout","1609972","13"
+"o","17",,"Moving to fractured_7
+",,"stdout","1613759","13"
+"o","17",,"You have no idea what this room actually looks like.
+",,"stdout","1613775","13"
+"o","17",,": ",,"stdout","1613775","13"
+"o","17",,"What do you want to pick up?
+",,"stdout","1615992","13"
+"o","17",," - all
+",,"stdout","1615992","13"
+"o","17",," - [0] diamond
+",,"stdout","1615992","13"
+"o","17",," - [1] Excalibur
+",,"stdout","1615992","13"
+"o","17",," - [x] Cancel
+",,"stdout","1615992","13"
+"o","17",,": ",,"stdout","1615992","13"
+"o","17",,"That's not an option, try again.
+",,"stdout","1619157","13"
+"o","17",,": ",,"stdout","1619157","13"
+"o","17",,"Traceback (most recent call last):
+",,"stderr","1736281","13"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1736281","13"
+"o","17",,"    tick(lexeter, lexeter.world)
+",,"stderr","1736281","13"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","1736281","13"
+"o","17",,"    tick(lexeter,world)
+",,"stderr","1736281","13"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","1736281","13"
+"o","17",,"    world.player.act.playeraction()
+",,"stderr","1736281","13"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","1736281","13"
+"o","17",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","1736281","13"
+"o","17",,"  File ""<string>"", line 1, in <module>
+",,"stderr","1736281","13"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 308, in pickalias
+",,"stderr","1736281","13"
+"o","17",,"    self.pickup()
+",,"stderr","1736281","13"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 296, in pickup
+",,"stderr","1736281","13"
+"o","17",,"    loop(choice,room)
+",,"stderr","1736281","13"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 295, in loop
+",,"stderr","1736281","13"
+"o","17",,"    loop(input("": ""),room)
+",,"stderr","1736281","13"
+"o","17",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","1736281","13"
+"o","17",,"    def decode(self, input, final=False):
+",,"stderr","1736281","13"
+"o","17",,"KeyboardInterrupt
+",,"stderr","1736281","13"
+"o","17",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","1736294","13"
+"r","18","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"1736525","13"
+"o","18",,": ",,"stdout","1736712","13"
+"o","18",,"What do you want to pick up?
+",,"stdout","1738353","13"
+"o","18",," - all
+",,"stdout","1738353","13"
+"o","18",," - [0] diamond
+",,"stdout","1738353","13"
+"o","18",," - [1] Excalibur
+",,"stdout","1738353","13"
+"o","18",," - [x] Cancel
+",,"stdout","1738353","13"
+"o","18",,": ",,"stdout","1738353","13"
+"o","18",,"Traceback (most recent call last):
+",,"stderr","1740237","13"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1740237","13"
+"o","18",,"    tick(lexeter, lexeter.world)
+",,"stderr","1740237","13"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","1740237","13"
+"o","18",,"    world.player.act.playeraction()
+",,"stderr","1740237","13"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","1740237","13"
+"o","18",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","1740237","13"
+"o","18",,"  File ""<string>"", line 1, in <module>
+",,"stderr","1740237","13"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 313, in pickalias
+",,"stderr","1740237","13"
+"o","18",,"    self.pickup()
+",,"stderr","1740237","13"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 301, in pickup
+",,"stderr","1740237","13"
+"o","18",,"    loop(choice,room)
+",,"stderr","1740237","13"
+"o","18",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 293, in loop
+",,"stderr","1740237","13"
+"o","18",,"    room.loot.remove(room.loot[choice])
+",,"stderr","1740237","13"
+"o","18",,"TypeError: list indices must be integers or slices, not str
+",,"stderr","1740237","13"
+"o","18",,"
+Process finished with exit code 1
+",,"system","1740238","13"
+"r","19","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"1760829","13"
+"o","19",,": ",,"stdout","1761096","13"
+"o","19",,"What do you want to pick up?
+",,"stdout","1762630","13"
+"o","19",," - all
+",,"stdout","1762630","13"
+"o","19",," - [0] diamond
+",,"stdout","1762630","13"
+"o","19",," - [1] Excalibur
+",,"stdout","1762630","13"
+"o","19",," - [x] Cancel
+",,"stdout","1762630","13"
+"o","19",,": ",,"stdout","1762630","13"
+"o","19",,"You picked up excalibur
+",,"stdout","1763731","13"
+"o","19",,"Traceback (most recent call last):
+",,"stderr","1763731","13"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","1763731","13"
+"o","19",,"    tick(lexeter, lexeter.world)
+",,"stderr","1763731","13"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","1763731","13"
+"o","19",,"    world.player.act.playeraction()
+",,"stderr","1763731","13"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","1763731","13"
+"o","19",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","1763731","13"
+"o","19",,"  File ""<string>"", line 1, in <module>
+",,"stderr","1763731","13"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 313, in pickalias
+",,"stderr","1763731","13"
+"o","19",,"    self.pickup()
+",,"stderr","1763731","13"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 301, in pickup
+",,"stderr","1763731","13"
+"o","19",,"    loop(choice,room)
+",,"stderr","1763731","13"
+"o","19",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 296, in loop
+",,"stderr","1763731","13"
+"o","19",,"    self.__sublog(room.loot[choice])
+",,"stderr","1763731","13"
+"o","19",,"TypeError: list indices must be integers or slices, not str
+",,"stderr","1763731","13"
+"o","19",,"
+Process finished with exit code 1
+",,"system","1763745","13"
+"r","20","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"1773486","13"
+"o","20",,": ",,"stdout","1774191","13"
+"o","20",,"What do you want to pick up?
+",,"stdout","1775022","13"
+"o","20",," - all
+",,"stdout","1775022","13"
+"o","20",," - [0] diamond
+",,"stdout","1775022","13"
+"o","20",," - [1] Excalibur
+",,"stdout","1775022","13"
+"o","20",," - [x] Cancel
+",,"stdout","1775022","13"
+"o","20",,": ",,"stdout","1775022","13"
