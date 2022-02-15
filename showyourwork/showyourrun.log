@@ -11387,3 +11387,1409 @@ Process finished with exit code 1
 "o","20",," - [x] Cancel
 ",,"stdout","1775022","13"
 "o","20",,": ",,"stdout","1775022","13"
+"o","20",,"You picked up excalibur
+",,"stdout","1776585","13"
+"o","20",,": ",,"stdout","1776585","13"
+"o","20",,"Traceback (most recent call last):
+",,"stderr","3510350","13"
+"o","20",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","3510350","13"
+"o","20",,"    tick(lexeter, lexeter.world)
+",,"stderr","3510350","13"
+"o","20",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","3510350","13"
+"o","20",,"    tick(lexeter,world)
+",,"stderr","3510350","13"
+"o","20",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","3510350","13"
+"o","20",,"    world.player.act.playeraction()
+",,"stderr","3510350","13"
+"o","20",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 118, in playeraction
+",,"stderr","3510350","13"
+"o","20",,"    resp = input("": "")
+",,"stderr","3510350","13"
+"o","20",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","3510350","13"
+"o","20",,"    def decode(self, input, final=False):
+",,"stderr","3510350","13"
+"o","20",,"KeyboardInterrupt
+",,"stderr","3510350","13"
+"o","20",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","3510370","13"
+"r","21","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"3510582","13"
+"o","21",,": ",,"stdout","3510980","13"
+"o","21",,"Traceback (most recent call last):
+",,"stderr","3521566","13"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","3521566","13"
+"o","21",,"    tick(lexeter, lexeter.world)
+",,"stderr","3521582","13"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","3521582","13"
+"o","21",,"    world.player.act.playeraction()
+",,"stderr","3521582","13"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","3521582","13"
+"o","21",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","3521582","13"
+"o","21",,"  File ""<string>"", line 1, in <module>
+",,"stderr","3521582","13"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 376, in craftalias
+",,"stderr","3521582","13"
+"o","21",,"    self.craft()
+",,"stderr","3521582","13"
+"o","21",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 348, in craft
+",,"stderr","3521582","13"
+"o","21",,"    if all(x in self.player.inventory for x in getattr(self.world.recipes, i).ingredients) and getattr(self.world.recipes, i).station in getattr(self.world.map, self.player.room).buildings:
+",,"stderr","3521582","13"
+"o","21",,"AttributeError: 'Recipes' object has no attribute 'molteniron'
+",,"stderr","3521582","13"
+"o","21",,"
+Process finished with exit code 1
+",,"system","3521592","13"
+"r","22","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"3553600","13"
+"o","22",,": ",,"stdout","3554567","13"
+"o","22",,"Traceback (most recent call last):
+",,"stderr","3556398","13"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","3556398","13"
+"o","22",,"    tick(lexeter, lexeter.world)
+",,"stderr","3556398","13"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","3556398","13"
+"o","22",,"    world.player.act.playeraction()
+",,"stderr","3556398","13"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","3556398","13"
+"o","22",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","3556398","13"
+"o","22",,"  File ""<string>"", line 1, in <module>
+",,"stderr","3556398","13"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 376, in craftalias
+",,"stderr","3556398","13"
+"o","22",,"    self.craft()
+",,"stderr","3556398","13"
+"o","22",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 348, in craft
+",,"stderr","3556398","13"
+"o","22",,"    if all(x in self.player.inventory for x in getattr(self.world.recipes, i).ingredients) and getattr(self.world.recipes, i).station in getattr(self.world.map, self.player.room).buildings:
+",,"stderr","3556398","13"
+"o","22",,"AttributeError: 'Recipes' object has no attribute 'molteniron'
+",,"stderr","3556398","13"
+"o","22",,"
+Process finished with exit code 1
+",,"system","3556414","13"
+"r","23","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"3566376","13"
+"o","23",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","3566708","13"
+"o","23",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","3566708","13"
+"o","23",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","3566708","13"
+"o","23",,"(yes or no): ",,"stdout","3566708","13"
+"o","23",,"72
+",,"stdout","3568935","13"
+"o","23",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","3568935","13"
+"o","23",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","3568935","13"
+"o","23",,"
+",,"stdout","3568935","13"
+"o","23",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","3570786","13"
+"o","23",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","3570786","13"
+"o","23",,"
+",,"stdout","3570786","13"
+"o","23",,"
+",,"stdout","3570786","13"
+"o","23",,": ",,"stdout","3570786","13"
+"o","23",,"What do you want to inspect?
+",,"stdout","3583278","13"
+"o","23",," - [R] Room
+",,"stdout","3583278","13"
+"o","23",," - [i] Look at an item in your inventory (inventory)
+",,"stdout","3583278","13"
+"o","23",," - [x] Cancel
+",,"stdout","3583278","13"
+"o","23",,": ",,"stdout","3583278","13"
+"o","23",,"[geoflib] says: blegh! just got a bug in my mouth!
+",,"stdout","3585564","13"
+"o","23",,": ",,"stdout","3585564","13"
+"o","23",,"What do you want to inspect?
+",,"stdout","3588227","13"
+"o","23",," - [R] Room
+",,"stdout","3588227","13"
+"o","23",," - [i] Look at an item in your inventory (inventory)
+",,"stdout","3588227","13"
+"o","23",," - [x] Cancel
+",,"stdout","3588227","13"
+"o","23",,": ",,"stdout","3588227","13"
+"o","23",,"Where'd everything go?
+",,"stdout","3589705","13"
+"o","23",,": ",,"stdout","3589705","13"
+"o","23",,"Where would you like to go?
+",,"stdout","3593106","13"
+"o","23",,"darkroom
+",,"stdout","3593106","13"
+"o","23",," - canopy_0
+",,"stdout","3593106","13"
+"o","23",," - terracotta_1
+",,"stdout","3593106","13"
+"o","23",," - canopy_2
+",,"stdout","3593106","13"
+"o","23",,": ",,"stdout","3593106","13"
+"o","23",,"Moving to canopy_0
+",,"stdout","3596284","13"
+"o","23",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","3596309","13"
+"o","23",,": ",,"stdout","3596309","13"
+"o","23",,"What do you want to pick up?
+",,"stdout","3598434","13"
+"o","23",," - all
+",,"stdout","3598434","13"
+"o","23",," - [0] berry
+",,"stdout","3598434","13"
+"o","23",," - [1] fistful of mud
+",,"stdout","3598434","13"
+"o","23",," - [2] ruby
+",,"stdout","3598434","13"
+"o","23",," - [0] berry
+",,"stdout","3598434","13"
+"o","23",," - [x] Cancel
+",,"stdout","3598434","13"
+"o","23",,": ",,"stdout","3598434","13"
+"o","23",,"You picked up berry
+",,"stdout","3601607","13"
+"o","23",,"You picked up fistful of mud
+",,"stdout","3601607","13"
+"o","23",,"You picked up ruby
+",,"stdout","3601607","13"
+"o","23",,"You picked up berry
+",,"stdout","3601607","13"
+"o","23",,": ",,"stdout","3601607","13"
+"o","23",,"Traceback (most recent call last):
+",,"stderr","3604083","13"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","3604083","13"
+"o","23",,"    tick(lexeter, lexeter.world)
+",,"stderr","3604083","13"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","3604083","13"
+"o","23",,"    tick(lexeter,world)
+",,"stderr","3604083","13"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","3604083","13"
+"o","23",,"    tick(lexeter,world)
+",,"stderr","3604083","13"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","3604083","13"
+"o","23",,"    tick(lexeter,world)
+",,"stderr","3604083","13"
+"o","23",,"  [Previous line repeated 1 more time]
+",,"stderr","3604083","13"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","3604083","13"
+"o","23",,"    world.player.act.playeraction()
+",,"stderr","3604083","13"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","3604083","13"
+"o","23",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","3604083","13"
+"o","23",,"  File ""<string>"", line 1, in <module>
+",,"stderr","3604083","13"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 376, in craftalias
+",,"stderr","3604083","13"
+"o","23",,"    self.craft()
+",,"stderr","3604083","13"
+"o","23",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 348, in craft
+",,"stderr","3604083","13"
+"o","23",,"    if all(x in self.player.inventory for x in getattr(self.world.recipes, i).ingredients) and getattr(self.world.recipes, i).station in getattr(self.world.map, self.player.room).buildings:
+",,"stderr","3604083","13"
+"o","23",,"AttributeError: 'Molteniron' object has no attribute 'ingredients'
+",,"stderr","3604083","13"
+"o","23",,"
+Process finished with exit code 1
+",,"system","3604091","13"
+"r","24","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"3624789","13"
+"o","24",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","3625050","13"
+"o","24",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","3625050","13"
+"o","24",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","3625050","13"
+"o","24",,"(yes or no): ",,"stdout","3625050","13"
+"o","24",,"47
+",,"stdout","3626916","13"
+"o","24",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","3626916","13"
+"o","24",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","3626916","13"
+"o","24",,"
+",,"stdout","3626916","13"
+"o","24",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","3628475","13"
+"o","24",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","3628475","13"
+"o","24",,"
+",,"stdout","3628475","13"
+"o","24",,"
+",,"stdout","3628475","13"
+"o","24",,": ",,"stdout","3628475","13"
+"o","24",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","3629490","13"
+"o","24",,": ",,"stdout","3629490","13"
+"o","24",,"You are unable to craft anything.
+",,"stdout","3631701","13"
+"o","24",,": ",,"stdout","3631701","13"
+"o","24",,"You are unable to build anything.
+",,"stdout","3634379","13"
+"o","24",,"[geoflib] says: ever been to paris?
+",,"stdout","3634395","13"
+"o","24",,"[mek] says: ever been to paris?
+",,"stdout","3634395","13"
+"o","24",,": ",,"stdout","3634395","13"
+"o","24",,"Where would you like to go?
+",,"stdout","3752386","13"
+"o","24",,"darkroom
+",,"stdout","3752386","13"
+"o","24",," - shack_0
+",,"stdout","3752386","13"
+"o","24",," - terracotta_1
+",,"stdout","3752386","13"
+"o","24",," - cavern_2
+",,"stdout","3752386","13"
+"o","24",,": ",,"stdout","3752386","13"
+"o","24",,"Moving to shack_0
+",,"stdout","3756516","13"
+"o","24",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","3756548","13"
+"o","24",,": ",,"stdout","3756564","13"
+"o","24",,"",,"stdout","3759574","13"
+"o","24",,"What do you want to inspect?
+",,"stdout","3759590","13"
+"o","24",," - [0] stone
+",,"stdout","3759590","13"
+"o","24",," - [1] mud
+",,"stdout","3759590","13"
+"o","24",," - [1] mud
+",,"stdout","3759590","13"
+"o","24",," - [R] Room
+",,"stdout","3759590","13"
+"o","24",," - [i] Look at an item in your inventory (inventory)
+",,"stdout","3759590","13"
+"o","24",," - [x] Cancel
+",,"stdout","3759590","13"
+"o","24",,": ",,"stdout","3759590","13"
+"o","24",,": ",,"stdout","3763224","13"
+"o","24",,"",,"stdout","3764757","13"
+"o","24",,"What do you want to pick up?
+",,"stdout","3764773","13"
+"o","24",," - all
+",,"stdout","3764773","13"
+"o","24",," - [0] stone
+",,"stdout","3764773","13"
+"o","24",," - [1] fistful of mud
+",,"stdout","3764773","13"
+"o","24",," - [1] fistful of mud
+",,"stdout","3764773","13"
+"o","24",," - [x] Cancel
+",,"stdout","3764773","13"
+"o","24",,": ",,"stdout","3764773","13"
+"o","24",,"You picked up stone
+",,"stdout","3766705","13"
+"o","24",,"You picked up fistful of mud
+",,"stdout","3766705","13"
+"o","24",,"You picked up fistful of mud
+",,"stdout","3766705","13"
+"o","24",,": ",,"stdout","3766705","13"
+"o","24",,"You are unable to craft anything.
+",,"stdout","3768762","13"
+"o","24",,": ",,"stdout","3768778","13"
+"o","24",,"",,"stdout","3770694","13"
+"o","24",,"Where would you like to go?
+",,"stdout","3770710","13"
+"o","24",,"shack_0
+",,"stdout","3770710","13"
+"o","24",," - darkroom
+",,"stdout","3770710","13"
+"o","24",," - shack_4
+",,"stdout","3770710","13"
+"o","24",,": ",,"stdout","3770710","13"
+"o","24",,"Moving to shack_4
+",,"stdout","3773456","13"
+"o","24",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","3773472","13"
+"o","24",,": ",,"stdout","3773472","13"
+"o","24",,"What do you want to pick up?
+",,"stdout","3775911","13"
+"o","24",," - all
+",,"stdout","3775911","13"
+"o","24",," - [0] berry
+",,"stdout","3775911","13"
+"o","24",," - [1] egg
+",,"stdout","3775911","13"
+"o","24",," - [x] Cancel
+",,"stdout","3775911","13"
+"o","24",,": ",,"stdout","3775911","13"
+"o","24",,"You picked up berry
+",,"stdout","3777684","13"
+"o","24",,"You picked up egg
+",,"stdout","3777684","13"
+"o","24",,": ",,"stdout","3777684","13"
+"o","24",,"",,"stdout","3779118","13"
+"o","24",,"Where would you like to go?
+",,"stdout","3779134","13"
+"o","24",,"shack_4
+",,"stdout","3779134","13"
+"o","24",," - shack_0
+",,"stdout","3779134","13"
+"o","24",," - terracotta_5
+",,"stdout","3779134","13"
+"o","24",,": ",,"stdout","3779134","13"
+"o","24",,"Moving to terracotta_5
+",,"stdout","3783179","13"
+"o","24",,"The floors and wall appear to be made of smashed, repurposed planter pots.
+",,"stdout","3783195","13"
+"o","24",,": ",,"stdout","3783195","13"
+"o","24",,"There's nothing here.
+",,"stdout","3784793","13"
+"o","24",,": ",,"stdout","3784794","13"
+"o","24",,"Where would you like to go?
+",,"stdout","3786837","13"
+"o","24",,"terracotta_5
+",,"stdout","3786837","13"
+"o","24",," - shack_4
+",,"stdout","3786837","13"
+"o","24",," - fractured_6
+",,"stdout","3786837","13"
+"o","24",,": ",,"stdout","3786837","13"
+"o","24",,"Moving to fractured_6
+",,"stdout","3790258","13"
+"o","24",,"It appears you're inside of a kaleidoscope.
+",,"stdout","3790273","13"
+"o","24",,": ",,"stdout","3790273","13"
+"o","24",,"What do you want to pick up?
+",,"stdout","3792283","13"
+"o","24",," - all
+",,"stdout","3792283","13"
+"o","24",," - [0] sunglasses
+",,"stdout","3792283","13"
+"o","24",," - [x] Cancel
+",,"stdout","3792283","13"
+"o","24",,": ",,"stdout","3792283","13"
+"o","24",,"Traceback (most recent call last):
+",,"stderr","3794393","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","3794393","13"
+"o","24",,"    tick(lexeter, lexeter.world)
+",,"stderr","3794393","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","3794393","13"
+"o","24",,"    tick(lexeter,world)
+",,"stderr","3794393","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","3794393","13"
+"o","24",,"    tick(lexeter,world)
+",,"stderr","3794393","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","3794393","13"
+"o","24",,"    tick(lexeter,world)
+",,"stderr","3794393","13"
+"o","24",,"  [Previous line repeated 8 more times]
+",,"stderr","3794393","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","3794393","13"
+"o","24",,"    world.player.act.playeraction()
+",,"stderr","3794393","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","3794393","13"
+"o","24",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","3794409","13"
+"o","24",,"  File ""<string>"", line 1, in <module>
+",,"stderr","3794409","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 313, in pickalias
+",,"stderr","3794409","13"
+"o","24",,"    self.pickup()
+",,"stderr","3794409","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 301, in pickup
+",,"stderr","3794409","13"
+"o","24",,"    loop(choice,room)
+",,"stderr","3794409","13"
+"o","24",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 294, in loop
+",,"stderr","3794409","13"
+"o","24",,"    self.player.inventory.append(room.loot[int(choice)])
+",,"stderr","3794409","13"
+"o","24",,"IndexError: list index out of range
+",,"stderr","3794409","13"
+"o","24",,"
+Process finished with exit code 1
+",,"system","3794413","13"
+"r","25","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"4140797","13"
+"o","25",,": ",,"stdout","4142163","13"
+"o","25",,"What do you want to pick up?
+",,"stdout","4143875","13"
+"o","25",," - all
+",,"stdout","4143875","13"
+"o","25",," - [0] sunglasses
+",,"stdout","4143875","13"
+"o","25",," - [x] Cancel
+",,"stdout","4143875","13"
+"o","25",,": ",,"stdout","4143875","13"
+"o","25",,"You picked up sunglasses
+",,"stdout","4145632","13"
+"o","25",,": ",,"stdout","4145632","13"
+"o","25",,"You are unable to craft anything.
+",,"stdout","4148417","13"
+"o","25",,": ",,"stdout","4148417","13"
+"o","25",,"",,"stdout","4149885","13"
+"o","25",,"Where would you like to go?
+",,"stdout","4149901","13"
+"o","25",,"fractured_6
+",,"stdout","4149901","13"
+"o","25",," - terracotta_5
+",,"stdout","4149901","13"
+"o","25",," - pond_7
+",,"stdout","4149901","13"
+"o","25",,": ",,"stdout","4149901","13"
+"o","25",,"Moving to pond_7
+",,"stdout","4153746","13"
+"o","25",,"White cobblestones surround a deep blue pond. The room feels slightly mystical.
+",,"stdout","4153762","13"
+"o","25",,": ",,"stdout","4153762","13"
+"o","25",,"What do you want to pick up?
+",,"stdout","4155628","13"
+"o","25",," - all
+",,"stdout","4155628","13"
+"o","25",," - [0] iron ore
+",,"stdout","4155628","13"
+"o","25",," - [x] Cancel
+",,"stdout","4155628","13"
+"o","25",,": ",,"stdout","4155628","13"
+"o","25",,"You picked up ironore
+",,"stdout","4157779","13"
+"o","25",,": ",,"stdout","4157779","13"
+"o","25",,"Where would you like to go?
+",,"stdout","4159642","13"
+"o","25",,"pond_7
+",,"stdout","4159642","13"
+"o","25",," - fractured_6
+",,"stdout","4159642","13"
+"o","25",," - cavern_8
+",,"stdout","4159642","13"
+"o","25",,": ",,"stdout","4159642","13"
+"o","25",,"Moving to cavern_8
+",,"stdout","4163306","13"
+"o","25",,"You look up and wonder where the top is. Then you look into a hole and wonder where the bottom is.
+",,"stdout","4163322","13"
+"o","25",,": ",,"stdout","4163322","13"
+"o","25",,"What do you want to pick up?
+",,"stdout","4164967","13"
+"o","25",," - all
+",,"stdout","4164967","13"
+"o","25",," - [0] berry
+",,"stdout","4164967","13"
+"o","25",," - [0] berry
+",,"stdout","4164967","13"
+"o","25",," - [2] branch
+",,"stdout","4164967","13"
+"o","25",," - [0] berry
+",,"stdout","4164967","13"
+"o","25",," - [x] Cancel
+",,"stdout","4164967","13"
+"o","25",,": ",,"stdout","4164967","13"
+"o","25",,"You picked up berry
+",,"stdout","4167572","13"
+"o","25",,"You picked up berry
+",,"stdout","4167572","13"
+"o","25",,"You picked up branch
+",,"stdout","4167572","13"
+"o","25",,"You picked up berry
+",,"stdout","4167572","13"
+"o","25",,": ",,"stdout","4167572","13"
+"o","25",,"You are unable to craft anything.
+",,"stdout","4169829","13"
+"o","25",,": ",,"stdout","4169829","13"
+"o","25",,"Where would you like to go?
+",,"stdout","4171790","13"
+"o","25",,"cavern_8
+",,"stdout","4171790","13"
+"o","25",," - pond_7
+",,"stdout","4171790","13"
+"o","25",," - marble_9
+",,"stdout","4171790","13"
+"o","25",,": ",,"stdout","4171790","13"
+"o","25",,"Moving to marble_9
+",,"stdout","4174666","13"
+"o","25",,"Your footsteps clack on the marbled flooring. The gold engravings on the pillars surrounding you make the room feel regal.
+",,"stdout","4174682","13"
+"o","25",,": ",,"stdout","4174682","13"
+"o","25",,"What do you want to pick up?
+",,"stdout","4176289","13"
+"o","25",," - all
+",,"stdout","4176289","13"
+"o","25",," - [0] egg
+",,"stdout","4176289","13"
+"o","25",," - [1] twine
+",,"stdout","4176289","13"
+"o","25",," - [2] berry
+",,"stdout","4176289","13"
+"o","25",," - [1] twine
+",,"stdout","4176289","13"
+"o","25",," - [x] Cancel
+",,"stdout","4176289","13"
+"o","25",,": ",,"stdout","4176289","13"
+"o","25",,"You picked up egg
+",,"stdout","4178508","13"
+"o","25",,"You picked up twine
+",,"stdout","4178508","13"
+"o","25",,"You picked up berry
+",,"stdout","4178508","13"
+"o","25",,"You picked up twine
+",,"stdout","4178508","13"
+"o","25",,": ",,"stdout","4178524","13"
+"o","25",,"What would you like to craft?
+",,"stdout","4179847","13"
+"o","25",," - slingshot
+",,"stdout","4179847","13"
+"o","25",," - [x] Cancel
+",,"stdout","4179847","13"
+"o","25",,": ",,"stdout","4179847","13"
+"o","25",,"That's not an option, sorry.
+",,"stdout","4184539","13"
+"o","25",,": ",,"stdout","4184539","13"
+"o","25",,"That's not an option, sorry.
+",,"stdout","4185721","13"
+"o","25",,": ",,"stdout","4185721","13"
+"o","25",,": ",,"stdout","4187365","13"
+"o","25",,"Traceback (most recent call last):
+",,"stderr","4233679","13"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","4233679","13"
+"o","25",,"    tick(lexeter, lexeter.world)
+",,"stderr","4233679","13"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","4233679","13"
+"o","25",,"    tick(lexeter,world)
+",,"stderr","4233679","13"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","4233679","13"
+"o","25",,"    tick(lexeter,world)
+",,"stderr","4233679","13"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","4233679","13"
+"o","25",,"    tick(lexeter,world)
+",,"stderr","4233679","13"
+"o","25",,"  [Previous line repeated 7 more times]
+",,"stderr","4233679","13"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","4233679","13"
+"o","25",,"    world.player.act.playeraction()
+",,"stderr","4233679","13"
+"o","25",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 118, in playeraction
+",,"stderr","4233679","13"
+"o","25",,"    resp = input("": "")
+",,"stderr","4233679","13"
+"o","25",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","4233679","13"
+"o","25",,"    def decode(self, input, final=False):
+",,"stderr","4233679","13"
+"o","25",,"KeyboardInterrupt
+",,"stderr","4233679","13"
+"o","25",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","4233686","13"
+"r","26","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"4233907","13"
+"o","26",,": ",,"stdout","4234109","13"
+"o","26",,"Traceback (most recent call last):
+",,"stderr","4235881","13"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","4235881","13"
+"o","26",,"    tick(lexeter, lexeter.world)
+",,"stderr","4235881","13"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","4235881","13"
+"o","26",,"    world.player.act.playeraction()
+",,"stderr","4235881","13"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","4235881","13"
+"o","26",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","4235881","13"
+"o","26",,"  File ""<string>"", line 1, in <module>
+",,"stderr","4235881","13"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 376, in craftalias
+",,"stderr","4235881","13"
+"o","26",,"    self.craft()
+",,"stderr","4235881","13"
+"o","26",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 356, in craft
+",,"stderr","4235881","13"
+"o","26",,"    ",,"stderr","4235881","13"
+"o","26",,"What would you like to craft?
+",,"stdout","4235881","13"
+"o","26",,"print("" - ["" + str(room.loot.index(i)) + ""] "" + i)
+",,"stderr","4235897","13"
+"o","26",,"NameError: name 'room' is not defined
+",,"stderr","4235897","13"
+"o","26",,"
+Process finished with exit code 1
+",,"system","4235904","13"
+"r","27","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"4255972","13"
+"o","27",,": ",,"stdout","4257183","13"
+"o","27",,"What would you like to craft?
+",,"stdout","4259675","13"
+"o","27",," - [0] slingshot
+",,"stdout","4259675","13"
+"o","27",," - [x] Cancel
+",,"stdout","4259675","13"
+"o","27",,": ",,"stdout","4259675","13"
+"o","27",,"That's not an option, sorry.",,"stdout","4261639","13"
+"o","27",,"
+",,"stdout","4261639","13"
+"o","27",,": ",,"stdout","4261639","13"
+"o","27",,"Traceback (most recent call last):
+",,"stderr","4343467","13"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","4343467","13"
+"o","27",,"    tick(lexeter, lexeter.world)
+",,"stderr","4343467","13"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","4343467","13"
+"o","27",,"    world.player.act.playeraction()
+",,"stderr","4343467","13"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","4343467","13"
+"o","27",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","4343467","13"
+"o","27",,"  File ""<string>"", line 1, in <module>
+",,"stderr","4343467","13"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 376, in craftalias
+",,"stderr","4343467","13"
+"o","27",,"    self.craft()
+",,"stderr","4343467","13"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 372, in craft
+",,"stderr","4343467","13"
+"o","27",,"    loop(self, craftables)
+",,"stderr","4343467","13"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 371, in loop
+",,"stderr","4343467","13"
+"o","27",,"    loop(self, craftables)
+",,"stderr","4343467","13"
+"o","27",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 360, in loop
+",,"stderr","4343467","13"
+"o","27",,"    choice = input("": "")
+",,"stderr","4343467","13"
+"o","27",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","4343467","13"
+"o","27",,"    def decode(self, input, final=False):
+",,"stderr","4343467","13"
+"o","27",,"KeyboardInterrupt
+",,"stderr","4343467","13"
+"o","27",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","4343482","13"
+"r","28","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"4343693","13"
+"o","28",,": ",,"stdout","4343864","13"
+"o","28",,"What would you like to craft?
+",,"stdout","4345675","13"
+"o","28",," - [0] slingshot
+",,"stdout","4345675","13"
+"o","28",," - [x] Cancel
+",,"stdout","4345675","13"
+"o","28",,": ",,"stdout","4345675","13"
+"o","28",,"Traceback (most recent call last):
+",,"stderr","4346295","13"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","4346295","13"
+"o","28",,"    tick(lexeter, lexeter.world)
+",,"stderr","4346311","13"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","4346311","13"
+"o","28",,"    world.player.act.playeraction()
+",,"stderr","4346311","13"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","4346311","13"
+"o","28",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","4346311","13"
+"o","28",,"  File ""<string>"", line 1, in <module>
+",,"stderr","4346311","13"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 382, in craftalias
+",,"stderr","4346311","13"
+"o","28",,"    self.craft()
+",,"stderr","4346311","13"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 378, in craft
+",,"stderr","4346311","13"
+"o","28",,"    loop(self, craftables)
+",,"stderr","4346311","13"
+"o","28",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 370, in loop
+",,"stderr","4346311","13"
+"o","28",,"    self.player.inventory.append(craftables[choice])
+",,"stderr","4346311","13"
+"o","28",,"TypeError: list indices must be integers or slices, not str
+",,"stderr","4346311","13"
+"o","28",,"
+Process finished with exit code 1
+",,"system","4346318","13"
+"r","29","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"4374964","13"
+"o","29",,": ",,"stdout","4375269","13"
+"o","29",,"What would you like to craft?
+",,"stdout","4377626","13"
+"o","29",," - [0] slingshot
+",,"stdout","4377626","13"
+"o","29",," - [x] Cancel
+",,"stdout","4377626","13"
+"o","29",,": ",,"stdout","4377626","13"
+"o","29",,"Traceback (most recent call last):
+",,"stderr","4378713","13"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","4378713","13"
+"o","29",,"    tick(lexeter, lexeter.world)
+",,"stderr","4378713","13"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","4378713","13"
+"o","29",,"    world.player.act.playeraction()
+",,"stderr","4378713","13"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","4378713","13"
+"o","29",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","4378713","13"
+"o","29",,"  File ""<string>"", line 1, in <module>
+",,"stderr","4378713","13"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 382, in craftalias
+",,"stderr","4378713","13"
+"o","29",,"    self.craft()
+",,"stderr","4378713","13"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 378, in craft
+",,"stderr","4378713","13"
+"o","29",,"    loop(self, craftables)
+",,"stderr","4378713","13"
+"o","29",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 370, in loop
+",,"stderr","4378713","13"
+"o","29",,"    self.player.inventory.append(craftables[str(choice)])
+",,"stderr","4378729","13"
+"o","29",,"TypeError: list indices must be integers or slices, not str
+",,"stderr","4378729","13"
+"o","29",,"
+Process finished with exit code 1
+",,"system","4378734","13"
+"r","30","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"4405360","13"
+"o","30",,": ",,"stdout","4405892","13"
+"o","30",,"What would you like to craft?
+",,"stdout","4408267","13"
+"o","30",," - [0] slingshot
+",,"stdout","4408267","13"
+"o","30",," - [x] Cancel
+",,"stdout","4408267","13"
+"o","30",,": ",,"stdout","4408267","13"
+"o","30",,"You crafted slingshot!
+",,"stdout","4409719","13"
+"o","30",,": ",,"stdout","4409735","13"
+"o","30",,"Traceback (most recent call last):
+",,"stderr","4450708","13"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","4450708","13"
+"o","30",,"    tick(lexeter, lexeter.world)
+",,"stderr","4450708","13"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","4450708","13"
+"o","30",,"    tick(lexeter,world)
+",,"stderr","4450708","13"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","4450708","13"
+"o","30",,"    world.player.act.playeraction()
+",,"stderr","4450708","13"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 118, in playeraction
+",,"stderr","4450708","13"
+"o","30",,"    resp = input("": "")
+",,"stderr","4450708","13"
+"o","30",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","4450708","13"
+"o","30",,"    def decode(self, input, final=False):
+",,"stderr","4450708","13"
+"o","30",,"KeyboardInterrupt
+",,"stderr","4450708","13"
+"o","30",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","4450720","13"
+"r","31","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"4450933","13"
+"o","31",,": ",,"stdout","4451279","13"
+"o","31",,"You are unable to build anything.
+",,"stdout","4453770","13"
+"o","31",,": ",,"stdout","4453770","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4455839","13"
+"o","31",,"marble_9
+",,"stdout","4455839","13"
+"o","31",," - cavern_8
+",,"stdout","4455839","13"
+"o","31",," - brickfloor_10
+",,"stdout","4455839","13"
+"o","31",,": ",,"stdout","4455839","13"
+"o","31",,"Moving to brickfloor_10
+",,"stdout","4460088","13"
+"o","31",,"For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.
+",,"stdout","4460104","13"
+"o","31",,": ",,"stdout","4460104","13"
+"o","31",,"There's nothing here.
+",,"stdout","4462692","13"
+"o","31",,": ",,"stdout","4462692","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4464638","13"
+"o","31",,"brickfloor_10
+",,"stdout","4464638","13"
+"o","31",," - marble_9
+",,"stdout","4464638","13"
+"o","31",," - marble_11
+",,"stdout","4464638","13"
+"o","31",,": ",,"stdout","4464638","13"
+"o","31",,"Moving to marble_11
+",,"stdout","4468209","13"
+"o","31",,"Your footsteps clack on the marbled flooring. The gold engravings on the pillars surrounding you make the room feel regal.
+",,"stdout","4468225","13"
+"o","31",,": ",,"stdout","4468225","13"
+"o","31",,"There's nothing here.
+",,"stdout","4469706","13"
+"o","31",,": ",,"stdout","4469722","13"
+"o","31",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","4471654","13"
+"o","31",,": ",,"stdout","4471654","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4473059","13"
+"o","31",,"marble_11
+",,"stdout","4473059","13"
+"o","31",," - brickfloor_10
+",,"stdout","4473059","13"
+"o","31",," - cave_12
+",,"stdout","4473059","13"
+"o","31",,": ",,"stdout","4473059","13"
+"o","31",,"Moving to cave_12
+",,"stdout","4476523","13"
+"o","31",,"Drip. Drip. Drip. It's a cave, all right.
+",,"stdout","4476523","13"
+"o","31",,": ",,"stdout","4476523","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4479218","13"
+"o","31",," - all
+",,"stdout","4479218","13"
+"o","31",," - [0] shiny stone
+",,"stdout","4479218","13"
+"o","31",," - [1] berry
+",,"stdout","4479218","13"
+"o","31",," - [2] stone
+",,"stdout","4479218","13"
+"o","31",," - [x] Cancel
+",,"stdout","4479218","13"
+"o","31",,": ",,"stdout","4479218","13"
+"o","31",,"You picked up shiny stone
+",,"stdout","4480798","13"
+"o","31",,"You picked up berry
+",,"stdout","4480798","13"
+"o","31",,"You picked up stone
+",,"stdout","4480798","13"
+"o","31",,": ",,"stdout","4480798","13"
+"o","31",,"You are unable to build anything.
+",,"stdout","4482975","13"
+"o","31",,": ",,"stdout","4482975","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4484770","13"
+"o","31",,"cave_12
+",,"stdout","4484770","13"
+"o","31",," - marble_11
+",,"stdout","4484770","13"
+"o","31",," - marble_13
+",,"stdout","4484770","13"
+"o","31",,": ",,"stdout","4484770","13"
+"o","31",,"Moving to marble_13
+",,"stdout","4488320","13"
+"o","31",,"Your footsteps clack on the marbled flooring. The gold engravings on the pillars surrounding you make the room feel regal.
+",,"stdout","4488336","13"
+"o","31",,": ",,"stdout","4488336","13"
+"o","31",,"There's nothing here.
+",,"stdout","4490025","13"
+"o","31",,": ",,"stdout","4490025","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4491765","13"
+"o","31",,"marble_13
+",,"stdout","4491765","13"
+"o","31",," - cave_12
+",,"stdout","4491765","13"
+"o","31",," - terracotta_14
+",,"stdout","4491765","13"
+"o","31",,": ",,"stdout","4491765","13"
+"o","31",,"Moving to terracotta_14
+",,"stdout","4496609","13"
+"o","31",,"The floors and wall appear to be made of smashed, repurposed planter pots.
+",,"stdout","4496625","13"
+"o","31",,": ",,"stdout","4496625","13"
+"o","31",,"There's nothing here.
+",,"stdout","4498957","13"
+"o","31",,": ",,"stdout","4498957","13"
+"o","31",,"",,"stdout","4500937","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4500952","13"
+"o","31",,"terracotta_14
+",,"stdout","4500952","13"
+"o","31",," - marble_13
+",,"stdout","4500952","13"
+"o","31",," - brickfloor_15
+",,"stdout","4500952","13"
+"o","31",,": ",,"stdout","4500952","13"
+"o","31",,"Moving to brickfloor_15
+",,"stdout","4505113","13"
+"o","31",,"For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.
+",,"stdout","4505128","13"
+"o","31",,": ",,"stdout","4505128","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4506625","13"
+"o","31",," - all
+",,"stdout","4506625","13"
+"o","31",," - [0] toy plane
+",,"stdout","4506625","13"
+"o","31",," - [1] metal scrap
+",,"stdout","4506625","13"
+"o","31",," - [x] Cancel
+",,"stdout","4506625","13"
+"o","31",,": ",,"stdout","4506625","13"
+"o","31",,"You picked up toy plane
+",,"stdout","4508951","13"
+"o","31",,"You picked up metal scrap
+",,"stdout","4508951","13"
+"o","31",,": ",,"stdout","4508951","13"
+"o","31",,"You are unable to build anything.
+",,"stdout","4511013","13"
+"o","31",,": ",,"stdout","4511013","13"
+"o","31",,"You have:
+",,"stdout","4513459","13"
+"o","31",," - 2x stone
+",,"stdout","4513459","13"
+"o","31",," - 1x metal scrap
+",,"stdout","4513459","13"
+"o","31",," - 1x twine
+",,"stdout","4513459","13"
+"o","31",," - 2x fistful of mud
+",,"stdout","4513459","13"
+"o","31",," - 1x toy plane
+",,"stdout","4513459","13"
+"o","31",," - 1x sunglasses
+",,"stdout","4513459","13"
+"o","31",," - 1x shiny stone
+",,"stdout","4513459","13"
+"o","31",," - 6x berry
+",,"stdout","4513459","13"
+"o","31",," - 1x iron ore
+",,"stdout","4513459","13"
+"o","31",," - 2x egg
+",,"stdout","4513459","13"
+"o","31",," - 1x slingshot
+",,"stdout","4513459","13"
+"o","31",,": ",,"stdout","4513459","13"
+"o","31",,"",,"stdout","4519284","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4519300","13"
+"o","31",,"brickfloor_15
+",,"stdout","4519300","13"
+"o","31",," - terracotta_14
+",,"stdout","4519300","13"
+"o","31",," - fractured_16
+",,"stdout","4519300","13"
+"o","31",,": ",,"stdout","4519300","13"
+"o","31",,"Moving to fractured_16
+",,"stdout","4523627","13"
+"o","31",,"It appears you're inside of a kaleidoscope.
+",,"stdout","4523627","13"
+"o","31",,": ",,"stdout","4523643","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4526249","13"
+"o","31",," - all
+",,"stdout","4526249","13"
+"o","31",," - [0] brick
+",,"stdout","4526249","13"
+"o","31",," - [1] iron ore
+",,"stdout","4526249","13"
+"o","31",," - [2] wrench
+",,"stdout","4526249","13"
+"o","31",," - [x] Cancel
+",,"stdout","4526249","13"
+"o","31",,": ",,"stdout","4526249","13"
+"o","31",,"You picked up brick
+",,"stdout","4528048","13"
+"o","31",,"You picked up iron ore
+",,"stdout","4528048","13"
+"o","31",,"You picked up wrench
+",,"stdout","4528048","13"
+"o","31",,": ",,"stdout","4528048","13"
+"o","31",,"You are unable to build anything.
+",,"stdout","4529672","13"
+"o","31",,": ",,"stdout","4529688","13"
+"o","31",,"",,"stdout","4531462","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4531478","13"
+"o","31",,"fractured_16
+",,"stdout","4531478","13"
+"o","31",," - brickfloor_15
+",,"stdout","4531478","13"
+"o","31",," - cavern_17
+",,"stdout","4531478","13"
+"o","31",,": ",,"stdout","4531478","13"
+"o","31",,"Moving to cavern_17
+",,"stdout","4534605","13"
+"o","31",,"",,"stdout","4534621","13"
+"o","31",,"You look up and wonder where the top is. Then you look into a hole and wonder where the bottom is.
+",,"stdout","4534637","13"
+"o","31",,": ",,"stdout","4534637","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4536728","13"
+"o","31",," - all
+",,"stdout","4536728","13"
+"o","31",," - [0] shiny stone
+",,"stdout","4536728","13"
+"o","31",," - [x] Cancel
+",,"stdout","4536728","13"
+"o","31",,": ",,"stdout","4536728","13"
+"o","31",,"You picked up shiny stone
+",,"stdout","4538263","13"
+"o","31",,": ",,"stdout","4538279","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4539782","13"
+"o","31",,"cavern_17
+",,"stdout","4539782","13"
+"o","31",," - fractured_16
+",,"stdout","4539782","13"
+"o","31",," - fractured_18
+",,"stdout","4539782","13"
+"o","31",,": ",,"stdout","4539782","13"
+"o","31",,"Moving to fractured_18
+",,"stdout","4543538","13"
+"o","31",,"You have no idea what this room actually looks like.
+",,"stdout","4543554","13"
+"o","31",,": ",,"stdout","4543554","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4545178","13"
+"o","31",," - all
+",,"stdout","4545178","13"
+"o","31",," - [0] emerald
+",,"stdout","4545178","13"
+"o","31",," - [x] Cancel
+",,"stdout","4545178","13"
+"o","31",,": ",,"stdout","4545178","13"
+"o","31",,"You picked up emerald
+",,"stdout","4546243","13"
+"o","31",,": ",,"stdout","4546243","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4547359","13"
+"o","31",,"fractured_18
+",,"stdout","4547359","13"
+"o","31",," - cavern_17
+",,"stdout","4547359","13"
+"o","31",," - brickfloor_19
+",,"stdout","4547359","13"
+"o","31",,": ",,"stdout","4547359","13"
+"o","31",,"Moving to brickfloor_19
+",,"stdout","4553340","13"
+"o","31",,"",,"stdout","4553340","13"
+"o","31",,"For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.
+",,"stdout","4553356","13"
+"o","31",,": ",,"stdout","4553356","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4554871","13"
+"o","31",," - all
+",,"stdout","4554871","13"
+"o","31",," - [0] brick
+",,"stdout","4554871","13"
+"o","31",," - [1] fistful of mud
+",,"stdout","4554871","13"
+"o","31",," - [x] Cancel
+",,"stdout","4554871","13"
+"o","31",,": ",,"stdout","4554871","13"
+"o","31",,"You picked up brick
+",,"stdout","4556468","13"
+"o","31",,"You picked up fistful of mud
+",,"stdout","4556468","13"
+"o","31",,": ",,"stdout","4556468","13"
+"o","31",,"You are unable to build anything.
+",,"stdout","4558287","13"
+"o","31",,": ",,"stdout","4558287","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4559981","13"
+"o","31",,"brickfloor_19
+",,"stdout","4559981","13"
+"o","31",," - fractured_18
+",,"stdout","4559981","13"
+"o","31",," - fractured_20
+",,"stdout","4559981","13"
+"o","31",,": ",,"stdout","4559981","13"
+"o","31",,"Moving to fractured_20
+",,"stdout","4564014","13"
+"o","31",,"It appears you're inside of a kaleidoscope.
+",,"stdout","4564030","13"
+"o","31",,": ",,"stdout","4564030","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4566009","13"
+"o","31",," - all
+",,"stdout","4566009","13"
+"o","31",," - [0] egg
+",,"stdout","4566009","13"
+"o","31",," - [1] twine
+",,"stdout","4566009","13"
+"o","31",," - [2] ruby
+",,"stdout","4566009","13"
+"o","31",," - [3] fistful of mud
+",,"stdout","4566009","13"
+"o","31",," - [x] Cancel
+",,"stdout","4566009","13"
+"o","31",,": ",,"stdout","4566009","13"
+"o","31",,"You picked up egg
+",,"stdout","4567971","13"
+"o","31",,"You picked up twine
+",,"stdout","4567971","13"
+"o","31",,"You picked up ruby
+",,"stdout","4567971","13"
+"o","31",,"You picked up fistful of mud
+",,"stdout","4567971","13"
+"o","31",,": ",,"stdout","4567971","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4569806","13"
+"o","31",,"fractured_20
+",,"stdout","4569806","13"
+"o","31",," - brickfloor_19
+",,"stdout","4569806","13"
+"o","31",," - fractured_21
+",,"stdout","4569806","13"
+"o","31",,": ",,"stdout","4569806","13"
+"o","31",,"Moving to fractured_21
+",,"stdout","4574077","13"
+"o","31",,"It appears you're inside of a kaleidoscope.
+",,"stdout","4574093","13"
+"o","31",,": ",,"stdout","4574093","13"
+"o","31",,"",,"stdout","4575525","13"
+"o","31",,"There's nothing here.
+",,"stdout","4575541","13"
+"o","31",,": ",,"stdout","4575541","13"
+"o","31",,"",,"stdout","4577210","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4577226","13"
+"o","31",,"fractured_21
+",,"stdout","4577226","13"
+"o","31",," - fractured_20
+",,"stdout","4577226","13"
+"o","31",," - shack_22
+",,"stdout","4577226","13"
+"o","31",,": ",,"stdout","4577226","13"
+"o","31",,"Moving to shack_22
+",,"stdout","4580339","13"
+"o","31",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","4580355","13"
+"o","31",,": ",,"stdout","4580355","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4581773","13"
+"o","31",," - all
+",,"stdout","4581773","13"
+"o","31",," - [0] iron ore
+",,"stdout","4581773","13"
+"o","31",," - [1] shiny stone
+",,"stdout","4581773","13"
+"o","31",," - [2] sunglasses
+",,"stdout","4581773","13"
+"o","31",," - [x] Cancel
+",,"stdout","4581773","13"
+"o","31",,": ",,"stdout","4581773","13"
+"o","31",,"You picked up iron ore
+",,"stdout","4583128","13"
+"o","31",,"You picked up shiny stone
+",,"stdout","4583128","13"
+"o","31",,"You picked up sunglasses
+",,"stdout","4583144","13"
+"o","31",,": ",,"stdout","4583144","13"
+"o","31",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","4584165","13"
+"o","31",,": ",,"stdout","4584165","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4585344","13"
+"o","31",,"shack_22
+",,"stdout","4585344","13"
+"o","31",," - fractured_21
+",,"stdout","4585344","13"
+"o","31",," - shack_23
+",,"stdout","4585344","13"
+"o","31",,": ",,"stdout","4585344","13"
+"o","31",,"Moving to shack_23
+",,"stdout","4588069","13"
+"o","31",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","4588100","13"
+"o","31",,": ",,"stdout","4588100","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4589628","13"
+"o","31",," - all
+",,"stdout","4589628","13"
+"o","31",," - [0] berry
+",,"stdout","4589628","13"
+"o","31",," - [1] toy plane
+",,"stdout","4589628","13"
+"o","31",," - [0] berry
+",,"stdout","4589628","13"
+"o","31",," - [3] snailshell
+",,"stdout","4589628","13"
+"o","31",," - [x] Cancel
+",,"stdout","4589628","13"
+"o","31",,": ",,"stdout","4589628","13"
+"o","31",,"You picked up berry
+",,"stdout","4591400","13"
+"o","31",,"You picked up toy plane
+",,"stdout","4591400","13"
+"o","31",,"You picked up berry
+",,"stdout","4591400","13"
+"o","31",,"You picked up snailshell
+",,"stdout","4591400","13"
+"o","31",,": ",,"stdout","4591400","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4592706","13"
+"o","31",,"shack_23
+",,"stdout","4592706","13"
+"o","31",," - shack_22
+",,"stdout","4592706","13"
+"o","31",," - fractured_24
+",,"stdout","4592706","13"
+"o","31",,": ",,"stdout","4592706","13"
+"o","31",,"Moving to fractured_24
+",,"stdout","4596071","13"
+"o","31",,"",,"stdout","4596071","13"
+"o","31",,"You have no idea what this room actually looks like.
+",,"stdout","4596087","13"
+"o","31",,": ",,"stdout","4596087","13"
+"o","31",,"",,"stdout","4597460","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4597476","13"
+"o","31",," - all
+",,"stdout","4597476","13"
+"o","31",," - [0] metal scrap
+",,"stdout","4597476","13"
+"o","31",," - [x] Cancel
+",,"stdout","4597476","13"
+"o","31",,": ",,"stdout","4597476","13"
+"o","31",,"You picked up scrapmetal
+",,"stdout","4599615","13"
+"o","31",,": ",,"stdout","4599615","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4601547","13"
+"o","31",,"fractured_24
+",,"stdout","4601547","13"
+"o","31",," - shack_23
+",,"stdout","4601547","13"
+"o","31",," - shack_25
+",,"stdout","4601547","13"
+"o","31",,": ",,"stdout","4601547","13"
+"o","31",,"Moving to shack_25
+",,"stdout","4605021","13"
+"o","31",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","4605037","13"
+"o","31",,": ",,"stdout","4605037","13"
+"o","31",,"",,"stdout","4607493","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4607509","13"
+"o","31",," - all
+",,"stdout","4607509","13"
+"o","31",," - [0] potato
+",,"stdout","4607509","13"
+"o","31",," - [x] Cancel
+",,"stdout","4607509","13"
+"o","31",,": ",,"stdout","4607509","13"
+"o","31",,"You picked up potato
+",,"stdout","4608898","13"
+"o","31",,": ",,"stdout","4608898","13"
+"o","31",,"You are unable to build anything.
+",,"stdout","4610462","13"
+"o","31",,": ",,"stdout","4610462","13"
+"o","31",,"Where would you like to go?
+",,"stdout","4612425","13"
+"o","31",,"shack_25
+",,"stdout","4612425","13"
+"o","31",," - fractured_24
+",,"stdout","4612441","13"
+"o","31",," - brickfloor_26
+",,"stdout","4612441","13"
+"o","31",,": ",,"stdout","4612441","13"
+"o","31",,"Moving to brickfloor_26
+",,"stdout","4616946","13"
+"o","31",,"",,"stdout","4616946","13"
+"o","31",,"For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.
+",,"stdout","4616962","13"
+"o","31",,": ",,"stdout","4616962","13"
+"o","31",,"What do you want to pick up?
+",,"stdout","4618641","13"
+"o","31",," - all
+",,"stdout","4618641","13"
+"o","31",," - [0] sunglasses
+",,"stdout","4618641","13"
+"o","31",," - [1] metal scrap
+",,"stdout","4618641","13"
+"o","31",," - [2] branch
+",,"stdout","4618641","13"
+"o","31",," - [3] twine
+",,"stdout","4618641","13"
+"o","31",," - [x] Cancel
+",,"stdout","4618641","13"
+"o","31",,": ",,"stdout","4618641","13"
+"o","31",,"You picked up sunglasses
+",,"stdout","4619901","13"
+"o","31",,"You picked up metal scrap
+",,"stdout","4619901","13"
+"o","31",,"You picked up branch
+",,"stdout","4619901","13"
+"o","31",,"You picked up twine
+",,"stdout","4619901","13"
+"o","31",,": ",,"stdout","4619901","13"
+"o","31",,"What would you like to build?
+",,"stdout","4621083","13"
+"o","31",," - [0] campfire
+",,"stdout","4621083","13"
+"o","31",," - [1] kiln
+",,"stdout","4621083","13"
+"o","31",," - [x] Cancel
+",,"stdout","4621083","13"
+"o","31",,": ",,"stdout","4621083","13"
+"o","31",,"Traceback (most recent call last):
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","4622901","13"
+"o","31",,"    tick(lexeter, lexeter.world)
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","4622901","13"
+"o","31",,"    tick(lexeter,world)
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","4622901","13"
+"o","31",,"    tick(lexeter,world)
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 63, in tick
+",,"stderr","4622901","13"
+"o","31",,"    tick(lexeter,world)
+",,"stderr","4622901","13"
+"o","31",,"  [Previous line repeated 38 more times]
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","4622901","13"
+"o","31",,"    world.player.act.playeraction()
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 124, in playeraction
+",,"stderr","4622901","13"
+"o","31",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","4622901","13"
+"o","31",,"  File ""<string>"", line 1, in <module>
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 420, in buildalias
+",,"stderr","4622901","13"
+"o","31",,"    self.build()
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 417, in build
+",,"stderr","4622901","13"
+"o","31",,"    loop(self, craftables)
+",,"stderr","4622901","13"
+"o","31",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 410, in loop
+",,"stderr","4622901","13"
+"o","31",,"    for i in getattr(self.world.recipes, craftables[int(choice)]).ingredients:
+",,"stderr","4622901","13"
+"o","31",,"AttributeError: 'Recipes' object has no attribute 'campfire'
+",,"stderr","4622901","13"
+"o","31",,"
+Process finished with exit code 1
+",,"system","4622910","13"

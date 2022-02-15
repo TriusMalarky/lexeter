@@ -662,6 +662,7 @@ class Recipes(core):
         self.brick = BrickRecipe(self.debug)
         self.charcoal = CharcoalRecipe(self.debug)
         self.axe = AxeRecipe(self.debug)
+        self.molteniron = MoltenironRecipe(self.debug)
 
         self.full = [
             'crudespear',

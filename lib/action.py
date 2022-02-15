@@ -290,10 +290,10 @@ class playerAct(core):
                         print("You picked up " + choice)
                         self.__sublog(choice)
                     elif choice.isnumeric():
-                        room.loot.remove(room.loot[int(choice)])
                         self.player.inventory.append(room.loot[int(choice)])
                         print("You picked up " + room.loot[int(choice)])
                         self.__sublog(room.loot[int(choice)])
+                        room.loot.remove(room.loot[int(choice)])
                     else:
                         self.__sublog('Invalid Selection')
                         print("That's not an option, try again.")
@@ -349,10 +349,12 @@ class playerAct(core):
                 craftables.append(i)
         if len(craftables) == 0:
             print("You are unable to craft anything.")
+            self.__sublog('Unable to craft')
         else:
             print("What would you like to craft?")
             for i in craftables:
-                print(" - " + i)
+                print(" - [" + str(craftables.index(i)) + "] " + i)
+            print(" - [x] Cancel")
 
             def loop(self, craftables):
                 choice = input(": ")
@@ -362,6 +364,14 @@ class playerAct(core):
                         self.player.inventory.remove(i)
                     print("You crafted " + getattr(self.world.item, choice).name + "!")
                     self.__sublog(getattr(self.world.item, choice).name)
+                elif choice.upper() == 'X' or choice.upper() == "CANCEL":
+                    self.__sublog('Cancel')
+                elif choice.isnumeric():
+                    self.player.inventory.append(craftables[int(choice)])
+                    for i in getattr(self.world.recipes, craftables[int(choice)]).ingredients:
+                        self.player.inventory.remove(i)
+                    print("You crafted " + getattr(self.world.item, craftables[int(choice)]).name + "!")
+                    self.__sublog(getattr(self.world.item, craftables[int(choice)]).name)
                 else:
                     print("That's not an option, sorry.")
                     loop(self, craftables)
@@ -377,21 +387,30 @@ class playerAct(core):
             if all(x in self.player.inventory for x in getattr(self.world.constructs, i).ingredients):
                 craftables.append(i)
         if len(craftables) == 0:
+            self.__sublog('Unable to build')
             print("You are unable to build anything.")
         else:
             print("What would you like to build?")
             for i in craftables:
-                print(" - " + i)
+                print(" - [" + str(craftables.index(i)) + "] " + i)
+            print(" - [x] Cancel")
 
             def loop(self, craftables):
                 choice = input(": ")
                 if choice in craftables:
                     getattr(self.world.map,self.player.room).buildings.append(choice)
-                    #exec("getattr(self.world.map, self.player.room)." + choice + " = choice(False)")
                     for i in getattr(self.world.constructs, choice).ingredients:
                         self.player.inventory.remove(i)
                     print("You built a " + getattr(self.world.constructs, choice).name + "!")
                     self.__sublog(getattr(self.world.constructs, choice).name)
+                elif choice.upper() == 'X' or choice.upper() == "CANCEL":
+                    self.__sublog('Cancel')
+                elif choice.isnumeric():
+                    getattr(self.world.map,self.player.room).buildings.append(choice)
+                    for i in getattr(self.world.constructs, craftables[int(choice)]).ingredients:
+                        self.player.inventory.remove(i)
+                    print("You built a " + getattr(self.world.constructs, craftables[int(choice)]).name + "!")
+                    self.__sublog(getattr(self.world.constructs, craftables[int(choice)]).name)
                 else:
                     loop(self, craftables)
 
