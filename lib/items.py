@@ -366,6 +366,19 @@ class Axe(core):
         self.rDebug()
 
 
+class Wrench(core):
+    def __init__(self, debug):
+        self.internalID = 'item-wrench'
+        self.name = 'wrench'
+        self.quality = 3
+        self.descriptions = [
+            "Can we fix it?",
+            "At least it's not a hammer."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
 class Ironore(core):
     def __init__(self, debug):
         self.internalID = 'item-ironore'
@@ -392,6 +405,57 @@ class Molteniron(core):
         self.rDebug()
 
 
+class Snailshell(core):
+    def __init__(self, debug):
+        self.internalID = 'item-snailshell'
+        self.name = 'snailshell'
+        self.quality = 0
+        self.descriptions = [
+            "It's the shell of a snail."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Toyplane(core):
+    def __init__(self, debug):
+        self.internalID = 'item-toyplane'
+        self.name = 'toy plane'
+        self.quality = 0
+        self.descriptions = [
+            "It's a small toy plane."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Spatula(core):
+    def __init__(self, debug):
+        self.internalID = 'item-spatula'
+        self.name = 'spatula'
+        self.quality = 0
+        self.descriptions = [
+            "It's a latch-a-splat.",
+            "Spatoola."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Sunglasses(core):
+    def __init__(self, debug):
+        self.internalID = 'item-sunglasses'
+        self.name = 'sunglasses'
+        self.quality = 0
+        self.descriptions = [
+            "I wear them at night.",
+            "I'm not just cool, I'm crispy.",
+            "How's it going, hotstuff?"
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
 class Item(core):
     def __init__(self,world):
         self.debug = world.debug
@@ -412,7 +476,11 @@ class Item(core):
             'twine',
             'brick',
             'mud',
-            'clay'
+            'clay',
+            'snailshell',
+            'toyplane',
+            'spatula',
+            'sunglasses'
         ]
         self.common = [
             'shinystone',
@@ -430,7 +498,8 @@ class Item(core):
             'ruby',
             'sapphire',
             'emerald',
-            'opal'
+            'opal',
+            'wrench'
         ]
         self.impossible = [
             'excalibur'
@@ -485,6 +554,11 @@ class Item(core):
         self.axe = Axe(self.debug)
         self.ironore = Ironore(self.debug)
         self.molteniron = Molteniron(self.debug)
+        self.wrench = Wrench(self.debug)
+        self.snailshell = Snailshell(self.debug)
+        self.toyplane = Toyplane(self.debug)
+        self.spatula = Spatula(self.debug)
+        self.sunglasses = Sunglasses(self.debug)
 
 
 class CrudespearRecipe(core):

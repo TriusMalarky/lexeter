@@ -1,71 +1,74 @@
-# Build File, use other lexeter for testing
-import pickle
 import os
 import inspect
 import random
+import string
 
 clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
-
-class core():  # <-- core class, all other classes should inherit this
+class core(): # <-- core class, all other classes should inherit this
     def __init__(self):
-        self.internalID = 'core-parent'
-
-    def __str__(self):  # <-- core function for displaying all relevant members of a given class instance
-        attr = inspect.getmembers(self, lambda a: not (inspect.isroutine(a)))
-        ar = []
-        for _ in [a for a in attr if not (a[0].startswith('__')) and not (a[0].startswith('internal'))]:
+        self.internalID='core-parent'
+    def __str__(self): # <-- core function for displaying all relevant members of a given class instance
+        attr = inspect.getmembers(self, lambda a:not(inspect.isroutine(a)))
+        ar=[]
+        for _ in [a for a in attr if not(a[0].startswith('__')) and not(a[0].startswith('internal'))]:
             ar.append(_)
         return str(ar)
-
     def rDebug(self):
         if self.debug:
             print("Debug: " + self.internalID)
-            print(" ++ " + str(self))
+            print(" ++ "+ str(self))
 
-
-class prefer(core):  # <-- dummy class
+class prefer(core): # <-- dummy class
     def __init(self):
-        self.internalID = 'character-preference'
+        self.internalID='character-preference'
 
 
 def save(lexeter):
-    lexMem = inspect.getmembers(lexeter, lambda a: not (inspect.isroutine(
-        a)))  # <-- Not sure if this is necessary, the save function only worked right after I added this though . . .
-    loc = open('save\\lexeter.txt', 'wb')
-    pickle.dump(lexeter, loc)
+    lexMem=inspect.getmembers(lexeter,lambda a:not(inspect.isroutine(a))) # <-- Not sure if this is necessary, the save function only worked right after I added this though . . .
+    loc=open('save\\lexeter.txt','wb')
+    pickle.dump(lexeter,loc)
     # Unused function for saving each individual class instance. Ignore.
-    # for lexMemEntry in [a for a in lexMem if not(a[0].startswith('__') and not (a[0].startswith('internal'))]:
-    # loc=open('save\\'++'.txt','wb')
-    # pickle.dump(lexMemEntry,loc)
+    #for lexMemEntry in [a for a in lexMem if not(a[0].startswith('__') and not (a[0].startswith('internal'))]:
+        #loc=open('save\\'++'.txt','wb')
+        #pickle.dump(lexMemEntry,loc)
 
-
+    
 def load():
-    savefile = open('save\\lexeter.txt', 'rb')  # <-- open save file in readable binary for pickle
-    return pickle.load(savefile)  # <-- returning loaded save state class instance
-
+    savefile=open('save\\lexeter.txt','rb') # <-- open save file in readable binary for pickle
+    return pickle.load(savefile) # <-- returning loaded save state class instance
 
 def lex_init():
     if os.path.exists('save\\lexeter.txt'):
-        return load()  # <-- returning the loaded save state class instance
+        lexet = load()
+        random.seed = lexet.world.seed
+        return lexet # <-- returning the loaded save state class instance
     else:
-        open('save\\lexeter.txt', 'w')
-        from lib.player import lexeter
-        lexet = lexeter()
-        save(lexet)  # <-- saving the save state instance
-        return lexet  # <-- returning the newly created save state
+        open('save\\lexeter.txt','w')
+        lexet = Lexeter()
+        save(lexet) # <-- saving the save state instance
+        return lexet # <-- returning the newly created save state
 
 
-def tick(lexeter, world):
+
+
+
+
+def tick(lexeter,world):
     for _ in world.characterlist:
-        exec('world.characters.' + _.lower() + '.tick(world)')
+        exec('world.characters.'+_.lower()+'.tick(world)')
     world.player.act.playeraction()
-    save(lexeter)  # save on every tick
-    tick(lexeter, world)
+    save(lexeter) # save on every tick
+    tick(lexeter,world)
+from lib.core import *
+import random
+
 
 class corebiome(core):
     def __init__(self):
         self.internalID = 'biome-core'
+        self.buildings = []
+
     def genList(self,trash,common,useful,treasure,impossible):
         list = []
         for i in range(trash):
@@ -79,6 +82,7 @@ class corebiome(core):
         for i in range(impossible):
             list.append(random.choice(self.world.item.impossible))
         return list
+
     def loottable(self, quality):
         if quality == 0:
             list = self.genList(99,15,7,3,1)
@@ -96,7 +100,6 @@ class corebiome(core):
         return loot
 
 
-
 class pond(corebiome):
     def __init__(self,world):
         self.world = world
@@ -108,6 +111,8 @@ class pond(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
 
 class marble(corebiome):
     def __init__(self,world):
@@ -119,6 +124,8 @@ class marble(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
 
 class terracotta(corebiome):
     def __init__(self,world):
@@ -130,6 +137,8 @@ class terracotta(corebiome):
         self.loot = self.loottable(2)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
 
 class brickfloor(corebiome):
     def __init__(self,world):
@@ -141,6 +150,8 @@ class brickfloor(corebiome):
         self.loot = self.loottable(0)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
 
 class fractured(corebiome):
     def __init__(self, world):
@@ -153,6 +164,8 @@ class fractured(corebiome):
         self.loot = self.loottable(3)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
 
 class cave(corebiome):
     def __init__(self,world):
@@ -162,8 +175,11 @@ class cave(corebiome):
             "Drip. Drip. Drip. It's a cave, all right."
         ]
         self.loot = self.loottable(1)
+        self.loot.append('stone')
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
 
 class canopy(corebiome):
     def __init__(self,world):
@@ -175,6 +191,8 @@ class canopy(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
 
 class cavern(corebiome):
     def __init__(self,world):
@@ -186,6 +204,8 @@ class cavern(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
 
 class shack(corebiome):
     def __init__(self,world):
@@ -197,107 +217,186 @@ class shack(corebiome):
         self.loot = self.loottable(1)
         self.debug = world.debug
         self.rDebug()
+        self.buildings = ['null']
+
+
+from lib.core import core
+
+
+class shade(core):
+    def __init__(self,name,world):
+        self.name=name
+        world.characterlist.append(self.name)
+        self.internalID='character-shade-'+self.name
+        self.world=world
+        self.debug=self.world.debug
+        self.rDebug()
+        self.room='darkroom'
+        self.hp=15
+        self.act = act(self.name,self.world)
+        self.age=0
+        self.tickCount=random.randrange(1,5)
+        self.prefer=prefer()
+
+        if self.name=='mek':
+            self.prefer.fruit='orange'
+            self.week = 5
+        elif self.name=='geoflib':
+            self.prefer.fruit='pineapple'
+            self.week = 4
+    def tick(self,world):
+        self.age+=1;self.tickCount+=1
+        if self.tickCount==self.week: self.tickCount=1
+        if self.tickCount==1:
+            lines=[
+                'heya, stranger!','im a shade, not a ghost. theres a difference.',
+                'waddup, '+world.player.name+'?','evening!',
+                'i cannae find ma lunch!', 'i like '+self.prefer.fruit+'s. my brother doesnt.',
+                'ah, the darkness. so refreshing.','blegh! just got a bug in my mouth!',
+                'have ya talked to my twin?','tha rats here, they make quite the racket!',
+                'not a big fan of moths. how bout you?','ever been to paris?']
+            self.act.speak(random.choice(lines),self.room)
+        elif self.tickCount==2:
+            pass # ask
+        elif self.tickCount==3:
+            pass #nothing/atk
+        elif self.tickCount==4:
+            pass #possiblemove
+        
+        
+class darkroom(core):
+    def __init__(self,world):
+        self.world=world
+        self.internalID='room-darkroom'
+        self.debug=self.world.debug
+        self.rDebug()
+        world.characters.geoflib=shade('geoflib',world)
+        world.characters.mek=shade('mek',world)
+        self.descriptions = [
+            "It's incredibly dark.",
+            "There's not much here.",
+            "Where'd everything go?"
+        ]
+        self.loot = []
+        self.buildings = []
+
 
 class act(core):
     def __init__(self, name, world):
-        self.name=name
-        self.world=world
-        self.internalID=self.name+'-action-library'
-        self.debug=self.world.debug;self.rDebug()
-    def speak(self,text,room):
+        self.name = name
+        self.world = world
+        self.internalID = self.name+'-action-library'
+        self.debug = self.world.debug;self.rDebug()
+
+    def speak(self, text, room):
         if room == self.world.player.room:
-            print("["+self.name+"] says: "+text)
-    def ask(self,text,qID,room):
+            print("[" + self.name + "] says: " + text)
+
+    def ask(self, text, qID, room):
         if room == self.world.player.room:
-            response=input("["+self.name+"] asks: "+text+'\n')
-            exec("self.world.player.rLog."+qID+"=response")
+            response=input("[" + self.name + "] asks: " + text + '\n')
+            exec("self.world.player.rLog." + qID + "=response")
+
 
 class actGod(core):
-    def __init__(self,name):
-        self.name=name
-        self.internalID='__ignore__'
+
+    def __init__(self, name):
+        self.name = name
+        self.internalID = '__ignore__'
+
     def speak(self,text):
-        print("["+self.name+"] : "+text)
+        print("[" + self.name + "] : " + text)
+
 
 class playerAct(core):
-    def __init__(self,player,world):
+    def __init__(self, player, world):
         self.internalID = 'player-action-library'
-        self.player=player;self.world=world
+        self.player = player;self.world = world
         self.array = {
             'moveTo': '.m',
-            'moveAlias':'move',
-            'help':'.h',
+            'moveAlias': 'move',
+            'help:': '.h',
             'helpAlias': 'help',
-            'inspect':'.i',
-            'inspectAlias':'inspect',
-            'wait':'.w',
-            'waitAlias':'wait',
-            'scream':'scream',
-            'pickup':'.p',
-            'pickupAlias':'pickup',
-            'pickAlias':'pick',
-            'interact':'.in',
-            'interactAlias':'interact',
-            'inventory':'.inv',
-            'invenAlias':'inventory',
-            'invAlias':'inv'
+            'inspect': '.i',
+            'inspectAlias': 'inspect',
+            'wait': '.w',
+            'waitAlias': 'wait',
+            'scream': 'scream',
+            'pickup': '.p',
+            'pickupAlias': 'pickup',
+            'pickAlias': 'pick',
+            'interact': '.in',
+            'interactAlias': 'interact',
+            'inventory': '.inv',
+            'invenAlias': 'inventory',
+            'invAlias': 'inv',
+            'craft': '.c',
+            'craftalias': 'craft',
+            'build': '.b',
+            'buildAlias': 'build'
                     }
+
         self.helparray = [
             'Help: Shows help screen. | .h, help',
             'Move: Move to another room. | .m, move',
             "Pickup: Pick an item up. | .p, pick, pickup",
+            "Craft: Turn your items into another item. | .c, craft",
             "Interact: Interact with an object. | .in, interact",
             'Inspect: Look at the current room and its contents. | .i, inspect',
             'Inventory: Take inventory, see what you have in your pockets. | .inv, inv, inventory',
             'Wait: Waste a moment. | .w, wait'
         ]
-        self.debug=self.world.debug;self.rDebug()
+        self.debug = self.world.debug
+        self.rDebug()
+
     def playeraction(self):
         resp = input(": ")
         found = False
         for item in self.array:
             if resp == self.array[item]:
-                found=True
-                exec("self." + item + "()")
+                found = True
+                exec("self." + item.lower() + "()")
         if found == False:
             print("That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.")
             self.playeraction()
+
     def help(self):
         clearConsole()
         for i in self.helparray:
-            print(' - '+i)
+            print(' - ' + i)
 
-    def helpAlias(self):
+    def helpalias(self):
         self.help()
-    def moveTo(self):
+
+    def moveto(self):
         clearConsole()
         self.rDebug()
         self.player.rDebug()
         self.world.rDebug()
         self.world.map.rDebug()
         print('Where would you like to go?')
-        room=self.player.room
+        room = self.player.room
         print(room)
         if int(len(self.world.map.route[room])) < 3: # if there are less than 3 zones
             ind = len(self.world.map.route) # gets length of map
             zone = str(random.choice(self.world.zones))
-            newzone = str(zone+"_"+str(ind))
-            self.world.map.route[newzone]=[]
+            newzone = str(zone + "_" + str(ind))
+            self.world.map.route[newzone] = []
             self.world.map.route[self.player.room].append(newzone)
             self.world.map.route[newzone].append(self.player.room)
-            exec("self.world.map."+newzone+"="+zone+"(self.world)")
+            exec("self.world.map." + newzone + "=" + zone + "(self.world)")
         for i in self.world.map.route[self.player.room]:
             print(" - " + i)
 
-        def moveToLoop(self): # <- define loop
+        def movetoloop(self): # <- define loop
             newloc = input(": ")
             if newloc in self.world.map.route[self.player.room]:
                 self.player.room = newloc
                 print("Moving to " + newloc)
             else:
                 print("That's not an option, try again.")
-                moveToLoop(self)
-        moveToLoop(self) # <- run loop
+                movetoloop(self)
+        movetoloop(self) # <- run loop
 
         # Run inspection of room
         roomtitle = self.world.player.room
@@ -308,13 +407,13 @@ class playerAct(core):
     def inspect(self):
         clearConsole()
         roomtitle = self.world.player.room
-        room = getattr(self.world.map,roomtitle)
-        list = ['room','inventory']
+        room = getattr(self.world.map, roomtitle)
+        list = ['room', 'inventory']
         for i in room.loot:
             list.append(i)
         print("What do you want to inspect?")
         for i in list:
-            print(" - "+i)
+            print(" - " + i)
         def invLoop(world):
             choice = input(": ")
             if choice in world.player.inventory:
@@ -333,16 +432,19 @@ class playerAct(core):
                     self.inventory()
                     invLoop(world)
                 else:
-                    item = getattr(world.item,choice)
+                    item = getattr(world.item, choice)
                     print(random.choice(item.descriptions))
             else:
                 print("That's not an option. Try again.")
                 loop(world)
-        loop(self,self.world)
-    def moveAlias(self):
+        loop(self, self.world)
+
+    def movealias(self):
         self.moveTo()
-    def inspectAlias(self):
+
+    def inspectalias(self):
         self.inspect()
+
     def wait(self):
         clearConsole()
         array = [
@@ -351,33 +453,37 @@ class playerAct(core):
             'You waste a few minutes.'
         ]
         print(random.choice(array))
-    def waitAlias(self):
+
+    def waitalias(self):
         self.wait()
+
     def scream(self):
         clearConsole()
         print("Something screams with you.")
         self.world.lexeter.achievements.append('scream')
+
     def pickup(self):
         clearConsole()
-        roomtitle = self.world.player.room
-        room = getattr(self.world.map,roomtitle)
+        roomTitle = self.world.player.room
+        room = getattr(self.world.map, roomTitle)
         if hasattr(room,'loot'):
             if len(room.loot) > 0:
                 print("What do you want to pick up?")
                 print(' - all')
                 for i in room.loot:
-                    print(" - "+i)
+                    print(" - " + getattr(self.world.item, i).name)
                 choice = input(": ")
-                def loop(choice,room):
+
+                def loop(choice, room):
                     if choice == 'all':
                         for i in room.loot:
-                            self.player.inventory.append(i)
-                            room.loot.remove(i)
-                            print("You picked up "+i)
+                            print("You picked up " + getattr(self.world.item, i).name)
+                        self.player.inventory = self.player.inventory + room.loot
+                        room.loot = []
                     elif choice in room.loot:
                         room.loot.remove(choice)
                         self.player.inventory.append(choice)
-                        print("You picked up "+choice)
+                        print("You picked up " + choice)
                     else:
                         print("That's not an option, try again.")
                         loop(input(": "),room)
@@ -386,35 +492,101 @@ class playerAct(core):
                 print("There's nothing here.")
         else:
             print("There's nothing here.")
-    def pickupAlias(self):
+
+    def pickupalias(self):
         self.pickup()
-    def pickAlias(self):
+
+    def pickalias(self):
         self.pickup()
+
     def interact(self):
         pass
-    def interactAlias(self):
+
+    def interactalias(self):
         self.interact()
+
     def inventory(self):
         clearConsole()
         print("You have:")
-        print(self.world.player.inventory)
         inv = self.world.player.inventory
-        list = []
+        itemList = {}
+        itemList.update(self.world.item.dict)
         for i in inv:
-            count = inv.count(i)
-            list.append(" - "+i+" "+str(count))
-        for n in list:
-            print(n)
-            for x in list:
-                if x == n:
-                    list.remove(x)
-    def invenAlias(self):
-        self.inventory()
-    def invAlias(self):
+            itemList[i] += 1
+        popList = []
+        for i in itemList:
+            if itemList[i] == 0:
+                popList.append(i)
+        for i in popList:
+            itemList.pop(i)
+        for i in itemList:
+            print(" - " + str(itemList[i]) + "x " + getattr(self.world.item, i).name)
+
+    def invenalias(self):
         self.inventory()
 
-class stone(core):
-    def __init__(self,debug):
+    def invalias(self):
+        self.inventory()
+
+    def craft(self):
+        craftables = []
+        for i in self.world.recipes.full:
+            if all(x in self.player.inventory for x in getattr(self.world.recipes, i).ingredients) and getattr(self.world.recipes, i).station in getattr(self.world.map, self.player.room).buildings:
+                craftables.append(i)
+        if len(craftables) == 0:
+            print("You are unable to craft anything.")
+        else:
+            print("What would you like to craft?")
+            for i in craftables:
+                print(" - " + i)
+
+            def loop(self, craftables):
+                choice = input(": ")
+                if choice in craftables:
+                    self.player.inventory.append(choice)
+                    for i in getattr(self.world.recipes, choice).ingredients:
+                        self.player.inventory.remove(i)
+                    print("You crafted " + getattr(self.world.item, choice).name + "!")
+                else:
+                    print("That's not an option, sorry.")
+                    loop(self, craftables)
+            loop(self, craftables)
+
+
+    def craftalias(self):
+        self.craft()
+
+    def build(self):
+        craftables = []
+        for i in self.world.constructs.full:
+            if all(x in self.player.inventory for x in getattr(self.world.constructs, i).ingredients):
+                craftables.append(i)
+        if len(craftables) == 0:
+            print("You are unable to build anything.")
+        else:
+            print("What would you like to build?")
+            for i in craftables:
+                print(" - " + i)
+
+            def loop(self, craftables):
+                choice = input(": ")
+                if choice in craftables:
+                    getattr(self.world.map,self.player.room).buildings.append(choice)
+                    #exec("getattr(self.world.map, self.player.room)." + choice + " = choice(False)")
+                    for i in getattr(self.world.constructs, choice).ingredients:
+                        self.player.inventory.remove(i)
+                    print("You built a " + getattr(self.world.constructs, choice).name + "!")
+                else:
+                    loop(self, craftables)
+
+            loop(self, craftables)
+
+    def buildalias(self):
+        self.build()
+
+
+class Stone(core):
+    def __init__(self, debug):
         self.internalID = 'item-stone'
         self.name = 'stone'
         self.quality = 0
@@ -427,8 +599,9 @@ class stone(core):
         self.debug = debug
         self.rDebug
 
-class branch(core):
-    def __init__(self,debug):
+
+class Branch(core):
+    def __init__(self, debug):
         self.internalID = 'item-branch'
         self.name = 'branch'
         self.quality = 0
@@ -444,8 +617,9 @@ class branch(core):
         self.debug = debug
         self.rDebug
 
-class scrapmetal(core):
-    def __init__(self,debug):
+
+class Scrapmetal(core):
+    def __init__(self, debug):
         self.internalID = 'item-scrapmetal'
         self.name = 'metal scrap'
         self.quality = 0
@@ -462,8 +636,9 @@ class scrapmetal(core):
         self.debug = debug
         self.rDebug
 
-class egg(core):
-    def __init__(self,debug):
+
+class Egg(core):
+    def __init__(self, debug):
         self.internalID = 'item-egg'
         self.name = 'egg'
         self.quality = 2
@@ -477,7 +652,8 @@ class egg(core):
         self.debug = debug
         self.rDebug
 
-class potato(core):
+
+class Potato(core):
     def __init__(self,debug):
         self.internalID = 'item-potato'
         self.name = 'potato'
@@ -493,7 +669,8 @@ class potato(core):
         self.debug = debug
         self.rDebug
 
-class shinystone(core):
+
+class Shinystone(core):
     def __init__(self,debug):
         self.internalID = 'item-shinystone'
         self.name = 'shiny stone'
@@ -506,7 +683,8 @@ class shinystone(core):
         self.debug = debug
         self.rDebug()
 
-class diamond(core):
+
+class Diamond(core):
     def __init__(self,debug):
         self.internalID = 'item-diamond'
         self.name = 'diamond'
@@ -523,7 +701,8 @@ class diamond(core):
         self.debug = debug
         self.rDebug()
 
-class ruby(core):
+
+class Ruby(core):
     def __init__(self,debug):
         self.internalID = 'item-ruby'
         self.name = 'ruby'
@@ -537,7 +716,8 @@ class ruby(core):
         self.debug = debug
         self.rDebug()
 
-class sapphire(core):
+
+class Sapphire(core):
     def __init__(self,debug):
         self.internalID = 'item-sapphire'
         self.name = 'sapphire'
@@ -550,7 +730,8 @@ class sapphire(core):
         self.debug = debug
         self.rDebug()
 
-class emerald(core):
+
+class Emerald(core):
     def __init__(self,debug):
         self.internalID = 'item-emerald'
         self.name = 'emerald'
@@ -565,7 +746,8 @@ class emerald(core):
         self.debug = debug
         self.rDebug()
 
-class opal(core):
+
+class Opal(core):
     def __init__(self,debug):
         self.internalID = 'item-opal'
         self.name = 'opal'
@@ -578,7 +760,8 @@ class opal(core):
         self.debug = debug
         self.rDebug()
 
-class twine(core):
+
+class Twine(core):
     def __init__(self,debug):
         self.internalID = 'item-twine'
         self.name = 'twine'
@@ -589,9 +772,10 @@ class twine(core):
         self.debug = debug
         self.rDebug()
 
-class excalibur(core):
+
+class Excalibur(core):
     def __init__(self,debug):
-        self.internalID='item-excalibur'
+        self.internalID = 'item-excalibur'
         self.name = 'Excalibur'
         self.quality = 4
         self.descriptions = [
@@ -602,11 +786,12 @@ class excalibur(core):
         self.debug = debug
         self.rDebug()
 
-class crudespear(core):
+
+class Crudespear(core):
     def __init__(self,debug):
-        self.internalID='item-crudespear'
+        self.internalID = 'item-crudespear'
         self.name = 'crude spear'
-        self.quality = 4
+        self.quality = 1
         self.descriptions = [
             "An incredibly simple weapon.",
             "It's like a sharpened stick, but sharper."
@@ -614,7 +799,248 @@ class crudespear(core):
         self.debug = debug
         self.rDebug()
 
-class item(core):
+
+class Slingshot(core):
+    def __init__(self, debug):
+        self.internalID = 'item-slingshot'
+        self.name = 'slingshot'
+        self.quality = 1
+        self.descriptions = [
+            "Pew Pew!",
+            "What's the shiniest thing you can stick in it?",
+            "Some guy is gonna get shot . . ."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Breakfast(core):
+    def __init__(self, debug):
+        self.internalID = 'item-breakfast'
+        self.name = 'eggs and hashbrowns'
+        self.quality = 1
+        self.descriptions = [
+            "It's breakfast, all right.",
+            "Got any boy scout pepper?",
+            "It looks . . . edible."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Mud(core):
+    def __init__(self, debug):
+        self.internalID = 'item-mud'
+        self.name = 'fistful of mud'
+        self.quality = 0
+        self.descriptions = [
+            "Muddy."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Brick(core):
+    def __init__(self, debug):
+        self.internalID = 'item-brick'
+        self.name = 'brick'
+        self.quality = 0
+        self.descriptions = [
+            "Don't throw it at people.",
+            "What kind of brick?",
+            "A brick is just a brick."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Clay(core):
+    def __init__(self, debug):
+        self.internalID = 'item-clay'
+        self.name = 'ball of clay'
+        self.quality = 0
+        self.descriptions = [
+            "Why is it so darn hard to find?",
+            "you could probably make something with this.",
+            "The possibilities are nearly endless.",
+            "Reality can be whatever you want.",
+            "Make a snake!"
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Charcoal(core):
+    def __init__(self, debug):
+        self.internalID = 'item-charcoal'
+        self.name = 'hunk of charcoal'
+        self.quality = 0
+        self.descriptions = [
+            "You could draw with it!",
+            "Because you couldn't find any coal.",
+            "It's wood that was cooked so that it can be used to cook other things."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Meat(core):
+    def __init__(self, debug):
+        self.internalID = 'item-meat'
+        self.name = 'raw meat'
+        self.quality = 1
+        self.descriptions = [
+            "Wash your hands.",
+            "It's flippin RAW.",
+            "Cook it first."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Wood(core):
+    def __init__(self, debug):
+        self.internalID = 'item-wood'
+        self.name = 'chunk of wood'
+        self.quality = 1
+        self.descriptions = [
+            "Watch out for splinters.",
+            "The ever-important core of survival games."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Dinowhistle(core):
+    def __init__(self, debug):
+        self.internalID = 'item-dinowhistle'
+        self.name = 'dinosaur whistle'
+        self.quality = 4
+        self.descriptions = [
+            "Tame those dinosaurs."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Berry(core):
+    def __init__(self, debug):
+        self.internalID = 'item-berry'
+        self.name = 'berry'
+        self.quality = 2
+        self.descriptions = [
+            "An incredibly generic berry."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Axe(core):
+    def __init__(self, debug):
+        self.internalID = 'item-axe'
+        self.name = 'axe'
+        self.quality = 5
+        self.descriptions = [
+            "Chop Chop!",
+            "Heeeeere's Johnny!",
+            "Paul Bunyan's favorite tool.",
+            "And my bow!"
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Wrench(core):
+    def __init__(self, debug):
+        self.internalID = 'item-wrench'
+        self.name = 'wrench'
+        self.quality = 3
+        self.descriptions = [
+            "Can we fix it?",
+            "At least it's not a hammer."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Ironore(core):
+    def __init__(self, debug):
+        self.internalID = 'item-ironore'
+        self.name = 'iron ore'
+        self.quality = 1
+        self.descriptions = [
+            "Good ol' bog iron ore."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Molteniron(core):
+    def __init__(self, debug):
+        self.internalID = 'item-molteniron'
+        self.name = 'molten iron'
+        self.quality = 1
+        self.descriptions = [
+            "You really shouldn't be holding liquid metal.",
+            "Hot! Hot! Hot!",
+            "Hot enough to, well, burn your skin off."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Snailshell(core):
+    def __init__(self, debug):
+        self.internalID = 'item-snailshell'
+        self.name = 'snailshell'
+        self.quality = 0
+        self.descriptions = [
+            "It's the shell of a snail."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Toyplane(core):
+    def __init__(self, debug):
+        self.internalID = 'item-toyplane'
+        self.name = 'toy plane'
+        self.quality = 0
+        self.descriptions = [
+            "It's a small toy plane."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Spatula(core):
+    def __init__(self, debug):
+        self.internalID = 'item-spatula'
+        self.name = 'spatula'
+        self.quality = 0
+        self.descriptions = [
+            "It's a latch-a-splat.",
+            "Spatoola."
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Sunglasses(core):
+    def __init__(self, debug):
+        self.internalID = 'item-sunglasses'
+        self.name = 'sunglasses'
+        self.quality = 0
+        self.descriptions = [
+            "I wear them at night.",
+            "I'm not just cool, I'm crispy.",
+            "How's it going, hotstuff?"
+        ]
+        self.debug = debug
+        self.rDebug()
+
+
+class Item(core):
     def __init__(self,world):
         self.debug = world.debug
         self.internalID = 'library-items'
@@ -631,46 +1057,96 @@ class item(core):
             'stone',
             'branch',
             'scrapmetal',
-            'twine'
+            'twine',
+            'brick',
+            'mud',
+            'clay',
+            'snailshell',
+            'toyplane',
+            'spatula',
+            'sunglasses'
         ]
         self.common = [
-            'shinystone'
+            'shinystone',
+            'branch',
+            'berry',
+            'ironore'
         ]
         self.useful = [
             'egg',
-            'potato'
+            'potato',
+            'twine'
         ]
         self.treasure = [
             'diamond',
             'ruby',
             'sapphire',
             'emerald',
-            'opal'
+            'opal',
+            'wrench'
         ]
         self.impossible = [
             'excalibur'
         ]
         self.crafted = [
-            'crudespear'
+            'crudespear',
+            'slingshot',
+            'breakfast',
+            'charcoal',
+            'brick',
+            'axe',
+            'molteniron'
+        ]
+        self.complexfinding = [
+            'meat',
+            'wood',
+            'dinowhistle'
         ]
         self.full = self.trash + self.common + self.useful + self.treasure + self.impossible
-        self.stone = stone(self.debug)
-        self.branch = branch(self.debug)
-        self.scrapmetal = scrapmetal(self.debug)
-        self.egg = egg(self.debug)
-        self.shinystone = shinystone(self.debug)
-        self.diamond = diamond(self.debug)
-        self.excalibur = excalibur(self.debug)
-        self.ruby = ruby(self.debug)
-        self.sapphire = sapphire(self.debug)
-        self.emerald = emerald(self.debug)
-        self.opal = opal(self.debug)
-        self.potato = potato(self.debug)
-        self.twine = twine(self.debug)
-        self.crudespear = crudespear(self.debug)
 
-class crudespearRecipe(core):
-    def __init__(self,debug):
+        # Generate dictionary for other uses
+        self.dict = {}
+        for i in self.full:
+            self.dict[i] = 0
+        for i in self.crafted:
+            self.dict[i] = 0
+
+        self.stone = Stone(self.debug)
+        self.branch = Branch(self.debug)
+        self.scrapmetal = Scrapmetal(self.debug)
+        self.egg = Egg(self.debug)
+        self.shinystone = Shinystone(self.debug)
+        self.diamond = Diamond(self.debug)
+        self.excalibur = Excalibur(self.debug)
+        self.ruby = Ruby(self.debug)
+        self.sapphire = Sapphire(self.debug)
+        self.emerald = Emerald(self.debug)
+        self.opal = Opal(self.debug)
+        self.potato = Potato(self.debug)
+        self.twine = Twine(self.debug)
+        self.crudespear = Crudespear(self.debug)
+        self.slingshot = Slingshot(self.debug)
+        self.breakfast = Breakfast(self.debug)
+        self.brick = Brick(self.debug)
+        self.mud = Mud(self.debug)
+        self.clay = Clay(self.debug)
+        self.meat = Meat(self.debug)
+        self.charcoal = Charcoal(self.debug)
+        self.wood = Wood(self.debug)
+        self.dinowhistle = Dinowhistle(self.debug)
+        self.berry = Berry(self.debug)
+        self.axe = Axe(self.debug)
+        self.ironore = Ironore(self.debug)
+        self.molteniron = Molteniron(self.debug)
+        self.wrench = Wrench(self.debug)
+        self.snailshell = Snailshell(self.debug)
+        self.toyplane = Toyplane(self.debug)
+        self.spatula = Spatula(self.debug)
+        self.sunglasses = Sunglasses(self.debug)
+
+
+class CrudespearRecipe(core):
+    def __init__(self, debug):
         self.internalID = 'recipe-crudespear'
         self.debug = debug
         self.rDebug()
@@ -679,171 +1155,289 @@ class crudespearRecipe(core):
             'branch',
             'twine'
         ]
+        self.station = 'null'
+        self.result = 'crudespear'
 
-class recipes(core):
-    def __init__(self,world):
-        self.world = world
-        self.debug = self.world.debug
+
+class SlingshotRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-slingshot'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'branch',
+            'twine'
+        ]
+        self.station = 'null'
+        self.result = 'slingshot'
+
+
+class BreakfastRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-breakfast'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'egg',
+            'potato'
+        ]
+        self.station = 'campfire'
+        self.result = 'breakfast'
+
+
+class BrickRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-brick'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'clay'
+        ]
+        self.station = 'kiln'
+        self.result = 'brick'
+
+class AxeRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-axe'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'branch',
+            'molteniron'
+        ]
+        self.station = 'anvil'
+        self.result = 'axe'
+
+
+class CharcoalRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-charcoal'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'wood'
+        ]
+        self.station = 'kiln'
+        self.result = 'charcoal'
+
+
+class MoltenironRecipe(core):
+    def __init__(self, debug):
+        self.internalID = 'recipe-charcoal'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'ironore',
+            'charcoal'
+        ]
+        self.station = 'smelter'
+        self.result = 'molteniron'
+
+
+class Recipes(core):
+    def __init__(self, lexeter):
+        self.lexeter = lexeter
+        self.debug = self.lexeter.debug
         self.internalID = 'library-crafting'
         self.rDebug()
-        self.crudespearRecipe = crudespearRecipe(self.debug)
+        self.crudespear = CrudespearRecipe(self.debug)
+        self.slingshot = SlingshotRecipe(self.debug)
+        self.breakfast = BreakfastRecipe(self.debug)
+        self.brick = BrickRecipe(self.debug)
+        self.charcoal = CharcoalRecipe(self.debug)
+        self.axe = AxeRecipe(self.debug)
 
-class constructs(core):
-    def __init__(self,world):
+        self.full = [
+            'crudespear',
+            'slingshot',
+            'breakfast',
+            'brick',
+            'charcoal',
+            'axe',
+            'molteniron'
+        ]
+
+
+class Campfire(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-campfire'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'branch',
+            'stone'
+        ]
+        self.result = 'campfire'
+        self.name = 'campfire'
+
+
+class Kiln(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-kiln'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'brick',
+            'mud',
+            'branch'
+        ]
+        self.result = 'kiln'
+        self.name = 'kiln'
+
+
+class Furnace(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-furnace'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'brick',
+            'mud',
+            'stone',
+            'charcoal'
+        ]
+        self.result = 'furnace'
+        self.name = 'furnace'
+
+
+class Smelter(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-smelter'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'brick',
+            'mud',
+            'stone',
+            'charcoal',
+            'clay'
+        ]
+        self.result = 'smelter'
+        self.name = 'smelter'
+
+
+class Anvil(core):
+    def __init__(self, debug):
+        self.internalID = 'construct-anvil'
+        self.debug = debug
+        self.rDebug()
+        self.ingredients = [
+            'molteniron',
+            'stone',
+            'shinystone'
+        ]
+        self.result = 'anvil'
+        self.name = 'anvil'
+
+
+class Constructs(core):
+    def __init__(self, world):
         self.world = world
         self.debug = self.world.debug
         self.internalID = 'library-construction'
         self.rDebug()
-
-
-class shade(core):
-    def __init__(self, name, world):
-        self.name = name
-        world.characterlist.append(self.name)
-        self.internalID = 'character-shade-' + self.name
-        self.world = world
-        self.debug = self.world.debug
-        self.rDebug()
-        self.room = 'darkroom'
-        self.hp = 15
-        self.act = act(self.name, self.world)
-        self.age = 0
-        self.tickCount = random.randrange(1, 5)
-        self.prefer = prefer()
-
-        if self.name == 'mek':
-            self.prefer.fruit = 'orange'
-            self.week = 5
-        elif self.name == 'geoflib':
-            self.prefer.fruit = 'pineapple'
-            self.week = 4
-
-    def tick(self, world):
-        self.age += 1;
-        self.tickCount += 1
-        if self.tickCount == self.week: self.tickCount = 1
-        if self.tickCount == 1:
-            lines = [
-                'heya, stranger!', 'im a shade, not a ghost. theres a difference.',
-                'waddup, ' + world.player.name + '?', 'evening!',
-                'i cannae find ma lunch!', 'i like ' + self.prefer.fruit + 's. my brother doesnt.',
-                'ah, the darkness. so refreshing.', 'blegh! just got a bug in my mouth!',
-                'have ya talked to my twin?', 'tha rats here, they make quite the racket!',
-                'not a big fan of moths. how bout you?', 'ever been to paris?']
-            self.act.speak(random.choice(lines), self.room)
-        elif self.tickCount == 2:
-            pass  # ask
-        elif self.tickCount == 3:
-            pass  # nothing/atk
-        elif self.tickCount == 4:
-            pass  # possiblemove
-
-
-class darkroom(core):
-    def __init__(self, world):
-        self.world = world
-        self.internalID = 'room-darkroom'
-        self.debug = self.world.debug
-        self.rDebug()
-        world.characters.geoflib = shade('geoflib', world)
-        world.characters.mek = shade('mek', world)
-        self.descriptions = [
-            "It's incredibly dark.",
-            "There's not much here.",
-            "Where'd everything go?"
+        self.campfire = Campfire(self.debug)
+        self.kiln = Kiln(self.debug)
+        self.furnace = Furnace(self.debug)
+        self.smelter = Smelter(self.debug)
+        self.anvil = Anvil(self.debug)
+        self.full = [
+            'campfire',
+            'kiln',
+            'furnace',
+            'smelter',
+            'anvil'
         ]
-
 
 # subclass responselog for logging player's responses
 class responselog(core):
     def __init__(self):
-        self.internalID = 'player-response-log'
-
+        self.internalID='player-response-log'
+    
 
 class player(core):
-    def __init__(self, age, them, world, debug):
-        self.them = them;
-        self.debug = debug;
-        self.internalID = 'player-instance';
-        self.rDebug()
-        self.hp = 50;
-        self.rLog = responselog()
+    def __init__(self,age,them,world,debug):
+        self.them=them;self.debug = debug;self.internalID='player-instance';self.rDebug()
+        self.hp=50;self.rLog=responselog()
         self.them.act.speak("What is your name?\n")
-        self.name = input("")
-        self.them.act.speak(self.name + ", eh?")
-        self.them.act.speak("Well, have a fun adventure.");
-        print("");
-        print("")
-        self.instance = age;
-        self.age = age
+        self.name=input("")
+        self.them.act.speak(self.name+", eh?")
+        self.them.act.speak("Well, have a fun adventure.");print("");print("")
+        self.instance=age;self.age=age
         self.inventory = []
-        self.act = playerAct(self, world)
-
+        self.act=playerAct(self,world)
 
 class wmap(core):
-    def __init__(self, world):
-        self.debug = world.debug
-        self.internalID = 'world-map'
+    def __init__(self,world):
+        self.debug=world.debug
+        self.internalID='world-map'
         self.rDebug()
-
-
+        
 class world(core):
-    def __init__(self, age, them, zones, debug, item, lexeter):
-        self.debug = debug;
-        self.them = them;
-        self.zones = zones
+    def __init__(self, age, them, zones, debug, item, recipes, constructs, lexeter):
+        self.debug=debug;self.them=them;self.zones=zones
         self.lexeter = lexeter
         self.internalID = 'reality-instance'
         self.rDebug()
         self.them.act.speak("Hmmmmm . . .")
         self.them.act.speak("There's nothing here.")
+        if self.lexeter.seedable:
+            if input("[#`~<,>_r-kal]: Do you want to add your input?\n(yes or no): ") == 'yes':
+                self.seed = input("[#`~<,>_r-kal]: What kind of world do you want?\n(input seed): ")
+            else:
+                self.seed = ''.join(random.choice(string.digits) for i in range(16))
+        else:
+            self.seed = ''.join(random.choice(string.digits) for i in range(16))
+        random.seed(self.seed)
+        print(random.randint(0,100))
         self.them.act.speak("Give me a minute.")
-        self.time = 45 + (age * 5)
+        self.time = 45+(age*5)
         self.instance = age
         self.age = 0
-        self.player = player(age, them, self, debug)
+        self.player = player(age,them,self,debug)
         self.characters = characters()
         self.characterlist = []
         self.item = item
+        self.recipes = recipes
+        self.constructs = constructs
         self.map = wmap(self)
         self.map.darkroom = darkroom(self)
-        self.map.route = {}
-        self.map.route['darkroom'] = []
+        self.map.route = {'darkroom': []}
         self.map.list = ['darkroom']
         for i in range(3):
             zone = random.choice(self.zones)
-            room = str(zone + '_' + str(i))
-            self.map.route['darkroom'].append(room);
-            self.map.route[room] = ['darkroom']
+            room = str(zone+'_'+str(i))
+            self.map.route['darkroom'].append(room);self.map.route[room] = ['darkroom']
             self.map.list.append(room)
-            exec('self.map.' + room + '=' + zone + '(self)')
-        self.player.room = 'darkroom'
-
+            exec('self.map.'+room+'='+zone+'(self)')
+        self.player.room='darkroom'
 
 # subclass characters for saving each individual character
 class characters(core):
     def __init__(self):
-        self.internalID = 'character-list'
-
+        self.internalID='character-list'
 
 class them():
     def __init__(self):
-        self.name = "#`~<,>_r-kal"
-        self.internalID = '__ignore__'
+        self.name="#`~<,>_r-kal"
+        self.internalID='__ignore__'
         self.act = actGod(self.name)
 
 
-class lexeter(core):
+class Lexeter(core):
     def __init__(self):
         self.debug = False
         self.internalID = 'lexeter'
         self.rDebug()
         self.them = them()
         self.instances = 1
+        self.seedable = True
         self.zones = ['pond', 'marble', 'terracotta', 'brickfloor', 'fractured', 'cave', 'canopy', 'cavern', 'shack']
         self.achievements = []
-        self.item = item(self)
-        self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self)
+        self.item = Item(self)
+        self.recipes = Recipes(self)
+        self.constructs = Constructs(self)
+        self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
 
 if __name__ == "__main__":
     from lib.player import *
@@ -851,4 +1445,4 @@ if __name__ == "__main__":
     from lib.action import *
     from lib.core import *
     lexeter = lex_init()
-    tick(lexeter,lexeter.world)
+    tick(lexeter, lexeter.world)

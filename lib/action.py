@@ -2,6 +2,7 @@ from lib.core import *
 import random
 from lib.biome import *
 from lib.items import *
+import time
 
 
 class act(core):
@@ -63,14 +64,55 @@ class playerAct(core):
             'Help: Shows help screen. | .h, help',
             'Move: Move to another room. | .m, move',
             "Pickup: Pick an item up. | .p, pick, pickup",
-            "Craft: Turn your items into another item. | .c, craft",
+            "Craft: Turn your items into another item. | .c, craft, .b, build",
             "Interact: Interact with an object. | .in, interact",
             'Inspect: Look at the current room and its contents. | .i, inspect',
             'Inventory: Take inventory, see what you have in your pockets. | .inv, inv, inventory',
             'Wait: Waste a moment. | .w, wait'
         ]
+        self.logAnswers = {
+            ".m": "(.m) Moved to location: ",
+            "move": "(move) Moved to location: ",
+            ".h": "(.h) Asked for Help.",
+            "help": "(help) Asked for Help.",
+            ".p": "(.p) Picked up item: ",
+            "pick": "(pick) Picked up item: ",
+            "pickup": "(pick) Picked up item: ",
+            "scream": "Invoked the horrors of the night.",
+            ".w": "(.w) Waited a moment.",
+            "wait": "(wait) Waited a moment.",
+            ".in": "(.in) Interacted with: ",
+            "interact": "(interact) Interacted with: ",
+            ".inv": "(.inv) Accessed Inventory.",
+            "inventory": "(inventory) Accessed Inventory.",
+            ".c": "(.c) Crafted:",
+            ".b": "(.b) Crafted:",
+            "build": "(build) Crafted:",
+            "craft": "(craft) Crafted:",
+            ".i": "(.i) Inspected:",
+            "inspect": "(inspect) Inspected: "
+        }
         self.debug = self.world.debug
         self.rDebug()
+
+    def __log(self, message):
+        log = open('save/log.txt', 'a')
+        try:
+            log.write("[" + str(time.ctime(time.time())) + "] " + str(self.logAnswers[message]))
+        except:
+            log.write("[" + str(time.ctime(time.time())) + "] " + "Unknown Command:\n")
+            log.write(" - " + message)
+        finally:
+            log.write("\n")
+
+    def __sublog(self, message):
+        log = open('save/log.txt', 'a')
+        try:
+            log.write(" - " + message)
+        except:
+            pass
+        finally:
+            log.write("\n")
 
     def playeraction(self):
         resp = input(": ")
@@ -78,6 +120,7 @@ class playerAct(core):
         for item in self.array:
             if resp == self.array[item]:
                 found = True
+                self.__log(resp)
                 exec("self." + item.lower() + "()")
         if found == False:
             print("That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.")
@@ -108,6 +151,7 @@ class playerAct(core):
             self.world.map.route[self.player.room].append(newzone)
             self.world.map.route[newzone].append(self.player.room)
             exec("self.world.map." + newzone + "=" + zone + "(self.world)")
+            self.__sublog(newzone)
         for i in self.world.map.route[self.player.room]:
             print(" - " + i)
 
@@ -136,15 +180,18 @@ class playerAct(core):
             list.append(i)
         print("What do you want to inspect?")
         for i in list:
-            print(" - " + i)
-        def invLoop(world):
+            print(" - [" + str(list.index(i)) + "] " + i)
+        print(" - [x] Cancel")
+        list.append('cancel')
+        def invLoop(self, world):
             choice = input(": ")
             if choice in world.player.inventory:
                 item = getattr(world.item, choice)
                 print(random.choice(item.descriptions))
+                self.__sublog(choice.name)
             else:
                 invLoop(world)
-        def loop(self,world):
+        def loop(self, world):
             choice = input(": ")
             if choice in list:
                 if choice == 'room':
@@ -153,17 +200,21 @@ class playerAct(core):
                     clearConsole()
                     print("Inspect an item in inventory:")
                     self.inventory()
-                    invLoop(world)
+                    invLoop(self, world)
+                elif choice == 'cancel':
+                    self.__sublog('cancel')
+                    pass
                 else:
                     item = getattr(world.item, choice)
                     print(random.choice(item.descriptions))
+                    self.__sublog(choice.name)
             else:
                 print("That's not an option. Try again.")
-                loop(world)
+                loop(self, world)
         loop(self, self.world)
 
     def movealias(self):
-        self.moveTo()
+        self.moveto()
 
     def inspectalias(self):
         self.inspect()
@@ -207,6 +258,7 @@ class playerAct(core):
                         room.loot.remove(choice)
                         self.player.inventory.append(choice)
                         print("You picked up " + choice)
+                        self.__sublog(choice)
                     else:
                         print("That's not an option, try again.")
                         loop(input(": "),room)
@@ -223,7 +275,8 @@ class playerAct(core):
         self.pickup()
 
     def interact(self):
-        pass
+        print("This Function is not available right now. Try again later.")
+        self.__sublog("notavailable")
 
     def interactalias(self):
         self.interact()
@@ -270,6 +323,7 @@ class playerAct(core):
                     for i in getattr(self.world.recipes, choice).ingredients:
                         self.player.inventory.remove(i)
                     print("You crafted " + getattr(self.world.item, choice).name + "!")
+                    self.__sublog(getattr(self.world.item, choice).name)
                 else:
                     print("That's not an option, sorry.")
                     loop(self, craftables)
@@ -299,6 +353,7 @@ class playerAct(core):
                     for i in getattr(self.world.constructs, choice).ingredients:
                         self.player.inventory.remove(i)
                     print("You built a " + getattr(self.world.constructs, choice).name + "!")
+                    self.__sublog(getattr(self.world.constructs, choice).name)
                 else:
                     loop(self, craftables)
 
