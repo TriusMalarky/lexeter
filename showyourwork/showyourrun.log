@@ -12793,3 +12793,200 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 "o","31",,"
 Process finished with exit code 1
 ",,"system","4622910","13"
+"r","32","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/lexeter/concat.py",,"PythonRunner",,"28984867","13"
+"o","32",,"
+Process finished with exit code 0
+",,"system","28985051","13"
+"r","3","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe C:/Users/zacha/Desktop/Lexeter/concat.py",,"PythonRunner",,"481116","14"
+"o","3",,"
+Process finished with exit code 0
+",,"system","481251","14"
+"r","4","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"490402","14"
+"o","4",,": ",,"stdout","490795","14"
+"o","4",,"Traceback (most recent call last):
+",,"stderr","493525","14"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","493525","14"
+"o","4",,"Where would you like to go?
+",,"stdout","493526","14"
+"o","4",,"brickfloor_26
+",,"stdout","493526","14"
+"o","4",,"    tick(lexeter, lexeter.world)
+",,"stderr","493540","14"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","493540","14"
+"o","4",,"    world.player.act.playeraction()
+",,"stderr","493540","14"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 129, in playeraction
+",,"stderr","493540","14"
+"o","4",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","493540","14"
+"o","4",,"  File ""<string>"", line 1, in <module>
+",,"stderr","493540","14"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 247, in movealias
+",,"stderr","493540","14"
+"o","4",,"    self.moveto()
+",,"stderr","493540","14"
+"o","4",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 161, in moveto
+",,"stderr","493540","14"
+"o","4",,"    print("" - ["" + self.world.map.route[self.player.room].index(i) + ""] "" + i)
+",,"stderr","493540","14"
+"o","4",,"TypeError: can only concatenate str (not ""int"") to str
+",,"stderr","493540","14"
+"o","4",,"
+Process finished with exit code 1
+",,"system","493552","14"
+"r","5","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"508202","14"
+"o","5",,": ",,"stdout","509218","14"
+"o","5",,"Where would you like to go?
+",,"stdout","510757","14"
+"o","5",,"brickfloor_26
+",,"stdout","510757","14"
+"o","5",," - [0] shack_25
+",,"stdout","510757","14"
+"o","5",," - [1] brickfloor_27
+",,"stdout","510757","14"
+"o","5",,": ",,"stdout","510757","14"
+"o","5",,"That's not an option, try again.
+",,"stdout","514345","14"
+"o","5",,": ",,"stdout","514345","14"
+"o","5",,"Traceback (most recent call last):
+",,"stderr","768126","14"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","768126","14"
+"o","5",,"    tick(lexeter, lexeter.world)
+",,"stderr","768126","14"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","768126","14"
+"o","5",,"    world.player.act.playeraction()
+",,"stderr","768126","14"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 129, in playeraction
+",,"stderr","768126","14"
+"o","5",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","768126","14"
+"o","5",,"  File ""<string>"", line 1, in <module>
+",,"stderr","768126","14"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 247, in movealias
+",,"stderr","768126","14"
+"o","5",,"    self.__sublog('Invalid Option')
+",,"stderr","768126","14"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 171, in moveto
+",,"stderr","768126","14"
+"o","5",,"    self.__sublog('cancel')
+",,"stderr","768126","14"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 170, in movetoloop
+",,"stderr","768126","14"
+"o","5",,"    elif newloc.upper() == 'X' or newloc.upper() == 'CANCEL':
+",,"stderr","768126","14"
+"o","5",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 164, in movetoloop
+",,"stderr","768126","14"
+"o","5",,"    def movetoloop(self): # <- define loop
+",,"stderr","768126","14"
+"o","5",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","768126","14"
+"o","5",,"    def decode(self, input, final=False):
+",,"stderr","768143","14"
+"o","5",,"KeyboardInterrupt
+",,"stderr","768143","14"
+"o","5",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","768191","14"
+"r","6","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"768432","14"
+"o","6",,": ",,"stdout","768681","14"
+"o","6",,"Where would you like to go?
+",,"stdout","770324","14"
+"o","6",,"brickfloor_26
+",,"stdout","770324","14"
+"o","6",," - [0] shack_25
+",,"stdout","770324","14"
+"o","6",," - [1] shack_27
+",,"stdout","770324","14"
+"o","6",," - [x] Cancel
+",,"stdout","770324","14"
+"o","6",,": ",,"stdout","770324","14"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","771585","14"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","771585","14"
+"o","6",,"    tick(lexeter, lexeter.world)
+",,"stderr","771585","14"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 61, in tick
+",,"stderr","771585","14"
+"o","6",,"    world.player.act.playeraction()
+",,"stderr","771585","14"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 129, in playeraction
+",,"stderr","771585","14"
+"o","6",,"    exec(""self."" + item.lower() + ""()"")
+",,"stderr","771585","14"
+"o","6",,"  File ""<string>"", line 1, in <module>
+",,"stderr","771585","14"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 256, in movealias
+",,"stderr","771600","14"
+"o","6",,"    self.moveto()
+",,"stderr","771600","14"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 180, in moveto
+",,"stderr","771600","14"
+"o","6",,"    movetoloop(self) # <- run loop
+",,"stderr","771600","14"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 173, in movetoloop
+",,"stderr","771600","14"
+"o","6",,"    room = self.world.map.route[self.player.room][newloc]
+",,"stderr","771600","14"
+"o","6",,"TypeError: list indices must be integers or slices, not str
+",,"stderr","771600","14"
+"o","6",,"
+Process finished with exit code 1
+",,"system","771607","14"
+"r","7","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"784158","14"
+"o","7",,": ",,"stdout","785023","14"
+"o","7",,"Where would you like to go?
+",,"stdout","787355","14"
+"o","7",,"brickfloor_26
+",,"stdout","787355","14"
+"o","7",," - [0] shack_25
+",,"stdout","787355","14"
+"o","7",," - [1] terracotta_27
+",,"stdout","787355","14"
+"o","7",," - [x] Cancel
+",,"stdout","787355","14"
+"o","7",,": ",,"stdout","787355","14"
+"o","7",,"Moving to shack_25
+",,"stdout","788387","14"
+"o","7",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","788403","14"
+"o","7",,": ",,"stdout","788403","14"
+"o","7",,"",,"stdout","791053","14"
+"o","7",,"Where would you like to go?
+",,"stdout","791069","14"
+"o","7",,"shack_25
+",,"stdout","791069","14"
+"o","7",," - [0] fractured_24
+",,"stdout","791069","14"
+"o","7",," - [1] brickfloor_26
+",,"stdout","791069","14"
+"o","7",," - [2] cave_28
+",,"stdout","791069","14"
+"o","7",," - [x] Cancel
+",,"stdout","791069","14"
+"o","7",,": ",,"stdout","791069","14"
+"o","7",,"There is a clearing inside a forest . . . with an old cabin in the middle.
+",,"stdout","791894","14"
+"o","7",,": ",,"stdout","791894","14"
+"o","7",,"Where would you like to go?
+",,"stdout","793572","14"
+"o","7",,"shack_25
+",,"stdout","793572","14"
+"o","7",," - [0] fractured_24
+",,"stdout","793572","14"
+"o","7",," - [1] brickfloor_26
+",,"stdout","793572","14"
+"o","7",," - [2] cave_28
+",,"stdout","793572","14"
+"o","7",," - [x] Cancel
+",,"stdout","793572","14"
+"o","7",,": ",,"stdout","793572","14"
+"o","7",,"Moving to fractured_24
+",,"stdout","794709","14"
+"o","7",,"You have no idea what this room actually looks like.
+",,"stdout","794725","14"
+"o","7",,": ",,"stdout","794725","14"

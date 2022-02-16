@@ -57,13 +57,16 @@ class playerAct(core):
             'craft': '.c',
             'craftalias': 'craft',
             'build': '.b',
-            'buildAlias': 'build'
+            'buildAlias': 'build',
+            "drop": ".d",
+            "dropalias": "drop"
                     }
 
         self.helparray = [
             'Help: Shows help screen. | .h, help',
             'Move: Move to another room. | .m, move',
             "Pickup: Pick an item up. | .p, pick, pickup",
+            "Drop: Drop an item you don't want. | .d, drop",
             "Craft: Turn your items into another item. | .c, craft, .b, build",
             "Interact: Interact with an object. | .in, interact",
             'Inspect: Look at the current room and its contents. | .i, inspect',
@@ -90,7 +93,9 @@ class playerAct(core):
             "build": "(build) Crafted:",
             "craft": "(craft) Crafted:",
             ".i": "(.i) Inspected:",
-            "inspect": "(inspect) Inspected: "
+            "inspect": "(inspect) Inspected: ",
+            ".d": "(.d) Dropped: ",
+            "drop": "(drop) Dropped: "
         }
         self.debug = self.world.debug
         self.rDebug()
@@ -153,13 +158,22 @@ class playerAct(core):
             exec("self.world.map." + newzone + "=" + zone + "(self.world)")
             self.__sublog(newzone)
         for i in self.world.map.route[self.player.room]:
-            print(" - " + i)
+            print(" - [" + str(self.world.map.route[self.player.room].index(i)) + "] " + i)
+        print(" - [x] Cancel")
 
         def movetoloop(self): # <- define loop
             newloc = input(": ")
             if newloc in self.world.map.route[self.player.room]:
                 self.player.room = newloc
                 print("Moving to " + newloc)
+                self.__sublog(newloc)
+            elif newloc.upper() == 'X' or newloc.upper() == 'CANCEL':
+                self.__sublog('cancel')
+            elif newloc.isnumeric():
+                room = self.world.map.route[self.player.room][int(newloc)]
+                self.player.room = room
+                print("Moving to " + room)
+                self.__sublog(room)
             else:
                 print("That's not an option, try again.")
                 movetoloop(self)
@@ -418,3 +432,9 @@ class playerAct(core):
 
     def buildalias(self):
         self.build()
+
+    def drop(self):
+        pass
+
+    def dropalias(self):
+        self.drop()

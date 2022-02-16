@@ -50,6 +50,7 @@ class pond(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'pond'
 
 
 class marble(corebiome):
@@ -63,6 +64,7 @@ class marble(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'marble'
 
 
 class terracotta(corebiome):
@@ -76,6 +78,7 @@ class terracotta(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'terracotta'
 
 
 class brickfloor(corebiome):
@@ -89,6 +92,7 @@ class brickfloor(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'brick floor'
 
 
 class fractured(corebiome):
@@ -103,6 +107,7 @@ class fractured(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'fractured'
 
 
 class cave(corebiome):
@@ -117,6 +122,7 @@ class cave(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'cave'
 
 
 class canopy(corebiome):
@@ -130,6 +136,7 @@ class canopy(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'canopy'
 
 
 class cavern(corebiome):
@@ -143,6 +150,7 @@ class cavern(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'cavern'
 
 
 class shack(corebiome):
@@ -156,3 +164,4 @@ class shack(corebiome):
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
+        self.name = 'shack'
