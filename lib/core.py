@@ -5,19 +5,39 @@ import random
 
 clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
+
 class core(): # <-- core class, all other classes should inherit this
     def __init__(self):
-        self.internalID='core-parent'
+        self.internalID = 'core-parent'
+
     def __str__(self): # <-- core function for displaying all relevant members of a given class instance
         attr = inspect.getmembers(self, lambda a:not(inspect.isroutine(a)))
         ar=[]
         for _ in [a for a in attr if not(a[0].startswith('__')) and not(a[0].startswith('internal'))]:
             ar.append(_)
         return str(ar)
+
     def rDebug(self):
         if self.debug:
             print("Debug: " + self.internalID)
             print(" ++ "+ str(self))
+
+    def error(self, error, location, context = 'none'):
+        errorList = {
+            "write-log": "writeToLogFile",
+            "player-action-command": "runCommand",
+            "player-action-move-createzone": "generateZone",
+            "player-action-move-move": "moveZones"
+        }
+        errorMessage = ''
+        if error in errorList:
+            errorMessage = errorList[error]
+        else:
+            errorMessage = 'unknownError'
+
+        print("Error! Please report the following to https://github.com/TriusMalarky/lexeterbuilds/issues :")
+        print(str(self.internalID) + ":" + errorMessage + ":" + location + ":" + context)
+
 
 class prefer(core): # <-- dummy class
     def __init(self):

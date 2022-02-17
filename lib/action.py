@@ -95,13 +95,19 @@ class playerAct(core):
             ".i": "(.i) Inspected:",
             "inspect": "(inspect) Inspected: ",
             ".d": "(.d) Dropped: ",
-            "drop": "(drop) Dropped: "
+            "drop": "(drop) Dropped: ",
+            "unfound": "Unfound Command"
         }
         self.debug = self.world.debug
         self.rDebug()
 
     def __log(self, message):
-        log = open('save/log.txt', 'a')
+        try:
+            log = open('save/log.txt', 'a')
+        except:
+            print("Warning: Unable to write to log file.")
+            self.error('write-log', '__log/open-log')
+
         try:
             log.write("[" + str(time.ctime(time.time())) + "] " + str(self.logAnswers[message]))
         except:
@@ -111,24 +117,61 @@ class playerAct(core):
             log.write("\n")
 
     def __sublog(self, message):
-        log = open('save/log.txt', 'a')
+
+        # Open log file
+        try:
+            log = open('save/log.txt', 'a')
+        except:
+            print("Warning: Unable to write to log file.")
+            self.error('write-log', '__sublog/open-log')
+
+
+        # Write message to log file
         try:
             log.write(" - " + message)
-        except:
-            pass
-        finally:
             log.write("\n")
+        except:
+            print("Warning: Unable to write to log file.")
+            self.error('write-log', '__sublog/write-context')
+
+    def __errorlog(self, message):
+        try:
+            log = open('save/log.txt', 'a')
+        except:
+            print("Warning: Unable to write to log file.")
+            self.error('write-log', '__errorlog/open-log')
+
+        try:
+            log.write("![" + message + "]\n")
+        except:
+            print("Warning: Unable to write to log file.")
+            self.error('write-log', '__errorlog/write-log')
 
     def playeraction(self):
         resp = input(": ")
         found = False
-        for item in self.array:
-            if resp == self.array[item]:
-                found = True
-                self.__log(resp)
-                exec("self." + item.lower() + "()")
-        if found == False:
+
+        try:
+            for item in self.array:
+                if resp == self.array[item]:
+                    found = True
+                    self.__log(resp)
+                    try:
+                        getattr(self, item.lower())()
+                    except:
+                        print("Error! Issue running command.")
+                        self.error('player-action-command', 'actloop/error-executing-command', resp)
+                        self.__errorlog('Issue running command, player-action-command, actloop/error-executing-command, ' + resp)
+
+            if found == False:
+                print("That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.")
+                self.__log('unfound')
+                self.playeraction()
+
+        except:
             print("That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.")
+            self.error('player-action-command', 'actloop/unknown-command-error', resp)
+            self.__errorlog('Issue finding command, player-action-command, actloop/unkown-command-error, ' + resp)
             self.playeraction()
 
     def help(self):
@@ -148,15 +191,21 @@ class playerAct(core):
         print('Where would you like to go?')
         room = self.player.room
         print(room)
-        if int(len(self.world.map.route[room])) < 3: # if there are less than 3 zones
-            ind = len(self.world.map.route) # gets length of map
-            zone = str(random.choice(self.world.zones))
-            newzone = str(zone + "_" + str(ind))
-            self.world.map.route[newzone] = []
-            self.world.map.route[self.player.room].append(newzone)
-            self.world.map.route[newzone].append(self.player.room)
-            exec("self.world.map." + newzone + "=" + zone + "(self.world)")
-            self.__sublog(newzone)
+
+        try:
+            if int(len(self.world.map.route[room])) < 3:
+                ind = len(self.world.map.route)
+                zone = str(random.choice(self.world.zones))
+                newzone = str(zone + "_" + str(ind))
+                self.world.map.route[newzone] = []
+                self.world.map.route[self.player.room].append(newzone)
+                self.world.map.route[newzone].append(self.player.room)
+                exec("self.world.map." + newzone + "=" + zone + "(self.world)")
+                self.__sublog('created ' + newzone)
+        except:
+            self.__errorlog('Issue creating new zone, player-action-move-createzone, movecommand/createzone')
+            self.error('player-action-move-createzone', 'movecommand/createzone')
+
         for i in self.world.map.route[self.player.room]:
             print(" - [" + str(self.world.map.route[self.player.room].index(i)) + "] " + i)
         print(" - [x] Cancel")
@@ -176,8 +225,14 @@ class playerAct(core):
                 self.__sublog(room)
             else:
                 print("That's not an option, try again.")
+                self.__sublog("impossible option: " + newloc)
                 movetoloop(self)
-        movetoloop(self) # <- run loop
+
+        try:
+            movetoloop(self)
+        except:
+            self.__errorlog('Issue moving between zones, player-action-move-move, movecommand/move')
+            self.error('player-action-move-move', 'movecommand/move')
 
         # Run inspection of room
         roomtitle = self.world.player.room
