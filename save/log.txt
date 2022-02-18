@@ -1,15 +1,2 @@
-[Thu Feb 17 12:58:10 2022] (.m) Moved to location: 
- - pond_0
-[Thu Feb 17 13:25:52 2022] (move) Moved to location: 
-[Thu Feb 17 13:25:55 2022] (help) Asked for Help.
-[Thu Feb 17 13:27:21 2022] (move) Moved to location: 
-[Thu Feb 17 13:28:21 2022] (move) Moved to location: 
-[Thu Feb 17 13:29:27 2022] (move) Moved to location: 
-[Thu Feb 17 13:30:42 2022] (move) Moved to location: 
-[Thu Feb 17 13:31:02 2022] (move) Moved to location: 
-[Thu Feb 17 13:31:24 2022] (move) Moved to location: 
-[Thu Feb 17 13:31:37 2022] (move) Moved to location: 
- - cavern_4
-[Thu Feb 17 13:31:57 2022] (move) Moved to location: 
- - pond_4
- - cancel
+|| Initializing Lexeter ||
+[Fri Feb 18 15:07:51 2022] Initialize

@@ -1,8 +1,50 @@
-from lib.core import *
-import random
-from lib.biome import *
-from lib.items import *
-import time
+try:
+    from lib.items import *
+except ModuleNotFoundError:
+    log = open('save/log.txt', 'a')
+    print("Warning! action module unable to find items module.")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    log.write("!! Action Module unable to find Items Module !!")
+    log.close()
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
+except ImportError:
+    log = open('save/log.txt', 'a')
+    print("Warning! action module had issues importing items module.")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    log.write("!! Action Module issues importing Items Module !!")
+    log.close()
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
+
+try:
+    import time
+except ModuleNotFoundError:
+    log = open('save/log.txt', 'a')
+    print("Warning! action module unable to find time module.")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    print("Time is one of Python's built-in modules. Consider reinstalling Python.")
+    log.write("!! Action Module unable to find Builtin Time Module !!")
+    log.close()
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
+except ImportError:
+    log = open('save/log.txt', 'a')
+    print("Warning! action module had issues importing time module.")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    print("Time is one of Python's built-in modules. Consider reinstalling Python.")
+    log.write("!! Action Module unable to import Builtin Time Module !!")
+    log.close()
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
 
 
 class act(core):
@@ -115,6 +157,7 @@ class playerAct(core):
             log.write(" - " + message)
         finally:
             log.write("\n")
+            log.close()
 
     def __sublog(self, message):
 
@@ -134,6 +177,8 @@ class playerAct(core):
             print("Warning: Unable to write to log file.")
             self.error('write-log', '__sublog/write-context')
 
+        log.close()
+
     def __errorlog(self, message):
         try:
             log = open('save/log.txt', 'a')
@@ -146,6 +191,8 @@ class playerAct(core):
         except:
             print("Warning: Unable to write to log file.")
             self.error('write-log', '__errorlog/write-log')
+
+        log.close()
 
     def playeraction(self):
         resp = input(": ")

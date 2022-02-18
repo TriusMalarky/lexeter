@@ -13479,3 +13479,491 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 "o","17",,"A sapphire blue pool sits in the center of the room, surrounded and filled by small flora. The air is refreshing.
 ",,"stdout","82588303","14"
 "o","17",,": ",,"stdout","82588318","14"
+"o","17",,"Traceback (most recent call last):
+",,"stderr","114154702","14"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 7, in <module>
+",,"stderr","114154702","14"
+"o","17",,"    log.write('|| Initializing Lexeter ||')
+",,"stderr","114154702","14"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 81, in tick
+",,"stderr","114154702","14"
+"o","17",,"    world.player.act.playeraction()
+",,"stderr","114154718","14"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 79, in tick
+",,"stderr","114154718","14"
+"o","17",,"    for _ in world.characterlist:
+",,"stderr","114154718","14"
+"o","17",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 150, in playeraction
+",,"stderr","114154718","14"
+"o","17",,"    def playeraction(self):
+",,"stderr","114154737","14"
+"o","17",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","114154737","14"
+"o","17",,"    def decode(self, input, final=False):
+",,"stderr","114154737","14"
+"o","17",,"KeyboardInterrupt
+",,"stderr","114154737","14"
+"o","17",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","114154770","14"
+"r","18","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114154966","14"
+"o","18",,": ",,"stdout","114155117","14"
+"o","18",,"Where would you like to go?
+",,"stdout","114159678","14"
+"o","18",,"pond_0
+",,"stdout","114159678","14"
+"o","18",," - [0] darkroom
+",,"stdout","114159678","14"
+"o","18",," - [1] pond_4
+",,"stdout","114159678","14"
+"o","18",," - [2] canopy_5
+",,"stdout","114159678","14"
+"o","18",," - [x] Cancel
+",,"stdout","114159678","14"
+"o","18",,": ",,"stdout","114159678","14"
+"o","18",,"Moving to pond_4
+",,"stdout","114161616","14"
+"o","18",,"White cobblestones surround a deep blue pond. The room feels slightly mystical.
+",,"stdout","114161632","14"
+"o","18",,": ",,"stdout","114161632","14"
+"o","18",,"Error! Something went wrong.
+",,"stdout","114167009","14"
+"o","18",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114167009","14"
+"o","18",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114167009","14"
+"o","18",,"Enter anything to exit Lexeter: ",,"stdout","114167009","14"
+"o","18",,"
+Process finished with exit code 0
+",,"system","114174936","14"
+"r","19","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114217474","14"
+"o","19",,": ",,"stdout","114217761","14"
+"o","19",,"Where would you like to go?
+",,"stdout","114222337","14"
+"o","19",,"pond_4
+",,"stdout","114222337","14"
+"o","19",," - [0] pond_0
+",,"stdout","114222337","14"
+"o","19",," - [1] cave_6
+",,"stdout","114222337","14"
+"o","19",," - [x] Cancel
+",,"stdout","114222337","14"
+"o","19",,": ",,"stdout","114222337","14"
+"o","19",,"Moving to cave_6
+",,"stdout","114224734","14"
+"o","19",,"Drip. Drip. Drip. It's a cave, all right.
+",,"stdout","114224750","14"
+"o","19",,": ",,"stdout","114224750","14"
+"o","19",,"Where would you like to go?
+",,"stdout","114228286","14"
+"o","19",,"cave_6
+",,"stdout","114228286","14"
+"o","19",," - [0] pond_4
+",,"stdout","114228286","14"
+"o","19",," - [1] canopy_7
+",,"stdout","114228286","14"
+"o","19",," - [x] Cancel
+",,"stdout","114228286","14"
+"o","19",,": ",,"stdout","114228286","14"
+"o","19",,"Moving to canopy_7
+",,"stdout","114230623","14"
+"o","19",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","114230639","14"
+"o","19",,": ",,"stdout","114230639","14"
+"o","19",,"Where would you like to go?
+",,"stdout","114235042","14"
+"o","19",,"canopy_7
+",,"stdout","114235042","14"
+"o","19",," - [0] cave_6
+",,"stdout","114235042","14"
+"o","19",," - [1] canopy_8
+",,"stdout","114235042","14"
+"o","19",," - [x] Cancel
+",,"stdout","114235042","14"
+"o","19",,": ",,"stdout","114235042","14"
+"o","19",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","114236488","14"
+"o","19",,": ",,"stdout","114236503","14"
+"o","19",,"Error! Something went wrong.
+",,"stdout","114240387","14"
+"o","19",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114240387","14"
+"o","19",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114240387","14"
+"o","19",,"Enter anything to exit Lexeter: ",,"stdout","114240387","14"
+"o","19",,"
+Process finished with exit code 0
+",,"system","114242489","14"
+"r","20","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114323151","14"
+"o","20",,": ",,"stdout","114323249","14"
+"o","20",,"Error! Something went wrong.
+",,"stdout","114325792","14"
+"o","20",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114325792","14"
+"o","20",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114325792","14"
+"o","20",,"Enter anything to exit Lexeter: ",,"stdout","114325792","14"
+"o","20",,"
+Process finished with exit code 0
+",,"system","114327932","14"
+"r","21","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114429009","14"
+"o","21",,": ",,"stdout","114429107","14"
+"o","21",,"Error! Something went wrong.
+",,"stdout","114431044","14"
+"o","21",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114431044","14"
+"o","21",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114431044","14"
+"o","21",,"Enter anything to exit Lexeter: ",,"stdout","114431044","14"
+"o","21",,"
+Process finished with exit code 0
+",,"system","114433401","14"
+"r","22","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114449895","14"
+"o","22",,": ",,"stdout","114450056","14"
+"o","22",,"Error! Something went wrong.
+",,"stdout","114452135","14"
+"o","22",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114452135","14"
+"o","22",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114452135","14"
+"o","22",,"Enter anything to exit Lexeter: ",,"stdout","114452135","14"
+"o","22",,"
+Process finished with exit code 0
+",,"system","114453737","14"
+"r","23","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114469311","14"
+"o","23",,": ",,"stdout","114469549","14"
+"o","23",,"Where would you like to go?
+",,"stdout","114503696","14"
+"o","23",,"canopy_7
+",,"stdout","114503696","14"
+"o","23",," - [0] cave_6
+",,"stdout","114503696","14"
+"o","23",," - [1] canopy_8
+",,"stdout","114503696","14"
+"o","23",," - [2] fractured_9
+",,"stdout","114503696","14"
+"o","23",," - [x] Cancel
+",,"stdout","114503696","14"
+"o","23",,": ",,"stdout","114503696","14"
+"o","23",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","114504388","14"
+"o","23",,": ",,"stdout","114504404","14"
+"o","23",,"Error! Something went wrong.
+",,"stdout","114506496","14"
+"o","23",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114506496","14"
+"o","23",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114506496","14"
+"o","23",,"Enter anything to exit Lexeter: ",,"stdout","114506496","14"
+"o","23",,"
+Process finished with exit code 0
+",,"system","114508329","14"
+"r","24","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114556164","14"
+"o","24",,": ",,"stdout","114557271","14"
+"o","24",,"Where would you like to go?
+",,"stdout","114560009","14"
+"o","24",,"canopy_7
+",,"stdout","114560009","14"
+"o","24",," - [0] cave_6
+",,"stdout","114560009","14"
+"o","24",," - [1] canopy_8
+",,"stdout","114560009","14"
+"o","24",," - [2] fractured_9
+",,"stdout","114560009","14"
+"o","24",," - [x] Cancel
+",,"stdout","114560009","14"
+"o","24",,": ",,"stdout","114560009","14"
+"o","24",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","114560898","14"
+"o","24",,": ",,"stdout","114560898","14"
+"o","24",,"Error! Something went wrong.
+",,"stdout","114562819","14"
+"o","24",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114562819","14"
+"o","24",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114562819","14"
+"o","24",,"Enter anything to exit Lexeter: ",,"stdout","114562819","14"
+"o","24",,"
+Process finished with exit code 0
+",,"system","114564262","14"
+"r","25","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114700413","14"
+"o","25",,": ",,"stdout","114715597","14"
+"o","25",,"Error! Something went wrong.
+",,"stdout","114744802","14"
+"o","25",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114744802","14"
+"o","25",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114744802","14"
+"o","25",,"Enter anything to exit Lexeter: ",,"stdout","114744802","14"
+"o","25",,"
+Process finished with exit code 0
+",,"system","114747253","14"
+"r","26","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114761893","14"
+"o","26",,": ",,"stdout","114777215","14"
+"o","26",,"Error! Something went wrong.
+",,"stdout","114814120","14"
+"o","26",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114814120","14"
+"o","26",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114814120","14"
+"o","26",,"Enter anything to exit Lexeter: ",,"stdout","114814120","14"
+"o","26",,"
+Process finished with exit code 0
+",,"system","114815926","14"
+"r","27","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114851451","14"
+"o","27",,": ",,"stdout","114851534","14"
+"o","27",,"Error! Something went wrong.
+",,"stdout","114866857","14"
+"o","27",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114866857","14"
+"o","27",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114866857","14"
+"o","27",,"Enter anything to exit Lexeter: ",,"stdout","114866857","14"
+"o","27",,"
+Process finished with exit code 0
+",,"system","114868631","14"
+"r","28","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114879753","14"
+"o","28",,": ",,"stdout","114879913","14"
+"o","28",,"Where would you like to go?
+",,"stdout","114882455","14"
+"o","28",,"canopy_7
+",,"stdout","114882455","14"
+"o","28",," - [0] cave_6
+",,"stdout","114882455","14"
+"o","28",," - [1] canopy_8
+",,"stdout","114882455","14"
+"o","28",," - [2] fractured_9
+",,"stdout","114882455","14"
+"o","28",," - [x] Cancel
+",,"stdout","114882455","14"
+"o","28",,": ",,"stdout","114882455","14"
+"o","28",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","114884783","14"
+"o","28",,": ",,"stdout","114884783","14"
+"o","28",,"Error! Something went wrong.
+",,"stdout","114923508","14"
+"o","28",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114923508","14"
+"o","28",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114923508","14"
+"o","28",,"Enter anything to exit Lexeter: ",,"stdout","114923508","14"
+"o","28",,"
+Process finished with exit code -1
+",,"system","114938768","14"
+"r","29","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114938941","14"
+"o","29",,"Booting Lexeter
+",,"stdout","114939029","14"
+"o","29",,": ",,"stdout","114939029","14"
+"o","29",,"Error! Something went wrong.
+",,"stdout","114988901","14"
+"o","29",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","114988901","14"
+"o","29",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","114988901","14"
+"o","29",,"Enter anything to exit Lexeter: ",,"stdout","114988901","14"
+"o","29",,"
+Process finished with exit code 0
+",,"system","114990169","14"
+"r","30","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"114994971","14"
+"o","30",,"Booting Lexeter
+",,"stdout","114995071","14"
+"o","30",,": ",,"stdout","114995071","14"
+"o","30",,"Where would you like to go?
+",,"stdout","114997542","14"
+"o","30",,"canopy_7
+",,"stdout","114997542","14"
+"o","30",," - [0] cave_6
+",,"stdout","114997542","14"
+"o","30",," - [1] canopy_8
+",,"stdout","114997542","14"
+"o","30",," - [2] fractured_9
+",,"stdout","114997542","14"
+"o","30",," - [x] Cancel
+",,"stdout","114997542","14"
+"o","30",,": ",,"stdout","114997542","14"
+"o","30",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","114998446","14"
+"o","30",,": ",,"stdout","114998446","14"
+"o","30",,"Error! Something went wrong.
+",,"stdout","115000632","14"
+"o","30",,"Traceback (most recent call last):
+",,"stderr","115000633","14"
+"o","30",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","115000633","14"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 14, in <module>
+",,"stderr","115000633","14"
+"o","30",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","115000633","14"
+"o","30",,"    tick(lexeter, lexeter.world)
+",,"stderr","115000633","14"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 88, in tick
+",,"stderr","115000633","14"
+"o","30",,"    tick(lexeter,world)
+",,"stderr","115000633","14"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 86, in tick
+",,"stderr","115000633","14"
+"o","30",,"    world.player.act.playeraction()
+",,"stderr","115000633","14"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 151, in playeraction
+",,"stderr","115000633","14"
+"o","30",,"    resp = input("": "")
+",,"stderr","115000633","14"
+"o","30",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","115000633","14"
+"o","30",,"    def decode(self, input, final=False):
+",,"stderr","115000633","14"
+"o","30",,"KeyboardInterrupt
+",,"stderr","115000633","14"
+"o","30",,"
+",,"stderr","115000633","14"
+"o","30",,"During handling of the above exception, another exception occurred:
+",,"stderr","115000633","14"
+"o","30",,"
+",,"stderr","115000633","14"
+"o","30",,"Traceback (most recent call last):
+",,"stderr","115000633","14"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 19, in <module>
+",,"stderr","115000633","14"
+"o","30",,"    log.write(""!! Unknown Game Error !!\n"")
+",,"stderr","115000633","14"
+"o","30",,"NameError: name 'log' is not defined
+",,"stderr","115000633","14"
+"o","30",,"
+",,"stderr","115000633","14"
+"o","30",,"During handling of the above exception, another exception occurred:
+",,"stderr","115000633","14"
+"o","30",,"
+",,"stderr","115000633","14"
+"o","30",,"Traceback (most recent call last):
+",,"stderr","115000633","14"
+"o","30",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 22, in <module>
+",,"stderr","115000633","14"
+"o","30",,"    log.write(""|| Closing Lexeter ||\n"")
+",,"stderr","115000633","14"
+"o","30",,"NameError: name 'log' is not defined
+",,"stderr","115000633","14"
+"o","30",,"
+Process finished with exit code 1
+",,"system","115000633","14"
+"r","31","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"115035461","14"
+"o","31",,"Booting Lexeter
+",,"stdout","115035546","14"
+"o","31",,": ",,"stdout","115035562","14"
+"o","31",,"Where would you like to go?
+",,"stdout","115046277","14"
+"o","31",,"canopy_7
+",,"stdout","115046277","14"
+"o","31",," - [0] cave_6
+",,"stdout","115046277","14"
+"o","31",," - [1] canopy_8
+",,"stdout","115046277","14"
+"o","31",," - [2] fractured_9
+",,"stdout","115046277","14"
+"o","31",," - [x] Cancel
+",,"stdout","115046277","14"
+"o","31",,": ",,"stdout","115046277","14"
+"o","31",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","115046845","14"
+"o","31",,": ",,"stdout","115046845","14"
+"o","31",,"Where would you like to go?
+",,"stdout","115048466","14"
+"o","31",,"canopy_7
+",,"stdout","115048466","14"
+"o","31",," - [0] cave_6
+",,"stdout","115048466","14"
+"o","31",," - [1] canopy_8
+",,"stdout","115048466","14"
+"o","31",," - [2] fractured_9
+",,"stdout","115048466","14"
+"o","31",," - [x] Cancel
+",,"stdout","115048466","14"
+"o","31",,": ",,"stdout","115048466","14"
+"o","31",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","115048907","14"
+"o","31",,": ",,"stdout","115048907","14"
+"o","31",,"You have:
+",,"stdout","115049840","14"
+"o","31",,": ",,"stdout","115049840","14"
+"o","31",,"Error! Something went wrong.
+",,"stdout","115053949","14"
+"o","31",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","115053949","14"
+"o","31",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","115053949","14"
+"o","31",,"Enter anything to exit Lexeter: ",,"stdout","115053949","14"
+"o","31",,"
+Process finished with exit code 0
+",,"system","115055479","14"
+"r","32","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"115159098","14"
+"o","32",,": ",,"stdout","115159272","14"
+"o","32",,"Where would you like to go?
+",,"stdout","115161786","14"
+"o","32",,"canopy_7
+",,"stdout","115161786","14"
+"o","32",," - [0] cave_6
+",,"stdout","115161786","14"
+"o","32",," - [1] canopy_8
+",,"stdout","115161786","14"
+"o","32",," - [2] fractured_9
+",,"stdout","115161786","14"
+"o","32",," - [x] Cancel
+",,"stdout","115161786","14"
+"o","32",,": ",,"stdout","115161786","14"
+"o","32",,"It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it.
+",,"stdout","115163923","14"
+"o","32",,": ",,"stdout","115163923","14"
+"o","32",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","115165454","14"
+"o","32",,": ",,"stdout","115165454","14"
+"o","32",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","115169231","14"
+"o","32",,"Error! Please report the following to https://github.com/TriusMalarky/lexeterbuilds/issues :
+",,"stdout","115169231","14"
+"o","32",,"player-action-library:runCommand:actloop/unknown-command-error:sdfsdf
+",,"stdout","115169231","14"
+"o","32",,": ",,"stdout","115169231","14"
+"o","32",,"That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.
+",,"stdout","115170583","14"
+"o","32",,": ",,"stdout","115170583","14"
+"o","32",,"
+Process finished with exit code -1
+",,"system","115191664","14"
+"r","33","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"115230309","14"
+"o","33",,": ",,"stdout","115230411","14"
+"o","33",,"Error! Something went wrong.
+",,"stdout","115231204","14"
+"o","33",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","115231204","14"
+"o","33",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","115231204","14"
+"o","33",,"Enter anything to exit Lexeter: ",,"stdout","115231204","14"
+"o","33",,"
+Process finished with exit code 0
+",,"system","115234121","14"
+"r","3","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"1997125","15"
+"o","3",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","1997713","15"
+"o","3",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","1997714","15"
+"o","3",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","1997714","15"
+"o","3",,"(yes or no): ",,"stdout","1997714","15"
+"o","3",,"82
+",,"stdout","2008788","15"
+"o","3",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","2008788","15"
+"o","3",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","2008788","15"
+"o","3",,"
+",,"stdout","2008788","15"
+"o","3",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","2011143","15"
+"o","3",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","2011143","15"
+"o","3",,"
+",,"stdout","2011143","15"
+"o","3",,"
+",,"stdout","2011143","15"
+"o","3",,"[mek] says: i cannae find ma lunch!
+",,"stdout","2011143","15"
+"o","3",,": ",,"stdout","2011143","15"

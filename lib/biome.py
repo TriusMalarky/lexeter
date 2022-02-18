@@ -1,5 +1,46 @@
-from lib.core import *
-import random
+try:
+    from lib.core import *
+except ModuleNotFoundError:
+    log = open('save/log.txt', 'a')
+    print("Warning! biome module unable to find core module.")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    log.write("!! Biome Module unable to find Core Module !!")
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
+except ImportError:
+    log = open('save/log.txt', 'a')
+    print("Warning! biome module had issues importing Core module.")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    log.write("!! Biome Module issues importing Core Module !!")
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
+
+try:
+    import random
+except ModuleNotFoundError:
+    log = open('save/log.txt', 'a')
+    print("Warning! biome module unable to find builtin module(s).")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    print("This involves one or more of Python's built-in modules. Consider reinstalling Python.")
+    log.write("!! Action Module unable to find Builtin Module(s) !!")
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
+except ImportError:
+    log = open('save/log.txt', 'a')
+    print("Warning! biome module had issues importing builtin module(s).")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    print("This involves one or more of Python's built-in modules. Consider reinstalling Python.")
+    log.write("!! Action Module unable to import Builtin Module(s) !!")
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
 
 
 class corebiome(core):

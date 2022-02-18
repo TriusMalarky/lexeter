@@ -1,7 +1,29 @@
-import pickle
-import os
-import inspect
-import random
+try:
+    import pickle
+    import os
+    import inspect
+    import random
+    import time
+except ModuleNotFoundError:
+    log = open('save/log.txt', 'a')
+    print("Warning! core module unable to find builtin module(s).")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    print("This involves one or more of Python's built-in modules. Consider reinstalling Python.")
+    log.write("!! Core Module unable to find Builtin Module(s) !!")
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
+except ImportError:
+    log = open('save/log.txt', 'a')
+    print("Warning! core module had issues importing builtin module(s).")
+    print("Please submit this error and the log file to https://github.com/TriusMalarky/lexeterbuilds/issues")
+    print("This involves one or more of Python's built-in modules. Consider reinstalling Python.")
+    log.write("!! Core Module unable to import Builtin Module(s) !!")
+    _ = input("Enter anything to exit Lexeter: ")
+    log.write("|| Closing Lexeter ||\n")
+    log.close()
+    quit()
 
 clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
@@ -59,16 +81,20 @@ def load():
     return pickle.load(savefile) # <-- returning loaded save state class instance
 
 def lex_init():
+    log = open('save/log.txt', 'a')
+    log.write('|| Initializing Lexeter ||\n')
+    log.write("[" + str(time.ctime(time.time())) + "] Initialize\n")
+    log.close()
     if os.path.exists('save\\lexeter.txt'):
         lexet = load()
         random.seed = lexet.world.seed
-        return lexet # <-- returning the loaded save state class instance
+        return lexet
     else:
         open('save\\lexeter.txt','w')
         from lib.player import Lexeter
         lexet = Lexeter()
-        save(lexet) # <-- saving the save state instance
-        return lexet # <-- returning the newly created save state
+        save(lexet)
+        return lexet
 
 
 
