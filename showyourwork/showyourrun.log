@@ -13967,3 +13967,519 @@ Process finished with exit code 0
 "o","3",,"[mek] says: i cannae find ma lunch!
 ",,"stdout","2011143","15"
 "o","3",,": ",,"stdout","2011143","15"
+"o","3",,"Error! Something went wrong.
+",,"stdout","25221110","15"
+"o","3",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","25221110","15"
+"o","3",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","25221110","15"
+"o","3",,"Enter anything to exit Lexeter: ",,"stdout","25221110","15"
+"o","3",,"
+Process finished with exit code 0
+",,"system","25989350","15"
+"r","4","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"25989541","15"
+"o","4",,"Error! Something went wrong.
+",,"stdout","25989688","15"
+"o","4",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","25989688","15"
+"o","4",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","25989688","15"
+"o","4",,"Enter anything to exit Lexeter: ",,"stdout","25989688","15"
+"o","4",,"
+Process finished with exit code 0
+",,"system","25991691","15"
+"r","5","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26156224","15"
+"o","5",,"Error! Something went wrong.
+",,"stdout","26156310","15"
+"o","5",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","26156310","15"
+"o","5",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","26156310","15"
+"o","5",,"Enter anything to exit Lexeter: ",,"stdout","26156310","15"
+"o","5",,"
+Process finished with exit code 0
+",,"system","26175078","15"
+"r","6","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26175275","15"
+"o","6",,"Traceback (most recent call last):
+",,"stderr","26175389","15"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 16, in <module>
+",,"stderr","26175389","15"
+"o","6",,"    tick(lexeter, lexeter.world)
+",,"stderr","26175405","15"
+"o","6",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 106, in tick
+",,"stderr","26175405","15"
+"o","6",,"    if world.luckAttempts >= random.randint(25, 50 + (world.luck * 5)):
+",,"stderr","26175405","15"
+"o","6",,"AttributeError: 'world' object has no attribute 'luckAttempts'
+",,"stderr","26175405","15"
+"o","6",,"
+Process finished with exit code 1
+",,"system","26175417","15"
+"r","7","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26193516","15"
+"o","7",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","26193589","15"
+"o","7",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","26193589","15"
+"o","7",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","26193589","15"
+"o","7",,"(yes or no): ",,"stdout","26193589","15"
+"o","7",,"58
+",,"stdout","26195709","15"
+"o","7",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","26195709","15"
+"o","7",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","26195709","15"
+"o","7",,"
+",,"stdout","26195709","15"
+"o","7",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","26197419","15"
+"o","7",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","26197419","15"
+"o","7",,"
+",,"stdout","26197419","15"
+"o","7",,"
+",,"stdout","26197419","15"
+"o","7",,"Error! Issue initializing Lexeter.
+",,"stdout","26197419","15"
+"o","7",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","26197419","15"
+"o","7",,"Error! Something went wrong.
+",,"stdout","26197419","15"
+"o","7",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","26197419","15"
+"o","7",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","26197419","15"
+"o","7",,"Enter anything to exit Lexeter: ",,"stdout","26197419","15"
+"o","7",,"
+Process finished with exit code 0
+",,"system","26215995","15"
+"r","8","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26216322","15"
+"o","8",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","26216483","15"
+"o","8",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","26216483","15"
+"o","8",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","26216483","15"
+"o","8",,"(yes or no): ",,"stdout","26216483","15"
+"o","8",,"66
+",,"stdout","26219112","15"
+"o","8",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","26219112","15"
+"o","8",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","26219112","15"
+"o","8",,"
+",,"stdout","26219112","15"
+"o","8",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","26220373","15"
+"o","8",,"Traceback (most recent call last):
+",,"stderr","26220373","15"
+"o","8",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","26220373","15"
+"o","8",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 16, in <module>
+",,"stderr","26220373","15"
+"o","8",,"
+",,"stdout","26220373","15"
+"o","8",,"    tick(lexeter, lexeter.world)
+",,"stderr","26220373","15"
+"o","8",,"
+",,"stdout","26220374","15"
+"o","8",,"NameError: name 'lexeter' is not defined
+",,"stderr","26220374","15"
+"o","8",,"Error! Issue initializing Lexeter.
+",,"stdout","26220374","15"
+"o","8",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","26220374","15"
+"o","8",,"
+Process finished with exit code 1
+",,"system","26220374","15"
+"r","9","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26248304","15"
+"o","9",,"Traceback (most recent call last):
+",,"stderr","26248514","15"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","26248514","15"
+"o","9",,"    lexeter = lex_init()
+",,"stderr","26248514","15"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 89, in lex_init
+",,"stderr","26248514","15"
+"o","9",,"    lexet = load()
+",,"stderr","26248514","15"
+"o","9",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 81, in load
+",,"stderr","26248514","15"
+"o","9",,"    return pickle.load(savefile) # <-- returning loaded save state class instance
+",,"stderr","26248514","15"
+"o","9",,"EOFError: Ran out of input
+",,"stderr","26248514","15"
+"o","9",,"
+Process finished with exit code 1
+",,"system","26248695","15"
+"r","10","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26262140","15"
+"o","10",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","26262199","15"
+"o","10",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","26262199","15"
+"o","10",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","26262199","15"
+"o","10",,"(yes or no): ",,"stdout","26262199","15"
+"o","10",,"11
+",,"stdout","26264112","15"
+"o","10",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","26264112","15"
+"o","10",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","26264112","15"
+"o","10",,"
+",,"stdout","26264112","15"
+"o","10",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","26265573","15"
+"o","10",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","26265573","15"
+"o","10",,"
+",,"stdout","26265573","15"
+"o","10",,"
+",,"stdout","26265573","15"
+"o","10",,"Traceback (most recent call last):
+",,"stderr","26265573","15"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","26265573","15"
+"o","10",,"    lexeter = lex_init()
+",,"stderr","26265573","15"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 95, in lex_init
+",,"stderr","26265573","15"
+"o","10",,"    lexet = Lexeter()
+",,"stderr","26265573","15"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 102, in __init__
+",,"stderr","26265573","15"
+"o","10",,"    self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
+",,"stderr","26265573","15"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 71, in __init__
+",,"stderr","26265573","15"
+"o","10",,"    exec('self.map.'+room+'='+zone+'(self)')
+",,"stderr","26265573","15"
+"o","10",,"  File ""<string>"", line 1, in <module>
+",,"stderr","26265573","15"
+"o","10",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\biome.py"", line 143, in __init__
+",,"stderr","26265573","15"
+"o","10",,"    self.loot = self.loottable(self.__quality())
+",,"stderr","26265573","15"
+"o","10",,"AttributeError: 'terracotta' object has no attribute '_terracotta__quality'
+",,"stderr","26265573","15"
+"o","10",,"
+Process finished with exit code 1
+",,"system","26265594","15"
+"r","11","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26349997","15"
+"o","11",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","26350093","15"
+"o","11",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","26350093","15"
+"o","11",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","26350093","15"
+"o","11",,"(yes or no): ",,"stdout","26350093","15"
+"o","11",,"77
+",,"stdout","26351732","15"
+"o","11",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","26351732","15"
+"o","11",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","26351732","15"
+"o","11",,"
+",,"stdout","26351732","15"
+"o","11",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","26352983","15"
+"o","11",,"Traceback (most recent call last):
+",,"stderr","26352983","15"
+"o","11",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","26352983","15"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","26352983","15"
+"o","11",,"    lexeter = lex_init()
+",,"stderr","26352983","15"
+"o","11",,"
+",,"stdout","26352983","15"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 95, in lex_init
+",,"stderr","26352983","15"
+"o","11",,"
+",,"stdout","26352983","15"
+"o","11",,"    lexet = Lexeter()
+",,"stderr","26352983","15"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 102, in __init__
+",,"stderr","26352983","15"
+"o","11",,"    self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
+",,"stderr","26352983","15"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 71, in __init__
+",,"stderr","26352983","15"
+"o","11",,"    exec('self.map.'+room+'='+zone+'(self)')
+",,"stderr","26352983","15"
+"o","11",,"  File ""<string>"", line 1, in <module>
+",,"stderr","26352983","15"
+"o","11",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\biome.py"", line 129, in __init__
+",,"stderr","26352983","15"
+"o","11",,"    self.loot = self.loottable(roomlootquality() + 1)
+",,"stderr","26352983","15"
+"o","11",,"TypeError: roomlootquality() missing 1 required positional argument: 'self'
+",,"stderr","26352983","15"
+"o","11",,"
+Process finished with exit code 1
+",,"system","26352987","15"
+"r","12","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26367484","15"
+"o","12",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","26367602","15"
+"o","12",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","26367602","15"
+"o","12",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","26367602","15"
+"o","12",,"(yes or no): ",,"stdout","26367602","15"
+"o","12",,"5
+",,"stdout","26369369","15"
+"o","12",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","26369369","15"
+"o","12",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","26369369","15"
+"o","12",,"
+",,"stdout","26369369","15"
+"o","12",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","26370471","15"
+"o","12",,"Traceback (most recent call last):
+",,"stderr","26370471","15"
+"o","12",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","26370471","15"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","26370471","15"
+"o","12",,"
+",,"stdout","26370471","15"
+"o","12",,"    lexeter = lex_init()
+",,"stderr","26370471","15"
+"o","12",,"
+",,"stdout","26370471","15"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 95, in lex_init
+",,"stderr","26370471","15"
+"o","12",,"    lexet = Lexeter()
+",,"stderr","26370471","15"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 102, in __init__
+",,"stderr","26370471","15"
+"o","12",,"    self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
+",,"stderr","26370471","15"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 71, in __init__
+",,"stderr","26370471","15"
+"o","12",,"    exec('self.map.'+room+'='+zone+'(self)')
+",,"stderr","26370471","15"
+"o","12",,"  File ""<string>"", line 1, in <module>
+",,"stderr","26370471","15"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\biome.py"", line 215, in __init__
+",,"stderr","26370471","15"
+"o","12",,"    self.loot = self.loottable(roomlootquality())
+",,"stderr","26370471","15"
+"o","12",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\biome.py"", line 104, in roomlootquality
+",,"stderr","26370471","15"
+"o","12",,"    return random.randint(0, 2 + (self.world.luck // 5))
+",,"stderr","26370471","15"
+"o","12",,"NameError: name 'self' is not defined
+",,"stderr","26370471","15"
+"o","12",,"
+Process finished with exit code 1
+",,"system","26370473","15"
+"r","13","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26412021","15"
+"o","13",,"Traceback (most recent call last):
+",,"stderr","26412251","15"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","26412251","15"
+"o","13",,"    lexeter = lex_init()
+",,"stderr","26412251","15"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 94, in lex_init
+",,"stderr","26412251","15"
+"o","13",,"    from lib.player import Lexeter
+",,"stderr","26412251","15"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 7, in <module>
+",,"stderr","26412251","15"
+"o","13",,"    from lib.biome import *
+",,"stderr","26412251","15"
+"o","13",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\biome.py"", line 115
+",,"stderr","26412251","15"
+"o","13",,"    self.loot = self.loottable(roomlootquality(world)
+",,"stderr","26412251","15"
+"o","13",,"                               ^^^^^^^^^^^^^^^^^^^^^^
+",,"stderr","26412251","15"
+"o","13",,"SyntaxError: invalid syntax. Perhaps you forgot a comma?
+",,"stderr","26412251","15"
+"o","13",,"
+Process finished with exit code 1
+",,"system","26412291","15"
+"r","14","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26438735","15"
+"o","14",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","26438807","15"
+"o","14",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","26438807","15"
+"o","14",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","26438807","15"
+"o","14",,"(yes or no): ",,"stdout","26438807","15"
+"o","14",,"66
+",,"stdout","26440618","15"
+"o","14",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","26440618","15"
+"o","14",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","26440618","15"
+"o","14",,"
+",,"stdout","26440618","15"
+"o","14",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","26441625","15"
+"o","14",,"Traceback (most recent call last):
+",,"stderr","26441625","15"
+"o","14",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","26441625","15"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","26441625","15"
+"o","14",,"
+",,"stdout","26441625","15"
+"o","14",,"    lexeter = lex_init()
+",,"stderr","26441625","15"
+"o","14",,"
+",,"stdout","26441625","15"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 95, in lex_init
+",,"stderr","26441625","15"
+"o","14",,"    lexet = Lexeter()
+",,"stderr","26441625","15"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 102, in __init__
+",,"stderr","26441625","15"
+"o","14",,"    self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
+",,"stderr","26441625","15"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 71, in __init__
+",,"stderr","26441625","15"
+"o","14",,"    exec('self.map.'+room+'='+zone+'(self)')
+",,"stderr","26441625","15"
+"o","14",,"  File ""<string>"", line 1, in <module>
+",,"stderr","26441625","15"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\biome.py"", line 129, in __init__
+",,"stderr","26441625","15"
+"o","14",,"    self.loot = self.loottable(roomlootquality(world) + 1)
+",,"stderr","26441625","15"
+"o","14",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\biome.py"", line 104, in roomlootquality
+",,"stderr","26441625","15"
+"o","14",,"    return random.randint(0, 2 + (world.luck // 5))
+",,"stderr","26441625","15"
+"o","14",,"AttributeError: 'world' object has no attribute 'luck'
+",,"stderr","26441625","15"
+"o","14",,"
+Process finished with exit code 1
+",,"system","26441628","15"
+"r","15","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26475627","15"
+"o","15",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","26475769","15"
+"o","15",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","26475769","15"
+"o","15",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","26475769","15"
+"o","15",,"(yes or no): ",,"stdout","26475769","15"
+"o","15",,"54
+",,"stdout","26477690","15"
+"o","15",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","26477690","15"
+"o","15",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","26477690","15"
+"o","15",,"
+",,"stdout","26477690","15"
+"o","15",,"Traceback (most recent call last):
+",,"stderr","26478758","15"
+"o","15",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","26478758","15"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 6, in <module>
+",,"stderr","26478758","15"
+"o","15",,"    lexeter = lex_init()
+",,"stderr","26478758","15"
+"o","15",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","26478758","15"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 95, in lex_init
+",,"stderr","26478758","15"
+"o","15",,"    lexet = Lexeter()
+",,"stderr","26478758","15"
+"o","15",,"
+",,"stdout","26478758","15"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 105, in __init__
+",,"stderr","26478758","15"
+"o","15",,"
+",,"stdout","26478758","15"
+"o","15",,"    self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
+",,"stderr","26478758","15"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\player.py"", line 75, in __init__
+",,"stderr","26478758","15"
+"o","15",,"    exec('self.map.'+room+'='+zone+'(self)')
+",,"stderr","26478758","15"
+"o","15",,"  File ""<string>"", line 1, in <module>
+",,"stderr","26478758","15"
+"o","15",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\biome.py"", line 201, in __init__
+",,"stderr","26478758","15"
+"o","15",,"    self.loot = self.loottable(roomlootquality())
+",,"stderr","26478758","15"
+"o","15",,"TypeError: roomlootquality() missing 1 required positional argument: 'world'
+",,"stderr","26478758","15"
+"o","15",,"
+Process finished with exit code 1
+",,"system","26478778","15"
+"r","16","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26557355","15"
+"o","16",,"[#`~<,>_r-kal] : Hmmmmm . . .
+",,"stdout","26557974","15"
+"o","16",,"[#`~<,>_r-kal] : There's nothing here.
+",,"stdout","26557974","15"
+"o","16",,"[#`~<,>_r-kal]: Do you want to add your input?
+",,"stdout","26557974","15"
+"o","16",,"(yes or no): ",,"stdout","26557974","15"
+"o","16",,"96
+",,"stdout","26559536","15"
+"o","16",,"[#`~<,>_r-kal] : Give me a minute.
+",,"stdout","26559536","15"
+"o","16",,"[#`~<,>_r-kal] : What is your name?
+",,"stdout","26559536","15"
+"o","16",,"
+",,"stdout","26559536","15"
+"o","16",,"[#`~<,>_r-kal] : frank, eh?
+",,"stdout","26560671","15"
+"o","16",,"[#`~<,>_r-kal] : Well, have a fun adventure.
+",,"stdout","26560671","15"
+"o","16",,"
+",,"stdout","26560671","15"
+"o","16",,"
+",,"stdout","26560671","15"
+"o","16",,": ",,"stdout","26560703","15"
+"o","16",,"Where would you like to go?
+",,"stdout","26563364","15"
+"o","16",,"darkroom
+",,"stdout","26563364","15"
+"o","16",," - [0] fractured_0
+",,"stdout","26563364","15"
+"o","16",," - [1] terracotta_1
+",,"stdout","26563364","15"
+"o","16",," - [2] marble_2
+",,"stdout","26563364","15"
+"o","16",," - [x] Cancel
+",,"stdout","26563364","15"
+"o","16",,": ",,"stdout","26563364","15"
+"o","16",,"Moving to marble_2
+",,"stdout","26565026","15"
+"o","16",,"Your footsteps clack on the marbled flooring. The gold engravings on the pillars surrounding you make the room feel regal.
+",,"stdout","26565042","15"
+"o","16",,": ",,"stdout","26565042","15"
+"o","16",,"Traceback (most recent call last):
+",,"stderr","26575514","15"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\Lexeter Source.py"", line 16, in <module>
+",,"stderr","26575514","15"
+"o","16",,"    tick(lexeter, lexeter.world)
+",,"stderr","26575514","15"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 116, in tick
+",,"stderr","26575514","15"
+"o","16",,"    tick(lexeter,world)
+",,"stderr","26575514","15"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\core.py"", line 114, in tick
+",,"stderr","26575514","15"
+"o","16",,"    world.player.act.playeraction()
+",,"stderr","26575514","15"
+"o","16",,"  File ""C:\Users\zacha\Desktop\Lexeter\lib\action.py"", line 198, in playeraction
+",,"stderr","26575514","15"
+"o","16",,"    resp = input("": "")
+",,"stderr","26575514","15"
+"o","16",,"  File ""C:\Users\zacha\AppData\Local\Programs\Python\Python310\lib\codecs.py"", line 319, in decode
+",,"stderr","26575514","15"
+"o","16",,"    def decode(self, input, final=False):
+",,"stderr","26575530","15"
+"o","16",,"KeyboardInterrupt
+",,"stderr","26575530","15"
+"o","16",,"
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+",,"system","26575539","15"
+"r","17","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26575706","15"
+"o","17",,": ",,"stdout","26575785","15"

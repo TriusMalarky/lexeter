@@ -3,7 +3,6 @@ from lib.core import *
 
 if __name__ == "__main__":
 
-
     try:
         lexeter = lex_init()
     except:
@@ -12,6 +11,7 @@ if __name__ == "__main__":
         print("Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues")
         log.write("!! Issue Initializing Lexeter !!\n")
         log.close()
+
 
     try:
         tick(lexeter, lexeter.world)

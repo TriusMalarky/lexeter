@@ -59,6 +59,10 @@ class world(core):
         self.item = item
         self.recipes = recipes
         self.constructs = constructs
+
+        self.luck = 3
+        self.luckAttempts = 0
+
         self.map = wmap(self)
         self.map.darkroom = darkroom(self)
         self.map.route = {'darkroom': []}
@@ -69,7 +73,9 @@ class world(core):
             self.map.route['darkroom'].append(room);self.map.route[room] = ['darkroom']
             self.map.list.append(room)
             exec('self.map.'+room+'='+zone+'(self)')
-        self.player.room='darkroom'
+        self.player.room = 'darkroom'
+
+
 
 # subclass characters for saving each individual character
 class characters(core):

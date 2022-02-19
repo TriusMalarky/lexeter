@@ -97,23 +97,24 @@ class shade(core):
             log.close()
             quit()
 
-    def tick(self,world):
-        self.age+=1;self.tickCount+=1
-        if self.tickCount==self.week: self.tickCount=1
-        if self.tickCount==1:
-            lines=[
+    def tick(self, world):
+        self.age += 1
+        self.tickCount += 1
+        if self.tickCount == self.week: self.tickCount=1
+        if self.tickCount == 1:
+            lines = [
                 'heya, stranger!','im a shade, not a ghost. theres a difference.',
                 'waddup, '+world.player.name+'?','evening!',
                 'i cannae find ma lunch!', 'i like ' + self.prefer.fruit + 's. my brother doesnt.',
                 'ah, the darkness. so refreshing.','blegh! just got a bug in my mouth!',
                 'have ya talked to my twin?','tha rats here, they make quite the racket!',
                 'not a big fan of moths. how bout you?','ever been to paris?']
-            self.act.speak(random.choice(lines),self.room)
-        elif self.tickCount==2:
+            self.act.speak(random.choice(lines), self.room)
+        elif self.tickCount == 2:
             pass # ask
-        elif self.tickCount==3:
+        elif self.tickCount == 3:
             pass #nothing/atk
-        elif self.tickCount==4:
+        elif self.tickCount == 4:
             pass #possiblemove
         
         
