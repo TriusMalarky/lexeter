@@ -33859,3 +33859,159 @@ if __name__ == ""__main__"":
 ","389","26573338","Lexeter Source.py","1.1.2 for 2021-2022 @t1","15"
 "r","Exit","-1073741510",,"26575540","Lexeter Source.py","1.1.2 for 2021-2022 @t1","15"
 "r","Start",,,"26575706","Lexeter Source.py","1.1.2 for 2021-2022 @t1","15"
+"r","Exit","0",,"26631770","Lexeter Source.py","1.1.2 for 2021-2022 @t1","15"
+"a","EditorChange",,,"26647956","Lexeter Source.py","1.1.2 for 2021-2022 @t1","15"
+"a","EditorChange",,,"26649037","Lexeter Source.py","1.1.2 for 2021-2022 @t1","15"
+"a","Outside edit","","","1645569918480","player.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569920385","action.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569921745","core.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569922525","darkroom.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569923577","biome.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942287","task1.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942287","task2.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942288","task3.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942288","task4.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942288","main.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942288","plan3.txt","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942288","Lexetertion.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942288","Lexeterems.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942289","Lexeterayer.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942289","Lexeterr Source.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942289","Lexeterre.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942289","forwardSpam.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942289","Lexeterain.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942290","task1.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942290","task2.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942290","task3.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942290","task4.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942290","plan3","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942291","plan4","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942291","task1.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942291","plan1fix","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942291","chessboard.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942291","task2.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942292","plan2.txt","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942292","plan3","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942292","task3.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942292","pattern.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942292","task1.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942293","plan2","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942293","blobber.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942293","task2.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942293","plan3","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942293","wordinator.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942294","task1.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942294","task2.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942294","plan3","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942294","card.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942295","deck.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942295","task3.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942295","testscriptintg.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942295","task4.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569942296","orbian.py","1.1.2 for 2021-2022 @t1","6"
+"a","Outside edit","","","1645569954720","Lexeter Source.py","1.1.2 for 2021-2022 @t1","6"
+"e","","from lib.action import *
+from lib.core import *
+
+if __name__ == ""__main__"":
+
+    try:
+        lexeter = lex_init()
+    except:
+        log = open('save/log.txt', 'a')
+        print(""Error! Issue initializing Lexeter."")
+        print(""Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues"")
+        log.write(""!! Issue Initializing Lexeter !!\n"")
+        log.close()
+
+
+    try:
+        tick(lexeter, lexeter.world)
+    except:
+        log = open('save/log.txt', 'a')
+        print(""Error! Something went wrong."")
+        print(""This is a catch-all error, unfortunately there is no more information."")
+        print(""Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues"")
+        log.write(""!! Unknown Game Error !!\n"")
+        _ = input(""Enter anything to exit Lexeter: "")
+    finally:
+        log.write(""|| Closing Lexeter ||\n"")
+        log.close()
+        quit()
+
+
+# Official Naming Conventions:
+
+# Logging:
+# Errors:
+# - Catastrophic Error: !! issue !!from lib.action import *
+from lib.core import *
+
+if __name__ == ""__main__"":
+
+
+    try:
+        lexeter = lex_init()
+    except:
+        log = open('save/log.txt', 'a')
+        print(""Error! Issue initializing Lexeter."")
+        print(""Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues"")
+        log.write(""!! Issue Initializing Lexeter !!\n"")
+        log.close()
+
+    try:
+        tick(lexeter, lexeter.world)
+    except:
+        log = open('save/log.txt', 'a')
+        print(""Error! Something went wrong."")
+        print(""This is a catch-all error, unfortunately there is no more information."")
+        print(""Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues"")
+        log.write(""!! Unknown Game Error !!\n"")
+        _ = input(""Enter anything to exit Lexeter: "")
+    finally:
+        log.write(""|| Closing Lexeter ||\n"")
+        log.close()
+        quit()","0","1645569954720","Lexeter Source.py","1.1.2 for 2021-2022 @t1","6"
+"e","from lib.action import *
+from lib.core import *
+
+if __name__ == ""__main__"":
+
+    try:
+        lexeter = lex_init()
+    except:
+        log = open('save/log.txt', 'a')
+        print(""Error! Issue initializing Lexeter."")
+        print(""Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues"")
+        log.write(""!! Issue Initializing Lexeter !!\n"")
+        log.close()
+
+
+    try:
+        tick(lexeter, lexeter.world)
+    except:
+        log = open('save/log.txt', 'a')
+        print(""Error! Something went wrong."")
+        print(""This is a catch-all error, unfortunately there is no more information."")
+        print(""Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues"")
+        log.write(""!! Unknown Game Error !!\n"")
+        _ = input(""Enter anything to exit Lexeter: "")
+    finally:
+        log.write(""|| Closing Lexeter ||\n"")
+        log.close()
+        quit()
+
+
+# Official Naming Conventions:
+
+# Logging:
+# Errors:
+# - Catastrophic Error: !! issue !!","","0","1645569954720","Lexeter Source.py","1.1.2 for 2021-2022 @t1","6"
+"a","ShowYourWork Init","","","000","ShowYourWork Init","1.1.2 for 2021-2022 @t1","16"
+"e","from distutils.core import setup
+import py2exe
+setup(console=[""Lexeter Source.py""
+]
+)
+
+","","0","6769573","setup.py","1.1.2 for 2021-2022 @t1","16"

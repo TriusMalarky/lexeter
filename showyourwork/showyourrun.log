@@ -14483,3 +14483,13 @@ Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
 ",,"system","26575539","15"
 "r","17","C:\Users\zacha\Desktop\Lexeter\venv\Scripts\python.exe ""C:/Users/zacha/Desktop/Lexeter/Lexeter Source.py""",,"PythonRunner",,"26575706","15"
 "o","17",,": ",,"stdout","26575785","15"
+"o","17",,"Error! Something went wrong.
+",,"stdout","26630401","15"
+"o","17",,"This is a catch-all error, unfortunately there is no more information.
+",,"stdout","26630401","15"
+"o","17",,"Please report this to https://github.com/TriusMalarky/lexeterbuilds/issues
+",,"stdout","26630401","15"
+"o","17",,"Enter anything to exit Lexeter: ",,"stdout","26630401","15"
+"o","17",,"
+Process finished with exit code 0
+",,"system","26631770","15"

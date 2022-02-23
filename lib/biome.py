@@ -112,6 +112,8 @@ class pond(corebiome):
             'A sapphire blue pool sits in the center of the room, surrounded and filled by small flora. The air is refreshing.',
             'White cobblestones surround a deep blue pond. The room feels slightly mystical.'
         ]
+        if not world.lexeter.shade:
+            self.descriptions.append("Maybe the pond would help cool you off?")
         self.loot = self.loottable(roomlootquality(world))
         self.debug = world.debug
         self.rDebug()
@@ -152,7 +154,9 @@ class brickfloor(corebiome):
         self.world = world
         self.internalID = 'biome-brickfloor'
         self.descriptions = [
-            'For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.'
+            'For some reason, whoever built this room thought red bricks for a floor and paisley wallpaper would look cool.',
+            "You are entirely sure that you could make a better looking room.",
+            "It's about as ugly as ugly can get. Any uglier and it'd be on purpose."
         ]
         self.loot = self.loottable(roomlootquality(world))
         self.debug = world.debug
@@ -198,6 +202,8 @@ class canopy(corebiome):
         self.descriptions = [
             "It's not exactly obvious how a subsection of a rainforest ended up here, but it's best not to question it."
         ]
+        if not world.lexeter.shade:
+            self.descriptions.append("The trees provide no cover from the sun.")
         self.loot = self.loottable(roomlootquality())
         self.debug = world.debug
         self.rDebug()
@@ -212,6 +218,8 @@ class cavern(corebiome):
         self.descriptions = [
             "You look up and wonder where the top is. Then you look into a hole and wonder where the bottom is."
         ]
+        if not world.lexeter.shade:
+            self.descriptions.append("It's abnormally bright in here. Where are the shadows?")
         self.loot = self.loottable(roomlootquality(world))
         self.debug = world.debug
         self.rDebug()
@@ -226,6 +234,8 @@ class shack(corebiome):
         self.descriptions = [
             "There is a clearing inside a forest . . . with an old cabin in the middle."
         ]
+        if not world.lexeter.shade:
+            self.descriptions.append("Oddly, the shack casts no shadow.")
         self.loot = self.loottable(roomlootquality())
         self.debug = world.debug
         self.rDebug()

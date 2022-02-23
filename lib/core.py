@@ -103,11 +103,12 @@ def lex_init():
 
 def tick(lexeter, world):
     # Luck Calculations
-    if world.luckAttempts >= random.randint(25, 50 + (world.luck * 5)):
-        world.luck += 1
-        world.luckAttempts = 0
-    if world.luck >= 10:
-        world.luck = random.randint(-3, 4)
+    if lexeter.luck:
+        if world.luckAttempts >= 15 + world.luck * 5:
+            world.luck += 1
+            world.luckAttempts = 0
+        if world.luck >= 10:
+            world.luck = random.randint(-3, 4)
 
     for _ in world.characterlist:
         exec('world.characters.'+_.lower()+'.tick(world)')

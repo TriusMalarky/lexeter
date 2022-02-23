@@ -102,5 +102,23 @@ class Lexeter(core):
         self.item = Item(self)
         self.recipes = Recipes(self)
         self.constructs = Constructs(self)
+
+
+        # Game Rules
+        self.death = True
+        self.sound = True
+        self.luck = True
+        self.crafting = True
+        self.friction = True
+        self.time = True
+        self.items = True
+        self.shade = True
+
+
+        self.fishing = False
+        self.farming = False
+        self.orange = False
+        self.swim = False
+
         self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
 
