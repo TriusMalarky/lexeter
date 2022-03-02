@@ -103,6 +103,13 @@ class Lexeter(core):
         self.recipes = Recipes(self)
         self.constructs = Constructs(self)
 
+        #graphics
+
+
+        # config
+        self.config_fullscreen = True
+        self.config_framesPerSecond = 60
+
 
         # Game Rules
         self.death = True
@@ -121,4 +128,5 @@ class Lexeter(core):
         self.swim = False
 
         self.world = world(self.instances, self.them, self.zones, self.debug, self.item, self.recipes, self.constructs, self)
+
 

@@ -204,7 +204,7 @@ class canopy(corebiome):
         ]
         if not world.lexeter.shade:
             self.descriptions.append("The trees provide no cover from the sun.")
-        self.loot = self.loottable(roomlootquality())
+        self.loot = self.loottable(roomlootquality(world))
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']
@@ -236,7 +236,7 @@ class shack(corebiome):
         ]
         if not world.lexeter.shade:
             self.descriptions.append("Oddly, the shack casts no shadow.")
-        self.loot = self.loottable(roomlootquality())
+        self.loot = self.loottable(roomlootquality(world))
         self.debug = world.debug
         self.rDebug()
         self.buildings = ['null']

@@ -194,7 +194,7 @@ class playerAct(core):
 
         log.close()
 
-    def playeraction(self):
+    def playeraction(self, game):
         resp = input(": ")
         found = False
 
@@ -203,12 +203,17 @@ class playerAct(core):
                 if resp == self.array[item]:
                     found = True
                     self.__log(resp)
-                    try:
-                        getattr(self, item.lower())()
-                    except:
-                        print("Error! Issue running command.")
-                        self.error('player-action-command', 'actloop/error-executing-command', resp)
-                        self.__errorlog('Issue running command, player-action-command, actloop/error-executing-command, ' + resp)
+
+                    if not self.world.lexeter.crafting and resp in ['craft', '.c', 'c']:
+                        self.__sublog('no such thing')
+                        print("There is no such thing as crafting.")
+                    else:
+                        try:
+                            getattr(self, item.lower())(game)
+                        except:
+                            print("Error! Issue running command.")
+                            self.error('player-action-command', 'actloop/error-executing-command', resp)
+                            self.__errorlog('Issue running command, player-action-command, actloop/error-executing-command, ' + resp)
 
             if found == False:
                 print("That's not a possible action. Try again, or use '.h' or 'help' to see the help screen.")
@@ -221,15 +226,15 @@ class playerAct(core):
             self.__errorlog('Issue finding command, player-action-command, actloop/unkown-command-error, ' + resp)
             self.playeraction()
 
-    def help(self):
+    def help(self, game):
         clearConsole()
         for i in self.helparray:
             print(' - ' + i)
 
-    def helpalias(self):
-        self.help()
+    def helpalias(self, game):
+        self.help(game)
 
-    def moveto(self):
+    def moveto(self, game):
         clearConsole()
         self.rDebug()
         self.player.rDebug()
@@ -287,7 +292,7 @@ class playerAct(core):
         clearConsole()
         print(random.choice(room.descriptions))
 
-    def inspect(self):
+    def inspect(self, game):
         clearConsole()
         roomtitle = self.world.player.room
         room = getattr(self.world.map, roomtitle)
@@ -354,13 +359,13 @@ class playerAct(core):
                 loop(self, world, list)
         loop(self, self.world, list)
 
-    def movealias(self):
-        self.moveto()
+    def movealias(self, game):
+        self.moveto(game)
 
-    def inspectalias(self):
-        self.inspect()
+    def inspectalias(self, game):
+        self.inspect(game)
 
-    def wait(self):
+    def wait(self, game):
         clearConsole()
         array = [
             'You stand about aimlessly.',
@@ -369,15 +374,22 @@ class playerAct(core):
         ]
         print(random.choice(array))
 
-    def waitalias(self):
-        self.wait()
+    def waitalias(self, game):
+        self.wait(game)
 
-    def scream(self):
+    def scream(self, game):
         clearConsole()
-        print("Something screams with you.")
-        self.world.lexeter.achievements.append('scream')
+        if self.world.lexeter.sound:
+            print("Something screams with you.")
+            if 'scream' not in self.world.lexeter.achievements:
+                self.world.lexeter.achievements.append('scream')
+                print("~~ Achievement: Scream into the darkness")
+        else:
+            if 'nomouthtoscream' not in self.world.lexeter.achievements:
+                self.world.lexeter.achievements.append('nomouthtoscream')
+                print("~~ Achievement: I have no mouth, and I must scream")
 
-    def pickup(self):
+    def pickup(self, game):
         clearConsole()
         roomTitle = self.world.player.room
         room = getattr(self.world.map, roomTitle)
@@ -422,20 +434,20 @@ class playerAct(core):
             self.__sublog('Nothing to pick up')
             print("There's nothing here.")
 
-    def pickupalias(self):
-        self.pickup()
+    def pickupalias(self, game):
+        self.pickup(game)
 
-    def pickalias(self):
-        self.pickup()
+    def pickalias(self, game):
+        self.pickup(game)
 
-    def interact(self):
+    def interact(self, game):
         print("This Function is not available right now. Try again later.")
         self.__sublog("notavailable")
 
-    def interactalias(self):
-        self.interact()
+    def interactalias(self, game):
+        self.interact(game)
 
-    def inventory(self):
+    def inventory(self, game):
         clearConsole()
         print("You have:")
         inv = self.world.player.inventory
@@ -452,13 +464,13 @@ class playerAct(core):
         for i in itemList:
             print(" - " + str(itemList[i]) + "x " + getattr(self.world.item, i).name)
 
-    def invenalias(self):
-        self.inventory()
+    def invenalias(self, game):
+        self.inventory(game)
 
-    def invalias(self):
-        self.inventory()
+    def invalias(self, game):
+        self.inventory(game)
 
-    def craft(self):
+    def craft(self, game):
         craftables = []
         for i in self.world.recipes.full:
             if all(x in self.player.inventory for x in getattr(self.world.recipes, i).ingredients) and getattr(self.world.recipes, i).station in getattr(self.world.map, self.player.room).buildings:
@@ -494,10 +506,10 @@ class playerAct(core):
             loop(self, craftables)
 
 
-    def craftalias(self):
-        self.craft()
+    def craftalias(self, game):
+        self.craft(game)
 
-    def build(self):
+    def build(self, game):
         craftables = []
         for i in self.world.constructs.full:
             if all(x in self.player.inventory for x in getattr(self.world.constructs, i).ingredients):
@@ -532,11 +544,11 @@ class playerAct(core):
 
             loop(self, craftables)
 
-    def buildalias(self):
-        self.build()
+    def buildalias(self, game):
+        self.build(game)
 
-    def drop(self):
+    def drop(self, game):
         pass
 
-    def dropalias(self):
-        self.drop()
+    def dropalias(self, game):
+        self.drop(game)

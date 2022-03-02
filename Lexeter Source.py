@@ -1,10 +1,17 @@
 from lib.action import *
 from lib.core import *
+import tkinter as tk
+
+__author__ = 'TriusMalarky'
 
 if __name__ == "__main__":
 
+    runtime = runtime_init()
+    tick(runtime, runtime.lexeter.world)
+
+
     try:
-        lexeter = lex_init()
+        runtime = runtime_init()
     except:
         log = open('save/log.txt', 'a')
         print("Error! Issue initializing Lexeter.")
@@ -12,9 +19,8 @@ if __name__ == "__main__":
         log.write("!! Issue Initializing Lexeter !!\n")
         log.close()
 
-
     try:
-        tick(lexeter, lexeter.world)
+        tick(runtime, runtime.lexeter.world)
     except:
         log = open('save/log.txt', 'a')
         print("Error! Something went wrong.")

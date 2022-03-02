@@ -1,9 +1,14 @@
+
 try:
     import pickle
     import os
     import inspect
     import random
     import time
+    import tkinter as tk
+    import sched
+    import tkinter
+    import sys
 except ModuleNotFoundError:
     log = open('save/log.txt', 'a')
     print("Warning! core module unable to find builtin module(s).")
@@ -80,7 +85,22 @@ def load():
     savefile=open('save\\lexeter.txt','rb') # <-- open save file in readable binary for pickle
     return pickle.load(savefile) # <-- returning loaded save state class instance
 
-def lex_init():
+def init_tkinter(game):
+    game.tk = tk.Tk()
+    if game.lexeter.config_fullscreen:
+        #lexet.tk.attributes('-fullscreen', True)
+        pass
+    #playerInput = tk.Button(lexet.tk, text='hello')
+    game.tk.title("Lexeter")
+    game.bleebustest = tkinter.Message(game.tk, text='bfsd')
+    game.bleebustest.pack()
+    game.user_entry = tkinter.Entry(game.tk)
+    game.user_entry.pack()
+    game.s = sched.scheduler(time.time, time.sleep)
+    game.update()
+
+
+def lex_init(game):
     log = open('save/log.txt', 'a')
     log.write('|| Initializing Lexeter ||\n')
     log.write("[" + str(time.ctime(time.time())) + "] Initialize\n")
@@ -88,20 +108,58 @@ def lex_init():
     if os.path.exists('save\\lexeter.txt'):
         lexet = load()
         random.seed = lexet.world.seed
+
+
         return lexet
     else:
         open('save\\lexeter.txt','w')
         from lib.player import Lexeter
         lexet = Lexeter()
         save(lexet)
+
         return lexet
 
+# Text Redirector Class 'stolen'(borrowed?) from Bryan Oakley
+# See:
+# https://stackoverflow.com/questions/12351786/how-to-redirect-print-statements-to-tkinter-text-widget
+# Update: This is currently unused. Regardless, thanks to Bryan Oakley.
+class TextRedirector(object):
+    def __init__(self, widget, tag="stdout"):
+        self.widget = widget
+        self.tag = tag
+
+    def write(self, str):
+        self.widget.configure(state="normal")
+        self.widget.insert("end", str, (self.tag,))
+        self.widget.configure(state="disabled")
 
 
+class Game():
+    def __init__(self):
+        self.lexeter = lex_init(self)
+        init_tkinter(self)
 
 
+        #sys.stdout = TextRedirector(self.tk, "stdout")
+        #sys.stderr = TextRedirector(self.tk, "stderr")
 
-def tick(lexeter, world):
+    def update(self):
+        self.s.enter(1/60, 1, self.tk.update())
+
+    def print(self, message):
+        self.text = tk.Message(self.tk, text=message)
+        self.text.pack()
+
+
+# Initialize the runtime game object
+def runtime_init():
+    return Game()
+
+
+# The tick function is the ingame time handler.
+# It handles every action the player takes and will call every ingame object's tick functions.
+def tick(game, world):
+    lexeter = game.lexeter
     # Luck Calculations
     if lexeter.luck:
         if world.luckAttempts >= 15 + world.luck * 5:
@@ -111,7 +169,7 @@ def tick(lexeter, world):
             world.luck = random.randint(-3, 4)
 
     for _ in world.characterlist:
-        exec('world.characters.'+_.lower()+'.tick(world)')
-    world.player.act.playeraction()
+        exec('world.characters.'+_.lower()+'.tick(world)')# this should be changed to a getattr when possible, my brain is just a tad fried rn
+    world.player.act.playeraction(game)
     save(lexeter) # save on every tick
-    tick(lexeter,world)
+    tick(game, world)
